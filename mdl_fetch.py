@@ -3,7 +3,7 @@
 Standalone MyDramaList fetcher, meant to run on GitHub Actions (or any machine
 with a clean, non-seedbox IP) rather than on the Release Trackarr server
 itself, which MyDramaList blocks at the IP level regardless of headers or
-TLS fingerprint. 
+TLS fingerprint.
 
 Fetches the Japan and South Korea episode calendars, then fetches each
 referenced show's own page (for its native title, original network, and
@@ -181,6 +181,21 @@ def parse_mdl_title(html):
             "type": field("Type:")}
 
 
+def diagnose(html):
+    """Cheap signals for 'this wasn't the real calendar page', printed to the
+    log so a zero-episode run can be debugged from the Actions output alone."""
+    low = html.lower()
+    title_m = re.search(r"<title[^>]*>(.*?)</title>", html, re.S | re.I)
+    print("  page length: %d bytes" % len(html))
+    print("  <title>: %s" % (re.sub(r"\s+", " ", title_m.group(1)).strip() if title_m else "(none found)"))
+    for needle in ("just a moment", "checking your browser", "cf-browser-verification",
+                   "captcha", "access denied", "please verify you are a human", "attention required"):
+        if needle in low:
+            print("  SUSPECT: page text contains %r -- looks like a bot challenge page, not the calendar" % needle)
+    if "episode-calendar" not in low and "mydramalist.com" not in low:
+        print("  SUSPECT: page doesn't even mention mydramalist.com/episode-calendar -- probably not the real page")
+
+
 def main():
     all_eps = []
     for n, (origin, country_name) in enumerate(MDL_COUNTRY.items()):
@@ -195,6 +210,11 @@ def main():
             continue
         found = parse_mdl_calendar(html)
         print("  %d episodes found" % len(found))
+        if not found:
+            diagnose(html)
+            with open("debug-%s.html" % origin.lower(), "w", encoding="utf-8") as f:
+                f.write(html)
+            print("  saved raw HTML to debug-%s.html for inspection" % origin.lower())
         all_eps.extend(found)
 
     if not all_eps:

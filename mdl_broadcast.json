@@ -1,209 +1,32 @@
 {
- "fetched_utc": "2026-10-10T04:43:03Z",
+ "fetched_utc": "2026-10-10T06:21:09Z",
  "episodes": [
-  {
-   "id": 810122,
-   "slug": "a-distant-neighborhood",
-   "date": "2026-10-08",
-   "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "A Distant Neighborhood",
-   "label": "Movie"
-  },
-  {
-   "id": 811458,
-   "slug": "hajimari-no-sayonara",
-   "date": "2026-10-08",
-   "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "After the Song",
-   "label": "Movie"
-  },
-  {
-   "id": 809140,
-   "slug": "the-journey-to-killing-you-season-2",
-   "date": "2026-10-08",
-   "time": [
-    6,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "The Journey to Killing You Season 2",
-   "label": "Episode 2 - 1"
-  },
-  {
-   "id": 811984,
-   "slug": "gochisou-fanfare",
-   "date": "2026-10-08",
-   "time": [
-    7,
-    55
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Gochiso Fanfare",
-   "label": "Episode 39"
-  },
-  {
-   "id": 812950,
-   "slug": "kintsukuroi",
-   "date": "2026-10-08",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Kintsukuroi",
-   "label": "Episode 1"
-  },
-  {
-   "id": 813406,
-   "slug": "iijima-naoko-no-konya-ippai-itchau",
-   "date": "2026-10-08",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Iijima Naoko no Konya Ippai Itchau?",
-   "label": "Episode 82"
-  },
-  {
-   "id": 806352,
-   "slug": "zeikin-de-katta-hon",
-   "date": "2026-10-08",
-   "time": [
-    8,
-    45
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Books Bought with Tax Money",
-   "label": "Episode 28"
-  },
-  {
-   "id": 809010,
-   "slug": "tengu-s-kitchen-season-3",
-   "date": "2026-10-08",
-   "time": [
-    9,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Tengu's Kitchen Season 3",
-   "label": "Episode 2"
-  },
-  {
-   "id": 812116,
-   "slug": "sekito-elegy",
-   "date": "2026-10-08",
-   "time": [
-    10,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Red Light Elegy",
-   "label": "Episode 1"
-  },
-  {
-   "id": 812172,
-   "slug": "doubt-15-nen-me-no-fukushu",
-   "date": "2026-10-08",
-   "time": [
-    10,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Doubt: 15 Nen Me no Fukushu",
-   "label": "Episode 2"
-  },
-  {
-   "id": 812910,
-   "slug": "uso-wo-tsuita-watashitachi",
-   "date": "2026-10-08",
-   "time": [
-    10,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Uso wo Tsuita Watashitachi",
-   "label": "Episode 1"
-  },
-  {
-   "id": 812164,
-   "slug": "life-trade",
-   "date": "2026-10-08",
-   "time": [
-    10,
-    45
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Life Trade",
-   "label": "Episode 1"
-  },
-  {
-   "id": 809164,
-   "slug": "okaeri-hatsukoi",
-   "date": "2026-10-08",
-   "time": [
-    11,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Welcome Back, First Love.",
-   "label": "Episode 1"
-  },
-  {
-   "id": 812360,
-   "slug": "the-story-of-a-certain-man",
-   "date": "2026-10-08",
-   "time": [
-    11,
-    15
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "The Story of a Certain Man",
-   "label": "Episode 4"
-  },
-  {
-   "id": 812672,
-   "slug": "kanojo-no-imoto-yuwaku-darake-no-sankaku-kankei",
-   "date": "2026-10-08",
-   "time": [
-    11,
-    30
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Kanojo no Imoto: Yuwaku Darake no Sankaku Kankei",
-   "label": "Episode 2"
-  },
-  {
-   "id": 793250,
-   "slug": "blossom",
-   "date": "2026-10-08",
-   "time": [
-    18,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blossom",
-   "label": "Episode 10"
-  },
-  {
-   "id": 813542,
-   "slug": "shinya-zangyo-nikushoku-kohai-no-katakoi-kenshu",
-   "date": "2026-10-08",
-   "time": [
-    23,
-    45
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Shinya Zangyo: Nikushoku Kohai no Katakoi Kenshu",
-   "label": "Episode 2"
-  },
   {
    "id": 808182,
    "slug": "silver-express",
    "date": "2026-10-09",
    "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Silver Express",
+   "label": "Movie"
+  },
+  {
+   "id": 812944,
+   "slug": "hinotama-ball-of-fire",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Hinotama: Ball of Fire",
+   "label": "Movie"
+  },
+  {
+   "id": 811186,
+   "slug": "baretara-owari",
+   "date": "2026-10-09",
+   "time": [
+    6,
+    0
+   ],
    "tz": "Asia/Tokyo",
    "title": "If They Find Out, It’s Over",
    "label": "Episode 10"
@@ -249,18 +72,6 @@
    "slug": "kono-go-ni-oyonde-ai-nado",
    "date": "2026-10-10",
    "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "Between Two Lovers",
-   "label": "Movie"
-  },
-  {
-   "id": 812044,
-   "slug": "bachi-bachi-star",
-   "date": "2026-10-10",
-   "time": [
-    2,
-    0
-   ],
    "tz": "Asia/Tokyo",
    "title": "Kankinhan wa, Watashi no Saiai no Hito Deshita",
    "label": "Episode 5"
@@ -911,238 +722,160 @@
    "label": "Episode 14"
   },
   {
-   "id": 813248,
-   "slug": "not-for-you",
-   "date": "2026-10-08",
-   "time": null,
-   "tz": "Asia/Seoul",
-   "title": "Not for You",
-   "label": "Movie"
-  },
-  {
-   "id": 813250,
-   "slug": "some-detective",
-   "date": "2026-10-08",
-   "time": null,
-   "tz": "Asia/Seoul",
-   "title": "Some Detective",
-   "label": "Movie"
-  },
-  {
-   "id": 813252,
-   "slug": "nothing-has-happened-yet",
-   "date": "2026-10-08",
-   "time": null,
-   "tz": "Asia/Seoul",
-   "title": "Nothing Has Happened Yet",
-   "label": "Movie"
-  },
-  {
-   "id": 813260,
-   "slug": "soundweave",
-   "date": "2026-10-08",
-   "time": null,
-   "tz": "Asia/Seoul",
-   "title": "Soundweave",
-   "label": "Movie"
-  },
-  {
-   "id": 813316,
-   "slug": "baler",
-   "date": "2026-10-08",
-   "time": null,
-   "tz": "Asia/Seoul",
-   "title": "Baler",
-   "label": "Movie"
-  },
-  {
-   "id": 813318,
-   "slug": "annyeong-stellar",
-   "date": "2026-10-08",
-   "time": null,
-   "tz": "Asia/Seoul",
-   "title": "Annyeong, Stellar",
-   "label": "Movie"
-  },
-  {
-   "id": 813364,
-   "slug": "sign-the-way-i-hear-you",
-   "date": "2026-10-08",
-   "time": [
-    3,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Sign: The Way I Hear You",
-   "label": "Episode 10 - 47"
-  },
-  {
-   "id": 725555,
-   "slug": "the-winner-of-the-lottery-will-go-to-work",
-   "date": "2026-10-08",
-   "time": [
-    4,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "The Ordinary Jackpot",
-   "label": "Episode 10 - 9"
-  },
-  {
-   "id": 812406,
-   "slug": "changing-majors-season-9",
-   "date": "2026-10-08",
-   "time": [
-    4,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Changing Majors Season 9",
-   "label": "Episode 5"
-  },
-  {
-   "id": 809180,
-   "slug": "gajok-gwangye-jeungmyeongseo",
-   "date": "2026-10-08",
-   "time": [
-    5,
-    10
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Family Register",
-   "label": "Episode 58"
-  },
-  {
-   "id": 810734,
-   "slug": "yokmangui-deot",
-   "date": "2026-10-08",
-   "time": [
-    5,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "A Trap Called Desire",
-   "label": "Episode 44"
-  },
-  {
-   "id": 812260,
-   "slug": "tomorrow-x-together-s-should-we-run-away",
-   "date": "2026-10-08",
+   "id": 809140,
+   "slug": "the-journey-to-killing-you-season-2",
+   "date": "2026-10-15",
    "time": [
     6,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Tomorrow x Together's Should We Run Away?",
-   "label": "Episode 9"
+   "tz": "Asia/Tokyo",
+   "title": "The Journey to Killing You Season 2",
+   "label": "Episode 3"
   },
   {
-   "id": 812986,
-   "slug": "rule-101",
-   "date": "2026-10-08",
+   "id": 811984,
+   "slug": "gochisou-fanfare",
+   "date": "2026-10-15",
    "time": [
-    6,
-    0
+    7,
+    55
    ],
-   "tz": "Asia/Seoul",
-   "title": "Rule 101",
-   "label": "Episode 4"
+   "tz": "Asia/Tokyo",
+   "title": "Gochiso Fanfare",
+   "label": "Episode 40"
   },
   {
-   "id": 805988,
-   "slug": "welcome-first-time-in-korea-season-4",
-   "date": "2026-10-08",
-   "time": [
-    6,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Welcome, First Time in Korea? Season 4",
-   "label": "Episode 30"
-  },
-  {
-   "id": 811490,
-   "slug": "eommaga-michyeosseoyo",
-   "date": "2026-10-08",
-   "time": [
-    6,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Mission: Mompossible",
-   "label": "Episode 9"
-  },
-  {
-   "id": 33242,
-   "slug": "where-is-my-home",
-   "date": "2026-10-08",
+   "id": 809606,
+   "slug": "a-calm-sea-and-beautiful-days-with-you-season-2",
+   "date": "2026-10-15",
    "time": [
     8,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Where Is My Home",
-   "label": "Episode 368"
-  },
-  {
-   "id": 809778,
-   "slug": "miss-trot-for-you",
-   "date": "2026-10-08",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Miss Trot for You",
-   "label": "Episode 20"
-  },
-  {
-   "id": 810644,
-   "slug": "baseball-queen-season-2",
-   "date": "2026-10-08",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Baseball Queen Season 2",
-   "label": "Episode 14"
-  },
-  {
-   "id": 713685,
-   "slug": "story-of-the-day-when-you-bite-your-tail",
-   "date": "2026-10-08",
-   "time": [
-    8,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Story of the Day When You Bite Your Tail Season 3",
-   "label": "Episode 243"
-  },
-  {
-   "id": 805960,
-   "slug": "divorce-camp",
-   "date": "2026-10-08",
-   "time": [
-    8,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Divorce Camp",
-   "label": "Episode 103"
-  },
-  {
-   "id": 813596,
-   "slug": "youtuber-golden-bell",
-   "date": "2026-10-08",
-   "time": [
-    8,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Youtuber Golden Bell",
+   "tz": "Asia/Tokyo",
+   "title": "A Calm Sea and Beautiful Days with You Season 2",
    "label": "Episode 1"
+  },
+  {
+   "id": 813406,
+   "slug": "iijima-naoko-no-konya-ippai-itchau",
+   "date": "2026-10-15",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Iijima Naoko no Konya Ippai Itchau?",
+   "label": "Episode 83"
+  },
+  {
+   "id": 806352,
+   "slug": "zeikin-de-katta-hon",
+   "date": "2026-10-15",
+   "time": [
+    8,
+    45
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Books Bought with Tax Money",
+   "label": "Episode 32"
+  },
+  {
+   "id": 809010,
+   "slug": "tengu-s-kitchen-season-3",
+   "date": "2026-10-15",
+   "time": [
+    9,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Tengu's Kitchen Season 3",
+   "label": "Episode 3"
+  },
+  {
+   "id": 812116,
+   "slug": "sekito-elegy",
+   "date": "2026-10-15",
+   "time": [
+    10,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Red Light Elegy",
+   "label": "Episode 2"
+  },
+  {
+   "id": 812172,
+   "slug": "doubt-15-nen-me-no-fukushu",
+   "date": "2026-10-15",
+   "time": [
+    10,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Doubt: 15 Nen Me no Fukushu",
+   "label": "Episode 3"
+  },
+  {
+   "id": 812910,
+   "slug": "uso-wo-tsuita-watashitachi",
+   "date": "2026-10-15",
+   "time": [
+    10,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Uso wo Tsuita Watashitachi",
+   "label": "Episode 2"
+  },
+  {
+   "id": 812164,
+   "slug": "life-trade",
+   "date": "2026-10-15",
+   "time": [
+    10,
+    30
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Life Trade",
+   "label": "Episode 2"
+  },
+  {
+   "id": 809164,
+   "slug": "okaeri-hatsukoi",
+   "date": "2026-10-15",
+   "time": [
+    11,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Welcome Back, First Love.",
+   "label": "Episode 2"
+  },
+  {
+   "id": 812672,
+   "slug": "kanojo-no-imoto-yuwaku-darake-no-sankaku-kankei",
+   "date": "2026-10-15",
+   "time": [
+    11,
+    30
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Kanojo no Imoto: Yuwaku Darake no Sankaku Kankei",
+   "label": "Episode 3"
+  },
+  {
+   "id": 793250,
+   "slug": "blossom",
+   "date": "2026-10-15",
+   "time": [
+    18,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Blossom",
+   "label": "Episode 15"
   },
   {
    "id": 813246,
@@ -1150,8 +883,83 @@
    "date": "2026-10-09",
    "time": null,
    "tz": "Asia/Seoul",
+   "title": "Things I Left at the Theater",
+   "label": "Movie"
+  },
+  {
+   "id": 813254,
+   "slug": "space",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Space",
+   "label": "Movie"
+  },
+  {
+   "id": 813278,
+   "slug": "beyond-love-s-horizon",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Beyond Love's Horizon",
+   "label": "Movie"
+  },
+  {
+   "id": 813314,
+   "slug": "beach-fictions",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Beach Fictions",
+   "label": "Movie"
+  },
+  {
+   "id": 813414,
+   "slug": "the-birds",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "The Birds",
+   "label": "Movie"
+  },
+  {
+   "id": 813436,
+   "slug": "full-moon",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Full Moon",
+   "label": "Movie"
+  },
+  {
+   "id": 813438,
+   "slug": "cosmic-trace",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Cosmic Trace",
+   "label": "Movie"
+  },
+  {
+   "id": 813592,
+   "slug": "tale-of-tails",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Tale of Tails",
+   "label": "Movie"
+  },
+  {
+   "id": 790120,
+   "slug": "recharge-me",
+   "date": "2026-10-09",
+   "time": [
+    3,
+    0
+   ],
+   "tz": "Asia/Seoul",
    "title": "Take Charge of My Heart",
-   "label": "Episode 8 - 2"
+   "label": "Episode 4 - 9"
   },
   {
    "id": 758801,
@@ -1319,7 +1127,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Community Season 2: Invisible Hand",
-   "label": "Episode 10 - 9"
+   "label": "Episode 9 - 10"
   },
   {
    "id": 25744,
@@ -2220,17 +2028,241 @@
    "tz": "Asia/Seoul",
    "title": "Convenience Store Restaurant",
    "label": "Episode 341"
+  },
+  {
+   "id": 811590,
+   "slug": "twisted-tie",
+   "date": "2026-10-14",
+   "time": [
+    22,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Twisted Tie",
+   "label": "Episode 2"
+  },
+  {
+   "id": 812538,
+   "slug": "kumgyul",
+   "date": "2026-10-15",
+   "time": [
+    3,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Geumgyul: Mean Girls on the Green",
+   "label": "Episode 9 - 30"
+  },
+  {
+   "id": 789036,
+   "slug": "nyuneo",
+   "date": "2026-10-15",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Make Me Tingle",
+   "label": "Episode 1 - 4"
+  },
+  {
+   "id": 812406,
+   "slug": "changing-majors-season-9",
+   "date": "2026-10-15",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Changing Majors Season 9",
+   "label": "Episode 6"
+  },
+  {
+   "id": 770747,
+   "slug": "sana-s-fridge-interview",
+   "date": "2026-10-15",
+   "time": [
+    5,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Sana's Fridge Interview",
+   "label": "Episode 24"
+  },
+  {
+   "id": 809180,
+   "slug": "gajok-gwangye-jeungmyeongseo",
+   "date": "2026-10-15",
+   "time": [
+    5,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Family Register",
+   "label": "Episode 63"
+  },
+  {
+   "id": 810734,
+   "slug": "yokmangui-deot",
+   "date": "2026-10-15",
+   "time": [
+    5,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "A Trap Called Desire",
+   "label": "Episode 49"
+  },
+  {
+   "id": 812260,
+   "slug": "tomorrow-x-together-s-should-we-run-away",
+   "date": "2026-10-15",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Tomorrow x Together's Should We Run Away?",
+   "label": "Episode 10"
+  },
+  {
+   "id": 812986,
+   "slug": "rule-101",
+   "date": "2026-10-15",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Rule 101",
+   "label": "Episode 6"
+  },
+  {
+   "id": 805988,
+   "slug": "welcome-first-time-in-korea-season-4",
+   "date": "2026-10-15",
+   "time": [
+    6,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Welcome, First Time in Korea? Season 4",
+   "label": "Episode 31"
+  },
+  {
+   "id": 811490,
+   "slug": "eommaga-michyeosseoyo",
+   "date": "2026-10-15",
+   "time": [
+    6,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Mission: Mompossible",
+   "label": "Episode 14"
+  },
+  {
+   "id": 813598,
+   "slug": "maestro-jang",
+   "date": "2026-10-15",
+   "time": [
+    7,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Maestro Jang",
+   "label": "Episode 1"
+  },
+  {
+   "id": 33242,
+   "slug": "where-is-my-home",
+   "date": "2026-10-15",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Where Is My Home",
+   "label": "Episode 369"
+  },
+  {
+   "id": 809778,
+   "slug": "miss-trot-for-you",
+   "date": "2026-10-15",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Miss Trot for You",
+   "label": "Episode 21"
+  },
+  {
+   "id": 713685,
+   "slug": "story-of-the-day-when-you-bite-your-tail",
+   "date": "2026-10-15",
+   "time": [
+    8,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Story of the Day When You Bite Your Tail Season 3",
+   "label": "Episode 244"
+  },
+  {
+   "id": 805960,
+   "slug": "divorce-camp",
+   "date": "2026-10-15",
+   "time": [
+    8,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Divorce Camp",
+   "label": "Episode 104"
+  },
+  {
+   "id": 813596,
+   "slug": "youtuber-golden-bell",
+   "date": "2026-10-15",
+   "time": [
+    8,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Youtuber Golden Bell",
+   "label": "Episode 2"
   }
  ],
  "shows": {
-  "25565": {
-   "native": "런닝맨",
+  "27396": {
+   "native": "동상이몽 2 - 너는 내 운명",
    "network": "SBS",
    "type": "TV Program"
   },
   "25568": {
    "native": "아는형님",
    "network": "jTBC",
+   "type": "TV Program"
+  },
+  "25565": {
+   "native": "런닝맨",
+   "network": "SBS",
+   "type": "TV Program"
+  },
+  "25744": {
+   "native": "나 혼자 산다",
+   "network": "MBC",
+   "type": "TV Program"
+  },
+  "28202": {
+   "native": "전지적 참견 시점",
+   "network": "MBC",
+   "type": "TV Program"
+  },
+  "25919": {
+   "native": "라디오스타",
+   "network": "MBC",
    "type": "TV Program"
   },
   "25576": {
@@ -2243,29 +2275,19 @@
    "network": "SBS",
    "type": "TV Program"
   },
-  "25744": {
-   "native": "나 혼자 산다",
-   "network": "MBC",
+  "49125": {
+   "native": "신상출시 편스토랑",
+   "network": "KBS2",
    "type": "TV Program"
   },
-  "25919": {
-   "native": "라디오스타",
-   "network": "MBC",
+  "35517": {
+   "native": "사장님 귀는 당나귀 귀",
+   "network": "KBS2",
    "type": "TV Program"
   },
-  "27396": {
-   "native": "동상이몽 2 - 너는 내 운명",
-   "network": "SBS",
-   "type": "TV Program"
-  },
-  "28202": {
-   "native": "전지적 참견 시점",
-   "network": "MBC",
-   "type": "TV Program"
-  },
-  "28942": {
-   "native": "놀라운 토요일",
-   "network": "tvN",
+  "51647": {
+   "native": "1박 2일 시즌4",
+   "network": "KBS2",
    "type": "TV Program"
   },
   "29564": {
@@ -2273,14 +2295,9 @@
    "network": "KBS2",
    "type": "TV Program"
   },
-  "33242": {
-   "native": "구해줘! 홈즈",
-   "network": "MBC",
-   "type": "TV Program"
-  },
-  "35517": {
-   "native": "사장님 귀는 당나귀 귀",
-   "network": "KBS2",
+  "28942": {
+   "native": "놀라운 토요일",
+   "network": "tvN",
    "type": "TV Program"
   },
   "45671": {
@@ -2293,14 +2310,9 @@
    "network": "",
    "type": "TV Program"
   },
-  "49125": {
-   "native": "신상출시 편스토랑",
-   "network": "KBS2",
-   "type": "TV Program"
-  },
-  "51647": {
-   "native": "1박 2일 시즌4",
-   "network": "KBS2",
+  "33242": {
+   "native": "구해줘! 홈즈",
+   "network": "MBC",
    "type": "TV Program"
   },
   "713685": {
@@ -2308,29 +2320,24 @@
    "network": "SBS",
    "type": "TV Program"
   },
-  "722529": {
-   "native": "CDTV ライブ! ライブ!",
-   "network": "TBS",
-   "type": "TV Program"
-  },
   "722677": {
    "native": "리무진 서비스",
    "network": "KBS2",
    "type": "TV Program"
   },
-  "725555": {
-   "native": "로또1등도 출근합니다",
-   "network": "TVING tvN",
-   "type": "Drama"
+  "722529": {
+   "native": "CDTV ライブ! ライブ!",
+   "network": "TBS",
+   "type": "TV Program"
+  },
+  "749947": {
+   "native": "ヒューマングルメンタリー オモウマい店",
+   "network": "NTV",
+   "type": "TV Program"
   },
   "730529": {
    "native": "오은영 리포트 - 결혼지옥",
    "network": "MBC",
-   "type": "TV Program"
-  },
-  "739999": {
-   "native": "유 퀴즈 온 더 블럭 : 시즌 4",
-   "network": "tvN",
    "type": "TV Program"
   },
   "741261": {
@@ -2338,14 +2345,14 @@
    "network": "jTBC",
    "type": "TV Program"
   },
+  "739999": {
+   "native": "유 퀴즈 온 더 블럭 : 시즌 4",
+   "network": "tvN",
+   "type": "TV Program"
+  },
   "743773": {
    "native": "Venue101",
    "network": "NHK G",
-   "type": "TV Program"
-  },
-  "749947": {
-   "native": "ヒューマングルメンタリー オモウマい店",
-   "network": "NTV",
    "type": "TV Program"
   },
   "750527": {
@@ -2363,19 +2370,9 @@
    "network": "jTBC",
    "type": "TV Program"
   },
-  "759473": {
-   "native": "개그콘서트 시즌2",
-   "network": "KBS2",
-   "type": "TV Program"
-  },
-  "766049": {
-   "native": "豊臣兄弟！",
-   "network": "NHK",
-   "type": "Drama"
-  },
-  "773757": {
-   "native": "あのちゃんの電電電波♪",
-   "network": "TV Tokyo",
+  "770747": {
+   "native": "사나의 냉터뷰",
+   "network": "",
    "type": "TV Program"
   },
   "774383": {
@@ -2388,19 +2385,59 @@
    "network": "tvN",
    "type": "Drama"
   },
-  "780006": {
-   "native": "냉장고를 부탁해 시즌2",
-   "network": "jTBC",
-   "type": "TV Program"
-  },
   "782350": {
    "native": "히든아이",
    "network": "MBC every1",
    "type": "TV Program"
   },
+  "773757": {
+   "native": "あのちゃんの電電電波♪",
+   "network": "TV Tokyo",
+   "type": "TV Program"
+  },
+  "780006": {
+   "native": "냉장고를 부탁해 시즌2",
+   "network": "jTBC",
+   "type": "TV Program"
+  },
+  "766049": {
+   "native": "豊臣兄弟！",
+   "network": "NHK",
+   "type": "Drama"
+  },
+  "759473": {
+   "native": "개그콘서트 시즌2",
+   "network": "KBS2",
+   "type": "TV Program"
+  },
+  "790120": {
+   "native": "나를 충전해줘",
+   "network": "Netflix",
+   "type": "Drama"
+  },
   "787220": {
    "native": "닥터X : 하얀 마피아의 시대",
    "network": "SBS",
+   "type": "Drama"
+  },
+  "789036": {
+   "native": "내가 떨릴 수 있게",
+   "network": "TVING",
+   "type": "Drama"
+  },
+  "797068": {
+   "native": "VS.超特急",
+   "network": "NTV",
+   "type": "TV Program"
+  },
+  "794508": {
+   "native": "옥탑방의 문제아들 시즌2",
+   "network": "KBS2",
+   "type": "TV Program"
+  },
+  "797332": {
+   "native": "VIVANT",
+   "network": "TBS",
    "type": "Drama"
   },
   "787494": {
@@ -2411,21 +2448,6 @@
   "793250": {
    "native": "ブラッサム",
    "network": "NHK",
-   "type": "Drama"
-  },
-  "794508": {
-   "native": "옥탑방의 문제아들 시즌2",
-   "network": "KBS2",
-   "type": "TV Program"
-  },
-  "797068": {
-   "native": "VS.超特急",
-   "network": "NTV",
-   "type": "TV Program"
-  },
-  "797332": {
-   "native": "VIVANT",
-   "network": "TBS",
    "type": "Drama"
   },
   "797384": {
@@ -2448,11 +2470,6 @@
    "network": "ENA Genie TV",
    "type": "Drama"
   },
-  "802770": {
-   "native": "乃木坂スター誕生!SIX",
-   "network": "NTV",
-   "type": "TV Program"
-  },
   "803410": {
    "native": "사랑이 온다",
    "network": "KBS2",
@@ -2468,19 +2485,24 @@
    "network": "KBS2",
    "type": "Drama"
   },
+  "802770": {
+   "native": "乃木坂スター誕生!SIX",
+   "network": "NTV",
+   "type": "TV Program"
+  },
   "805960": {
    "native": "이혼숙려캠프",
    "network": "jTBC",
    "type": "TV Program"
   },
-  "805988": {
-   "native": "어서와~ 한국은 처음이지? 시즌4",
-   "network": "MBC every1",
-   "type": "TV Program"
-  },
   "806000": {
    "native": "용감한 형사들 시즌5",
    "network": "E-Channel",
+   "type": "TV Program"
+  },
+  "805988": {
+   "native": "어서와~ 한국은 처음이지? 시즌4",
+   "network": "MBC every1",
    "type": "TV Program"
   },
   "806352": {
@@ -2513,9 +2535,9 @@
    "network": "",
    "type": "Drama"
   },
-  "809010": {
-   "native": "天狗の台所 Season3",
-   "network": "BS-TBS",
+  "809166": {
+   "native": "kiDnap GAME",
+   "network": "Channel A Fuji TV Viu",
    "type": "Drama"
   },
   "809140": {
@@ -2528,14 +2550,24 @@
    "network": "MBS TVK",
    "type": "Drama"
   },
-  "809166": {
-   "native": "kiDnap GAME",
-   "network": "Channel A Fuji TV Viu",
+  "809010": {
+   "native": "天狗の台所 Season3",
+   "network": "BS-TBS",
    "type": "Drama"
   },
   "809180": {
    "native": "가족관계증명서",
    "network": "MBC",
+   "type": "Drama"
+  },
+  "809606": {
+   "native": "波うららかに、めおと日和 続編",
+   "network": "Fuji TV",
+   "type": "Drama"
+  },
+  "809822": {
+   "native": "青と碧",
+   "network": "BS Asahi",
    "type": "Drama"
   },
   "809636": {
@@ -2553,19 +2585,14 @@
    "network": "TV Chosun",
    "type": "TV Program"
   },
-  "809822": {
-   "native": "青と碧",
-   "network": "BS Asahi",
-   "type": "Drama"
-  },
-  "810122": {
-   "native": "遥かな町へ",
-   "network": "",
-   "type": "Movie"
-  },
   "810296": {
    "native": "남의 집 귀한 가족",
    "network": "MBN",
+   "type": "TV Program"
+  },
+  "810318": {
+   "native": "스트릿 월드 파이터 : 디렉터스 워",
+   "network": "Mnet tvN",
    "type": "TV Program"
   },
   "810312": {
@@ -2573,24 +2600,9 @@
    "network": "",
    "type": "Drama"
   },
-  "810318": {
-   "native": "스트릿 월드 파이터 : 디렉터스 워",
-   "network": "Mnet tvN",
-   "type": "TV Program"
-  },
   "810548": {
    "native": "심야괴담회 시즌6",
    "network": "MBC",
-   "type": "TV Program"
-  },
-  "810554": {
-   "native": "MR -医薬情報担当者-",
-   "network": "WOWOW",
-   "type": "Drama"
-  },
-  "810644": {
-   "native": "야구여왕 시즌2",
-   "network": "Channel A",
    "type": "TV Program"
   },
   "810722": {
@@ -2603,20 +2615,30 @@
    "network": "SBS",
    "type": "TV Program"
   },
+  "810554": {
+   "native": "MR -医薬情報担当者-",
+   "network": "WOWOW",
+   "type": "Drama"
+  },
   "810734": {
    "native": "욕망의 덫",
    "network": "KBS2",
    "type": "Drama"
   },
-  "810846": {
-   "native": "角醒ハンターオメガホーン",
-   "network": "TV Asahi",
+  "811186": {
+   "native": "バレたら終わり",
+   "network": "",
    "type": "Drama"
   },
   "810918": {
    "native": "틈만 나면, 시즌5",
    "network": "SBS",
    "type": "TV Program"
+  },
+  "810846": {
+   "native": "角醒ハンターオメガホーン",
+   "network": "TV Asahi",
+   "type": "Drama"
   },
   "810930": {
    "native": "スパドラ★クエスト",
@@ -2653,11 +2675,6 @@
    "network": "TV Chosun",
    "type": "TV Program"
   },
-  "811458": {
-   "native": "はじまりのさよなら",
-   "network": "",
-   "type": "Movie"
-  },
   "811462": {
    "native": "会社員",
    "network": "NHK",
@@ -2668,13 +2685,18 @@
    "network": "KBS2",
    "type": "TV Program"
   },
+  "811484": {
+   "native": "반칙부터 시작할까요?",
+   "network": "",
+   "type": "Drama"
+  },
   "811482": {
    "native": "세컨드 플레이트",
    "network": "",
    "type": "Drama"
   },
-  "811484": {
-   "native": "반칙부터 시작할까요?",
+  "811590": {
+   "native": "비틀린넥타이",
    "network": "",
    "type": "Drama"
   },
@@ -2708,19 +2730,9 @@
    "network": "TV Asahi",
    "type": "TV Program"
   },
-  "812044": {
-   "native": "バチバチSTAR",
-   "network": "TV Asahi",
-   "type": "TV Program"
-  },
   "812050": {
    "native": "ハイド&シーク 0秒前の彼女",
    "network": "NTV",
-   "type": "Drama"
-  },
-  "812116": {
-   "native": "赤灯えれじい",
-   "network": "BS TV Tokyo , TV Aichi , TV Hokkaido , TV Setouchi , TV Tokyo , TVQ Kyushu Broadcasting ,",
    "type": "Drama"
   },
   "812118": {
@@ -2743,13 +2755,23 @@
    "network": "TV Tokyo",
    "type": "Drama"
   },
+  "812116": {
+   "native": "赤灯えれじい",
+   "network": "BS TV Tokyo , TV Aichi , TV Hokkaido , TV Setouchi , TV Tokyo , TVQ Kyushu Broadcasting ,",
+   "type": "Drama"
+  },
+  "812156": {
+   "native": "溺愛カレシの作り方 〜セから本命になる⼥の⼦の話〜",
+   "network": "TV Tokyo",
+   "type": "Drama"
+  },
   "812148": {
    "native": "仮面ライダーマイス 十二支十色",
    "network": "",
    "type": "Drama"
   },
-  "812156": {
-   "native": "溺愛カレシの作り方 〜セから本命になる⼥の⼦の話〜",
+  "812164": {
+   "native": "ライフトレード",
    "network": "TV Tokyo",
    "type": "Drama"
   },
@@ -2758,9 +2780,9 @@
    "network": "TV Asahi",
    "type": "Drama"
   },
-  "812164": {
-   "native": "ライフトレード",
-   "network": "TV Tokyo",
+  "812218": {
+   "native": "백도어 파트2",
+   "network": "",
    "type": "Drama"
   },
   "812172": {
@@ -2768,14 +2790,14 @@
    "network": "NTV YTV",
    "type": "Drama"
   },
-  "812218": {
-   "native": "백도어 파트2",
-   "network": "",
-   "type": "Drama"
-  },
   "812260": {
    "native": "투모로우바이투게더의 도망갈까?",
    "network": "Mnet",
+   "type": "TV Program"
+  },
+  "812316": {
+   "native": "무엇이든 해줄지니 - 비서진",
+   "network": "SBS",
    "type": "TV Program"
   },
   "812314": {
@@ -2783,24 +2805,9 @@
    "network": "Fuji TV",
    "type": "Drama"
   },
-  "812316": {
-   "native": "무엇이든 해줄지니 - 비서진",
-   "network": "SBS",
-   "type": "TV Program"
-  },
-  "812360": {
-   "native": "絶望できない男",
-   "network": "Kansai TV",
-   "type": "Drama"
-  },
   "812362": {
    "native": "おいしいのつくりかた",
    "network": "Amazon Prime TV Tokyo",
-   "type": "Drama"
-  },
-  "812364": {
-   "native": "妻を引退します",
-   "network": "TV Aichi TV Hokkaido TV Osaka TV Setouchi TV Tokyo TVQ Kyushu Broadcasting",
    "type": "Drama"
   },
   "812368": {
@@ -2808,20 +2815,30 @@
    "network": "Fuji TV Tokai TV",
    "type": "Drama"
   },
+  "812364": {
+   "native": "妻を引退します",
+   "network": "TV Aichi TV Hokkaido TV Osaka TV Setouchi TV Tokyo TVQ Kyushu Broadcasting",
+   "type": "Drama"
+  },
   "812394": {
    "native": "식스센스: B사이드",
    "network": "tvN",
-   "type": "TV Program"
-  },
-  "812406": {
-   "native": "전과자 시즌9",
-   "network": "",
    "type": "TV Program"
   },
   "812446": {
    "native": "十六夜膳房",
    "network": "NTV",
    "type": "Drama"
+  },
+  "812538": {
+   "native": "금귤이1 : 나쁜 X들의 필드",
+   "network": "",
+   "type": "Drama"
+  },
+  "812406": {
+   "native": "전과자 시즌9",
+   "network": "",
+   "type": "TV Program"
   },
   "812458": {
    "native": "私があなたといる理由2〜グアムを訪れた8人の男女の10日間〜",
@@ -2832,11 +2849,6 @@
    "native": "小麦とバターと復讐と",
    "network": "Kansai TV",
    "type": "Drama"
-  },
-  "812570": {
-   "native": "더 리슨: 우리가 머문 계절",
-   "network": "SBS",
-   "type": "TV Program"
   },
   "812572": {
    "native": "더 커뮤니티 시즌2: 보이지 않는 손",
@@ -2851,6 +2863,11 @@
   "812704": {
    "native": "스탠에이",
    "network": "Mnet",
+   "type": "TV Program"
+  },
+  "812570": {
+   "native": "더 리슨: 우리가 머문 계절",
+   "network": "SBS",
    "type": "TV Program"
   },
   "812810": {
@@ -2873,24 +2890,24 @@
    "network": "Fuji TV , Tokai TV ,",
    "type": "Drama"
   },
+  "812986": {
+   "native": "룰101",
+   "network": "Shortime",
+   "type": "Drama"
+  },
+  "812944": {
+   "native": "火の玉を見た",
+   "network": "",
+   "type": "Movie"
+  },
   "812924": {
    "native": "≠ME 名無しのシンデレラ",
    "network": "Fuji TV",
    "type": "TV Program"
   },
-  "812950": {
-   "native": "きんつくろい -金繕い-",
-   "network": "Fuji TV",
-   "type": "Drama"
-  },
   "812958": {
    "native": "はかねこ日記 ～あの日の続き～",
    "network": "TV Osaka",
-   "type": "Drama"
-  },
-  "812986": {
-   "native": "룰101",
-   "network": "Shortime",
    "type": "Drama"
   },
   "813002": {
@@ -2903,15 +2920,15 @@
    "network": "Mnet",
    "type": "TV Program"
   },
-  "813186": {
-   "native": "あの日、宇宙を抱きしめた。",
-   "network": "",
-   "type": "Movie"
-  },
   "813190": {
    "native": "サクサクヒムヒム ☆推しの降る夜☆",
    "network": "NTV",
    "type": "TV Program"
+  },
+  "813186": {
+   "native": "あの日、宇宙を抱きしめた。",
+   "network": "",
+   "type": "Movie"
   },
   "813222": {
    "native": "M!LKに言ってみ？",
@@ -2933,23 +2950,13 @@
    "network": "",
    "type": "Movie"
   },
-  "813248": {
-   "native": "당신을 위한 것은 아닌",
+  "813278": {
+   "native": "사랑의 지평선 너머로",
    "network": "",
    "type": "Movie"
   },
-  "813250": {
-   "native": "모종의 탐정",
-   "network": "",
-   "type": "Movie"
-  },
-  "813252": {
-   "native": "아직 아무 일도 일어나지 않은",
-   "network": "",
-   "type": "Movie"
-  },
-  "813260": {
-   "native": "소리그물",
+  "813254": {
+   "native": "스페이스",
    "network": "",
    "type": "Movie"
   },
@@ -2963,29 +2970,14 @@
    "network": "Mnet",
    "type": "TV Program"
   },
-  "813316": {
-   "native": "베일러",
+  "813314": {
+   "native": "그날의 태주",
    "network": "",
    "type": "Movie"
-  },
-  "813318": {
-   "native": "안녕, 스텔라",
-   "network": "",
-   "type": "Movie"
-  },
-  "813364": {
-   "native": "수화 : 너를 듣는 방법",
-   "network": "",
-   "type": "Drama"
   },
   "813406": {
    "native": "飯島直子の今夜一杯いっちゃう？",
    "network": "BS Fuji",
-   "type": "TV Program"
-  },
-  "813410": {
-   "native": "댐!뷸런스",
-   "network": "Mnet",
    "type": "TV Program"
   },
   "813412": {
@@ -2993,10 +2985,30 @@
    "network": "MBN",
    "type": "TV Program"
   },
+  "813410": {
+   "native": "댐!뷸런스",
+   "network": "Mnet",
+   "type": "TV Program"
+  },
   "813434": {
    "native": "KickFlip COMEBACK STAGE : KICK OFF THE WALL Pt.1",
    "network": "Mnet",
    "type": "TV Program"
+  },
+  "813436": {
+   "native": "풀문",
+   "network": "",
+   "type": "Movie"
+  },
+  "813414": {
+   "native": "새",
+   "network": "",
+   "type": "Movie"
+  },
+  "813438": {
+   "native": "우주의 흔적",
+   "network": "",
+   "type": "Movie"
   },
   "813510": {
    "native": "골 때리는 그녀들: 제3회 GIFA컵",
@@ -3008,19 +3020,24 @@
    "network": "NTV",
    "type": "TV Program"
   },
-  "813542": {
-   "native": "深夜残業～肉食後輩の片恋研修～",
-   "network": "Tokyo MX",
-   "type": "Drama"
-  },
   "813596": {
    "native": "십오야 골든벨",
    "network": "tvN",
    "type": "TV Program"
   },
+  "813592": {
+   "native": "지민지민지",
+   "network": "",
+   "type": "Movie"
+  },
   "813604": {
    "native": "계약결혼",
    "network": "KBS Joy , MBC every1 ,",
+   "type": "TV Program"
+  },
+  "813598": {
+   "native": "거장항준",
+   "network": "SBS",
    "type": "TV Program"
   },
   "813608": {

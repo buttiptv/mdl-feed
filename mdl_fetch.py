@@ -20,6 +20,7 @@ import json
 import os
 import re
 import sys
+import threading
 import time
 import urllib.parse
 import urllib.request
@@ -32,8 +33,6 @@ MDL_COUNTRY = {"JP": "Japan", "KR": "South Korea"}
 MDL_TZ = "Australia/Sydney"
 MAX_SHOWS = 500
 OUTPUT = "mdl_broadcast.json"
-
-TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "")
 
 DAY_RE = re.compile(r'<div id="d\d\d">\s*<small>([^<]+)</small>')
 CARD_RE = re.compile(
@@ -296,18 +295,58 @@ def detect_quarters():
         return [f"{year}Q4", f"{year+1}Q1"]
 
 
+def normalize_quarter(q):
+    """Accepts "2026Q4", "2026-Q4", "Q4-2026", "q4 2026" etc. and returns
+    MyDramaList's own path form, "q4-2026" (quarter first, hyphen, year) --
+    confirmed from a real MDL URL, not guessed. Returns None if unparseable."""
+    q = q.strip()
+    m = re.match(r"(?i)^(\d{4})[-_ ]?q([1-4])$", q)
+    if m:
+        year, num = m.group(1), m.group(2)
+        return "q%s-%s" % (num, year)
+    m = re.match(r"(?i)^q([1-4])[-_ ]?(\d{4})$", q)
+    if m:
+        num, year = m.group(1), m.group(2)
+        return "q%s-%s" % (num, year)
+    return None
+
+
 def build_quarter_urls(quarters):
-    urls = []
+    """Returns [(original_label, url), ...] -- paired, not two parallel lists,
+    so an unparseable quarter can be skipped without desyncing anything."""
+    pairs = []
     for q in quarters:
-        q = q.strip()
-        if not q:
+        norm = normalize_quarter(q)
+        if not norm:
+            print("  could not parse quarter %r, skipping" % q, file=sys.stderr)
             continue
-        urls.append(
-            f"https://mydramalist.com/episode-calendar/{q.lower()}?"
+        url = (
+            f"https://mydramalist.com/episode-calendar/{norm}?"
             "view=large&scope=all&tz=Australia%2FSydney&sort=start-date"
             "&country%5B%5D=Japan&country%5B%5D=South+Korea"
         )
-    return urls
+        pairs.append((q, url))
+    return pairs
+
+
+def diagnose(html, label):
+    """Cheap signals for 'this wasn't the page we expected', printed to the
+    log so a zero-match run can be debugged from the Actions output alone --
+    the quarter/movie scraping below is unverified against real MDL markup,
+    so this matters more here than it did for the (already-checked) weekly
+    calendar page."""
+    low = html.lower()
+    title_m = re.search(r"<title[^>]*>(.*?)</title>", html, re.S | re.I)
+    print("  [%s] page length: %d bytes" % (label, len(html)))
+    print("  [%s] <title>: %s" % (label, re.sub(r"\s+", " ", title_m.group(1)).strip() if title_m else "(none found)"))
+    for needle in ("just a moment", "checking your browser", "cf-browser-verification",
+                   "captcha", "access denied", "please verify you are a human", "attention required"):
+        if needle in low:
+            print("  [%s] SUSPECT: page text contains %r -- looks like a bot challenge page" % (label, needle))
+    safe_label = re.sub(r"[^a-z0-9_-]+", "-", label.lower())
+    with open("debug-%s.html" % safe_label, "w", encoding="utf-8") as f:
+        f.write(html)
+    print("  [%s] saved raw HTML to debug-%s.html for inspection" % (label, safe_label))
 
 
 def fetch_calendar(url, cache_dir, verbose=False):
@@ -318,6 +357,16 @@ def fetch_calendar(url, cache_dir, verbose=False):
 
 
 def parse_quarter_movies(html):
+    # NOTE: MOVIE_TILE_RE's markup assumptions (poster-card/title/released)
+    # are unverified against a real quarter page -- see diagnose() above,
+    # which dumps the raw HTML here if this (and parse_mdl_calendar) both
+    # come up empty on a real run. Also: the quarter URL requests both Japan
+    # and South Korea together, but this regex doesn't capture which country
+    # a given tile belongs to, so there's no safe per-movie tz/country to set
+    # yet -- left as None rather than guessing "Japan Standard Time" for
+    # everything (which would also use a display name, not the "Asia/Tokyo"-
+    # style IANA zone the rest of this feed and release_tracker.py rely on).
+    # Fix this once the real markup confirms where the country is shown.
     movies = []
     for mid, slug, title, released in MOVIE_TILE_RE.findall(html):
         released = released.strip()
@@ -331,7 +380,7 @@ def parse_quarter_movies(html):
             "slug": slug,
             "date": dt.date().isoformat(),   # month-only → first day
             "time": None,
-            "tz": "Japan Standard Time",
+            "tz": None,
             "title": title.strip(),
             "label": "Movie Release",
             "movie": True,
@@ -339,19 +388,60 @@ def parse_quarter_movies(html):
     return movies
 
 
+SHOW_FETCH_WORKERS = 3       # kept low on purpose -- see note below
+SHOW_FETCH_DELAY = 0.4       # seconds, applied per worker before each fetch
+_show_fetch_lock = threading.Lock()
+
+
 def fetch_show_page(show_id, slug, cache_dir, verbose=False):
+    # Up to MAX_SHOWS (500) of these can run per invocation. The whole reason
+    # this fetcher runs on GitHub Actions instead of the seedbox is to get a
+    # clean, non-blocked IP -- hammering MyDramaList with many concurrent,
+    # unthrottled requests from that one IP is exactly the kind of traffic
+    # pattern that gets an IP rate-limited or blocked, which would just
+    # reproduce the original problem on the new infrastructure. A cache hit
+    # (cached_fetch) skips this delay entirely since no request is made.
     url = f"https://mydramalist.com/{show_id}-{slug}"
+    cache_path_exists = os.path.exists(
+        os.path.join(cache_dir, hashlib.sha256(url.encode()).hexdigest()[:20] + ".html"))
+    if not cache_path_exists:
+        with _show_fetch_lock:
+            time.sleep(SHOW_FETCH_DELAY)
     html = cached_fetch(url, cache_dir, max_age_days=7, verbose=verbose)
     return parse_mdl_title(html)
+
+
+# Real network values we've actually seen (via the committed feed) include
+# things like "NHK G", "Fuji TV Tokai TV", "BS-TBS" -- an exact-equality
+# check against a short lowercase list (the original version of this
+# function) would almost never match any of those. This mirrors the
+# word-boundary substring match release_tracker.py's own network_match()
+# uses for the same reason.
+JP_NETWORKS = ["NHK", "NTV", "TBS", "TV Asahi", "Fuji TV", "Fuji Television", "TV Tokyo", "WOWOW"]
+
+
+def network_match(network, allowed):
+    for part in re.split(r"[,/]", network or ""):
+        part = part.strip()
+        for a in allowed:
+            if re.search(r"(?<![A-Za-z])%s(?![A-Za-z])" % re.escape(a), part, re.I):
+                return part
+    return None
 
 
 def maybe_add_predicted_episode(show_id, slug, show_info, all_eps, verbose=False):
     """
     Adds a predicted Episode 1 for Japanese dramas that have a known premiere date
     but no episode entries in the calendar.
+
+    NOTE: this reads an "Aired:" field from the show's own detail page that
+    hasn't been confirmed against real MDL markup (parse_mdl_title's other
+    three fields were verified this session; this one wasn't). If it never
+    fires, check a saved show-detail page to see what the field is actually
+    called and how it's formatted, rather than assuming this guess is right.
     """
-    network = show_info.get("network", "").lower()
-    if network not in ["nhk", "ntv", "tbs", "tv asahi", "fuji tv", "tv tokyo"]:
+    network = network_match(show_info.get("network"), JP_NETWORKS)
+    if not network:
         return
 
     premiere = show_info.get("premiere")
@@ -372,7 +462,11 @@ def maybe_add_predicted_episode(show_id, slug, show_info, all_eps, verbose=False
         "slug": slug,
         "date": dt.date().isoformat(),
         "time": [dt.hour, dt.minute],
-        "tz": "Japan Standard Time",
+        # "Asia/Tokyo", not a display name like "Japan Standard Time" --
+        # release_tracker.py's TZ_COUNTRY lookup keys on the IANA zone name
+        # used everywhere else in this feed, so anything else would silently
+        # fail to match and get dropped.
+        "tz": "Asia/Tokyo",
         "title": "Episode 1",
         "label": "Predicted Episode 1",
         "predicted": True,
@@ -466,8 +560,8 @@ def main():
         print("Would fetch:")
         for origin, country_name in MDL_COUNTRY.items():
             print(f"  - {country_name} calendar")
-        for u in quarter_urls:
-            print(f"  - Quarter calendar: {u}")
+        for q, u in quarter_urls:
+            print(f"  - Quarter calendar {q}: {u}")
         print("Would fetch show detail pages and TMDB metadata after parsing.")
         return
 
@@ -478,20 +572,29 @@ def main():
         html = cached_fetch(url, args.cache_dir, max_age_days=1, verbose=verbose)
         eps = parse_mdl_calendar(html)
         log(f"{len(eps)} episodes", verbose)
+        if not eps:
+            diagnose(html, origin)
         all_eps.extend(eps)
 
-    # Fetch quarter calendars in parallel (episodes + movies)
-    if quarter_urls:
-        log("Fetching quarter calendars in parallel", verbose)
-        with concurrent.futures.ThreadPoolExecutor(max_workers=min(8, len(quarter_urls))) as ex:
-            futures = [ex.submit(fetch_calendar, u, args.cache_dir, verbose) for u in quarter_urls]
-            for fut in concurrent.futures.as_completed(futures):
-                try:
-                    eps, raw_html = fut.result()
-                    all_eps.extend(eps)
-                    movies.extend(parse_quarter_movies(raw_html))
-                except Exception as e:
-                    log(f"Quarter fetch failed: {e}", verbose)
+    # Fetch quarter calendars one at a time (not in parallel -- these are
+    # extra, speculative fetches on top of the two calendars above, and the
+    # per-show detail fetches further down already account for the bulk of
+    # the request volume; no need to add parallel load here too).
+    for q, url in quarter_urls:
+        log(f"Fetching quarter calendar {q}", verbose)
+        try:
+            eps, raw_html = fetch_calendar(url, args.cache_dir, verbose)
+        except Exception as e:
+            log(f"Quarter fetch failed for {q}: {e}", verbose)
+            continue
+        qmovies = parse_quarter_movies(raw_html)
+        log(f"{len(eps)} episodes, {len(qmovies)} movies from quarter {q}", verbose)
+        if not eps and not qmovies:
+            # Both parsers came up empty -- this markup is unverified against
+            # a real quarter page, so don't trust a silent zero; dump it.
+            diagnose(raw_html, "quarter-%s" % re.sub(r"[^a-zA-Z0-9]+", "-", q))
+        all_eps.extend(eps)
+        movies.extend(qmovies)
 
     if not all_eps and not movies:
         sys.exit("No episodes or movies found — not overwriting existing feed.")
@@ -503,7 +606,7 @@ def main():
     log(f"Fetching {len(show_ids)} show pages", verbose)
 
     shows = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=SHOW_FETCH_WORKERS) as ex:
         futures = {
             ex.submit(fetch_show_page, sid, slug_map[sid], args.cache_dir, verbose): sid
             for sid in show_ids

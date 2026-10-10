@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 """
-Standalone MyDramaList fetcher, upgraded with:
-
-- CLI flags (quarters, auto-quarters, cache-dir, verbose)
-- Automatic quarter detection (current + next quarter)
-- Caching of fetched HTML (with max-age)
-- Parallel fetching of calendars and show detail pages
-- Improved logging
-
-Still uses only the Python standard library.
+MyDramaList broadcast fetcher with:
+- Auto-quarter detection
+- Manual quarter flags
+- Caching
+- Parallel fetching (ThreadPoolExecutor)
+- Verbose logging
+- Dry-run mode
+- No third-party dependencies
 """
 
 import argparse
@@ -25,13 +24,9 @@ from datetime import date, datetime, timedelta
 from html.parser import HTMLParser
 
 MDL_COUNTRY = {"JP": "Japan", "KR": "South Korea"}
-MDL_TZ = "Australia/Sydney"  # only affects which page-day an episode is listed under
-MAX_SHOWS = 500              # safety cap on per-show detail fetches
-SHOW_FETCH_DELAY = 0.4       # kept for compatibility; not used in parallel mode
+MDL_TZ = "Australia/Sydney"
+MAX_SHOWS = 500
 OUTPUT = "mdl_broadcast.json"
-
-MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August",
-          "September", "October", "November", "December"]
 
 DAY_RE = re.compile(r'<div id="d\d\d">\s*<small>([^<]+)</small>')
 CARD_RE = re.compile(
@@ -43,26 +38,41 @@ CARD_RE = re.compile(
     r'<div class="top-append">\s*</div>\s*'
     r'<a href="[^"]*" target="_blank" class="text-primary _600">([^<]*)</a>\s*'
     r'<div(?: class="text-sm")?>\s*([^<]*?)\s*</div>',
-    re.S)
+    re.S
+)
 ICON_RE = re.compile(r"<i[^>]*></i>")
 TIME_RE = re.compile(r"\b(\d{1,2}:\d{2}\s*[AP]M)\b", re.I)
 
 BROWSER_HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
-    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                   "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"),
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/129.0.0.0 Safari/537.36"
+    ),
 }
 
 
+def log(msg, verbose=False):
+    if verbose:
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print(f"[{ts}] {msg}")
+
+
 class Flat(HTMLParser):
-    """Turns a page into tokens: ('t', text), ('a', href, text), ('nl',)."""
-    BLOCK = {"div", "p", "li", "br", "tr", "td", "th", "section", "article", "h1", "h2", "h3", "h4",
-             "h5", "h6", "ul", "ol", "table", "dd", "dt"}
+    """Flatten HTML into ('t', text), ('a', href, text), ('nl',)."""
+
+    BLOCK = {
+        "div", "p", "li", "br", "tr", "td", "th", "section", "article",
+        "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "table", "dd", "dt"
+    }
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.tokens, self._skip, self._a = [], 0, None
+        self.tokens = []
+        self._skip = 0
+        self._a = None
 
     def handle_starttag(self, tag, attrs):
         if tag in ("script", "style"):
@@ -76,7 +86,9 @@ class Flat(HTMLParser):
         if tag in ("script", "style"):
             self._skip = max(0, self._skip - 1)
         elif tag == "a" and self._a is not None:
-            self.tokens.append(("a", self._a[0], re.sub(r"\s+", " ", "".join(self._a[1])).strip()))
+            href, parts = self._a
+            text = re.sub(r"\s+", " ", "".join(parts)).strip()
+            self.tokens.append(("a", href, text))
             self._a = None
         elif tag in self.BLOCK:
             self.tokens.append(("nl",))
@@ -98,8 +110,17 @@ def flatten(html):
 
 
 def mdl_calendar_url(country_name, tz):
-    return "https://mydramalist.com/episode-calendar?" + urllib.parse.urlencode(
-        [("view", "small"), ("scope", "all"), ("tz", tz), ("country[]", country_name)])
+    return (
+        "https://mydramalist.com/episode-calendar?"
+        + urllib.parse.urlencode(
+            [
+                ("view", "small"),
+                ("scope", "all"),
+                ("tz", tz),
+                ("country[]", country_name),
+            ]
+        )
+    )
 
 
 def fetch_text(url, retries=3, timeout=45):
@@ -120,28 +141,263 @@ def fetch_text(url, retries=3, timeout=45):
 
 
 def parse_mdl_calendar(html):
-    """Returns [{id, slug, title, date, time, tz, label}]."""
     out = []
     day_matches = list(DAY_RE.finditer(html))
+
     for i, dm in enumerate(day_matches):
         try:
-            current_date = datetime.strptime(dm.group(1).strip(), "%B %d, %Y").date()
+            current_date = datetime.strptime(
+                dm.group(1).strip(), "%B %d, %Y"
+            ).date()
         except ValueError:
             continue
+
         block_start = dm.end()
-        block_end = day_matches[i + 1].start() if i + 1 < len(day_matches) else len(html)
+        block_end = (
+            day_matches[i + 1].start()
+            if i + 1 < len(day_matches)
+            else len(html)
+        )
         block = html[block_start:block_end]
-        for show_id, slug, alt, time_raw, tz, title_text, label in CARD_RE.findall(block):
+
+        for (
+            show_id,
+            slug,
+            alt,
+            time_raw,
+            tz,
+            title_text,
+            label,
+        ) in CARD_RE.findall(block):
+
             time_clean = ICON_RE.sub("", time_raw).strip()
             tm = TIME_RE.search(time_clean)
             origin_time = None
+
             if tm:
                 try:
-                    t = datetime.strptime(tm.group(1).upper().replace(" ", ""), "%I:%M%p")
+                    t = datetime.strptime(
+                        tm.group(1).upper().replace(" ", ""),
+                        "%I:%M%p",
+                    )
                     origin_time = [t.hour, t.minute]
                 except ValueError:
                     pass
-            out.append({"id": int(show_id), "slug": slug, "date": current_date.isoformat(),
-                        "time": origin_time, "tz": tz.strip(),
-                        "title": (title_text or alt or slug.replace("-", " ").title()).strip(),
-                        "label": label.strip
+
+            out.append({
+                "id": int(show_id),
+                "slug": slug,
+                "date": current_date.isoformat(),
+                "time": origin_time,
+                "tz": tz.strip(),
+                "title": (
+                    title_text
+                    or alt
+                    or slug.replace("-", " ").title()
+                ).strip(),
+                "label": label.strip(),
+            })
+
+    return out
+
+
+def parse_mdl_title(html):
+    lines = []
+    cur = []
+
+    for tok in flatten(html):
+        if tok[0] == "nl":
+            if cur:
+                lines.append(
+                    re.sub(r"\s+", " ", " ".join(cur)).strip()
+                )
+            cur = []
+        elif tok[0] == "t":
+            cur.append(tok[1])
+        else:
+            cur.append(tok[2])
+
+    if cur:
+        lines.append(
+            re.sub(r"\s+", " ", " ".join(cur)).strip()
+        )
+
+    def field(label):
+        for ln in lines:
+            if ln.lower().startswith(label.lower()):
+                return ln[len(label):].strip(" :")
+        return ""
+
+    return {
+        "native": field("Native Title:"),
+        "network": field("Original Network:"),
+        "type": field("Type:"),
+    }
+
+
+def cached_fetch(url, cache_dir, max_age_days=1, verbose=False):
+    os.makedirs(cache_dir, exist_ok=True)
+
+    key = hashlib.sha256(url.encode()).hexdigest()[:20]
+    html_path = os.path.join(cache_dir, key + ".html")
+    meta_path = os.path.join(cache_dir, key + ".meta")
+
+    now = datetime.utcnow()
+
+    if os.path.exists(html_path) and os.path.exists(meta_path):
+        try:
+            with open(meta_path, "r", encoding="utf-8") as mf:
+                meta = json.load(mf)
+            ts = datetime.fromisoformat(meta["fetched_utc"])
+            if now - ts < timedelta(days=max_age_days):
+                log(f"[cache] hit for {url}", verbose)
+                with open(html_path, "r", encoding="utf-8") as f:
+                    return f.read()
+        except Exception:
+            pass
+
+    log(f"[cache] miss for {url}", verbose)
+    html = fetch_text(url)
+
+    with open(html_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    with open(meta_path, "w", encoding="utf-8") as mf:
+        json.dump({"fetched_utc": now.isoformat()}, mf)
+
+    return html
+
+
+def detect_quarters():
+    today = date.today()
+    year = today.year
+    month = today.month
+
+    if month <= 3:
+        return [f"{year}Q1", f"{year}Q2"]
+    elif month <= 6:
+        return [f"{year}Q2", f"{year}Q3"]
+    elif month <= 9:
+        return [f"{year}Q3", f"{year}Q4"]
+    else:
+        return [f"{year}Q4", f"{year+1}Q1"]
+
+
+def build_quarter_urls(quarters):
+    urls = []
+    for q in quarters:
+        q = q.strip()
+        if not q:
+            continue
+        urls.append(
+            f"https://mydramalist.com/episode-calendar/{q.lower()}?"
+            "view=large&scope=all&tz=Australia%2FSydney&sort=start-date"
+            "&country%5B%5D=Japan&country%5B%5D=South+Korea"
+        )
+    return urls
+
+
+def fetch_calendar(url, cache_dir, verbose=False):
+    html = cached_fetch(url, cache_dir, max_age_days=1, verbose=verbose)
+    eps = parse_mdl_calendar(html)
+    log(f"{len(eps)} episodes from {url}", verbose)
+    return eps
+
+
+def fetch_show_page(show_id, slug, cache_dir, verbose=False):
+    url = f"https://mydramalist.com/{show_id}-{slug}"
+    html = cached_fetch(url, cache_dir, max_age_days=7, verbose=verbose)
+    return parse_mdl_title(html)
+
+
+def parse_args():
+    ap = argparse.ArgumentParser(description="MDL broadcast fetcher")
+    ap.add_argument("--quarters", default="", help="Comma-separated quarters")
+    ap.add_argument("--auto-quarters", action="store_true", help="Detect current + next quarter")
+    ap.add_argument("--cache-dir", default=".mdl_cache", help="Cache directory")
+    ap.add_argument("--verbose", action="store_true", help="Verbose logging")
+    ap.add_argument("--dry-run", action="store_true", help="Print actions without fetching")
+    return ap.parse_args()
+
+
+def main():
+    args = parse_args()
+    verbose = args.verbose
+
+    log("Starting MDL fetcher", verbose)
+
+    quarters = []
+    if args.quarters:
+        quarters.extend(q.strip() for q in args.quarters.split(","))
+    if args.auto_quarters:
+        quarters.extend(detect_quarters())
+
+    quarter_urls = build_quarter_urls(quarters)
+
+    if args.dry_run:
+        print("Dry-run mode:")
+        print("Would fetch:")
+        for origin, country_name in MDL_COUNTRY.items():
+            print(f"  - {country_name} calendar")
+        for u in quarter_urls:
+            print(f"  - Quarter calendar: {u}")
+        print("Would fetch show detail pages after parsing.")
+        return
+
+    all_eps = []
+
+    # Fetch JP + KR calendars
+    for origin, country_name in MDL_COUNTRY.items():
+        url = mdl_calendar_url(country_name, MDL_TZ)
+        log(f"Fetching {country_name} calendar", verbose)
+        html = cached_fetch(url, args.cache_dir, max_age_days=1, verbose=verbose)
+        eps = parse_mdl_calendar(html)
+        log(f"{len(eps)} episodes", verbose)
+        all_eps.extend(eps)
+
+    # Fetch quarter calendars in parallel
+    if quarter_urls:
+        log("Fetching quarter calendars in parallel", verbose)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(8, len(quarter_urls))) as ex:
+            futures = [ex.submit(fetch_calendar, u, args.cache_dir, verbose) for u in quarter_urls]
+            for fut in concurrent.futures.as_completed(futures):
+                try:
+                    all_eps.extend(fut.result())
+                except Exception as e:
+                    log(f"Quarter fetch failed: {e}", verbose)
+
+    if not all_eps:
+        sys.exit("No episodes found — not overwriting existing feed.")
+
+    # Fetch show detail pages in parallel
+    show_ids = sorted({e["id"] for e in all_eps})[:MAX_SHOWS]
+    slug_map = {e["id"]: e["slug"] for e in all_eps}
+
+    log(f"Fetching {len(show_ids)} show pages", verbose)
+
+    shows = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
+        futures = {
+            ex.submit(fetch_show_page, sid, slug_map[sid], args.cache_dir, verbose): sid
+            for sid in show_ids
+        }
+        for fut in concurrent.futures.as_completed(futures):
+            sid = futures[fut]
+            try:
+                shows[str(sid)] = fut.result()
+            except Exception as e:
+                log(f"Show {sid} failed: {e}", verbose)
+
+    payload = {
+        "fetched_utc": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "episodes": all_eps,
+        "shows": shows,
+    }
+
+    with open(OUTPUT, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=1)
+
+    log(f"Wrote {OUTPUT} ({len(all_eps)} episodes, {len(shows)} shows)", verbose)
+
+
+if __name__ == "__main__":
+    main()

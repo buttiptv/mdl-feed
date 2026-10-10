@@ -2,10 +2,9 @@ name: Fetch MyDramaList broadcast feed
 
 on:
   schedule:
-    # Twice a day, well off the hour so it doesn't pile up with everyone
-    # else's cron jobs. Times are UTC.
+    # Twice a day, off the hour to avoid cron congestion (UTC)
     - cron: "17 2,14 * * *"
-  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -13,6 +12,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -20,10 +20,22 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Cache the .mdl_cache directory so quarter pages and show pages
+      # are not re-fetched unless expired or changed.
+      - name: Cache MDL HTML
+        uses: actions/cache@v4
+        with:
+          path: .mdl_cache
+          key: mdl-cache-${{ github.run_id }}
+          restore-keys: mdl-cache-
+
       - name: Run fetcher
         id: fetch
         continue-on-error: true
-        run: python3 mdl_fetch.py
+        run: |
+          python3 mdl_fetch.py \
+            --auto-quarters \
+            --verbose
 
       - name: Upload debug HTML (only created if a calendar parsed to zero episodes)
         if: always()

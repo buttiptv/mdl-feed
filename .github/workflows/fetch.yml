@@ -21,7 +21,22 @@ jobs:
           python-version: "3.12"
 
       - name: Run fetcher
+        id: fetch
+        continue-on-error: true
         run: python3 mdl_fetch.py
+
+      - name: Upload debug HTML (only created if a calendar parsed to zero episodes)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mdl-debug-html
+          path: debug-*.html
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Fail the job if the fetch step failed
+        if: steps.fetch.outcome == 'failure'
+        run: exit 1
 
       - name: Commit and push if the feed changed
         run: |

@@ -33,11 +33,28 @@ OUTPUT = "mdl_broadcast.json"
 
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August",
           "September", "October", "November", "December"]
-HEADING_RE = re.compile(r"(%s)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(20\d\d)" % "|".join(MONTHS))
-MDL_EP_RE = re.compile(r"mydramalist\.com/(\d+)-([^/?#]+)/episode/(\d+)")
-MDL_SHOW_RE = re.compile(r"mydramalist\.com/(\d+)-([^/?#]+)/?$")
-TZ_RE = re.compile(r"\b((?:Asia|Europe|America|Australia|Pacific|Africa)/[A-Za-z_]+)")
-TIME_RE = re.compile(r"\b(\d{1,2}:\d{2} [AP]M)\b", re.I)
+
+# The calendar page lays out one <div id="dNN"> block per date (each starting
+# with a "<small>Month D, Year</small>" heading), containing one "el-card" per
+# show released that day. Each card's own release-time text (e.g. "01:00 AM"
+# or "ALL DAY") is the show's real origin-market time; the "calendar-popover-
+# content" tooltip nested inside each card is a hover preview of that show's
+# OTHER nearby episodes (sometimes its whole run) and must be skipped over,
+# not read as more real entries -- every <a> inside it looks like a genuine
+# episode link, which is what silently produced garbage data at first.
+DAY_RE = re.compile(r'<div id="d\d\d">\s*<small>([^<]+)</small>')
+CARD_RE = re.compile(
+    r'<div class="el-card">.*?'
+    r'<a href="/(\d+)-([^"/]+)" target="_blank">\s*<img[^>]*alt="([^"]*)".*?'
+    r'<div class="release-time calendar-popover-source"[^>]*>(.*?)</div>\s*'
+    r'<div class="calendar-popover-content">\s*<div class="calendar-popover-title">([^<]*)</div>.*?'
+    r'<button class="btn simple btn-manage-list".*?</button>\s*</div>\s*'
+    r'<div class="top-append">\s*</div>\s*'
+    r'<a href="[^"]*" target="_blank" class="text-primary _600">([^<]*)</a>\s*'
+    r'<div(?: class="text-sm")?>\s*([^<]*?)\s*</div>',
+    re.S)
+ICON_RE = re.compile(r"<i[^>]*></i>")
+TIME_RE = re.compile(r"\b(\d{1,2}:\d{2}\s*[AP]M)\b", re.I)
 
 BROWSER_HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -112,48 +129,37 @@ def fetch_text(url, retries=3, timeout=45):
 
 
 def parse_mdl_calendar(html):
-    """Returns [{id, slug, title, ep, tz, origin_time, date}].
-    origin_time is the show's own broadcast-market clock time (an (hour, minute)
-    tuple, 24-hour). date comes from the page's own day heading (e.g. "October 4,
-    2026"), not from the per-entry "(... converted time)" text, which does not
-    reflect a straight time-zone conversion."""
-    tokens = flatten(html)
-    titles = {}
-    for tok in tokens:
-        if tok[0] == "a":
-            m = MDL_SHOW_RE.search(tok[1]) or MDL_EP_RE.search(tok[1])
-            text = tok[2]
-            if m and text and not re.match(r"(?i)(episode|movie)\b", text):
-                titles.setdefault(int(m.group(1)), text)
-
+    """Returns [{id, slug, title, date, time, tz, label}].
+    time is [hour, minute] (24-hour) in the show's own broadcast-market clock,
+    or null for an all-day release (movies mostly). date comes from each day
+    block's own heading. label is MyDramaList's own release text for that card
+    verbatim (e.g. "Episode 10", "Episode 2 - 1", "Movie") -- its numbering
+    scheme (e.g. the "N - M" form used for some multi-part releases) isn't
+    second-guessed here, just passed through."""
     out = []
-    current_date, tz, origin_time = None, None, None
-    for tok in tokens:
-        if tok[0] == "t":
-            dm = HEADING_RE.search(tok[1])
-            if dm:
-                try:
-                    current_date = date(int(dm.group(3)), MONTHS.index(dm.group(1)) + 1, int(dm.group(2)))
-                except ValueError:
-                    current_date = None
-                continue
-            tm = TIME_RE.search(tok[1])
+    day_matches = list(DAY_RE.finditer(html))
+    for i, dm in enumerate(day_matches):
+        try:
+            current_date = datetime.strptime(dm.group(1).strip(), "%B %d, %Y").date()
+        except ValueError:
+            continue
+        block_start = dm.end()
+        block_end = day_matches[i + 1].start() if i + 1 < len(day_matches) else len(html)
+        block = html[block_start:block_end]
+        for show_id, slug, alt, time_raw, tz, title_text, label in CARD_RE.findall(block):
+            time_clean = ICON_RE.sub("", time_raw).strip()
+            tm = TIME_RE.search(time_clean)
+            origin_time = None
             if tm:
                 try:
-                    t = datetime.strptime(tm.group(1).upper(), "%I:%M %p")
-                    origin_time = (t.hour, t.minute)
+                    t = datetime.strptime(tm.group(1).upper().replace(" ", ""), "%I:%M%p")
+                    origin_time = [t.hour, t.minute]
                 except ValueError:
                     pass
-            zm = TZ_RE.search(tok[1])
-            if zm:
-                tz = zm.group(1)
-        elif tok[0] == "a":
-            m = MDL_EP_RE.search(tok[1])
-            if not m or not tz or origin_time is None or current_date is None:
-                continue
-            out.append({"id": int(m.group(1)), "slug": m.group(2), "ep": int(m.group(3)), "tz": tz,
-                        "origin_time": list(origin_time), "date": current_date.isoformat(),
-                        "title": titles.get(int(m.group(1)), m.group(2).replace("-", " ").title())})
+            out.append({"id": int(show_id), "slug": slug, "date": current_date.isoformat(),
+                        "time": origin_time, "tz": tz.strip(),
+                        "title": (title_text or alt or slug.replace("-", " ").title()).strip(),
+                        "label": label.strip()})
     return out
 
 

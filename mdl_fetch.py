@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """
-MyDramaList broadcast fetcher with:
+MyDramaList broadcast + movie fetcher with:
 - Auto-quarter detection
 - Manual quarter flags
 - Caching
 - Parallel fetching (ThreadPoolExecutor)
+- Predicted Episode 1 for Japanese dramas
+- Movie scraping from quarter pages
+- Separate movies array
+- TMDB merge for movies
 - Verbose logging
 - Dry-run mode
-- No third-party dependencies
 """
 
 import argparse
@@ -23,10 +26,14 @@ import urllib.request
 from datetime import date, datetime, timedelta
 from html.parser import HTMLParser
 
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "")
+
 MDL_COUNTRY = {"JP": "Japan", "KR": "South Korea"}
 MDL_TZ = "Australia/Sydney"
 MAX_SHOWS = 500
 OUTPUT = "mdl_broadcast.json"
+
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "")
 
 DAY_RE = re.compile(r'<div id="d\d\d">\s*<small>([^<]+)</small>')
 CARD_RE = re.compile(
@@ -42,6 +49,14 @@ CARD_RE = re.compile(
 )
 ICON_RE = re.compile(r"<i[^>]*></i>")
 TIME_RE = re.compile(r"\b(\d{1,2}:\d{2}\s*[AP]M)\b", re.I)
+
+MOVIE_TILE_RE = re.compile(
+    r'<div class="poster-card">.*?'
+    r'<a href="/(\d+)-([^"/]+)".*?>.*?</a>.*?'
+    r'<div class="title">([^<]+)</div>.*?'
+    r'<div class="released">([^<]+)</div>',
+    re.S
+)
 
 BROWSER_HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -61,8 +76,6 @@ def log(msg, verbose=False):
 
 
 class Flat(HTMLParser):
-    """Flatten HTML into ('t', text), ('a', href, text), ('nl',)."""
-
     BLOCK = {
         "div", "p", "li", "br", "tr", "td", "th", "section", "article",
         "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "table", "dd", "dt"
@@ -138,6 +151,38 @@ def fetch_text(url, retries=3, timeout=45):
             last = e
             time.sleep(2 + attempt * 2)
     raise last
+
+
+def cached_fetch(url, cache_dir, max_age_days=1, verbose=False):
+    os.makedirs(cache_dir, exist_ok=True)
+
+    key = hashlib.sha256(url.encode()).hexdigest()[:20]
+    html_path = os.path.join(cache_dir, key + ".html")
+    meta_path = os.path.join(cache_dir, key + ".meta")
+
+    now = datetime.utcnow()
+
+    if os.path.exists(html_path) and os.path.exists(meta_path):
+        try:
+            with open(meta_path, "r", encoding="utf-8") as mf:
+                meta = json.load(mf)
+            ts = datetime.fromisoformat(meta["fetched_utc"])
+            if now - ts < timedelta(days=max_age_days):
+                log(f"[cache] hit for {url}", verbose)
+                with open(html_path, "r", encoding="utf-8") as f:
+                    return f.read()
+        except Exception:
+            pass
+
+    log(f"[cache] miss for {url}", verbose)
+    html = fetch_text(url)
+
+    with open(html_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    with open(meta_path, "w", encoding="utf-8") as mf:
+        json.dump({"fetched_utc": now.isoformat()}, mf)
+
+    return html
 
 
 def parse_mdl_calendar(html):
@@ -232,39 +277,8 @@ def parse_mdl_title(html):
         "native": field("Native Title:"),
         "network": field("Original Network:"),
         "type": field("Type:"),
+        "premiere": field("Aired:"),
     }
-
-
-def cached_fetch(url, cache_dir, max_age_days=1, verbose=False):
-    os.makedirs(cache_dir, exist_ok=True)
-
-    key = hashlib.sha256(url.encode()).hexdigest()[:20]
-    html_path = os.path.join(cache_dir, key + ".html")
-    meta_path = os.path.join(cache_dir, key + ".meta")
-
-    now = datetime.utcnow()
-
-    if os.path.exists(html_path) and os.path.exists(meta_path):
-        try:
-            with open(meta_path, "r", encoding="utf-8") as mf:
-                meta = json.load(mf)
-            ts = datetime.fromisoformat(meta["fetched_utc"])
-            if now - ts < timedelta(days=max_age_days):
-                log(f"[cache] hit for {url}", verbose)
-                with open(html_path, "r", encoding="utf-8") as f:
-                    return f.read()
-        except Exception:
-            pass
-
-    log(f"[cache] miss for {url}", verbose)
-    html = fetch_text(url)
-
-    with open(html_path, "w", encoding="utf-8") as f:
-        f.write(html)
-    with open(meta_path, "w", encoding="utf-8") as mf:
-        json.dump({"fetched_utc": now.isoformat()}, mf)
-
-    return html
 
 
 def detect_quarters():
@@ -299,8 +313,30 @@ def build_quarter_urls(quarters):
 def fetch_calendar(url, cache_dir, verbose=False):
     html = cached_fetch(url, cache_dir, max_age_days=1, verbose=verbose)
     eps = parse_mdl_calendar(html)
-    log(f"{len(eps)} episodes from {url}", verbose)
-    return eps
+    log(f"{len(eps)} episodes found from {url}", verbose)
+    return eps, html
+
+
+def parse_quarter_movies(html):
+    movies = []
+    for mid, slug, title, released in MOVIE_TILE_RE.findall(html):
+        released = released.strip()
+        try:
+            dt = datetime.strptime(released, "%b %Y")
+        except Exception:
+            continue
+
+        movies.append({
+            "id": int(mid),
+            "slug": slug,
+            "date": dt.date().isoformat(),   # month-only → first day
+            "time": None,
+            "tz": "Japan Standard Time",
+            "title": title.strip(),
+            "label": "Movie Release",
+            "movie": True,
+        })
+    return movies
 
 
 def fetch_show_page(show_id, slug, cache_dir, verbose=False):
@@ -309,8 +345,97 @@ def fetch_show_page(show_id, slug, cache_dir, verbose=False):
     return parse_mdl_title(html)
 
 
+def maybe_add_predicted_episode(show_id, slug, show_info, all_eps, verbose=False):
+    """
+    Adds a predicted Episode 1 for Japanese dramas that have a known premiere date
+    but no episode entries in the calendar.
+    """
+    network = show_info.get("network", "").lower()
+    if network not in ["nhk", "ntv", "tbs", "tv asahi", "fuji tv", "tv tokyo"]:
+        return
+
+    premiere = show_info.get("premiere")
+    if not premiere:
+        return
+
+    try:
+        dt = datetime.strptime(premiere, "%b %d, %Y %I:%M %p")
+    except Exception:
+        return
+
+    for ep in all_eps:
+        if ep["id"] == show_id and ep["date"] == dt.date().isoformat():
+            return
+
+    predicted = {
+        "id": show_id,
+        "slug": slug,
+        "date": dt.date().isoformat(),
+        "time": [dt.hour, dt.minute],
+        "tz": "Japan Standard Time",
+        "title": "Episode 1",
+        "label": "Predicted Episode 1",
+        "predicted": True,
+    }
+
+    all_eps.append(predicted)
+    if verbose:
+        log(f"Added predicted Episode 1 for {slug} on {predicted['date']}", verbose)
+
+
+def tmdb_fetch_movie(slug, cache_dir, verbose=False):
+    """
+    Fetch TMDB metadata for a movie using its slug.
+    We search TMDB by title because MDL IDs do not map to TMDB IDs.
+    """
+    if not TMDB_API_KEY:
+        return None
+
+    os.makedirs(cache_dir, exist_ok=True)
+    key = hashlib.sha256(("tmdb:" + slug).encode()).hexdigest()[:20]
+    path = os.path.join(cache_dir, key + ".tmdb.json")
+
+    if os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+
+    url = (
+        "https://api.themoviedb.org/3/search/movie?"
+        + urllib.parse.urlencode({"api_key": TMDB_API_KEY, "query": slug.replace("-", " ")})
+    )
+
+    try:
+        req = urllib.request.Request(url, headers=BROWSER_HEADERS)
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        log(f"TMDB fetch failed for {slug}: {e}", verbose)
+        return None
+
+    if not data.get("results"):
+        return None
+
+    movie = data["results"][0]
+
+    detail_url = f"https://api.themoviedb.org/3/movie/{movie['id']}?api_key={TMDB_API_KEY}"
+    try:
+        req = urllib.request.Request(detail_url, headers=BROWSER_HEADERS)
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            details = json.loads(resp.read().decode("utf-8"))
+    except Exception:
+        details = movie
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(details, f)
+
+    return details
+
+
 def parse_args():
-    ap = argparse.ArgumentParser(description="MDL broadcast fetcher")
+    ap = argparse.ArgumentParser(description="MDL broadcast + movie fetcher")
     ap.add_argument("--quarters", default="", help="Comma-separated quarters")
     ap.add_argument("--auto-quarters", action="store_true", help="Detect current + next quarter")
     ap.add_argument("--cache-dir", default=".mdl_cache", help="Cache directory")
@@ -333,6 +458,9 @@ def main():
 
     quarter_urls = build_quarter_urls(quarters)
 
+    all_eps = []
+    movies = []
+
     if args.dry_run:
         print("Dry-run mode:")
         print("Would fetch:")
@@ -340,10 +468,8 @@ def main():
             print(f"  - {country_name} calendar")
         for u in quarter_urls:
             print(f"  - Quarter calendar: {u}")
-        print("Would fetch show detail pages after parsing.")
+        print("Would fetch show detail pages and TMDB metadata after parsing.")
         return
-
-    all_eps = []
 
     # Fetch JP + KR calendars
     for origin, country_name in MDL_COUNTRY.items():
@@ -354,19 +480,21 @@ def main():
         log(f"{len(eps)} episodes", verbose)
         all_eps.extend(eps)
 
-    # Fetch quarter calendars in parallel
+    # Fetch quarter calendars in parallel (episodes + movies)
     if quarter_urls:
         log("Fetching quarter calendars in parallel", verbose)
         with concurrent.futures.ThreadPoolExecutor(max_workers=min(8, len(quarter_urls))) as ex:
             futures = [ex.submit(fetch_calendar, u, args.cache_dir, verbose) for u in quarter_urls]
             for fut in concurrent.futures.as_completed(futures):
                 try:
-                    all_eps.extend(fut.result())
+                    eps, raw_html = fut.result()
+                    all_eps.extend(eps)
+                    movies.extend(parse_quarter_movies(raw_html))
                 except Exception as e:
                     log(f"Quarter fetch failed: {e}", verbose)
 
-    if not all_eps:
-        sys.exit("No episodes found — not overwriting existing feed.")
+    if not all_eps and not movies:
+        sys.exit("No episodes or movies found — not overwriting existing feed.")
 
     # Fetch show detail pages in parallel
     show_ids = sorted({e["id"] for e in all_eps})[:MAX_SHOWS]
@@ -387,16 +515,40 @@ def main():
             except Exception as e:
                 log(f"Show {sid} failed: {e}", verbose)
 
+    # Add predicted Episode 1 for Japanese dramas
+    for sid, info in shows.items():
+        slug = slug_map[int(sid)]
+        maybe_add_predicted_episode(int(sid), slug, info, all_eps, verbose)
+
+    # Merge TMDB metadata into movies
+    for m in movies:
+        tm = tmdb_fetch_movie(m["slug"], args.cache_dir, verbose)
+        if tm:
+            m["tmdb"] = {
+                "id": tm.get("id"),
+                "title": tm.get("title"),
+                "overview": tm.get("overview"),
+                "poster": tm.get("poster_path"),
+                "backdrop": tm.get("backdrop_path"),
+                "runtime": tm.get("runtime"),
+                "genres": [g["name"] for g in tm.get("genres", [])],
+                "release_date": tm.get("release_date"),
+            }
+
     payload = {
         "fetched_utc": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "episodes": all_eps,
+        "movies": movies,
         "shows": shows,
     }
 
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
 
-    log(f"Wrote {OUTPUT} ({len(all_eps)} episodes, {len(shows)} shows)", verbose)
+    log(
+        f"Wrote {OUTPUT} ({len(all_eps)} episodes, {len(movies)} movies, {len(shows)} shows)",
+        verbose,
+    )
 
 
 if __name__ == "__main__":

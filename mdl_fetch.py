@@ -3,7 +3,7 @@
 Standalone MyDramaList fetcher, meant to run on GitHub Actions (or any machine
 with a clean, non-seedbox IP) rather than on the Release Trackarr server
 itself, which MyDramaList blocks at the IP level regardless of headers or
-TLS fingerprint.
+TLS fingerprint. 
 
 Fetches the Japan and South Korea episode calendars, then fetches each
 referenced show's own page (for its native title, original network, and

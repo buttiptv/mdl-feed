@@ -1,18 +1,6 @@
 {
- "fetched_utc": "2026-10-11T08:47:08Z",
+ "fetched_utc": "2026-10-11T11:30:07Z",
  "episodes": [
-  {
-   "id": 812044,
-   "slug": "bachi-bachi-star",
-   "date": "2026-10-10",
-   "time": [
-    0,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Bachi-Bachi Star",
-   "label": "Episode 49"
-  },
   {
    "id": 808390,
    "slug": "kono-go-ni-oyonde-ai-nado",
@@ -23,11 +11,23 @@
    "label": "Movie"
   },
   {
+   "id": 812044,
+   "slug": "bachi-bachi-star",
+   "date": "2026-10-10",
+   "time": [
+    2,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Bachi-Bachi Star",
+   "label": "Episode 49"
+  },
+  {
    "id": 812768,
    "slug": "kankinhan-wa-watashi-no-saiai-no-hito-deshita",
    "date": "2026-10-10",
    "time": [
-    3,
+    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -39,7 +39,7 @@
    "slug": "oretachi-no-hakone-ekiden",
    "date": "2026-10-10",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -51,7 +51,7 @@
    "slug": "hadakanbo-tachi",
    "date": "2026-10-10",
    "time": [
-    7,
+    9,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -63,7 +63,7 @@
    "slug": "venue101",
    "date": "2026-10-10",
    "time": [
-    7,
+    9,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -75,7 +75,7 @@
    "slug": "sakusaku-himuhimu-oshi-no-furu-yoru",
    "date": "2026-10-10",
    "time": [
-    7,
+    9,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -87,7 +87,7 @@
    "slug": "saisei-no-uzume",
    "date": "2026-10-10",
    "time": [
-    7,
+    9,
     40
    ],
    "tz": "Asia/Tokyo",
@@ -99,7 +99,7 @@
    "slug": "drama-ga-tonda",
    "date": "2026-10-10",
    "time": [
-    8,
+    10,
     5
    ],
    "tz": "Asia/Tokyo",
@@ -111,7 +111,7 @@
    "slug": "kamen-rider-my-th",
    "date": "2026-10-10",
    "time": [
-    17,
+    19,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -123,7 +123,7 @@
    "slug": "kakusei-hunter-omegahorn",
    "date": "2026-10-10",
    "time": [
-    17,
+    19,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -135,7 +135,7 @@
    "slug": "kamen-rider-my-th-twelve-zodiacs-ten-colors",
    "date": "2026-10-10",
    "time": [
-    17,
+    19,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -147,7 +147,7 @@
    "slug": "kakusei-hunter-omegahorn-huntertachi-no-mokuhiroku-with-gavan",
    "date": "2026-10-10",
    "time": [
-    18,
+    20,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -157,9 +157,9 @@
   {
    "id": 801366,
    "slug": "timelesz-familia",
-   "date": "2026-10-10",
+   "date": "2026-10-11",
    "time": [
-    22,
+    0,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -171,7 +171,7 @@
    "slug": "toyotomi-kyodai",
    "date": "2026-10-11",
    "time": [
-    4,
+    6,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -183,19 +183,7 @@
    "slug": "golden-sixtones-x-oretachi-no-hakone-ekiden-collab-sp",
    "date": "2026-10-11",
    "time": [
-    5,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Golden SixTONES x Oretachi no Hakone Ekiden Collab Special",
-   "label": "Episode 1"
-  },
-  {
-   "id": 810554,
-   "slug": "mr-iyaku-joho-tantosha",
-   "date": "2026-10-11",
-   "time": [
-    6,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -207,7 +195,7 @@
    "slug": "mo-papa",
    "date": "2026-10-11",
    "time": [
-    6,
+    8,
     15
    ],
    "tz": "Asia/Tokyo",
@@ -219,7 +207,7 @@
    "slug": "hide-seek-0-byo-mae-no-kanojo",
    "date": "2026-10-11",
    "time": [
-    6,
+    8,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -227,11 +215,23 @@
    "label": "Episode 2"
   },
   {
+   "id": 79663,
+   "slug": "jounetsu-tairiku",
+   "date": "2026-10-11",
+   "time": [
+    9,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Jounetsu Tairiku",
+   "label": "Episode 1423"
+  },
+  {
    "id": 810930,
    "slug": "super-dragon-quest",
    "date": "2026-10-11",
    "time": [
-    9,
+    11,
     50
    ],
    "tz": "Asia/Tokyo",
@@ -243,7 +243,7 @@
    "slug": "blossom",
    "date": "2026-10-11",
    "time": [
-    16,
+    18,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -255,7 +255,7 @@
    "slug": "ao-to-midori",
    "date": "2026-10-11",
    "time": [
-    18,
+    20,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -276,7 +276,7 @@
    "slug": "cdtv-live-live",
    "date": "2026-10-12",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -288,7 +288,7 @@
    "slug": "emergency-room-24-hours-season-6",
    "date": "2026-10-12",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -300,7 +300,7 @@
    "slug": "zeikin-de-katta-hon",
    "date": "2026-10-12",
    "time": [
-    6,
+    8,
     45
    ],
    "tz": "Asia/Tokyo",
@@ -312,7 +312,7 @@
    "slug": "tsuma-wo-intai-shimasu",
    "date": "2026-10-12",
    "time": [
-    7,
+    9,
     5
    ],
    "tz": "Asia/Tokyo",
@@ -324,19 +324,19 @@
    "slug": "love-village-season-3",
    "date": "2026-10-12",
    "time": [
-    8,
+    10,
     0
    ],
    "tz": "Asia/Tokyo",
    "title": "Love Village Season 3",
-   "label": "Episode 12 - 11"
+   "label": "Episode 9 - 12"
   },
   {
    "id": 813222,
    "slug": "can-you-tell-m-lk",
    "date": "2026-10-12",
    "time": [
-    8,
+    10,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -348,7 +348,7 @@
    "slug": "izayoi-zenbo",
    "date": "2026-10-12",
    "time": [
-    8,
+    10,
     25
    ],
    "tz": "Asia/Tokyo",
@@ -360,7 +360,7 @@
    "slug": "vs-bullet-train",
    "date": "2026-10-12",
    "time": [
-    9,
+    11,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -372,7 +372,7 @@
    "slug": "not-equal-me-nanashi-no-cinderella",
    "date": "2026-10-12",
    "time": [
-    9,
+    11,
     15
    ],
    "tz": "Asia/Tokyo",
@@ -384,7 +384,7 @@
    "slug": "yokya-shudan-ni-iru-serizawa-wa-ore-no-mae-da-to-yosu-ga-okashii",
    "date": "2026-10-12",
    "time": [
-    9,
+    11,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -396,7 +396,7 @@
    "slug": "nogizaka-star-tanjo-six",
    "date": "2026-10-12",
    "time": [
-    9,
+    11,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -408,7 +408,7 @@
    "slug": "blossom",
    "date": "2026-10-12",
    "time": [
-    16,
+    18,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -420,7 +420,7 @@
    "slug": "human-gourmentary-omoumai-mise",
    "date": "2026-10-13",
    "time": [
-    3,
+    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -432,7 +432,7 @@
    "slug": "kidnap-game",
    "date": "2026-10-13",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -444,7 +444,7 @@
    "slug": "hakaneko-nikki-ano-hi-no-tsuki",
    "date": "2026-10-13",
    "time": [
-    5,
+    7,
     55
    ],
    "tz": "Asia/Tokyo",
@@ -456,7 +456,7 @@
    "slug": "kaishain",
    "date": "2026-10-13",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -468,7 +468,7 @@
    "slug": "iroha-no-koi-wa-jidai-wo-kakeru",
    "date": "2026-10-13",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -480,7 +480,7 @@
    "slug": "zeikin-de-katta-hon",
    "date": "2026-10-13",
    "time": [
-    6,
+    8,
     45
    ],
    "tz": "Asia/Tokyo",
@@ -492,7 +492,7 @@
    "slug": "ano-chan-no-den-den-denpa",
    "date": "2026-10-13",
    "time": [
-    9,
+    11,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -504,7 +504,7 @@
    "slug": "love-is-better-the-second-time-around-season-2",
    "date": "2026-10-13",
    "time": [
-    9,
+    11,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -516,7 +516,7 @@
    "slug": "blossom",
    "date": "2026-10-13",
    "time": [
-    16,
+    18,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -528,7 +528,7 @@
    "slug": "dekiai-kareshi-no-tsukurikata-se-kara-honmei-ni-naru-onnanoko-no-hanashi",
    "date": "2026-10-14",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -540,7 +540,7 @@
    "slug": "nino-nanoni",
    "date": "2026-10-14",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -552,7 +552,7 @@
    "slug": "itajum",
    "date": "2026-10-14",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -564,7 +564,7 @@
    "slug": "politica-lupin",
    "date": "2026-10-14",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -576,7 +576,7 @@
    "slug": "merry-berry-love",
    "date": "2026-10-14",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -588,7 +588,7 @@
    "slug": "zeikin-de-katta-hon",
    "date": "2026-10-14",
    "time": [
-    6,
+    8,
     45
    ],
    "tz": "Asia/Tokyo",
@@ -600,7 +600,7 @@
    "slug": "komugi-to-butter-to-fukushu-to",
    "date": "2026-10-14",
    "time": [
-    7,
+    9,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -612,7 +612,7 @@
    "slug": "kamen-kyoshi-tsuma-wo-nakushita-sono-hi-kara",
    "date": "2026-10-14",
    "time": [
-    8,
+    10,
     25
    ],
    "tz": "Asia/Tokyo",
@@ -624,7 +624,7 @@
    "slug": "watashi-ga-anata-to-iru-riyu-2-guam-wo-otozureta-8-nin-no-danjo-no-10-kakan",
    "date": "2026-10-14",
    "time": [
-    9,
+    11,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -636,7 +636,7 @@
    "slug": "travis-japan-no-just-shin-nihon-isan-season-3",
    "date": "2026-10-14",
    "time": [
-    9,
+    11,
     40
    ],
    "tz": "Asia/Tokyo",
@@ -648,7 +648,7 @@
    "slug": "nika-game",
    "date": "2026-10-14",
    "time": [
-    10,
+    12,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -660,7 +660,7 @@
    "slug": "blossom",
    "date": "2026-10-14",
    "time": [
-    16,
+    18,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -699,7 +699,7 @@
    "slug": "the-journey-to-killing-you-season-2",
    "date": "2026-10-15",
    "time": [
-    4,
+    6,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -711,7 +711,7 @@
    "slug": "gochisou-fanfare",
    "date": "2026-10-15",
    "time": [
-    5,
+    7,
     55
    ],
    "tz": "Asia/Tokyo",
@@ -723,7 +723,7 @@
    "slug": "a-calm-sea-and-beautiful-days-with-you-season-2",
    "date": "2026-10-15",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -735,7 +735,7 @@
    "slug": "iijima-naoko-no-konya-ippai-itchau",
    "date": "2026-10-15",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -747,7 +747,7 @@
    "slug": "zeikin-de-katta-hon",
    "date": "2026-10-15",
    "time": [
-    6,
+    8,
     45
    ],
    "tz": "Asia/Tokyo",
@@ -759,7 +759,7 @@
    "slug": "tengu-s-kitchen-season-3",
    "date": "2026-10-15",
    "time": [
-    7,
+    9,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -771,7 +771,7 @@
    "slug": "sekito-elegy",
    "date": "2026-10-15",
    "time": [
-    8,
+    10,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -783,7 +783,7 @@
    "slug": "doubt-15-nen-me-no-fukushu",
    "date": "2026-10-15",
    "time": [
-    8,
+    10,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -795,7 +795,7 @@
    "slug": "uso-wo-tsuita-watashitachi",
    "date": "2026-10-15",
    "time": [
-    8,
+    10,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -807,7 +807,7 @@
    "slug": "life-trade",
    "date": "2026-10-15",
    "time": [
-    8,
+    10,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -819,7 +819,7 @@
    "slug": "okaeri-hatsukoi",
    "date": "2026-10-15",
    "time": [
-    9,
+    11,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -831,7 +831,7 @@
    "slug": "kanojo-no-imoto-yuwaku-darake-no-sankaku-kankei",
    "date": "2026-10-15",
    "time": [
-    9,
+    11,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -843,7 +843,7 @@
    "slug": "blossom",
    "date": "2026-10-15",
    "time": [
-    16,
+    18,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -855,7 +855,7 @@
    "slug": "shinya-zangyo-nikushoku-kohai-no-katakoi-kenshu",
    "date": "2026-10-15",
    "time": [
-    21,
+    23,
     45
    ],
    "tz": "Asia/Tokyo",
@@ -867,7 +867,7 @@
    "slug": "borders-keishicho-tokushu-jiken-taisaku-han",
    "date": "2026-10-16",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -879,7 +879,7 @@
    "slug": "lost-10",
    "date": "2026-10-16",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -891,7 +891,7 @@
    "slug": "oishii-no-tsukuri-kata",
    "date": "2026-10-16",
    "time": [
-    8,
+    10,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -903,7 +903,7 @@
    "slug": "mame-to-mugi",
    "date": "2026-10-16",
    "time": [
-    8,
+    10,
     10
    ],
    "tz": "Asia/Tokyo",
@@ -915,7 +915,7 @@
    "slug": "immortal-songs-singing-the-legend",
    "date": "2026-10-10",
    "time": [
-    2,
+    4,
     5
    ],
    "tz": "Asia/Seoul",
@@ -927,7 +927,7 @@
    "slug": "how-do-you-play",
    "date": "2026-10-10",
    "time": [
-    2,
+    4,
     30
    ],
    "tz": "Asia/Seoul",
@@ -939,7 +939,7 @@
    "slug": "amazing-saturday",
    "date": "2026-10-10",
    "time": [
-    3,
+    5,
     30
    ],
    "tz": "Asia/Seoul",
@@ -951,7 +951,7 @@
    "slug": "sarangi-onda",
    "date": "2026-10-10",
    "time": [
-    4,
+    6,
     0
    ],
    "tz": "Asia/Seoul",
@@ -963,7 +963,7 @@
    "slug": "out-of-the-water",
    "date": "2026-10-10",
    "time": [
-    4,
+    6,
     0
    ],
    "tz": "Asia/Seoul",
@@ -975,7 +975,7 @@
    "slug": "knowing-bros",
    "date": "2026-10-10",
    "time": [
-    4,
+    6,
     50
    ],
    "tz": "Asia/Seoul",
@@ -987,7 +987,7 @@
    "slug": "100-days-of-lies",
    "date": "2026-10-10",
    "time": [
-    5,
+    7,
     10
    ],
    "tz": "Asia/Seoul",
@@ -999,7 +999,7 @@
    "slug": "neo-malgo-dareun-yeonae",
    "date": "2026-10-10",
    "time": [
-    5,
+    7,
     20
    ],
    "tz": "Asia/Seoul",
@@ -1011,7 +1011,7 @@
    "slug": "kimjuhaui-deiaennait",
    "date": "2026-10-10",
    "time": [
-    5,
+    7,
     40
    ],
    "tz": "Asia/Seoul",
@@ -1023,7 +1023,7 @@
    "slug": "doctor-x-age-of-the-white-mafia",
    "date": "2026-10-10",
    "time": [
-    5,
+    7,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1035,7 +1035,7 @@
    "slug": "brave-detectives-season-5",
    "date": "2026-10-10",
    "time": [
-    5,
+    7,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1047,7 +1047,7 @@
    "slug": "dive-to-you",
    "date": "2026-10-10",
    "time": [
-    6,
+    8,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1059,7 +1059,7 @@
    "slug": "mr-house-husband-season-2",
    "date": "2026-10-10",
    "time": [
-    6,
+    8,
     35
    ],
    "tz": "Asia/Seoul",
@@ -1071,7 +1071,7 @@
    "slug": "omniscient-interfering-view",
    "date": "2026-10-10",
    "time": [
-    7,
+    9,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1083,7 +1083,7 @@
    "slug": "korea-sings",
    "date": "2026-10-10",
    "time": [
-    20,
+    22,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1095,8 +1095,32 @@
    "slug": "boss-in-the-mirror",
    "date": "2026-10-11",
    "time": [
-    0,
+    2,
     45
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Boss in the Mirror",
+   "label": "Episode 378"
+  },
+  {
+   "id": 812828,
+   "slug": "sinipsawon-gildeurigi",
+   "date": "2026-10-11",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Training the Intern",
+   "label": "Episode 2"
+  },
+  {
+   "id": 25565,
+   "slug": "running-man",
+   "date": "2026-10-11",
+   "time": [
+    4,
+    10
    ],
    "tz": "Asia/Seoul",
    "title": "Running Man",
@@ -1107,7 +1131,7 @@
    "slug": "2-days-1-night-season-4",
    "date": "2026-10-11",
    "time": [
-    2,
+    4,
     15
    ],
    "tz": "Asia/Seoul",
@@ -1119,44 +1143,8 @@
    "slug": "sixth-sense-b-side",
    "date": "2026-10-11",
    "time": [
-    3,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Sixth Sense: B-Side",
-   "label": "Episode 4"
-  },
-  {
-   "id": 803410,
-   "slug": "sarangi-onda",
-   "date": "2026-10-11",
-   "time": [
-    4,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Love on the Menu",
-   "label": "Episode 21"
-  },
-  {
-   "id": 813236,
-   "slug": "ni-don-nae-san",
-   "date": "2026-10-11",
-   "time": [
-    4,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Ni Don Nae San",
-   "label": "Episode 3"
-  },
-  {
-   "id": 780006,
-   "slug": "please-take-care-of-my-refrigerator-season-2",
-   "date": "2026-10-11",
-   "time": [
     5,
-    0
+    50
    ],
    "tz": "Asia/Seoul",
    "title": "Please Take Care of My Refrigerator Season 2",
@@ -1167,7 +1155,7 @@
    "slug": "mom-s-diary-my-ugly-duckling",
    "date": "2026-10-11",
    "time": [
-    5,
+    7,
     5
    ],
    "tz": "Asia/Seoul",
@@ -1179,7 +1167,7 @@
    "slug": "100-days-of-lies",
    "date": "2026-10-11",
    "time": [
-    5,
+    7,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1191,7 +1179,7 @@
    "slug": "the-wonder-coach-season-2",
    "date": "2026-10-11",
    "time": [
-    5,
+    7,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1203,7 +1191,7 @@
    "slug": "neo-malgo-dareun-yeonae",
    "date": "2026-10-11",
    "time": [
-    5,
+    7,
     20
    ],
    "tz": "Asia/Seoul",
@@ -1215,7 +1203,7 @@
    "slug": "dive-to-you",
    "date": "2026-10-11",
    "time": [
-    6,
+    8,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1227,7 +1215,7 @@
    "slug": "this-is-hyun-moo-road",
    "date": "2026-10-11",
    "time": [
-    6,
+    8,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1239,7 +1227,7 @@
    "slug": "gag-concert-season-2",
    "date": "2026-10-11",
    "time": [
-    6,
+    8,
     40
    ],
    "tz": "Asia/Seoul",
@@ -1251,7 +1239,7 @@
    "slug": "hmm-huh-s-memo",
    "date": "2026-10-12",
    "time": [
-    3,
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1263,19 +1251,19 @@
    "slug": "stan-a",
    "date": "2026-10-12",
    "time": [
-    3,
+    5,
     0
    ],
    "tz": "Asia/Seoul",
    "title": "Stan:A",
-   "label": "Episode 26 - 25"
+   "label": "Episode 25 - 26"
   },
   {
    "id": 809180,
    "slug": "gajok-gwangye-jeungmyeongseo",
    "date": "2026-10-12",
    "time": [
-    3,
+    5,
     5
    ],
    "tz": "Asia/Seoul",
@@ -1287,7 +1275,7 @@
    "slug": "yokmangui-deot",
    "date": "2026-10-12",
    "time": [
-    3,
+    5,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1299,7 +1287,7 @@
    "slug": "burn-to-win-season-2",
    "date": "2026-10-12",
    "time": [
-    4,
+    6,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1311,7 +1299,7 @@
    "slug": "hidden-eye",
    "date": "2026-10-12",
    "time": [
-    4,
+    6,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1323,7 +1311,7 @@
    "slug": "eommaga-michyeosseoyo",
    "date": "2026-10-12",
    "time": [
-    4,
+    6,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1335,7 +1323,7 @@
    "slug": "malja-show",
    "date": "2026-10-12",
    "time": [
-    5,
+    7,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1347,7 +1335,7 @@
    "slug": "love-doctor",
    "date": "2026-10-12",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1359,7 +1347,7 @@
    "slug": "backdoor-part-2",
    "date": "2026-10-12",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1371,7 +1359,7 @@
    "slug": "the-ballad-of-us-season-2",
    "date": "2026-10-12",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1383,7 +1371,7 @@
    "slug": "oh-eun-young-s-report-marriage-hell",
    "date": "2026-10-12",
    "time": [
-    6,
+    8,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1395,7 +1383,7 @@
    "slug": "contract-marriage",
    "date": "2026-10-12",
    "time": [
-    6,
+    8,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1407,7 +1395,7 @@
    "slug": "midnight-horror-story-season-6",
    "date": "2026-10-12",
    "time": [
-    6,
+    8,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1419,7 +1407,7 @@
    "slug": "lee-mu-jin-service",
    "date": "2026-10-13",
    "time": [
-    2,
+    4,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1431,7 +1419,7 @@
    "slug": "salon-drip-season-2",
    "date": "2026-10-13",
    "time": [
-    2,
+    4,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1443,7 +1431,7 @@
    "slug": "logout-house",
    "date": "2026-10-13",
    "time": [
-    2,
+    4,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1455,7 +1443,7 @@
    "slug": "sekeondeu-peulleiteu",
    "date": "2026-10-13",
    "time": [
-    2,
+    4,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1467,7 +1455,7 @@
    "slug": "gajok-gwangye-jeungmyeongseo",
    "date": "2026-10-13",
    "time": [
-    3,
+    5,
     5
    ],
    "tz": "Asia/Seoul",
@@ -1479,7 +1467,7 @@
    "slug": "yokmangui-deot",
    "date": "2026-10-13",
    "time": [
-    3,
+    5,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1491,7 +1479,7 @@
    "slug": "problem-child-in-house-season-2",
    "date": "2026-10-13",
    "time": [
-    4,
+    6,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1503,7 +1491,7 @@
    "slug": "eommaga-michyeosseoyo",
    "date": "2026-10-13",
    "time": [
-    4,
+    6,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1515,7 +1503,7 @@
    "slug": "love-penalty",
    "date": "2026-10-13",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1527,7 +1515,7 @@
    "slug": "whenever-possible-season-5",
    "date": "2026-10-13",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1539,7 +1527,7 @@
    "slug": "han-moon-cheol-s-dashcam-review",
    "date": "2026-10-13",
    "time": [
-    5,
+    7,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1551,7 +1539,7 @@
    "slug": "namui-jip-gwihan-gajok",
    "date": "2026-10-13",
    "time": [
-    5,
+    7,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1563,7 +1551,7 @@
    "slug": "love-doctor",
    "date": "2026-10-13",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1575,7 +1563,7 @@
    "slug": "street-world-fighter-directors-war",
    "date": "2026-10-13",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1587,7 +1575,7 @@
    "slug": "same-bed-different-dreams-2-you-are-my-destiny",
    "date": "2026-10-13",
    "time": [
-    6,
+    8,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1599,7 +1587,7 @@
    "slug": "i-m-live",
    "date": "2026-10-13",
    "time": [
-    21,
+    23,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1611,7 +1599,7 @@
    "slug": "deadly-tag",
    "date": "2026-10-14",
    "time": [
-    0,
+    2,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1623,7 +1611,7 @@
    "slug": "sonyeon-geumji",
    "date": "2026-10-14",
    "time": [
-    3,
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1635,7 +1623,7 @@
    "slug": "gajok-gwangye-jeungmyeongseo",
    "date": "2026-10-14",
    "time": [
-    3,
+    5,
     5
    ],
    "tz": "Asia/Seoul",
@@ -1647,7 +1635,7 @@
    "slug": "yokmangui-deot",
    "date": "2026-10-14",
    "time": [
-    3,
+    5,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1659,7 +1647,7 @@
    "slug": "rule-101",
    "date": "2026-10-14",
    "time": [
-    4,
+    6,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1671,7 +1659,7 @@
    "slug": "eommaga-michyeosseoyo",
    "date": "2026-10-14",
    "time": [
-    4,
+    6,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1683,7 +1671,7 @@
    "slug": "yoo-quiz-on-the-block-season-4",
    "date": "2026-10-14",
    "time": [
-    4,
+    6,
     40
    ],
    "tz": "Asia/Seoul",
@@ -1695,7 +1683,7 @@
    "slug": "talk-pawon-25-o-clock",
    "date": "2026-10-14",
    "time": [
-    4,
+    6,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1707,7 +1695,7 @@
    "slug": "kickflip-comeback-stage-kick-off-the-wall-pt-1",
    "date": "2026-10-14",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1719,7 +1707,7 @@
    "slug": "shooting-stars-3rd-gifa-cup",
    "date": "2026-10-14",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1731,7 +1719,7 @@
    "slug": "jeonseorui-sanae",
    "date": "2026-10-14",
    "time": [
-    5,
+    7,
     40
    ],
    "tz": "Asia/Seoul",
@@ -1743,7 +1731,7 @@
    "slug": "radio-star",
    "date": "2026-10-14",
    "time": [
-    6,
+    8,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1755,7 +1743,7 @@
    "slug": "deo-riseun-uriga-meomun-gyejeol",
    "date": "2026-10-14",
    "time": [
-    7,
+    9,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1767,7 +1755,7 @@
    "slug": "new-item-release-convenience-store-restaurant",
    "date": "2026-10-14",
    "time": [
-    8,
+    10,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1779,7 +1767,7 @@
    "slug": "twisted-tie",
    "date": "2026-10-14",
    "time": [
-    20,
+    22,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1791,19 +1779,19 @@
    "slug": "kumgyul",
    "date": "2026-10-15",
    "time": [
-    1,
+    3,
     0
    ],
    "tz": "Asia/Seoul",
    "title": "Geumgyul: Mean Girls on the Green",
-   "label": "Episode 14 - 19"
+   "label": "Episode 15 - 20"
   },
   {
    "id": 789036,
    "slug": "nyuneo",
    "date": "2026-10-15",
    "time": [
-    2,
+    4,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1815,7 +1803,7 @@
    "slug": "changing-majors-season-9",
    "date": "2026-10-15",
    "time": [
-    2,
+    4,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1827,7 +1815,7 @@
    "slug": "sana-s-fridge-interview",
    "date": "2026-10-15",
    "time": [
-    3,
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1839,7 +1827,7 @@
    "slug": "gajok-gwangye-jeungmyeongseo",
    "date": "2026-10-15",
    "time": [
-    3,
+    5,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1851,7 +1839,7 @@
    "slug": "yokmangui-deot",
    "date": "2026-10-15",
    "time": [
-    3,
+    5,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1863,7 +1851,7 @@
    "slug": "tomorrow-x-together-s-should-we-run-away",
    "date": "2026-10-15",
    "time": [
-    4,
+    6,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1875,7 +1863,7 @@
    "slug": "rule-101",
    "date": "2026-10-15",
    "time": [
-    4,
+    6,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1887,7 +1875,7 @@
    "slug": "welcome-first-time-in-korea-season-4",
    "date": "2026-10-15",
    "time": [
-    4,
+    6,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1899,7 +1887,7 @@
    "slug": "eommaga-michyeosseoyo",
    "date": "2026-10-15",
    "time": [
-    4,
+    6,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1911,7 +1899,7 @@
    "slug": "fresh-off-the-sea-season-3",
    "date": "2026-10-15",
    "time": [
-    4,
+    6,
     40
    ],
    "tz": "Asia/Seoul",
@@ -1923,7 +1911,7 @@
    "slug": "maestro-jang",
    "date": "2026-10-15",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1935,7 +1923,7 @@
    "slug": "where-is-my-home",
    "date": "2026-10-15",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1947,7 +1935,7 @@
    "slug": "miss-trot-for-you",
    "date": "2026-10-15",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1959,7 +1947,7 @@
    "slug": "story-of-the-day-when-you-bite-your-tail",
    "date": "2026-10-15",
    "time": [
-    6,
+    8,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1971,7 +1959,7 @@
    "slug": "divorce-camp",
    "date": "2026-10-15",
    "time": [
-    6,
+    8,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1983,7 +1971,7 @@
    "slug": "youtuber-golden-bell",
    "date": "2026-10-15",
    "time": [
-    6,
+    8,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1995,7 +1983,7 @@
    "slug": "damn-bulance",
    "date": "2026-10-16",
    "time": [
-    3,
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2007,7 +1995,7 @@
    "slug": "gajok-gwangye-jeungmyeongseo",
    "date": "2026-10-16",
    "time": [
-    3,
+    5,
     5
    ],
    "tz": "Asia/Seoul",
@@ -2019,7 +2007,7 @@
    "slug": "yokmangui-deot",
    "date": "2026-10-16",
    "time": [
-    3,
+    5,
     50
    ],
    "tz": "Asia/Seoul",
@@ -2031,7 +2019,7 @@
    "slug": "eommaga-michyeosseoyo",
    "date": "2026-10-16",
    "time": [
-    4,
+    6,
     30
    ],
    "tz": "Asia/Seoul",
@@ -2043,7 +2031,7 @@
    "slug": "space-rice-cake",
    "date": "2026-10-16",
    "time": [
-    4,
+    6,
     35
    ],
    "tz": "Asia/Seoul",
@@ -2055,7 +2043,7 @@
    "slug": "love-penalty",
    "date": "2026-10-16",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2067,7 +2055,7 @@
    "slug": "evnne-hour",
    "date": "2026-10-16",
    "time": [
-    5,
+    7,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2079,7 +2067,7 @@
    "slug": "matgyeoman-jusipsyot",
    "date": "2026-10-16",
    "time": [
-    5,
+    7,
     20
    ],
    "tz": "Asia/Seoul",
@@ -2091,7 +2079,7 @@
    "slug": "doctor-x-age-of-the-white-mafia",
    "date": "2026-10-16",
    "time": [
-    5,
+    7,
     50
    ],
    "tz": "Asia/Seoul",
@@ -2103,7 +2091,7 @@
    "slug": "geumtaneun-geumyoil",
    "date": "2026-10-16",
    "time": [
-    6,
+    8,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2115,7 +2103,7 @@
    "slug": "i-live-alone",
    "date": "2026-10-16",
    "time": [
-    7,
+    9,
     10
    ],
    "tz": "Asia/Seoul",
@@ -2127,21 +2115,2329 @@
    "slug": "my-genie-secretary",
    "date": "2026-10-16",
    "time": [
-    7,
+    9,
     10
    ],
    "tz": "Asia/Seoul",
    "title": "My Genie Secretary",
    "label": "Episode 7"
+  },
+  {
+   "id": 813362,
+   "slug": "operations-center-agents-in-my-house",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Operations Center: Agents in My House",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 809010,
+   "slug": "tengu-s-kitchen-season-3",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Tengu's Kitchen Season 3",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 731727,
+   "slug": "personal-taxi",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Your Personal Taxi",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812172,
+   "slug": "doubt-15-nen-me-no-fukushu",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Doubt: 15 Nen Me no Fukushu",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812672,
+   "slug": "kanojo-no-imoto-yuwaku-darake-no-sankaku-kankei",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Kanojo no Imoto: Yuwaku Darake no Sankaku Kankei",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 813542,
+   "slug": "shinya-zangyo-nikushoku-kohai-no-katakoi-kenshu",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Shinya Zangyo: Nikushoku Kohai no Katakoi Kenshu",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 813540,
+   "slug": "tsuma-wo-intai-shimasu-prologue",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Tsuma wo Intai Shimasu Prologue",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812162,
+   "slug": "hadakanbo-tachi",
+   "date": "2026-10-03",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Hadakanbotachi",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812144,
+   "slug": "mame-to-mugi",
+   "date": "2026-10-03",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Mame to Mugi",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812914,
+   "slug": "mo-ee-wa",
+   "date": "2026-10-03",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Mo E wa",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812362,
+   "slug": "oishii-no-tsukuri-kata",
+   "date": "2026-10-03",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Oishii no Tsukuri Kata",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812368,
+   "slug": "saisei-no-uzume",
+   "date": "2026-10-03",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Saisei no Uzume",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 811416,
+   "slug": "mo-papa",
+   "date": "2026-10-04",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Cut, Dad!: Are We the",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812050,
+   "slug": "hide-seek-0-byo-mae-no-kanojo",
+   "date": "2026-10-04",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Hide and Seek",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 810554,
+   "slug": "mr-iyaku-joho-tantosha",
+   "date": "2026-10-04",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "MR: Iyaku Joho Tantosha",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812828,
+   "slug": "sinipsawon-gildeurigi",
+   "date": "2026-10-04",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Training the Intern",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 809822,
+   "slug": "ao-to-midori",
+   "date": "2026-10-05",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Ao to Midori",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 802430,
+   "slug": "love-doctor",
+   "date": "2026-10-05",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Between Steps",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812364,
+   "slug": "tsuma-wo-intai-shimasu",
+   "date": "2026-10-05",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Tsuma wo Intai Shimasu",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 809166,
+   "slug": "kidnap-game",
+   "date": "2026-10-06",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Kidnap Game",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 811482,
+   "slug": "sekeondeu-peulleiteu",
+   "date": "2026-10-06",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Second Plate",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 803562,
+   "slug": "merry-berry-love",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Merry Berry Love",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812118,
+   "slug": "politica-lupin",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "PoliticaLupin",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812478,
+   "slug": "komugi-to-butter-to-fukushu-to",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "The Reborn Baker's Recipe for Revenge",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812142,
+   "slug": "kamen-kyoshi-tsuma-wo-nakushita-sono-hi-kara",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Kamen Kyoshi: Tsuma wo Nakushita Sono Hi kara",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812950,
+   "slug": "kintsukuroi",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Kintsukuroi",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 813364,
+   "slug": "sign-the-way-i-hear-you",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Sign: The Way I Hear You",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 809140,
+   "slug": "the-journey-to-killing-you-season-2",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "The Journey to Killing You Season 2",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 811590,
+   "slug": "twisted-tie",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Twisted Tie",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812458,
+   "slug": "watashi-ga-anata-to-iru-riyu-2-guam-wo-otozureta-8-nin-no-danjo-no-10-kakan",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Watashi ga Anata to Iru Riyu Season 2: Guam wo Otozureta 8 Nin no Danjo no 10 Kakan",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 787220,
+   "slug": "doctor-x-age-of-the-white-mafia",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Doctor X: Mafia in White",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812164,
+   "slug": "life-trade",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Life Trade",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812116,
+   "slug": "sekito-elegy",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Red Light Elegy",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 790120,
+   "slug": "recharge-me",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Take Charge of My Heart",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812910,
+   "slug": "uso-wo-tsuita-watashitachi",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Uso wo Tsuita Watashitachi",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 809164,
+   "slug": "okaeri-hatsukoi",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Welcome Back, First Love.",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 813410,
+   "slug": "damn-bulance",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Damn!Bulance",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 810726,
+   "slug": "the-ballad-of-us-season-2",
+   "date": "2026-10-05",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "The Ballad of Us Season 2",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 813222,
+   "slug": "can-you-tell-m-lk",
+   "date": "2026-10-06",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Can You Tell M!LK?",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812692,
+   "slug": "idol-s-table",
+   "date": "2026-10-06",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Idol's Table",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812810,
+   "slug": "love-village-season-3",
+   "date": "2026-10-06",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Love Village Season 3",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812924,
+   "slug": "not-equal-me-nanashi-no-cinderella",
+   "date": "2026-10-06",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Not Equal ME Nanashi no Cinderella",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 813434,
+   "slug": "kickflip-comeback-stage-kick-off-the-wall-pt-1",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "KickFlip Comeback Stage: Kick off the Wall Pt.1",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 813510,
+   "slug": "shooting-stars-3rd-gifa-cup",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Shooting Stars: 3rd GIFA Cup",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812570,
+   "slug": "deo-riseun-uriga-meomun-gyejeol",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "The Listen: The Season We Stayed",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 813596,
+   "slug": "youtuber-golden-bell",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Youtuber Golden Bell",
+   "label": "Premiere",
+   "predicted": true
   }
  ],
- "movies": [],
+ "movies": [
+  {
+   "id": 813610,
+   "slug": "drunk-in-love",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Drunk in Love",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 463053,
+    "title": "Ibiza",
+    "overview": "She could do the responsible thing. Or she could go to Ibiza with her best friends to chase down a hot DJ. Easy choice.",
+    "poster": "/xm0QJ3eumZ5LSewpYKQe6KfwWRW.jpg",
+    "backdrop": "/nHtagbQtCQGlenIts2z5MCAFC30.jpg",
+    "runtime": 94,
+    "genres": [
+     "Comedy",
+     "Romance"
+    ],
+    "release_date": "2018-05-25"
+   }
+  },
+  {
+   "id": 783146,
+   "slug": "anata-no-musuko-hikidashimasu",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Anata no Musuko Hikidashimasu",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 810478,
+   "slug": "death-kill-game",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Death Kill Game",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 204463,
+    "title": "Mortal Battle",
+    "overview": "A trio of rogues, King Kim, Pong Mar Kow and Shintaro steal a shipment of smuggled cash, but before long they are fighting suspicion, mistrust and the violent Hong Kong Mafia!",
+    "poster": "/vzUX4eiJVsxXQcDtZ5YYmKpUPfd.jpg",
+    "backdrop": null,
+    "runtime": 84,
+    "genres": [
+     "Action"
+    ],
+    "release_date": "1975-03-15"
+   }
+  },
+  {
+   "id": 810924,
+   "slug": "kiriko-no-takuto-yell",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Echoes of Kiriko",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 810922,
+   "slug": "honto-ni-atta-hanashi-no-hanashi",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "F(r)iction",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1286306,
+    "title": "Gekijō-ban: Hontō ni Atta Kowai Hanashi 2019 Fuyu no Tokubetsu-hen",
+    "overview": "A film version of the psychic omnibus horror \"Honto ni Atta Kowai Hanashi\".",
+    "poster": "/oX4yryy8DBoTzgaUYTUf6Ilf3sv.jpg",
+    "backdrop": null,
+    "runtime": 80,
+    "genres": [
+     "Horror"
+    ],
+    "release_date": "2019-11-27"
+   }
+  },
+  {
+   "id": 810390,
+   "slug": "first-voice",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "First Voice",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1362419,
+    "title": "First Voice",
+    "overview": "A feature horror film.",
+    "poster": null,
+    "backdrop": null,
+    "runtime": 0,
+    "genres": [
+     "Horror"
+    ],
+    "release_date": "2024-09-02"
+   }
+  },
+  {
+   "id": 808928,
+   "slug": "mamaseka",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Mama ga mo Kono Sekai ni Inakute mo: Watashi no Inochi no Nikki",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812668,
+   "slug": "nigero-ojosan",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Nigero Ojosan",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 810926,
+   "slug": "okiharu-kun-no-namida-wo-koroshite",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Okiharu-kun no Namida wo Koroshite",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 806268,
+   "slug": "the-wage-of-angel-of-death-is-300-yen-per-hour",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Part-Time Death Angel",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 811504,
+   "slug": "utatte",
+   "date": "2026-10-02",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Utatte!",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 585250,
+    "title": "Kamen Rider Den-O: Singing, Dancing, Great Training!!",
+    "overview": "Ryotaro Nogami, Kohana, Momotaros, Urataros, Kintaros, Ryutaros, Deneb, and Sieg join in on a series of exercises to get Ryotaro into shape so he can fight. Unfortunately, the Spider Imagin, the Wolf Imagin, and the Anthopper Imagin interrupt the exercises, Ryotaro becomes Kamen Rider Den-O Liner Form to use his training against the evil Imagin!",
+    "poster": "/vxoYhNiECbfVPmC3bhTeDgHSNay.jpg",
+    "backdrop": "/r99SIAUs66Lx93UMtsmCtzOMNgV.jpg",
+    "runtime": 15,
+    "genres": [
+     "Action",
+     "Science Fiction",
+     "Comedy"
+    ],
+    "release_date": "2007-09-01"
+   }
+  },
+  {
+   "id": 776257,
+   "slug": "day-and-night-to-each-other",
+   "date": "2026-10-06",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "The Table: Day and Night",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 74213,
+   "slug": "jung-s-ranch",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Cattle Run",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 802312,
+   "slug": "6-lying-university-students",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Final Interview",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1317132,
+    "title": "Six Lying University Students",
+    "overview": "The setting is a recruitment examination for an IT company, there are six finalists who are given the task to build a team and hold a discussion in one month's time. So, they deepen their interaction with each other so that all to receive offers. But soon they will find that the assignment has been changed and there will be only one succeosor.\r 6 envelopes are found in the discussion room which contain accusations of the \"crimes\" of each of the six. Who is the liar? The ultimate psychological battle begins.",
+    "poster": "/uVK449zy5RhrMnieCOnkijH5HCC.jpg",
+    "backdrop": "/XaRw0HnwPmkGLLXdJZReMzFfgO.jpg",
+    "runtime": 113,
+    "genres": [
+     "Mystery"
+    ],
+    "release_date": "2024-11-22"
+   }
+  },
+  {
+   "id": 812608,
+   "slug": "sapiens",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Sapiens",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 502649,
+    "title": "Sapiens",
+    "overview": "The world through the eyes of a flower growing on the side of the road. The flower sees how the electric wires are humming, how cars are rushing by, planes are flying by. Accidents happen before his eyes, it rains and the sun shines — all this the flower observes from the side, without interacting with the outside world. But suddenly a car stops on the side of the road, a girl gets out of it. She holds a book with Japanese triplets in her hand and pays attention to the flower...",
+    "poster": "/rHBlITTaeUfrI0mBDn98n2DQc1P.jpg",
+    "backdrop": null,
+    "runtime": 13,
+    "genres": [
+     "Drama",
+     "Science Fiction"
+    ],
+    "release_date": "2004-02-07"
+   }
+  },
+  {
+   "id": 811862,
+   "slug": "sinner",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Sinner",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 423851,
+    "title": "Sinner",
+    "overview": "In a dystopian future where the world has devolved into a pre-industrial state, the Purists rule supreme. The Purists blame technology for all the world’s past ills, and have deemed it to be inherently sinful. A handful of Companions, human-like artificial intelligence, have managed to make it through the apocalypse. They survive the only way they can –by hiding in plain sight.",
+    "poster": "/bmyHDLqYrlZsng2BSWobrdJqqVM.jpg",
+    "backdrop": "/1USfeTPz2QLBivvdY62HKi8gGFj.jpg",
+    "runtime": 12,
+    "genres": [
+     "Drama",
+     "Science Fiction"
+    ],
+    "release_date": "2016-10-31"
+   }
+  },
+  {
+   "id": 811460,
+   "slug": "the-chain-of-roses",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "The Chain of Roses",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1759822,
+    "title": "The Chain of Roses",
+    "overview": "Waking up handcuffed together after a violent crash, a man and a woman find themselves on the run from both the police and ruthless drug dealers. With no memories of the past, they are unsure which of them is the cop and who is the criminal.",
+    "poster": "/3GEEYed1H1QnrBwUE1olUQb4JaK.jpg",
+    "backdrop": "/yYnJ91M3XQd1nb1HveAaXcWrM3z.jpg",
+    "runtime": 83,
+    "genres": [
+     "Thriller",
+     "Mystery"
+    ],
+    "release_date": "2026-12-11"
+   }
+  },
+  {
+   "id": 748047,
+   "slug": "csat-secret-of-exam-questions",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Ugly Duckling Ms. Maeng",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 807224,
+   "slug": "in-the-clear-moonlit-dusk",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "In the Clear Moonlit Dusk",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1410955,
+    "title": "In the Clear Moonlit Dusk",
+    "overview": "The school’s cool, prince-like heroine has never questioned her role—until a fellow “Prince” enters her life and sees her as more than a hero, awakening feelings she’s never faced before.",
+    "poster": "/mbp5x8c8wq1r397rICNh1xN6qNE.jpg",
+    "backdrop": "/9YgJxu1S8fsK2s9na4PUo7ptKVS.jpg",
+    "runtime": 0,
+    "genres": [
+     "Romance",
+     "Drama"
+    ],
+    "release_date": "2026-10-23"
+   }
+  },
+  {
+   "id": 812938,
+   "slug": "my-mother",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "My Mother",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 968173,
+    "title": "My Mother",
+    "overview": "Donna reminisces about her childhood and her relationship with her mother, the inspiration behind her weekend visits to San Francisco where she lives and performs as Donna Personna.",
+    "poster": "/vHWDoKGAD3u3qpby0MZfRzJpnDH.jpg",
+    "backdrop": null,
+    "runtime": 9,
+    "genres": [
+     "Documentary"
+    ],
+    "release_date": "2013-02-01"
+   }
+  },
+  {
+   "id": 812962,
+   "slug": "revolving-lanterns",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Revolving Lanterns",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1759805,
+    "title": "Revolving Lanterns",
+    "overview": "A car makes its way through the pitch black on a snowy night, into a village deep in the mountains. Okugawa, nestled in the mountains of Fukushima, is the man's hometown. The village is slowly disappearing, its population dwindled down to just 500 elderly residents, yet the man begins building a new house.",
+    "poster": "/8Gs1ALPgqDQw9KWvODUSUBkwPfB.jpg",
+    "backdrop": "/aTdKWRaowS6r7RgiCVHEq1nmVgV.jpg",
+    "runtime": 113,
+    "genres": [
+     "Documentary"
+    ],
+    "release_date": "2026-12-12"
+   }
+  },
+  {
+   "id": 804092,
+   "slug": "myeondo",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Shaving",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812270,
+   "slug": "still-shining",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Still Shining",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1652642,
+    "title": "Still Shining",
+    "overview": "In the 1940s, Soon-ok and Jeong-eem dream of leaving home to chase music and freedom. But a sudden tragedy in the community shatters innocence, forcing Soon-ok into an unexpected marriage. Jeong-eem disappears under mysterious circumstances, leaving Soon-ok burdened with guilt and unanswered questions. Decades later, the elderly Soon-ok reunites with Jeong-eem, who remembers nothing of their past.",
+    "poster": "/t9EUrwCxhppSryjEspwYi5gA7km.jpg",
+    "backdrop": "/pp8bzGYGHbb6OQ6mpwd5KzNeVG.jpg",
+    "runtime": 118,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-10-21"
+   }
+  },
+  {
+   "id": 807070,
+   "slug": "satsujin-no-mon",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "The Gate of Murder",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1677235,
+    "title": "The Gate of Murder",
+    "overview": "Kazuyuki Tajima strikes up a friendship with his elementary school classmate, Osamu Kuramochi. From that moment on, a dark shadow begins to fall over his life. Following his grandmother's death, his parents divorce, and a rumor drives him out of his hometown. Each time he attempts to start over, Kuramochi reappears in his life.",
+    "poster": "/reKfPJre09EH3ori1G7hmIK62cV.jpg",
+    "backdrop": "/dP1o1fhM3o6POZ9n6YaBF9URWCE.jpg",
+    "runtime": 0,
+    "genres": [
+     "Mystery"
+    ],
+    "release_date": "2027-02-19"
+   }
+  },
+  {
+   "id": 788722,
+   "slug": "regret-about-times",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "The Sorry Generation",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 813016,
+   "slug": "the-things-that-vanish",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "The Things That Vanish",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1760046,
+    "title": "The Things That Vanish",
+    "overview": "In an old house by a remote lake, 81-year-old Sumie lives alone, her memory slowly fading. Michi, the 27-year-old caregiver who comes to look after her, has a slight tendency to steal. Michi feels guilty for not having returned an old wristwatch she found.",
+    "poster": "/vJMdHcESS1ALK7sjjWZIvTCAaJQ.jpg",
+    "backdrop": "/h1g05zEdaeRgKPeo5U2QcLjUgyo.jpg",
+    "runtime": 14,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-10-08"
+   }
+  },
+  {
+   "id": 810122,
+   "slug": "a-distant-neighborhood",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "A Distant Neighborhood",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 62871,
+    "title": "A Distant Neighborhood",
+    "overview": "Thomas, a father in his fifties, returns by chance to the town where he grew up. He collapses and wakes up forty years earlier in the body of his teenage self. Thrown back into his past, Thomas will not only have to re-live his first love, but also try to understand the reasons for his father’s mysterious departure. Can you change the past by living it again?",
+    "poster": "/wLLx74H0789Vvf4u5TTJEkdIh2p.jpg",
+    "backdrop": "/42NVkOpoy9p88v8acxqZDzuB22q.jpg",
+    "runtime": 98,
+    "genres": [
+     "Drama",
+     "Fantasy",
+     "Comedy"
+    ],
+    "release_date": "2010-05-20"
+   }
+  },
+  {
+   "id": 811458,
+   "slug": "hajimari-no-sayonara",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "After the Song",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 813318,
+   "slug": "annyeong-stellar",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Annyeong, Stellar",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1759854,
+    "title": "Annyeong, Stellar",
+    "overview": "Goonamgua yeo riding Stellar a band that began at the cafe and bar Goonamgwayeo in Hoegi, Seoul, in 2005, has spent 20 years making music that mixes trot, garage, dub, and electronic sounds - music that fits into no genre lineage. But in September 2025, the band announced its breakup with a statement: \"We are trying to stop the weird car that seemed as though it would run forever.\" Then they set off on a 'Annyeong Tour' from Sokcho to Jeju.",
+    "poster": "/gBxEO2msy45LTrWs3MA7j2to9eq.jpg",
+    "backdrop": "/7Q9vvaz3LPY2wzg7vqvADjxgA8A.jpg",
+    "runtime": 101,
+    "genres": [
+     "Documentary",
+     "Music"
+    ],
+    "release_date": "2026-10-09"
+   }
+  },
+  {
+   "id": 813316,
+   "slug": "baler",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Baler",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 57931,
+    "title": "Baler",
+    "overview": "In 1898, a band of Spanish soldiers heroically defended Baler against Filipino forces for 337 long and grueling days. The battle, now referred to as the Siege of Baler, is the setting of a forbidden love between a Mestizo soldier and a Filipina lass who lived at the end of the 19th century.",
+    "poster": "/5CjDuIQRlYcyzDeFsKIy9F8n9L8.jpg",
+    "backdrop": null,
+    "runtime": 110,
+    "genres": [
+     "History",
+     "Drama",
+     "Romance",
+     "War"
+    ],
+    "release_date": "2008-12-25"
+   }
+  },
+  {
+   "id": 813248,
+   "slug": "not-for-you",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Not for You",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1738680,
+    "title": "Not for You",
+    "overview": "Eunwoo, Seungwoo, and Yunyoung met at a support group for survivors of suicide loss. Having each experienced the loss of someone close to them, they often spend time together. They visit the Hantan River together, where Seungwoo's late father's ashes were scattered, and help Yunyoung move into her first place of her own. It was those they lost who brought the three of them together.",
+    "poster": "/ylg4aXIxfpNOZzDRjiGVAyyPLB1.jpg",
+    "backdrop": "/lTB5wF1JMmZKsAYnz9Org5dTzpA.jpg",
+    "runtime": 122,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-10-09"
+   }
+  },
+  {
+   "id": 813252,
+   "slug": "nothing-has-happened-yet",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Nothing Has Happened Yet",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1754755,
+    "title": "Nothing Has Happened Yet",
+    "overview": "Eunyul possesses a special ability to glimpse what lies ahead for her - but only when she sits on a certain bench on her home island of Geoje. Carrying Robert Walser's The Walk, a gift from an ex-lover, Eunyul returns to her hometown. There, she meets her senior Minjeong and Minjeong's partner Jigeun, someone who remains a painful memory for Eunyul. A stranger also travels through. And in these encounters, she comes face to face with herself.",
+    "poster": "/pByhkud9wwimeJztyuis0F3lTZk.jpg",
+    "backdrop": "/uQHwyTL0Ms2BWp4UwxZmSVcBmvi.jpg",
+    "runtime": 98,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-10-09"
+   }
+  },
+  {
+   "id": 813250,
+   "slug": "some-detective",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Some Detective",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1738684,
+    "title": "Some Detective",
+    "overview": "Writer Hye-joo is trying her hand at a detective novel for the first time, but things aren’t going as she'd hoped. One day she receives a call from the mother of her ex-husband Tae-jae and sets out, beginning an unfamiliar journey. What follows is a series of encounters, some with people from Hye-joo's past and others arising from relationships in her present. These encounters may have little to do with her original purpose, taking her far off course. On a day she is supposed to meet her boyfriend, for instance, she never sees him and instead finds herself spending time with his son Yul-i and his friend Jong-i.",
+    "poster": "/68kuU0Gf4gLwNtYy6iTXNz4S0XI.jpg",
+    "backdrop": "/pCvlD8C05jowhTjIaHg8V8LrFqn.jpg",
+    "runtime": 85,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-10-09"
+   }
+  },
+  {
+   "id": 813260,
+   "slug": "soundweave",
+   "date": "2026-10-09",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Soundweave",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1754953,
+    "title": "Soundweave",
+    "overview": "At the end of a lost village, a lost father, and lost memory, there is a sound that shall not disappear.",
+    "poster": "/ymPlLIVacvIX7HEzU28RBK1Bqpr.jpg",
+    "backdrop": "/teMajrZGm4agkYZR4UdACfbOAXo.jpg",
+    "runtime": 74,
+    "genres": [
+     "Documentary"
+    ],
+    "release_date": "2026-10-09"
+   }
+  },
+  {
+   "id": 813314,
+   "slug": "beach-fictions",
+   "date": "2026-10-10",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Beach Fictions",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1738677,
+    "title": "Beach Fictions",
+    "overview": "Tae-ju, tormented by whispers and rumors swirling around her for reasons she doesn’t understand, boards a train as if fleeing. On the train, she happens to meet novelist Ewha, who tells Tae-ju she resembles the protagonist of a novel she’s writing. Arriving at the beach, Tae-ju meets a street magician named Manhyuk, visits a fortune-teller recommended by Ehwa, and spends some time with complete strangers at a guesthouse.",
+    "poster": "/eFjXM8myuKnyrl1KEdxNikhDAGn.jpg",
+    "backdrop": "/bVUO7QhZvNp3Uwkz1JSw92CKcXE.jpg",
+    "runtime": 145,
+    "genres": [
+     "Drama",
+     "Romance"
+    ],
+    "release_date": "2026-10-10"
+   }
+  },
+  {
+   "id": 813278,
+   "slug": "beyond-love-s-horizon",
+   "date": "2026-10-10",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Beyond Love's Horizon",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1754749,
+    "title": "Beyond Love's Horizon",
+    "overview": "Taeyoung and Jumi, a married couple who have closed down their shop, are at a loss. Then, like a miracle, new life arrives. The road through pregnancy, childbirth, childrearing, and caregiving proves far more grueling and arduous than expected. Overwhelmed by extreme physical and mental exhaustion, the couple fumbles, falters, stumbles, and slips again and again. And yet, their child is pure, absolute joy.",
+    "poster": "/58g2QZe8GXxQ9RbInHQujqHx3yI.jpg",
+    "backdrop": "/mOiXgWeMc3C6ZP5YVQBUhjpcDcF.jpg",
+    "runtime": 96,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-10-10"
+   }
+  },
+  {
+   "id": 813438,
+   "slug": "cosmic-trace",
+   "date": "2026-10-10",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Cosmic Trace",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1455389,
+    "title": "Cosmic Trace",
+    "overview": "Hyeonji, an assistant producer for a YouTube channel, and Jihyeon , a struggling actor, continue living together while grappling with anxieties about the present and the future. When Hyeonji's father dies suddenly and Jihyeon's mother is diagnosed with terminal cancer, they find themselves overwhelmed.",
+    "poster": "/5JzdmYBgOfmVSh1OUbBqhHE4V6J.jpg",
+    "backdrop": "/rTDsWOQfQMNk4wTYpWEJwyDMz6N.jpg",
+    "runtime": 130,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-10-10"
+   }
+  },
+  {
+   "id": 813436,
+   "slug": "full-moon",
+   "date": "2026-10-10",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Full Moon",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 418297,
+    "title": "Full Moon",
+    "overview": "Be inspired by women who push boundaries. FULL MOON showcases the legends, current icons and future prodigies of this ever-evolving lifestyle sport. Seven of the world’s best female snowboarders join forces for the first time ever to explore their backyard, the backcountry of magnificent British Columbia. We are inspired through the intimate, heart-felt stories through the eyes of some of the most influential females in our sport. Full Moon is a two-year film project documenting the past, present, and future of women's snowboarding. For the first time, some of the best women riders in the sport will work together as a crew to push their limits and capture the camaraderie and adventure that comes with it. Through interviews and resurrected classic footage, Runway Films is producing a film that pays tribute to the history of women's snowboarding and showcases how it has influenced and encouraged the current state of the sport.",
+    "poster": "/cwLSKpZWCVTxbq5DiqXteB7rYdc.jpg",
+    "backdrop": null,
+    "runtime": 46,
+    "genres": [
+     "Documentary"
+    ],
+    "release_date": "2016-12-31"
+   }
+  },
+  {
+   "id": 812944,
+   "slug": "hinotama-ball-of-fire",
+   "date": "2026-10-10",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Hinotama: Ball of Fire",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1754883,
+    "title": "Hinotama: Ball of Fire",
+    "overview": "As his parents' marriage fractures and eventually collapses into divorce, high schooler Takeshi becomes increasingly obsessed with hunting for a mysterious 'ball of fire' rumored by a childhood friend. Using this quest to escape the quiet turmoil at home, Takeshi leaves his younger brother to shoulder the family's emotional weight without realizing it.",
+    "poster": "/cFfVLhhpZYbjCxA12i4qe8YVHqr.jpg",
+    "backdrop": "/yFPZzqIwLoND6sBnwzIwCFrouSc.jpg",
+    "runtime": 112,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-10-10"
+   }
+  },
+  {
+   "id": 808182,
+   "slug": "silver-express",
+   "date": "2026-10-10",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Silver Express",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1759179,
+    "title": "silver express",
+    "overview": "Chieri, who has never had romantic feelings for anyone and has no romantic experience, always feels lonely and out of place. Not only does she struggle with interpersonal relationships with close friends like Yuki, but she also finds it difficult to empathize with the characters in romantic movies, and is unable to respond well to the affections of her close male friend, Saito. One day, Chieri meets Shoya, a man who, like her, has no romantic feelings. The two hit it off and rejoice that they are not alone. However, despite their seemingly limitless similarities, there is one crucial difference...",
+    "poster": "/anJzruk62khfoHm8HIV61Dcas4i.jpg",
+    "backdrop": "/d5e0tsm4ZzOrkjtyqZlCdhs7WZs.jpg",
+    "runtime": 97,
+    "genres": [
+     "Drama",
+     "Romance"
+    ],
+    "release_date": "2026-11-13"
+   }
+  },
+  {
+   "id": 813254,
+   "slug": "space",
+   "date": "2026-10-10",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Space",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 2300,
+    "title": "Space Jam",
+    "overview": "With their freedom on the line, the Looney Tunes seek the help of NBA superstar Michael Jordan to win a basketball game against a team of moronic aliens.",
+    "poster": "/4RN5El3Pj2W4gpwgiAGLVfSJv2g.jpg",
+    "backdrop": "/lWybXICZZpxnSvWSOW53XxTERUg.jpg",
+    "runtime": 87,
+    "genres": [
+     "Family",
+     "Science Fiction",
+     "Fantasy",
+     "Comedy",
+     "Animation"
+    ],
+    "release_date": "1996-11-15"
+   }
+  },
+  {
+   "id": 813592,
+   "slug": "tale-of-tails",
+   "date": "2026-10-10",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Tale of Tails",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1760025,
+    "title": "Tale of Tails",
+    "overview": "Teenage girls draw in a picturesque field. Loner Jimin feels that her chance has come when Minji, the popular girl everyone adores, is bitten by a venomous snake.",
+    "poster": "/nsJVVUfMH4We7sGYoSX9T9Syqgv.jpg",
+    "backdrop": "/d3YP159Bt0D40Ow6ntLSSWbSwnh.jpg",
+    "runtime": 19,
+    "genres": [
+     "Mystery"
+    ],
+    "release_date": "2026-10-10"
+   }
+  },
+  {
+   "id": 813414,
+   "slug": "the-birds",
+   "date": "2026-10-10",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "The Birds",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 571,
+    "title": "The Birds",
+    "overview": "Thousands of birds flock into a seaside town and terrorize the residents in a series of deadly attacks.",
+    "poster": "/eClg8QPg8mwB6INIC4pyR5pAbDr.jpg",
+    "backdrop": "/98qofsLB8HwPsmlq0HczQTt8BcS.jpg",
+    "runtime": 119,
+    "genres": [
+     "Horror",
+     "Thriller"
+    ],
+    "release_date": "1963-03-28"
+   }
+  },
+  {
+   "id": 813246,
+   "slug": "things-i-left-at-the-theater",
+   "date": "2026-10-10",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Things I Left at the Theater",
+   "label": "Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1647236,
+    "title": "Things I Left at the Theater",
+    "overview": "Film critic Dogyeong belatedly learns of an old friend's death. As it happens, this comes not long after the demolition of an old theater in Gangwon Province. Somehow, the two events do not feel all that different to her. As her work as a critic takes her from place to place, Dogyeong searches for her late friend’s short film and visits theaters and screening spaces where it might once have been shown.",
+    "poster": "/ieZHYE0kwakXZM2nBucHqlR3d1W.jpg",
+    "backdrop": "/n59tsj8UT01grj0HywQyIcA7Gwx.jpg",
+    "runtime": 119,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-10-10"
+   }
+  },
+  {
+   "id": 808390,
+   "slug": "kono-go-ni-oyonde-ai-nado",
+   "date": "2026-10-11",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Between Two Lovers",
+   "label": "Movie Release",
+   "movie": true
+  },
+  {
+   "id": 813186,
+   "slug": "ano-hi-uchu-wo-dakishimeta",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "The Day We Embraced the Universe",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 813120,
+   "slug": "leonidas",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Leonidas",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1024196,
+    "title": "Kiezjargon – Leonidas",
+    "overview": "Only the others have fun: In the Hamburg social drama, a teenager experiences the cold side of the neighbourhood. Hunger drives Leon (Albert Lichtenstern) onto the street. His mother has once again not taken care of him and is somewhere. To get money and food, the 15-year-old steals everything that is not nailed down. He finds small odd jobs in the run-down \"Palaise Cherie\" brothel, which has become a place to go for him. His fatherly friend Klaus (Detlev Dorendorf), the \"Koberer\", sits on his stool day and night and tries to guide passers-by into the shop. And then there is a prostitute to whom Leon feels attracted. As always, the boy somehow gets through the day - but this time he has to realise that his mother is not coming back to him.",
+    "poster": "/zKaXTOnP7Up8Vpqlh9ObR0WbCx2.jpg",
+    "backdrop": null,
+    "runtime": 83,
+    "genres": [],
+    "release_date": "2022-10-01"
+   }
+  },
+  {
+   "id": 812196,
+   "slug": "memory",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Memory",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 818397,
+    "title": "Memory",
+    "overview": "Alex, an assassin-for-hire, finds that he's become a target after he refuses to complete a job for a dangerous criminal organization. With the crime syndicate and FBI in hot pursuit, Alex has the skills to stay ahead, except for one thing: he is struggling with severe memory loss, affecting his every move. Alex must question his every action and whom he can ultimately trust.",
+    "poster": "/4Q1n3TwieoULnuaztu9aFjqHDTI.jpg",
+    "backdrop": "/9zXPnbVpaDfTniLBuc5vgXGfzAP.jpg",
+    "runtime": 114,
+    "genres": [
+     "Action",
+     "Thriller",
+     "Crime"
+    ],
+    "release_date": "2022-04-28"
+   }
+  },
+  {
+   "id": 803176,
+   "slug": "mentor",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Mentor",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 718971,
+    "title": "Mentor",
+    "overview": "Beta signs up for a standup comedy competition despite having never been on stage before. She asks Húgó, the winner of the same competition 10 years earlier for help with her comedy. This awakens a desire for the past in Húgó, while Beta tries to overcome her insecurities.",
+    "poster": "/q2HVaN9O0anUP88GkwFuIm6SS6a.jpg",
+    "backdrop": "/iRYcdyEEdsIvE4OE9iMKsg3xBkQ.jpg",
+    "runtime": 96,
+    "genres": [
+     "Comedy"
+    ],
+    "release_date": "2020-06-24"
+   }
+  },
+  {
+   "id": 779328,
+   "slug": "killing-time",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Killing Time",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 261169,
+    "title": "Killing Time",
+    "overview": "6 February 1998, Port Arthur, Texas: Erin is home alone. She is about to watch a film when a masked man suddenly appears in the living room. She thinks it’s a friend joking around. 12 June 2013, Huntsville, Texas: In Huntsville State Penitentiary, preparations are underway for execution #499. A little after 6pm, Elroy Chester will be executed by lethal injection for the rape of Erin and Claire DeLeon and the murder of their uncle, fireman Billy Ryman. Killing Time reconstructs an old murder, and shows the impact on the family members and victims during the day of execution. The family of the victims and the prisoner, the guards in the towers, the pastors, the journalists, the handful of demonstrators: everyone has his own way of killing the last few hours of Elroy Chester’s life. Where one yearns for the long-anticipated closure of the case, the other faces oblivion",
+    "poster": "/c377dj3p3EH9ENeZtb2uyJWneol.jpg",
+    "backdrop": null,
+    "runtime": 54,
+    "genres": [
+     "Documentary"
+    ],
+    "release_date": "2013-08-25"
+   }
+  },
+  {
+   "id": 812766,
+   "slug": "tenten-zutto-dokushin-de-iru-tsumori",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Dot to Dot: Will I Be Single Forever?",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 809724,
+   "slug": "sakuya-wa-yareta-kamo",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Love Me Kill Me",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 813228,
+   "slug": "yamaneko",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Yamaneko",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1171193,
+    "title": "Myōgi no yamaneko",
+    "overview": "Film about Ghost-Cat.",
+    "poster": null,
+    "backdrop": null,
+    "runtime": 0,
+    "genres": [
+     "Horror"
+    ],
+    "release_date": "1921-01-01"
+   }
+  },
+  {
+   "id": 808594,
+   "slug": "sukiyaki-ue-wo-muite-arukou",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Sukiyaki",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1621673,
+    "title": "Sukiyaki",
+    "overview": "In 1963, as Japan emerged from the shadows of war into an era of extraordinary transformation, an unlikely song made music history. \"Ue o Muite Arukou,\" known internationally as \"Sukiyaki,\" became the first Japanese song to top the U.S. Billboard charts, remaining at No. 1 for three weeks and captivating listeners around the world.",
+    "poster": "/75A08il8gi8ToPCEAFqWdCwoZ1.jpg",
+    "backdrop": "/qSgrpWcyrv2VbJwxjboXOAGKOgh.jpg",
+    "runtime": 155,
+    "genres": [
+     "Drama",
+     "Music",
+     "History"
+    ],
+    "release_date": "2026-12-25"
+   }
+  },
+  {
+   "id": 810174,
+   "slug": "otoko-tomodachi",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Two Cigarettes, Three Nights",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1738772,
+    "title": "Otoko Tomodachi",
+    "overview": "Eriko, a 25-year-old office worker living in Tokyo, has become pregnant by her boyfriend, Ide, whom she doesn’t love all that deeply. Torn between her future and her lingering feelings for Uozumi, whom she dated in college, she travels to Shikoku—Uozumi’s hometown—with her best friend, Misato. Meanwhile, she also learns that Ide had gotten another woman pregnant at the same time, and that she chose to have an abortion…",
+    "poster": "/myUZocUqt31dEokD4NsI57QTqBT.jpg",
+    "backdrop": null,
+    "runtime": 100,
+    "genres": [],
+    "release_date": "1994-01-10"
+   }
+  },
+  {
+   "id": 813548,
+   "slug": "ienai-futari",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Between Us",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 813396,
+   "slug": "hitsuji-no-kawa-wo-kita-kemono",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Monster in Sheep's Clothing",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812676,
+   "slug": "the-intertwining",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "The Intertwining",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1765989,
+    "title": "The Intertwining",
+    "overview": "Two people whose fates were switched by an embryo mix-up meet by chance. A shocking truth leads them to question who they are and begin to search for their own place in life.",
+    "poster": "/zWE9VQq8Y2K0G2Db8HuhKkO5f8b.jpg",
+    "backdrop": "/zFphgYLC1beBF5YXPqMl7adhi6b.jpg",
+    "runtime": 131,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2027-02-05"
+   }
+  },
+  {
+   "id": 809172,
+   "slug": "ryuji",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Ryuji",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1646897,
+    "title": "RYUJI ⻯⼆",
+    "overview": "The eternal legend etched into Japanese film history, rises again. (remake of the 1983 eponymous film).",
+    "poster": "/xPfcMiKjHvZfFGyjRVFa8PxKFc0.jpg",
+    "backdrop": "/uPDr58oEYOIdiDWSPhC9EcG8XsT.jpg",
+    "runtime": 0,
+    "genres": [
+     "Crime",
+     "Drama"
+    ],
+    "release_date": "2026-10-30"
+   }
+  },
+  {
+   "id": 811552,
+   "slug": "the-potentials",
+   "date": "2026-10-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "The Potentials",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1748514,
+    "title": "The Potentials",
+    "overview": "Teruichi Tsuchiya, 42, is a perpetual assistant to a master manga artist. He feels uneasy about his junior colleague who has debuted as a manga artist, his estranged wife who is a popular voice actress, and for some reason, he is constantly at odds with his daughter, who lives with him and is preparing for her high school entrance exams. Just as a 17-year-old manga series comes to an end, a new manga project comes along. Joining him are Yuki Shioda, a 29-year-old editor who is aware of his lack of passion for his work, and Potato Yamada, a headstrong 40-year-old rookie assistant. What future awaits him after taking this step…?",
+    "poster": "/qjuzeBRrqHAyGJIJLyJBGuCy5oY.jpg",
+    "backdrop": "/aqRnv8agNOLSLOwJ3ngfAPI6gFK.jpg",
+    "runtime": 0,
+    "genres": [],
+    "release_date": "2026-10-30"
+   }
+  },
+  {
+   "id": 762913,
+   "slug": "snowfall",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "White Blast",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1084523,
+    "title": "Snowfall",
+    "overview": "Charlie seeks out the help of his good friend Ben after three winters of being followed by the same spectral figure",
+    "poster": "/q7FLSIXh7jQXGRlDwRQacfd9jxh.jpg",
+    "backdrop": null,
+    "runtime": 27,
+    "genres": [
+     "Horror",
+     "Mystery"
+    ],
+    "release_date": ""
+   }
+  },
+  {
+   "id": 797170,
+   "slug": "chodaisaku-kaiju-eiga",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Godzilla Minus Zero",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 806838,
+   "slug": "one-year-to-live-buy-a-man",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "One Year to Live, Buy a Man",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1654940,
+    "title": "One Year to Live, Buy a Man",
+    "overview": "Given a year to live, frugal 40-year-old Yui finally lets herself spend: \"buying\" nightclub host Sena. What begins as a contract takes an unexpected turn.",
+    "poster": "/fez7kLyGzpowduJapTFZZ1feCS0.jpg",
+    "backdrop": "/6vGH7JZFLzFawpwCcnNweF8j3KD.jpg",
+    "runtime": 0,
+    "genres": [
+     "Drama",
+     "Romance"
+    ],
+    "release_date": "2026-11-05"
+   }
+  },
+  {
+   "id": 809948,
+   "slug": "3mm-love",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "3mm Love",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 810440,
+   "slug": "4-out-mou-ichido-play-ball",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "4 Out: Mo Ichido, Play Ball",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 798824,
+   "slug": "enzai-no-tsukuri-kata",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Enzai no Tsukuri Kata",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 809772,
+   "slug": "hoshi-no-kyoshitsu",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Hoshi no Kyoshitsu",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 808574,
+   "slug": "kamen-rider-kabuto-20th-ten-wo-tsunagu-mono",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Kamen Rider Kabuto 20th: Ten wo Tsunagu Mono",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812006,
+   "slug": "tsuri-komachi",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Tsuri Komachi",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 793008,
+   "slug": "tonari-no-trans-shojo-chan",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Tonari no Trans Shojo-chan",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 810392,
+   "slug": "makehende",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Makehende",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 811172,
+   "slug": "noroi-no-smartphone",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Noroi no Smartphone",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1737072,
+    "title": "Noroi no Smartphone",
+    "overview": "",
+    "poster": "/qryNJvosIIaltiMQleHPZtCoI1l.jpg",
+    "backdrop": null,
+    "runtime": 0,
+    "genres": [
+     "Horror",
+     "Thriller"
+    ],
+    "release_date": "2026-11-13"
+   }
+  },
+  {
+   "id": 809854,
+   "slug": "naimononedari-no-kimi-ni-hikari-no-hanataba-wo",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Naimononedari no Kimi ni Hikari no Hanataba wo",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812182,
+   "slug": "nichiyo-no-ato",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "The Day after Sunday",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 810086,
+   "slug": "tsuki-ga-miteiru",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "The Moon Is Watching",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 813122,
+   "slug": "itsuka-no-somato-de",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Itsuka no Somato de",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812124,
+   "slug": "koi-kizu",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Koi Kizu",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1119909,
+    "title": "Good Luck",
+    "overview": "Twelve year old Osamu Hirano is in love with his classmate Rio, but he doesn’t have courage to confess his love to her. One day he learns that she is going out with Shuichi and this makes him very depressed. Shuichi is also a classmate, but unlike Osamu, he is very smart and also good at sports. Meanwhile, Osamu’s 21 year old sister Yumi, who years ago ran away to the big city of Nagoya, suddenly turns up with her fiancé, Kenji Yamaoka, a 45 year old ethnologist. Unsurprisingly, her parents have problems with Yumi’s choice of husband, particularly since he is the same age as her father and appears to have major health problems to boot. Yumi’s sudden reappearance, after years of silence, and her insistence on marrying a man more than twice her age, predictably throws the family into turmoil. Both Yumi and Osamu have problems addressing love, the deeper they fall into it, the more difficulty they have expressing their true feelings.",
+    "poster": "/dYbVIoawftztAvkBgEItrqBfOFo.jpg",
+    "backdrop": null,
+    "runtime": 57,
+    "genres": [],
+    "release_date": "2012-01-01"
+   }
+  },
+  {
+   "id": 812912,
+   "slug": "missed-you-left-you-lost-you-miss-you",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Missed You, Left You, Lost You, Miss You",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 805564,
+   "slug": "wandance",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Wandance",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1718930,
+    "title": "Wandance",
+    "overview": "Kaboku has always just gone with the flow, marching in step to the drumbeat of the expectations of those around him: parents, school, plans for the future. It feels predictable, safe, and… empty. But one night, Kaboku's at school late, and he happens on a girl alone, moving wildly, turning a blank space of concrete into a canvas. This is Hikari Wanda, a member of the hip-hop dance club. Kaboku is immediately smitten, but the road to stepping out of his shell is a long one. The club is almost entirely girls, and they're all, well, way better than him. What's ahead is unknown, and that's terrifying, but it also means, for the first time in Kaboku's life… a taste of freedom.",
+    "poster": "/1UcM2U1CnOP34l7G1Z5N3QuylTv.jpg",
+    "backdrop": "/bOisAh8qxHndd0r2IJBNUxlpldv.jpg",
+    "runtime": 0,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-11-27"
+   }
+  },
+  {
+   "id": 811832,
+   "slug": "your-story",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Your Story",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 263278,
+    "title": "Your Story",
+    "overview": "Hakan and Esra are a married couple in their mid-thirties. They are both uncertain about having a baby, but life has a surprise for them.",
+    "poster": "/y9EG218Ey3m4vP2I0jYsJ6X6gu2.jpg",
+    "backdrop": "/a6xLsjhsOyqnnDA9ajd73VOsu8L.jpg",
+    "runtime": 109,
+    "genres": [
+     "Drama",
+     "Romance"
+    ],
+    "release_date": "2013-12-27"
+   }
+  },
+  {
+   "id": 812760,
+   "slug": "ame-no-etranger",
+   "date": "2026-12-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Ame no Etranger",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1740230,
+    "title": "Ame no etranger",
+    "overview": "",
+    "poster": "/o9cQku52I1gC3cA81qlAba1b67k.jpg",
+    "backdrop": null,
+    "runtime": 0,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-12-04"
+   }
+  },
+  {
+   "id": 810204,
+   "slug": "my-sister-s-boyfriend",
+   "date": "2026-12-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "My Sister's Boyfriend",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1066205,
+    "title": "My Sister's Serial Killer Boyfriend",
+    "overview": "Maddie, a local reporter investigating a series of killings targeting similar looking women is caught off guard when her younger sister Olivia, is attacked in her own home. Urging on the side of caution, Maddie suggests they take a self-defense course. When Olivia starts to fall for their instructor, Maddie becomes skeptical when he refuses to reveal anything about himself, and tries to intervene before the relationship turns into a deadly obsession.",
+    "poster": "/9CMMTffmuzaK8Lx8TBYk6qTTSyZ.jpg",
+    "backdrop": "/20ZansYII7VciPyNXWegcipOl5a.jpg",
+    "runtime": 84,
+    "genres": [
+     "Thriller",
+     "TV Movie"
+    ],
+    "release_date": "2023-01-08"
+   }
+  },
+  {
+   "id": 811914,
+   "slug": "super-space-sheriff-gavan-infinity-vs-raiya",
+   "date": "2026-12-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Super Space Sheriff Gavan Infinity VS Raiya",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1741752,
+    "title": "Super Space Sheriff Gavan Infinity VS Raiya",
+    "overview": "Seeking the truth behind the \"Biscatonic Cluster  Incident\", which claimed an unprecedented number of victims and turned Death Gavan evil, Gavan Infinity —Reiji Doki— sets out for Planet Alkam, one of the planets where the incident took place. There, Gavan Raiya —Kunai Kazanami— who was tracking Death Gavan’s whereabouts, also appears from across dimensions…",
+    "poster": "/5C6dG4GILXmxaAH9GV7thq5LsvP.jpg",
+    "backdrop": null,
+    "runtime": 0,
+    "genres": [
+     "Action",
+     "Adventure",
+     "Science Fiction"
+    ],
+    "release_date": "2026-12-11"
+   }
+  },
+  {
+   "id": 811342,
+   "slug": "jinsei-wo-kaeta-conte",
+   "date": "2026-12-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Jinsei wo Kaeta Conte",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 810082,
+   "slug": "bye-bye-love-tantei-wa-bar-ni-iru",
+   "date": "2026-12-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Bye Bye Love: Tantei wa Bar ni Iru",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812662,
+   "slug": "kimi-no-oto",
+   "date": "2026-12-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Kimi no Oto",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812126,
+   "slug": "kyoto-o",
+   "date": "2026-12-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Kyoto O",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 831765,
+    "title": "O-Bon, Anecdotes from Kyoto",
+    "overview": "In Kyoto, it is in the middle of summer and the O-Bon festival is approaching. Everyone eagerly awaits this annual event, because it is well known that wishes come true. Most of them want wealth, beauty and health. Except Nashi, a homeless man who pollutes the air with his body odour to the point of becoming more and more of a public hazard. His only real wish is to bathe in a public bath.",
+    "poster": "/zCGhHFlCS7mBMOQBQvvH9msFsUO.jpg",
+    "backdrop": null,
+    "runtime": 10,
+    "genres": [
+     "Animation"
+    ],
+    "release_date": "2021-06-01"
+   }
+  },
+  {
+   "id": 808212,
+   "slug": "koe-yo-hirogare",
+   "date": "2027-01-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Koe yo Hirogare",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 808210,
+   "slug": "kokosei-kazoku",
+   "date": "2027-01-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Kokosei Kazoku",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 811838,
+   "slug": "sins-of-kujo",
+   "date": "2027-01-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Sins of Kujo",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1740088,
+    "title": "Sins of Kujo",
+    "overview": "Kujo (Yuya Yagira) continues to live under a tent on a building rooftop, taking on anyone who seeks his help, including those from the criminal underworld.  Although they have separate ways, Kujo's former partner, Karasuma (Hokuto Matsumura), is drawn back into his life as the two become caught between a violent underworld conflict and an escalating police and prosecutorial crackdown.",
+    "poster": "/viroAsjxCxGBC5SYnsBvmDAzgsb.jpg",
+    "backdrop": "/cVrIsoiz1YrmXymh3giEzPUR67c.jpg",
+    "runtime": 0,
+    "genres": [
+     "Thriller",
+     "Crime",
+     "Drama"
+    ],
+    "release_date": "2027-01-08"
+   }
+  },
+  {
+   "id": 801248,
+   "slug": "akiramemasen",
+   "date": "2027-01-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Akiramemasen!",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812134,
+   "slug": "gekijoban-tora-ni-tsubasa",
+   "date": "2027-01-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Gekijo Ban: Tora ni Tsubasa",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812946,
+   "slug": "kasukana-kare-wo-dakishimete",
+   "date": "2027-01-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Kasukana Kare wo Dakishimete",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 810920,
+   "slug": "kaiji-jinsei-revenge-game",
+   "date": "2027-01-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Kaiji: Jinsei Revenge Game",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812948,
+   "slug": "happy-list",
+   "date": "2027-02-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Happy List",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 813188,
+   "slug": "ninchisho-sekai-no-arukikata",
+   "date": "2027-02-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Ninchisho Sekai no Arukikata",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 798844,
+   "slug": "sonzai-no-subete-wo",
+   "date": "2027-02-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Sonzai no Subete wo",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812120,
+   "slug": "leviathan",
+   "date": "2027-02-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Leviathan",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 14372,
+    "title": "Leviathan",
+    "overview": "Underwater deep-sea miners encounter a Soviet wreck and bring back a dangerous cargo to their base on the ocean floor with horrifying results. The crew of the mining base must fight to survive against a genetic mutation that hunts them down one by one.",
+    "poster": "/extm7kFsxr0qMoi1G5F3w5Lwlt4.jpg",
+    "backdrop": "/21JdNVQc49WnLVjYtvDgBJ5AymB.jpg",
+    "runtime": 98,
+    "genres": [
+     "Adventure",
+     "Horror",
+     "Thriller",
+     "Science Fiction"
+    ],
+    "release_date": "1989-03-17"
+   }
+  },
+  {
+   "id": 812770,
+   "slug": "gacha-kansekai",
+   "date": "2027-02-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Gacha: Kansekai",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 812166,
+   "slug": "super-mob-ninja",
+   "date": "2027-02-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Super Mob Ninja",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1757082,
+    "title": "Super Mob Ninja",
+    "overview": "Ordinary young man Akira Higashino accepts a suspiciously high-paying job after losing his convenience store job, only to discover that he and four other troubled people have been recruited by a secret government organization to eliminate violent oni hiding among humans. Chosen because they are seen as “background characters” whose disappearances would go unnoticed, the five must now protect Japan while trying to survive their dangerous new lives.",
+    "poster": "/emBeHNcL5e5zopBcOsRM9T5553h.jpg",
+    "backdrop": null,
+    "runtime": 0,
+    "genres": [
+     "Action"
+    ],
+    "release_date": "2027-02-19"
+   }
+  },
+  {
+   "id": 809816,
+   "slug": "17-sai-no-proof",
+   "date": "2027-02-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "The Book of Seventeen",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 809472,
+   "slug": "1-litre-of-tears",
+   "date": "2027-02-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "1 Litre of Tears",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1056543,
+    "title": "1 Litre Of Tears SP",
+    "overview": "The Story of the 1 Litre of Tears special takes place after the events in the main drama. The Special takes the view of Asou Haruto who is remembering life the way it used to be before the events of the last episode of the series.",
+    "poster": "/2xvIx2vz7wue9ZJYK8F6cwlcLw1.jpg",
+    "backdrop": null,
+    "runtime": 141,
+    "genres": [
+     "Drama",
+     "Family"
+    ],
+    "release_date": "2007-04-05"
+   }
+  },
+  {
+   "id": 812916,
+   "slug": "donburi-to-renge",
+   "date": "2027-02-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Donburi to Renge",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 813446,
+   "slug": "mada-nemukunaiz",
+   "date": "2027-03-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Mada Nemukunaiz",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 807868,
+   "slug": "akatsuchi-ni-nemuru",
+   "date": "2027-03-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Sleeping in the Red Earth",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 811414,
+   "slug": "darwin-s-game",
+   "date": "2027-03-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Darwin's Game",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1729133,
+    "title": "Darwin's Game",
+    "overview": "Live-action film adaptation of *Darwin's Game*",
+    "poster": "/raGyTGNxiN9XbuvnKEwGHUz88Kj.jpg",
+    "backdrop": "/zxHXYpiliG1dxybeoLPD6yEzAAp.jpg",
+    "runtime": 0,
+    "genres": [],
+    "release_date": "2027-03-12"
+   }
+  },
+  {
+   "id": 807806,
+   "slug": "sonic-the-hedgehog-4",
+   "date": "2027-03-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Sonic the Hedgehog 4",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1401586,
+    "title": "Sonic the Hedgehog 4",
+    "overview": "Sonic the Hedgehog, joined by a new hero named Amy, faces a new technological nemesis known as Metal Sonic.",
+    "poster": "/t8uoHBODkFlSQJRL6qc4IclUBlH.jpg",
+    "backdrop": "/4Sh2c33WHf1KxX8UYuYLIroaVEv.jpg",
+    "runtime": 0,
+    "genres": [
+     "Comedy",
+     "Action",
+     "Family",
+     "Science Fiction"
+    ],
+    "release_date": "2027-03-11"
+   }
+  },
+  {
+   "id": 812352,
+   "slug": "sugar",
+   "date": "2027-03-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Sugar",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1710886,
+    "title": "Sugar Mommy",
+    "overview": "When a non-committal sugar mommy takes in her three sugar babies, jealousy erupts as one of them becomes determined to be her one and only.",
+    "poster": "/2FBvobFZGibenqKerk786qg9AHD.jpg",
+    "backdrop": "/RO1Jus7kHiuFuW2XTzmCVwj6Sr.jpg",
+    "runtime": 75,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-06-09"
+   }
+  },
+  {
+   "id": 812184,
+   "slug": "enju",
+   "date": "2027-03-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Enju",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1749570,
+    "title": "ENJU",
+    "overview": "When a training camp at a lakeside campground turns into a bloody massacre, the students of Mizunara Academy’s Outdoor Activities Club are taken hostage by the vicious criminal organization Crack, who are searching for six billion yen hidden somewhere on the grounds. As the students face certain death, their quiet assistant club advisor, Yura, reveals herself as an unexpected force capable of turning the tables on their captors.",
+    "poster": "/2mrblS0C5EH8pTUcVY57brZQwx1.jpg",
+    "backdrop": "/soLyUHn1GZUSR0CmLiB9HqmBzqZ.jpg",
+    "runtime": 0,
+    "genres": [
+     "Action"
+    ],
+    "release_date": "2027-03-26"
+   }
+  }
+ ],
  "shows": {
   "25568": {
    "native": "아는형님",
    "network": "jTBC",
    "type": "TV Program",
    "premiere": "Dec 5, 2015 - ?"
+  },
+  "25565": {
+   "native": "런닝맨",
+   "network": "SBS",
+   "type": "TV Program",
+   "premiere": "Jul 11, 2010 - ?"
   },
   "25576": {
    "native": "불후의 명곡: 전설을 노래하다",
@@ -2203,6 +4499,12 @@
    "type": "TV Program",
    "premiere": "Apr 28, 2019 - ?"
   },
+  "37021": {
+   "native": "M: 리부트",
+   "network": "TVING",
+   "type": "Drama",
+   "premiere": ""
+  },
   "39619": {
    "native": "놀면 뭐하니?",
    "network": "MBC",
@@ -2233,6 +4535,42 @@
    "type": "TV Program",
    "premiere": "Dec 8, 2019 - ?"
   },
+  "64803": {
+   "native": "아홉수 우리들",
+   "network": "MBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "79663": {
+   "native": "情熱大陸",
+   "network": "MBS TBS",
+   "type": "TV Program",
+   "premiere": "Apr 5, 1998 - ?"
+  },
+  "680725": {
+   "native": "스피킹 데드",
+   "network": "jTBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "705621": {
+   "native": "상남자",
+   "network": "Disney+",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "705741": {
+   "native": "고래별",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "711569": {
+   "native": "밑도 끝도 없이, 너다",
+   "network": "Lifetime",
+   "type": "Drama",
+   "premiere": ""
+  },
   "713685": {
    "native": "꼬리에 꼬리를 무는 그날 이야기",
    "network": "SBS",
@@ -2257,6 +4595,30 @@
    "type": "TV Program",
    "premiere": "May 16, 2022 - ?"
   },
+  "731727": {
+   "native": "개인적인 택시",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Oct 1, 2026"
+  },
+  "732363": {
+   "native": "여름방학",
+   "network": "Lifetime Wavve",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "734539": {
+   "native": "기프트",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "739125": {
+   "native": "언내추럴",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
   "739999": {
    "native": "유 퀴즈 온 더 블럭 : 시즌 4",
    "network": "tvN",
@@ -2275,6 +4637,12 @@
    "type": "TV Program",
    "premiere": "Apr 9, 2022 - ?"
   },
+  "749839": {
+   "native": "그녀는, 취급주의",
+   "network": "ENA",
+   "type": "Drama",
+   "premiere": ""
+  },
   "749947": {
    "native": "ヒューマングルメンタリー オモウマい店",
    "network": "NTV",
@@ -2286,6 +4654,24 @@
    "network": "jTBC",
    "type": "TV Program",
    "premiere": "Feb 2, 2022 - ?"
+  },
+  "750637": {
+   "native": "매화, 달",
+   "network": "KBS2",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "752413": {
+   "native": "수성국 밀회록",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "756743": {
+   "native": "위대한 방옥숙",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
   },
   "757079": {
    "native": "살롱드립 시즌2",
@@ -2299,11 +4685,41 @@
    "type": "TV Program",
    "premiere": "Nov 12, 2023 - ?"
   },
+  "761885": {
+   "native": "하얀 스캔들",
+   "network": "MBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "764151": {
+   "native": "신의 집사",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "764105": {
+   "native": "의녀 대장금",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
   "766049": {
    "native": "豊臣兄弟！",
    "network": "NHK",
    "type": "Drama",
    "premiere": "Jan 4, 2026 - ?"
+  },
+  "767017": {
+   "native": "신의 구슬",
+   "network": "jTBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "769953": {
+   "native": "SHOGUN 将軍2",
+   "network": "Disney+",
+   "type": "Drama",
+   "premiere": ""
   },
   "770747": {
    "native": "사나의 냉터뷰",
@@ -2323,17 +4739,41 @@
    "type": "TV Program",
    "premiere": "May 28, 2024 - ?"
   },
+  "776133": {
+   "native": "크래시2 : 분노의 도로",
+   "network": "ENA Genie TV",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "778572": {
+   "native": "재혼 황후",
+   "network": "Disney+",
+   "type": "Drama",
+   "premiere": ""
+  },
   "778656": {
    "native": "100일의 거짓말",
    "network": "tvN",
    "type": "Drama",
    "premiere": "Oct 10, 2026 - Nov 29, 2026"
   },
-  "780006": {
-   "native": "냉장고를 부탁해 시즌2",
-   "network": "jTBC",
-   "type": "TV Program",
-   "premiere": "Dec 15, 2024 - ?"
+  "778788": {
+   "native": "버라이어티",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "779486": {
+   "native": "남편이 당선됐다",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "779492": {
+   "native": "여기는 Q대학교 입학처입니다",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
   },
   "782350": {
    "native": "히든아이",
@@ -2341,11 +4781,59 @@
    "type": "TV Program",
    "premiere": "Aug 5, 2024 - ?"
   },
+  "782626": {
+   "native": "뜨거운 안녕",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "783590": {
+   "native": "체탐자",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "784472": {
+   "native": "문무",
+   "network": "KBS2",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "784486": {
+   "native": "꿀알바",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "784558": {
+   "native": "운명을 보는 회사원",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "786734": {
+   "native": "바이킹",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "787026": {
+   "native": "푸른길",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
   "787220": {
    "native": "닥터X : 하얀 마피아의 시대",
    "network": "SBS",
    "type": "Drama",
    "premiere": "Oct 9, 2026 - Nov 14, 2026"
+  },
+  "787476": {
+   "native": "그랜드 갤럭시 호텔",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
   },
   "787494": {
    "native": "너에게 다이브",
@@ -2353,9 +4841,87 @@
    "type": "Drama",
    "premiere": "Sep 26, 2026 - Nov 1, 2026"
   },
+  "787900": {
+   "native": "ワンピース シーズン3",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "788250": {
+   "native": "逆賊の幕臣",
+   "network": "NHK",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "788474": {
+   "native": "슬리핑 닥터",
+   "network": "KBS2",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "788704": {
+   "native": "철창살",
+   "network": "ENA",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "788706": {
+   "native": "엠버스",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "788924": {
+   "native": "유일무이 로맨스",
+   "network": "AbemaTV TVING Viu",
+   "type": "Drama",
+   "premiere": ""
+  },
   "789036": {
    "native": "내가 떨릴 수 있게",
    "network": "TVING",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "789518": {
+   "native": "인간X구미호",
+   "network": "jTBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "789878": {
+   "native": "굿파트너 시즌2",
+   "network": "SBS",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "790120": {
+   "native": "나를 충전해줘",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": "Oct 9, 2026"
+  },
+  "791822": {
+   "native": "각성",
+   "network": "SBS",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "792446": {
+   "native": "하렘의 남자들",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "792640": {
+   "native": "혹하는 로맨스",
+   "network": "ENA Genie TV",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "793070": {
+   "native": "보스의 노골적 취향",
+   "network": "MBN",
    "type": "Drama",
    "premiere": ""
   },
@@ -2365,11 +4931,77 @@
    "type": "Drama",
    "premiere": "Sep 28, 2026 - ?"
   },
+  "794290": {
+   "native": "골드 디거",
+   "network": "jTBC",
+   "type": "Drama",
+   "premiere": ""
+  },
   "794508": {
    "native": "옥탑방의 문제아들 시즌2",
    "network": "KBS2",
    "type": "TV Program",
    "premiere": "Apr 3, 2025 - ?"
+  },
+  "794782": {
+   "native": "괸당",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "794930": {
+   "native": "남남 시즌2",
+   "network": "ENA Genie TV",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "794932": {
+   "native": "백XX",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "795258": {
+   "native": "코리언즈",
+   "network": "Disney+",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "796052": {
+   "native": "너의 그라운드",
+   "network": "MBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "796274": {
+   "native": "라이어",
+   "network": "MBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "796508": {
+   "native": "내가 죄인이오",
+   "network": "Disney+",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "796888": {
+   "native": "대리수능",
+   "network": "TVING",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "797010": {
+   "native": "혼: 삼각의 시간",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "797066": {
+   "native": "경복궁 탐정사무소",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
   },
   "797068": {
    "native": "VS.超特急",
@@ -2377,17 +5009,95 @@
    "type": "TV Program",
    "premiere": "Apr 8, 2025 - ?"
   },
+  "797296": {
+   "native": "프로모터",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "797304": {
+   "native": "붉은 상자",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "797308": {
+   "native": "Team-K",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
   "797384": {
    "native": "ニノなのに",
    "network": "TBS",
    "type": "TV Program",
    "premiere": "Apr 9, 2025 - ?"
   },
+  "798626": {
+   "native": "파이널 테이블",
+   "network": "jTBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "798754": {
+   "native": "이섭의 연애",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "798826": {
+   "native": "러브 클라우드",
+   "network": "KBS2",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "798950": {
+   "native": "늑대, 소녀",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "800176": {
+   "native": "닥터 차정숙 시즌2",
+   "network": "jTBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "800234": {
+   "native": "인간은 인간이다",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "800994": {
+   "native": "俺のこと、なんか言ってた？",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
   "801366": {
    "native": "timelesz ファミリア",
    "network": "NTV",
    "type": "TV Program",
    "premiere": "Oct 7, 2025 - ?"
+  },
+  "801374": {
+   "native": "승산 있습니다",
+   "network": "SBS",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "801998": {
+   "native": "형사 박미옥",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "802278": {
+   "native": "풀카운트",
+   "network": "SBS",
+   "type": "Drama",
+   "premiere": ""
   },
   "802402": {
    "native": "俺たちの箱根駅伝",
@@ -2401,16 +5111,52 @@
    "type": "Drama",
    "premiere": "Oct 5, 2026 - Nov 10, 2026"
   },
+  "802480": {
+   "native": "의원님이 보우하사",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "802482": {
+   "native": "나의 유죄인간",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "802604": {
+   "native": "모던 쉐어하우스",
+   "network": "ENA",
+   "type": "Drama",
+   "premiere": ""
+  },
   "802770": {
    "native": "乃木坂スター誕生!SIX",
    "network": "NTV",
    "type": "TV Program",
    "premiere": "Apr 29, 2025 - ?"
   },
+  "802838": {
+   "native": "악몽",
+   "network": "SBS",
+   "type": "Drama",
+   "premiere": ""
+  },
   "803176": {
    "native": "mentor",
    "network": "",
    "type": "Movie",
+   "premiere": ""
+  },
+  "803262": {
+   "native": "내가 죽기로 결심한 것은",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "803264": {
+   "native": "러닝 메이트",
+   "network": "MBC",
+   "type": "Drama",
    "premiere": ""
   },
   "803410": {
@@ -2419,11 +5165,35 @@
    "type": "Drama",
    "premiere": "Jul 25, 2026 - ?"
   },
+  "803490": {
+   "native": "은퇴요원+관리팀",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "803492": {
+   "native": "각잡힌 사이",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "803560": {
+   "native": "해오름달 열이레",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
   "803562": {
    "native": "メリーベリーラブ",
    "network": "NTV",
    "type": "Drama",
    "premiere": "Oct 7, 2026 - ?"
+  },
+  "804182": {
+   "native": "러브 어페어",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
   },
   "804316": {
    "native": "너 말고 다른 연애",
@@ -2431,11 +5201,29 @@
    "type": "Drama",
    "premiere": "Sep 12, 2026 - Nov 1, 2026"
   },
+  "804326": {
+   "native": "巡るスワン",
+   "network": "NHK",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "804376": {
+   "native": "동절기",
+   "network": "Wavve",
+   "type": "Drama",
+   "premiere": ""
+  },
   "804532": {
    "native": "언니네산지직송 시즌3",
    "network": "tvN",
    "type": "TV Program",
    "premiere": "Jul 30, 2026 - Oct 22, 2026"
+  },
+  "805266": {
+   "native": "밤의 향",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
   },
   "805960": {
    "native": "이혼숙려캠프",
@@ -2455,6 +5243,12 @@
    "type": "TV Program",
    "premiere": "Mar 27, 2026 - ?"
   },
+  "806058": {
+   "native": "라인의 법칙",
+   "network": "MBC",
+   "type": "Drama",
+   "premiere": ""
+  },
   "806352": {
    "native": "税金で買った本",
    "network": "NHK G",
@@ -2467,16 +5261,130 @@
    "type": "TV Program",
    "premiere": "Oct 2, 2025 - ?"
   },
+  "806840": {
+   "native": "国民クイズ",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807136": {
+   "native": "나인 투 식스",
+   "network": "SBS",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807156": {
+   "native": "수목금",
+   "network": "MBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807270": {
+   "native": "코드",
+   "network": "Disney+",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807330": {
+   "native": "대시",
+   "network": "SBS",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807372": {
+   "native": "나미야 잡화점의 기적",
+   "network": "Disney+",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807450": {
+   "native": "태연한 거짓말",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807456": {
+   "native": "로드 투 동하",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807460": {
+   "native": "서울 유람기",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807462": {
+   "native": "여고생 왕후",
+   "network": "TVING",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807656": {
+   "native": "마인드 닥터",
+   "network": "MBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807676": {
+   "native": "파괴지황",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807688": {
+   "native": "각설탕 소리",
+   "network": "Wavve",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807896": {
+   "native": "궁에는 개꽃이 산다",
+   "network": "MBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807978": {
+   "native": "러브 바이러스",
+   "network": "TVING",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "808122": {
+   "native": "고분고분한 킬러",
+   "network": "TVING",
+   "type": "Drama",
+   "premiere": ""
+  },
   "808284": {
    "native": "仮面ライダーマイス",
    "network": "",
    "type": "Drama",
    "premiere": "Sep 6, 2026 - ?"
   },
+  "808296": {
+   "native": "보검 매직컬 시즌2",
+   "network": "tvN",
+   "type": "TV Program",
+   "premiere": ""
+  },
+  "808312": {
+   "native": "그린라이트",
+   "network": "ENA",
+   "type": "Drama",
+   "premiere": ""
+  },
   "808390": {
    "native": "このごにおよんで愛など",
    "network": "",
    "type": "Movie",
+   "premiere": ""
+  },
+  "808742": {
+   "native": "UFP",
+   "network": "",
+   "type": "Drama",
    "premiere": ""
   },
   "809010": {
@@ -2490,6 +5398,12 @@
    "network": "FOD",
    "type": "Drama",
    "premiere": "Oct 8, 2026 - ?"
+  },
+  "809156": {
+   "native": "この味もまたいつか恋しくなる",
+   "network": "NHK BSP",
+   "type": "Drama",
+   "premiere": ""
   },
   "809164": {
    "native": "おかえり、初恋。",
@@ -2515,11 +5429,29 @@
    "type": "Drama",
    "premiere": ""
   },
+  "809622": {
+   "native": "걸스 플래닛 2027",
+   "network": "Mnet",
+   "type": "TV Program",
+   "premiere": ""
+  },
   "809636": {
    "native": "불꽃야구 시즌2",
    "network": "",
    "type": "TV Program",
    "premiere": "May 4, 2026 - ?"
+  },
+  "809696": {
+   "native": "낙원",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "809708": {
+   "native": "얼라이크",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
   },
   "809728": {
    "native": "신인감독 김연경 시즌2",
@@ -2527,17 +5459,47 @@
    "type": "TV Program",
    "premiere": "Oct 11, 2026 - ?"
   },
+  "809768": {
+   "native": "찐한 고백: 183Hz",
+   "network": "ENA",
+   "type": "Drama",
+   "premiere": ""
+  },
   "809778": {
    "native": "미스트롯 포유",
    "network": "TV Chosun",
    "type": "TV Program",
    "premiere": "May 14, 2026 - ?"
   },
+  "809786": {
+   "native": "デンジャラス",
+   "network": "NHK G",
+   "type": "Drama",
+   "premiere": ""
+  },
   "809822": {
    "native": "青と碧",
    "network": "BS Asahi",
    "type": "Drama",
    "premiere": "Oct 5, 2026 - ?"
+  },
+  "809850": {
+   "native": "학교 다녀왔습니다",
+   "network": "KBS2",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "810036": {
+   "native": "ツイステッド・シスターズ",
+   "network": "NHK NHK BSP",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "810164": {
+   "native": "지옥에서 온 판사 시즌2",
+   "network": "SBS",
+   "type": "Drama",
+   "premiere": ""
   },
   "810296": {
    "native": "남의 집 귀한 가족",
@@ -2557,11 +5519,11 @@
    "type": "TV Program",
    "premiere": "Aug 18, 2026 - ?"
   },
-  "810548": {
-   "native": "심야괴담회 시즌6",
-   "network": "MBC",
-   "type": "TV Program",
-   "premiere": "Jun 22, 2026 - ?"
+  "810454": {
+   "native": "주한이국대사관",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
   },
   "810554": {
    "native": "MR -医薬情報担当者-",
@@ -2574,6 +5536,12 @@
    "network": "YTV",
    "type": "Drama",
    "premiere": "Aug 11, 2026 - ?"
+  },
+  "810548": {
+   "native": "심야괴담회 시즌6",
+   "network": "MBC",
+   "type": "TV Program",
+   "premiere": "Jun 22, 2026 - ?"
   },
   "810726": {
    "native": "우리들의 발라드 시즌2",
@@ -2593,6 +5561,12 @@
    "type": "Drama",
    "premiere": "Jul 26, 2026 - ?"
   },
+  "810886": {
+   "native": "青の花 器の森",
+   "network": "NHK G",
+   "type": "Drama",
+   "premiere": ""
+  },
   "810918": {
    "native": "틈만 나면, 시즌5",
    "network": "SBS",
@@ -2604,6 +5578,30 @@
    "network": "Fuji TV",
    "type": "TV Program",
    "premiere": "Jul 12, 2026 - ?"
+  },
+  "811134": {
+   "native": "써닝야구단",
+   "network": "TVING",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "811322": {
+   "native": "럭키 서울",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "811374": {
+   "native": "조련의 여왕",
+   "network": "ENA",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "811382": {
+   "native": "恋愛ルビの正しいふりかた シーズン2",
+   "network": "Tokyo MX",
+   "type": "Drama",
+   "premiere": ""
   },
   "811384": {
    "native": "恋をするなら二度目が上等 Season 2",
@@ -2623,6 +5621,12 @@
    "type": "Drama",
    "premiere": "Oct 4, 2026 - ?"
   },
+  "811418": {
+   "native": "営業ですから",
+   "network": "BS Fuji",
+   "type": "Drama",
+   "premiere": ""
+  },
   "811440": {
    "native": "금타는 금요일",
    "network": "TV Chosun",
@@ -2631,6 +5635,12 @@
   },
   "811462": {
    "native": "会社員",
+   "network": "NHK",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "811464": {
+   "native": "なぎさの進化論",
    "network": "NHK",
    "type": "Drama",
    "premiere": ""
@@ -2653,11 +5663,23 @@
    "type": "Drama",
    "premiere": "Sep 15, 2026 - ?"
   },
+  "811486": {
+   "native": "지구마불 세계여행 시즌4",
+   "network": "ENA",
+   "type": "TV Program",
+   "premiere": ""
+  },
   "811490": {
    "native": "엄마가 미쳤어요",
    "network": "KBS1",
    "type": "Drama",
    "premiere": "Sep 28, 2026 - ?"
+  },
+  "811518": {
+   "native": "이혼조사관 홍말금",
+   "network": "ENA",
+   "type": "Drama",
+   "premiere": ""
   },
   "811590": {
    "native": "비틀린넥타이",
@@ -2671,17 +5693,53 @@
    "type": "Drama",
    "premiere": ""
   },
+  "811618": {
+   "native": "하트비트",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
   "811684": {
    "native": "김주하의 데이앤나잇",
    "network": "MBN",
    "type": "TV Program",
    "premiere": "Nov 22, 2025 - ?"
   },
+  "811724": {
+   "native": "寄生獣 ーTAMIYAー",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "811810": {
+   "native": "お前のほうからキスしてくれよ",
+   "network": "FOD Fuji TV",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "811816": {
+   "native": "真田十勇士 SHADOWS OF THE TEN NINJA",
+   "network": "TV Asahi",
+   "type": "Drama",
+   "premiere": ""
+  },
   "811874": {
    "native": "술래게임",
    "network": "Disney+",
    "type": "TV Program",
    "premiere": "Sep 30, 2026 - Oct 21, 2026"
+  },
+  "811964": {
+   "native": "あにいもうと",
+   "network": "TV Asahi",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "811966": {
+   "native": "ろんりねす♪ろんりねす",
+   "network": "NHK",
+   "type": "Drama",
+   "premiere": ""
   },
   "811984": {
    "native": "ご馳走ファンファーレ",
@@ -2694,6 +5752,12 @@
    "network": "",
    "type": "Drama",
    "premiere": "Jul 26, 2026 - ?"
+  },
+  "812038": {
+   "native": "熊は嘘をつかない",
+   "network": "NHK",
+   "type": "Drama",
+   "premiere": ""
   },
   "812040": {
    "native": "Travis JapanノJUST！シン日本遺産シーズン３",
@@ -2713,6 +5777,30 @@
    "type": "Drama",
    "premiere": "Oct 4, 2026 - ?"
   },
+  "812052": {
+   "native": "ユージニア",
+   "network": "WOWOW",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "812054": {
+   "native": "マイ・スイート・ホーム",
+   "network": "WOWOW",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "812056": {
+   "native": "私がひとりで生きてくなんて",
+   "network": "CBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "812094": {
+   "native": "修学旅行で仲良くないグループに入りました2",
+   "network": "ABC",
+   "type": "Drama",
+   "premiere": ""
+  },
   "812116": {
    "native": "赤灯えれじい",
    "network": "BS TV Tokyo , TV Aichi , TV Hokkaido , TV Setouchi , TV Tokyo , TVQ Kyushu Broadcasting ,",
@@ -2728,6 +5816,12 @@
   "812122": {
    "native": "いろはの恋は時代をかける",
    "network": "TBS",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "812132": {
+   "native": "ぼくの地球を守って",
+   "network": "Amazon Prime",
    "type": "Drama",
    "premiere": ""
   },
@@ -2748,6 +5842,12 @@
    "network": "",
    "type": "Drama",
    "premiere": "Sep 12, 2026 - ?"
+  },
+  "812154": {
+   "native": "南田南弁護士は天才肌",
+   "network": "Fuji TV",
+   "type": "Drama",
+   "premiere": ""
   },
   "812156": {
    "native": "溺愛カレシの作り方 〜セから本命になる⼥の⼦の話〜",
@@ -2773,10 +5873,28 @@
    "type": "Drama",
    "premiere": "Oct 2, 2026 - ?"
   },
+  "812176": {
+   "native": "ブレス",
+   "network": "Amazon Prime",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "812180": {
+   "native": "地雷グリコ",
+   "network": "Amazon Prime",
+   "type": "Drama",
+   "premiere": ""
+  },
   "812196": {
    "native": "キオク",
    "network": "",
    "type": "Movie",
+   "premiere": ""
+  },
+  "812198": {
+   "native": "相棒 season25",
+   "network": "TV Asahi",
+   "type": "Drama",
    "premiere": ""
   },
   "812218": {
@@ -2785,11 +5903,47 @@
    "type": "Drama",
    "premiere": "Sep 28, 2026 - ?"
   },
+  "812222": {
+   "native": "서라벌 나이프",
+   "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "812232": {
+   "native": "모태솔로지만 연애는 하고 싶어 시즌3",
+   "network": "Netflix",
+   "type": "TV Program",
+   "premiere": ""
+  },
+  "812240": {
+   "native": "화폐개혁",
+   "network": "SBS",
+   "type": "Drama",
+   "premiere": ""
+  },
   "812260": {
    "native": "투모로우바이투게더의 도망갈까?",
    "network": "Mnet",
    "type": "TV Program",
    "premiere": "Aug 13, 2026 - ?"
+  },
+  "812286": {
+   "native": "옆자리, 프란체스카",
+   "network": "Wavve",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "812292": {
+   "native": "ふったらどしゃぶり メロウレイン",
+   "network": "MBS TVK",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "812308": {
+   "native": "SQUALL",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
   },
   "812314": {
    "native": "救命病棟24時 第6シリーズ",
@@ -2815,11 +5969,23 @@
    "type": "Drama",
    "premiere": "Oct 5, 2026 - ?"
   },
+  "812366": {
+   "native": "フジヤマBOY",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
+  },
   "812368": {
    "native": "再生のウズメ",
    "network": "Fuji TV Tokai TV",
    "type": "Drama",
    "premiere": "Oct 3, 2026 - ?"
+  },
+  "812370": {
+   "native": "沈黙の艦隊 目覚めよ、ニューヨーク",
+   "network": "Amazon Prime",
+   "type": "Drama",
+   "premiere": ""
   },
   "812394": {
    "native": "식스센스: B사이드",
@@ -2851,6 +6017,18 @@
    "type": "Drama",
    "premiere": "Oct 7, 2026 - ?"
   },
+  "812480": {
+   "native": "ワカコ酒 Season10",
+   "network": "BS TV Tokyo",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "812532": {
+   "native": "광안 : 세자의 여자",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
   "812538": {
    "native": "금귤이1 : 나쁜 X들의 필드",
    "network": "",
@@ -2869,11 +6047,23 @@
    "type": "Drama",
    "premiere": "Oct 2, 2026 - ?"
   },
+  "812692": {
+   "native": "IDOL'S TABLE",
+   "network": "Mnet",
+   "type": "TV Program",
+   "premiere": "Oct 6, 2026 - ?"
+  },
   "812704": {
    "native": "스탠에이",
    "network": "Mnet",
    "type": "TV Program",
    "premiere": "Sep 18, 2026 - ?"
+  },
+  "812762": {
+   "native": "溺愛 ～ 実は、最強ヒーロー ～",
+   "network": "Tokyo MX",
+   "type": "Drama",
+   "premiere": ""
   },
   "812768": {
    "native": "監禁犯は、私の最愛の人でした",
@@ -2887,17 +6077,41 @@
    "type": "Drama",
    "premiere": ""
   },
+  "812792": {
+   "native": "女帝",
+   "network": "YTV",
+   "type": "Drama",
+   "premiere": ""
+  },
   "812810": {
    "native": "あいの里 シーズン3",
    "network": "Netflix",
    "type": "TV Program",
    "premiere": "Oct 6, 2026 - Nov 3, 2026"
   },
+  "812820": {
+   "native": "アナログナース〜デジタルってなんなんだよ!?〜",
+   "network": "TV Asahi",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "812828": {
+   "native": "신입사원 길들이기",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Oct 4, 2026 - ?"
+  },
   "812910": {
    "native": "嘘をついた私たち",
    "network": "BS TV Tokyo , TV Osaka ,",
    "type": "Drama",
    "premiere": "Oct 9, 2026 - ?"
+  },
+  "812914": {
+   "native": "もうええわ",
+   "network": "Fuji TV",
+   "type": "Drama",
+   "premiere": "Oct 3, 2026"
   },
   "812920": {
    "native": "ドラマが飛んだ！",
@@ -2910,6 +6124,18 @@
    "network": "Fuji TV",
    "type": "TV Program",
    "premiere": "Oct 6, 2026 - ?"
+  },
+  "812940": {
+   "native": "ノンレムの窓2026・冬",
+   "network": "NTV",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "812950": {
+   "native": "きんつくろい -金繕い-",
+   "network": "Fuji TV",
+   "type": "Drama",
+   "premiere": "Oct 8, 2026"
   },
   "812958": {
    "native": "はかねこ日記 ～あの日の続き～",
@@ -2935,6 +6161,12 @@
    "type": "TV Program",
    "premiere": "Sep 18, 2026 - ?"
   },
+  "813038": {
+   "native": "50일의 썸",
+   "network": "jTBC",
+   "type": "Drama",
+   "premiere": ""
+  },
   "813120": {
    "native": "LEONIDAS",
    "network": "",
@@ -2953,17 +6185,17 @@
    "type": "TV Program",
    "premiere": "Apr 5, 2025 - ?"
   },
+  "813194": {
+   "native": "告解",
+   "network": "WOWOW",
+   "type": "Drama",
+   "premiere": ""
+  },
   "813222": {
    "native": "M!LKに言ってみ？",
    "network": "NTV",
    "type": "TV Program",
    "premiere": "Oct 6, 2026 - ?"
-  },
-  "813236": {
-   "native": "니돈내산",
-   "network": "ENA",
-   "type": "TV Program",
-   "premiere": "Sep 27, 2026 - ?"
   },
   "813238": {
    "native": "맡겨만 주십숏",
@@ -2977,11 +6209,47 @@
    "type": "TV Program",
    "premiere": "Sep 20, 2026 - Dec 6, 2026"
   },
+  "813288": {
+   "native": "神のクイズ",
+   "network": "Amazon Prime",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "813284": {
+   "native": "KAGOSHIMAスッゲーヒーローズ",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
   "813310": {
    "native": "LOGOUT HOUSE",
    "network": "Mnet",
    "type": "TV Program",
    "premiere": "Sep 22, 2026 - ?"
+  },
+  "813324": {
+   "native": "水車館の殺人",
+   "network": "Hulu",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "813362": {
+   "native": "작전본부 우리집 : 요원들에게 점거당했다",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Oct 1, 2026"
+  },
+  "813364": {
+   "native": "수화 : 너를 듣는 방법",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Oct 8, 2026"
+  },
+  "813366": {
+   "native": "금귤이2 : 두 여자 두 남자의 사정",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
   },
   "813406": {
    "native": "飯島直子の今夜一杯いっちゃう？",
@@ -3001,6 +6269,12 @@
    "type": "TV Program",
    "premiere": "Jul 15, 2026 - ?"
   },
+  "813416": {
+   "native": "よろしくアミーゴ",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
   "813434": {
    "native": "KickFlip COMEBACK STAGE : KICK OFF THE WALL Pt.1",
    "network": "Mnet",
@@ -3019,6 +6293,12 @@
    "type": "TV Program",
    "premiere": "Oct 11, 2026"
   },
+  "813540": {
+   "native": "妻を引退します プロローグ",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Oct 2, 2026"
+  },
   "813542": {
    "native": "深夜残業～肉食後輩の片恋研修～",
    "network": "Tokyo MX",
@@ -3034,6 +6314,12 @@
   "813598": {
    "native": "거장항준",
    "network": "SBS",
+   "type": "TV Program",
+   "premiere": ""
+  },
+  "813600": {
+   "native": "백수 이세돌",
+   "network": "KBS2",
    "type": "TV Program",
    "premiere": ""
   },

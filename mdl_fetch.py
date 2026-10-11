@@ -49,13 +49,25 @@ CARD_RE = re.compile(
 ICON_RE = re.compile(r"<i[^>]*></i>")
 TIME_RE = re.compile(r"\b(\d{1,2}:\d{2}\s*[AP]M)\b", re.I)
 
-MOVIE_TILE_RE = re.compile(
-    r'<div class="poster-card">.*?'
-    r'<a href="/(\d+)-([^"/]+)".*?>.*?</a>.*?'
-    r'<div class="title">([^<]+)</div>.*?'
-    r'<div class="released">([^<]+)</div>',
+# The quarter calendar page (view=large&sort=start-date) is structurally
+# different from the weekly page: it's a premiere/start-date listing grouped
+# by content type ("Drama" / "Movie" / "TV Show" <h2> headings), not a
+# day-by-day broadcast schedule, and its cards use "el-card episode-card"
+# (two classes) + "episode-card-large", not the weekly page's "el-card"
+# (one class) + "episode-card-sm". Confirmed against real captured HTML
+# (debug-quarter-2026q4.html / debug-quarter-2027q1.html) -- the old
+# MOVIE_TILE_RE guess ("poster-card" / "released") matched nothing real;
+# there is no such class on this page at all.
+QUARTER_CARD_RE = re.compile(
+    r'<div class="el-card episode-card">.*?'
+    r'<a href="/(\d+)-([^"/]+)">\s*<img[^>]*alt="([^"]*)".*?'
+    r'<div class="content-type">([^<]*)</div>.*?'
+    r'<div class="airing-at">([^<]*)</div>\s*'
+    r'<div class="release-time">([^<]*)</div>',
     re.S
 )
+QUARTER_COUNTRY = {"Korean": "KR", "Japanese": "JP"}
+QUARTER_TZ = {"KR": "Asia/Seoul", "JP": "Asia/Tokyo"}
 
 BROWSER_HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -349,43 +361,115 @@ def diagnose(html, label):
     print("  [%s] saved raw HTML to debug-%s.html for inspection" % (label, safe_label))
 
 
-def fetch_calendar(url, cache_dir, verbose=False):
-    html = cached_fetch(url, cache_dir, max_age_days=1, verbose=verbose)
-    eps = parse_mdl_calendar(html)
-    log(f"{len(eps)} episodes found from {url}", verbose)
-    return eps, html
-
-
-def parse_quarter_movies(html):
-    # NOTE: MOVIE_TILE_RE's markup assumptions (poster-card/title/released)
-    # are unverified against a real quarter page -- see diagnose() above,
-    # which dumps the raw HTML here if this (and parse_mdl_calendar) both
-    # come up empty on a real run. Also: the quarter URL requests both Japan
-    # and South Korea together, but this regex doesn't capture which country
-    # a given tile belongs to, so there's no safe per-movie tz/country to set
-    # yet -- left as None rather than guessing "Japan Standard Time" for
-    # everything (which would also use a display name, not the "Asia/Tokyo"-
-    # style IANA zone the rest of this feed and release_tracker.py rely on).
-    # Fix this once the real markup confirms where the country is shown.
-    movies = []
-    for mid, slug, title, released in MOVIE_TILE_RE.findall(html):
-        released = released.strip()
-        try:
-            dt = datetime.strptime(released, "%b %Y")
-        except Exception:
+def parse_quarter_cards(html):
+    """Parses the quarter calendar page into one row per card. Each card
+    gives either an exact start date ("Aired on" + a full date like
+    "October 1, 2026") or, for shows/movies that haven't started yet, only a
+    month ("Airing in" + "Jan 2027") -- MDL doesn't expose a day for those,
+    so callers should not treat "airing in" entries as day-accurate.
+    """
+    out = []
+    for mid, slug, alt, content_type, status, release_text in QUARTER_CARD_RE.findall(html):
+        content_type = content_type.strip()
+        parts = content_type.split()
+        if not parts:
+            continue
+        country = QUARTER_COUNTRY.get(parts[0])
+        if not country:
+            continue
+        if content_type.endswith("TV Show"):
+            kind = "TV Show"
+        elif content_type.endswith("Movie"):
+            kind = "Movie"
+        elif content_type.endswith("Drama"):
+            kind = "Drama"
+        else:
             continue
 
-        movies.append({
+        status = status.strip()
+        release_text = release_text.strip()
+        exact_date = None
+        month_label = None
+        if status == "Aired on":
+            try:
+                exact_date = datetime.strptime(release_text, "%B %d, %Y").date()
+            except ValueError:
+                pass
+        else:
+            month_label = release_text  # e.g. "Jan 2027" -- month only, no day
+
+        out.append({
             "id": int(mid),
             "slug": slug,
-            "date": dt.date().isoformat(),   # month-only → first day
+            "title": alt.strip(),
+            "kind": kind,
+            "country": country,
+            "status": status,
+            "date": exact_date.isoformat() if exact_date else None,
+            "month_label": month_label,
+        })
+    return out
+
+
+def quarter_movies(cards):
+    movies = []
+    for c in cards:
+        if c["kind"] != "Movie":
+            continue
+        if c["date"]:
+            d = c["date"]
+        elif c["month_label"]:
+            try:
+                d = datetime.strptime(c["month_label"], "%b %Y").date().isoformat()
+            except ValueError:
+                continue
+        else:
+            continue
+        movies.append({
+            "id": c["id"],
+            "slug": c["slug"],
+            "date": d,
             "time": None,
-            "tz": None,
-            "title": title.strip(),
-            "label": "Movie Release",
+            "tz": QUARTER_TZ[c["country"]],
+            "title": c["title"],
+            "label": "Movie Release" if c["status"] == "Aired on" else "Expected Movie Release",
             "movie": True,
         })
     return movies
+
+
+def quarter_premieres(cards, all_eps):
+    """Adds a premiere/start-date entry for dramas and TV shows whose exact
+    start date MDL has already confirmed ("Aired on" + a real date), when the
+    weekly calendar didn't already carry an entry for that show on that day.
+    This replaces the old per-show-detail-page "predicted Episode 1" guess:
+    the quarter page's own "Aired on" date is MDL's own confirmed start date,
+    not a guess, and it covers Korean shows too (the old guess only covered
+    a fixed list of Japanese networks). "Airing in" (month-only) entries are
+    skipped here -- not precise enough for a day-level calendar; they're only
+    good enough for quarter_movies' coarser monthly fallback.
+    """
+    have = {(e["id"], e["date"]) for e in all_eps}
+    added = []
+    for c in cards:
+        if c["kind"] not in ("Drama", "TV Show"):
+            continue
+        if c["status"] != "Aired on" or not c["date"]:
+            continue
+        if (c["id"], c["date"]) in have:
+            continue
+        added.append({
+            "id": c["id"],
+            "slug": c["slug"],
+            "date": c["date"],
+            "time": None,
+            "tz": QUARTER_TZ[c["country"]],
+            "title": c["title"],
+            "label": "Premiere",
+            "predicted": True,
+        })
+        have.add((c["id"], c["date"]))
+    return added
 
 
 SHOW_FETCH_WORKERS = 3       # kept low on purpose -- see note below
@@ -411,70 +495,11 @@ def fetch_show_page(show_id, slug, cache_dir, verbose=False):
     return parse_mdl_title(html)
 
 
-# Real network values we've actually seen (via the committed feed) include
-# things like "NHK G", "Fuji TV Tokai TV", "BS-TBS" -- an exact-equality
-# check against a short lowercase list (the original version of this
-# function) would almost never match any of those. This mirrors the
-# word-boundary substring match release_tracker.py's own network_match()
-# uses for the same reason.
-JP_NETWORKS = ["NHK", "NTV", "TBS", "TV Asahi", "Fuji TV", "Fuji Television", "TV Tokyo", "WOWOW"]
-
-
-def network_match(network, allowed):
-    for part in re.split(r"[,/]", network or ""):
-        part = part.strip()
-        for a in allowed:
-            if re.search(r"(?<![A-Za-z])%s(?![A-Za-z])" % re.escape(a), part, re.I):
-                return part
-    return None
-
-
-def maybe_add_predicted_episode(show_id, slug, show_info, all_eps, verbose=False):
-    """
-    Adds a predicted Episode 1 for Japanese dramas that have a known premiere date
-    but no episode entries in the calendar.
-
-    NOTE: this reads an "Aired:" field from the show's own detail page that
-    hasn't been confirmed against real MDL markup (parse_mdl_title's other
-    three fields were verified this session; this one wasn't). If it never
-    fires, check a saved show-detail page to see what the field is actually
-    called and how it's formatted, rather than assuming this guess is right.
-    """
-    network = network_match(show_info.get("network"), JP_NETWORKS)
-    if not network:
-        return
-
-    premiere = show_info.get("premiere")
-    if not premiere:
-        return
-
-    try:
-        dt = datetime.strptime(premiere, "%b %d, %Y %I:%M %p")
-    except Exception:
-        return
-
-    for ep in all_eps:
-        if ep["id"] == show_id and ep["date"] == dt.date().isoformat():
-            return
-
-    predicted = {
-        "id": show_id,
-        "slug": slug,
-        "date": dt.date().isoformat(),
-        "time": [dt.hour, dt.minute],
-        # "Asia/Tokyo", not a display name like "Japan Standard Time" --
-        # release_tracker.py's TZ_COUNTRY lookup keys on the IANA zone name
-        # used everywhere else in this feed, so anything else would silently
-        # fail to match and get dropped.
-        "tz": "Asia/Tokyo",
-        "title": "Episode 1",
-        "label": "Predicted Episode 1",
-        "predicted": True,
-    }
-
-    all_eps.append(predicted)
-    if verbose:
-        log(f"Added predicted Episode 1 for {slug} on {predicted['date']}", verbose)
+# NOTE: the old per-show-detail-page "predicted Episode 1" feature
+# (maybe_add_predicted_episode, keyed off an unverified "Aired:" field and a
+# fixed Japanese-network list) has been replaced by quarter_premieres(),
+# which uses the quarter calendar's own confirmed "Aired on" start dates --
+# see above. It covers Korean shows too, not just a fixed JP network list.
 
 
 def tmdb_fetch_movie(slug, cache_dir, verbose=False):
@@ -579,29 +604,41 @@ def main():
     # Fetch quarter calendars one at a time (not in parallel -- these are
     # extra, speculative fetches on top of the two calendars above, and the
     # per-show detail fetches further down already account for the bulk of
-    # the request volume; no need to add parallel load here too).
+    # the request volume; no need to add parallel load here too). The quarter
+    # page is a premiere/start-date listing, not a day-by-day broadcast
+    # schedule, so it's parsed separately (parse_quarter_cards) and only
+    # contributes movies + premiere entries, not regular broadcast rows.
+    quarter_cards = []
     for q, url in quarter_urls:
         log(f"Fetching quarter calendar {q}", verbose)
         try:
-            eps, raw_html = fetch_calendar(url, args.cache_dir, verbose)
+            raw_html = cached_fetch(url, args.cache_dir, max_age_days=1, verbose=verbose)
         except Exception as e:
             log(f"Quarter fetch failed for {q}: {e}", verbose)
             continue
-        qmovies = parse_quarter_movies(raw_html)
-        log(f"{len(eps)} episodes, {len(qmovies)} movies from quarter {q}", verbose)
-        if not eps and not qmovies:
-            # Both parsers came up empty -- this markup is unverified against
-            # a real quarter page, so don't trust a silent zero; dump it.
+        cards = parse_quarter_cards(raw_html)
+        log(f"{len(cards)} cards from quarter {q}", verbose)
+        if not cards:
             diagnose(raw_html, "quarter-%s" % re.sub(r"[^a-zA-Z0-9]+", "-", q))
-        all_eps.extend(eps)
-        movies.extend(qmovies)
+        quarter_cards.extend(cards)
+
+    qmovies = quarter_movies(quarter_cards)
+    movies.extend(qmovies)
+    log(f"{len(qmovies)} movies from quarter calendars", verbose)
 
     if not all_eps and not movies:
         sys.exit("No episodes or movies found — not overwriting existing feed.")
 
-    # Fetch show detail pages in parallel
-    show_ids = sorted({e["id"] for e in all_eps})[:MAX_SHOWS]
+    # Fetch show detail pages in parallel. Includes quarter-premiere shows
+    # (Drama/TV Show cards from the quarter calendars) even when the weekly
+    # calendar had no entry for them yet, so release_tracker.py's network/
+    # type filtering has real data for those too, rather than silently
+    # dropping every premiere-only show for lack of a cached detail page.
     slug_map = {e["id"]: e["slug"] for e in all_eps}
+    for c in quarter_cards:
+        if c["kind"] in ("Drama", "TV Show"):
+            slug_map.setdefault(c["id"], c["slug"])
+    show_ids = sorted(slug_map.keys())[:MAX_SHOWS]
 
     log(f"Fetching {len(show_ids)} show pages", verbose)
 
@@ -618,10 +655,12 @@ def main():
             except Exception as e:
                 log(f"Show {sid} failed: {e}", verbose)
 
-    # Add predicted Episode 1 for Japanese dramas
-    for sid, info in shows.items():
-        slug = slug_map[int(sid)]
-        maybe_add_predicted_episode(int(sid), slug, info, all_eps, verbose)
+    # Add premiere entries from the quarter calendars' own confirmed
+    # "Aired on" dates, for shows the weekly calendar didn't already cover
+    # on that day (see quarter_premieres()).
+    premieres = quarter_premieres(quarter_cards, all_eps)
+    all_eps.extend(premieres)
+    log(f"{len(premieres)} premiere entries added from quarter calendars", verbose)
 
     # Merge TMDB metadata into movies
     for m in movies:

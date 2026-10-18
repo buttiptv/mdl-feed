@@ -1,78 +1,6 @@
 {
- "fetched_utc": "2026-10-17T17:10:07Z",
+ "fetched_utc": "2026-10-18T07:14:10Z",
  "episodes": [
-  {
-   "id": 813542,
-   "slug": "shinya-zangyo-nikushoku-kohai-no-katakoi-kenshu",
-   "date": "2026-10-16",
-   "time": [
-    0,
-    45
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Shinya Zangyo: Nikushoku Kohai no Katakoi Kenshu",
-   "label": "Episode 3"
-  },
-  {
-   "id": 812774,
-   "slug": "borders-keishicho-tokushu-jiken-taisaku-han",
-   "date": "2026-10-16",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Borders: Keishicho Tokushu Jiken Taisaku Han",
-   "label": "Episode 1"
-  },
-  {
-   "id": 811594,
-   "slug": "lost-10",
-   "date": "2026-10-16",
-   "time": [
-    9,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Lost 10",
-   "label": "Episode 1"
-  },
-  {
-   "id": 812362,
-   "slug": "oishii-no-tsukuri-kata",
-   "date": "2026-10-16",
-   "time": [
-    11,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Oishii no Tsukuri Kata",
-   "label": "Episode 3"
-  },
-  {
-   "id": 812144,
-   "slug": "mame-to-mugi",
-   "date": "2026-10-16",
-   "time": [
-    11,
-    10
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Mame to Mugi",
-   "label": "Episode 3"
-  },
-  {
-   "id": 808926,
-   "slug": "ultraman-teo",
-   "date": "2026-10-16",
-   "time": [
-    20,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Ultraman Teo",
-   "label": "Episode 15"
-  },
   {
    "id": 812044,
    "slug": "bachi-bachi-star",
@@ -190,6 +118,18 @@
     0
    ],
    "tz": "Asia/Tokyo",
+   "title": "Kamen Rider MY-TH",
+   "label": "Episode 7"
+  },
+  {
+   "id": 810846,
+   "slug": "kakusei-hunter-omegahorn",
+   "date": "2026-10-17",
+   "time": [
+    20,
+    30
+   ],
+   "tz": "Asia/Tokyo",
    "title": "Kakusei Hunter Omegahorn",
    "label": "Episode 13"
   },
@@ -235,18 +175,6 @@
    "date": "2026-10-18",
    "time": [
     7,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Brothers in Arms",
-   "label": "Episode 40"
-  },
-  {
-   "id": 797332,
-   "slug": "vivant",
-   "date": "2026-10-18",
-   "time": [
-    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -419,7 +347,7 @@
    ],
    "tz": "Asia/Tokyo",
    "title": "Love Village Season 3",
-   "label": "Episode 13 - 16"
+   "label": "Episode 15 - 14"
   },
   {
    "id": 813222,
@@ -746,6 +674,24 @@
    "label": "Episode 19"
   },
   {
+   "id": 809724,
+   "slug": "sakuya-wa-yareta-kamo",
+   "date": "2026-10-22",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Love Me Kill Me",
+   "label": "Movie"
+  },
+  {
+   "id": 812766,
+   "slug": "tenten-zutto-dokushin-de-iru-tsumori",
+   "date": "2026-10-22",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Dot to Dot: Will I Be Single Forever?",
+   "label": "Movie"
+  },
+  {
    "id": 807616,
    "slug": "kurotani-tomoka-oniwa-tsukurimasu",
    "date": "2026-10-22",
@@ -926,172 +872,76 @@
    "label": "Episode 20"
   },
   {
-   "id": 812568,
-   "slug": "office-workers-season-3",
-   "date": "2026-10-16",
+   "id": 813542,
+   "slug": "shinya-zangyo-nikushoku-kohai-no-katakoi-kenshu",
+   "date": "2026-10-23",
    "time": [
-    4,
-    0
+    0,
+    45
    ],
-   "tz": "Asia/Seoul",
-   "title": "Office Workers Season 3",
-   "label": "Episode 8"
-  },
-  {
-   "id": 813410,
-   "slug": "damn-bulance",
-   "date": "2026-10-16",
-   "time": [
-    6,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Damn!Bulance",
-   "label": "Episode 3"
-  },
-  {
-   "id": 809180,
-   "slug": "gajok-gwangye-jeungmyeongseo",
-   "date": "2026-10-16",
-   "time": [
-    6,
-    5
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Family Register",
-   "label": "Episode 64"
-  },
-  {
-   "id": 810734,
-   "slug": "yokmangui-deot",
-   "date": "2026-10-16",
-   "time": [
-    6,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "A Trap Called Desire",
-   "label": "Episode 50"
-  },
-  {
-   "id": 811296,
-   "slug": "haepi-tugedeo-honjaga-anieoseo-joa",
-   "date": "2026-10-16",
-   "time": [
-    7,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Happy Together: Honjaga Anieoseo Joa",
-   "label": "Episode 12"
-  },
-  {
-   "id": 811490,
-   "slug": "eommaga-michyeosseoyo",
-   "date": "2026-10-16",
-   "time": [
-    7,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Mission: Mompossible",
-   "label": "Episode 15"
-  },
-  {
-   "id": 811394,
-   "slug": "space-rice-cake",
-   "date": "2026-10-16",
-   "time": [
-    7,
-    35
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Space Rice Cake",
-   "label": "Episode 12"
-  },
-  {
-   "id": 807710,
-   "slug": "men-s-life-these-days-groom-s-class-season-2",
-   "date": "2026-10-16",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Men's Life These Days: Groom's Class Season 2",
-   "label": "Episode 30"
-  },
-  {
-   "id": 813006,
-   "slug": "evnne-hour",
-   "date": "2026-10-16",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Evnne Hour",
-   "label": "Episode 5"
-  },
-  {
-   "id": 813238,
-   "slug": "matgyeoman-jusipsyot",
-   "date": "2026-10-16",
-   "time": [
-    8,
-    20
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Shorts on Us",
+   "tz": "Asia/Tokyo",
+   "title": "Shinya Zangyo: Nikushoku Kohai no Katakoi Kenshu",
    "label": "Episode 4"
   },
   {
-   "id": 787220,
-   "slug": "doctor-x-age-of-the-white-mafia",
-   "date": "2026-10-16",
+   "id": 812774,
+   "slug": "borders-keishicho-tokushu-jiken-taisaku-han",
+   "date": "2026-10-23",
    "time": [
     8,
-    50
+    0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Doctor X: Mafia in White",
-   "label": "Episode 3"
+   "tz": "Asia/Tokyo",
+   "title": "Borders: Keishicho Tokushu Jiken Taisaku Han",
+   "label": "Episode 2"
   },
   {
-   "id": 811440,
-   "slug": "geumtaneun-geumyoil",
-   "date": "2026-10-16",
+   "id": 811594,
+   "slug": "lost-10",
+   "date": "2026-10-23",
    "time": [
     9,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Geumtaneun Geumyoil",
-   "label": "Episode 41"
+   "tz": "Asia/Tokyo",
+   "title": "Lost 10",
+   "label": "Episode 2"
   },
   {
-   "id": 25744,
-   "slug": "i-live-alone",
-   "date": "2026-10-16",
+   "id": 811816,
+   "slug": "sanada-juyushi-shadows-of-the-ten-ninja",
+   "date": "2026-10-23",
    "time": [
     10,
-    10
+    15
    ],
-   "tz": "Asia/Seoul",
-   "title": "I Live Alone",
-   "label": "Episode 669"
+   "tz": "Asia/Tokyo",
+   "title": "Shadows of the Ten Ninja",
+   "label": "Episode 1"
   },
   {
-   "id": 812316,
-   "slug": "my-genie-secretary",
-   "date": "2026-10-16",
+   "id": 812362,
+   "slug": "oishii-no-tsukuri-kata",
+   "date": "2026-10-23",
    "time": [
-    10,
+    11,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Oishii no Tsukuri Kata",
+   "label": "Episode 4"
+  },
+  {
+   "id": 812144,
+   "slug": "mame-to-mugi",
+   "date": "2026-10-23",
+   "time": [
+    11,
     10
    ],
-   "tz": "Asia/Seoul",
-   "title": "My Genie Secretary",
-   "label": "Episode 7"
+   "tz": "Asia/Tokyo",
+   "title": "Mame to Mugi",
+   "label": "Episode 4"
   },
   {
    "id": 25576,
@@ -1274,24 +1124,24 @@
    "label": "Episode 420"
   },
   {
+   "id": 45671,
+   "slug": "korea-sings",
+   "date": "2026-10-17",
+   "time": [
+    23,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Korea Sings",
+   "label": "Episode 2188"
+  },
+  {
    "id": 35517,
    "slug": "boss-in-the-mirror",
    "date": "2026-10-18",
    "time": [
     3,
     45
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Boss in the Mirror",
-   "label": "Episode 379"
-  },
-  {
-   "id": 812828,
-   "slug": "sinipsawon-gildeurigi",
-   "date": "2026-10-18",
-   "time": [
-    5,
-    0
    ],
    "tz": "Asia/Seoul",
    "title": "Training the Intern",
@@ -1550,6 +1400,18 @@
    "label": "Episode 40"
   },
   {
+   "id": 809762,
+   "slug": "love-war",
+   "date": "2026-10-19",
+   "time": [
+    8,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Love War",
+   "label": "Episode 17"
+  },
+  {
    "id": 802430,
    "slug": "love-doctor",
    "date": "2026-10-19",
@@ -1796,7 +1658,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Deadly Tag",
-   "label": "Episode 9 - 10"
+   "label": "Episode 10 - 9"
   },
   {
    "id": 811326,
@@ -1820,7 +1682,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Boy, with Caution",
-   "label": "Episode 7 - 8"
+   "label": "Episode 8 - 7"
   },
   {
    "id": 809180,
@@ -1988,7 +1850,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Wild Eyes: The Woman of the Prince",
-   "label": "Episode 6 - 43"
+   "label": "Episode 15 - 36"
   },
   {
    "id": 789036,
@@ -2181,6 +2043,186 @@
    "tz": "Asia/Seoul",
    "title": "Youtuber Golden Bell",
    "label": "Episode 3"
+  },
+  {
+   "id": 812568,
+   "slug": "office-workers-season-3",
+   "date": "2026-10-23",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Office Workers Season 3",
+   "label": "Episode 9"
+  },
+  {
+   "id": 811398,
+   "slug": "sumbakkokjil-sijeun-2",
+   "date": "2026-10-23",
+   "time": [
+    5,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Sumbakkokjil Season 2",
+   "label": "Episode 7"
+  },
+  {
+   "id": 813410,
+   "slug": "damn-bulance",
+   "date": "2026-10-23",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Damn!Bulance",
+   "label": "Episode 4"
+  },
+  {
+   "id": 809180,
+   "slug": "gajok-gwangye-jeungmyeongseo",
+   "date": "2026-10-23",
+   "time": [
+    6,
+    5
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Family Register",
+   "label": "Episode 69"
+  },
+  {
+   "id": 810734,
+   "slug": "yokmangui-deot",
+   "date": "2026-10-23",
+   "time": [
+    6,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "A Trap Called Desire",
+   "label": "Episode 55"
+  },
+  {
+   "id": 811490,
+   "slug": "eommaga-michyeosseoyo",
+   "date": "2026-10-23",
+   "time": [
+    7,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Mission: Mompossible",
+   "label": "Episode 20"
+  },
+  {
+   "id": 813600,
+   "slug": "jobless-lee-se-dol",
+   "date": "2026-10-23",
+   "time": [
+    7,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Jobless Lee Se Dol",
+   "label": "Episode 1"
+  },
+  {
+   "id": 807710,
+   "slug": "men-s-life-these-days-groom-s-class-season-2",
+   "date": "2026-10-23",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Men's Life These Days: Groom's Class Season 2",
+   "label": "Episode 31"
+  },
+  {
+   "id": 813006,
+   "slug": "evnne-hour",
+   "date": "2026-10-23",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Evnne Hour",
+   "label": "Episode 6"
+  },
+  {
+   "id": 813238,
+   "slug": "matgyeoman-jusipsyot",
+   "date": "2026-10-23",
+   "time": [
+    8,
+    20
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Shorts on Us",
+   "label": "Episode 5"
+  },
+  {
+   "id": 787220,
+   "slug": "doctor-x-age-of-the-white-mafia",
+   "date": "2026-10-23",
+   "time": [
+    8,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Doctor X: Mafia in White",
+   "label": "Episode 5"
+  },
+  {
+   "id": 811440,
+   "slug": "geumtaneun-geumyoil",
+   "date": "2026-10-23",
+   "time": [
+    9,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Geumtaneun Geumyoil",
+   "label": "Episode 42"
+  },
+  {
+   "id": 812218,
+   "slug": "backdoor-part-2",
+   "date": "2026-10-23",
+   "time": [
+    9,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Backdoor Part 2",
+   "label": "Episode 4"
+  },
+  {
+   "id": 25744,
+   "slug": "i-live-alone",
+   "date": "2026-10-23",
+   "time": [
+    10,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "I Live Alone",
+   "label": "Episode 670"
+  },
+  {
+   "id": 812316,
+   "slug": "my-genie-secretary",
+   "date": "2026-10-23",
+   "time": [
+    10,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "My Genie Secretary",
+   "label": "Episode 8"
   },
   {
    "id": 813362,
@@ -2629,6 +2671,36 @@
    "time": null,
    "tz": "Asia/Seoul",
    "title": "Make Me Tingle",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812774,
+   "slug": "borders-keishicho-tokushu-jiken-taisaku-han",
+   "date": "2026-10-16",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Borders: Keishicho Tokushu Jiken Taisaku Han",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 811594,
+   "slug": "lost-10",
+   "date": "2026-10-16",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Lost 10",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812094,
+   "slug": "school-trip-joined-a-group-i-m-not-close-to-season-2",
+   "date": "2026-10-18",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "School Trip: Joined a Group I’m Not Close To Season 2",
    "label": "Premiere",
    "predicted": true
   },
@@ -4558,7 +4630,7 @@
     "overview": "Sonic the Hedgehog, joined by a new hero named Amy, faces a new technological nemesis known as Metal Sonic.",
     "poster": "/t8uoHBODkFlSQJRL6qc4IclUBlH.jpg",
     "backdrop": "/4Sh2c33WHf1KxX8UYuYLIroaVEv.jpg",
-    "runtime": 0,
+    "runtime": 120,
     "genres": [
      "Comedy",
      "Action",
@@ -4614,17 +4686,17 @@
   }
  ],
  "shows": {
-  "25565": {
-   "native": "런닝맨",
-   "network": "SBS",
-   "type": "TV Program",
-   "premiere": "Jul 11, 2010 - ?"
-  },
   "25568": {
    "native": "아는형님",
    "network": "jTBC",
    "type": "TV Program",
    "premiere": "Dec 5, 2015 - ?"
+  },
+  "25565": {
+   "native": "런닝맨",
+   "network": "SBS",
+   "type": "TV Program",
+   "premiere": "Jul 11, 2010 - ?"
   },
   "25576": {
    "native": "불후의 명곡: 전설을 노래하다",
@@ -4697,6 +4769,12 @@
    "network": "MBC",
    "type": "TV Program",
    "premiere": "Jul 27, 2019 - ?"
+  },
+  "45671": {
+   "native": "전국노래자랑",
+   "network": "KBS1",
+   "type": "TV Program",
+   "premiere": "Nov 9, 1980 - ?"
   },
   "45693": {
    "native": "아임 라이브",
@@ -5226,12 +5304,6 @@
    "type": "Drama",
    "premiere": ""
   },
-  "797332": {
-   "native": "VIVANT",
-   "network": "TBS",
-   "type": "Drama",
-   "premiere": "Jul 26, 2026 - Nov 8, 2026"
-  },
   "797384": {
    "native": "ニノなのに",
    "network": "TBS",
@@ -5598,12 +5670,6 @@
    "type": "Drama",
    "premiere": ""
   },
-  "808926": {
-   "native": "ウルトラマンテオ",
-   "network": "",
-   "type": "Drama",
-   "premiere": "Jul 4, 2026 - ?"
-  },
   "809010": {
    "native": "天狗の台所 Season3",
    "network": "BS-TBS",
@@ -5670,11 +5736,23 @@
    "type": "Drama",
    "premiere": ""
   },
+  "809724": {
+   "native": "昨夜は殺れたかも",
+   "network": "",
+   "type": "Movie",
+   "premiere": ""
+  },
   "809728": {
    "native": "신인감독 김연경 시즌2",
    "network": "MBC",
    "type": "TV Program",
    "premiere": "Oct 11, 2026 - ?"
+  },
+  "809762": {
+   "native": "연애전쟁",
+   "network": "jTBC",
+   "type": "TV Program",
+   "premiere": "Jun 23, 2026 - ?"
   },
   "809768": {
    "native": "찐한 고백: 183Hz",
@@ -5772,6 +5850,12 @@
    "type": "Drama",
    "premiere": "Aug 10, 2026 - ?"
   },
+  "810846": {
+   "native": "角醒ハンターオメガホーン",
+   "network": "TV Asahi",
+   "type": "Drama",
+   "premiere": "Jul 26, 2026 - ?"
+  },
   "810886": {
    "native": "青の花 器の森",
    "network": "NHK G",
@@ -5802,12 +5886,6 @@
    "type": "Drama",
    "premiere": ""
   },
-  "811296": {
-   "native": "해피투게더 - 혼자가 아니어서 좋아",
-   "network": "KBS2",
-   "type": "TV Program",
-   "premiere": "Jul 10, 2026 - Oct 16, 2026"
-  },
   "811322": {
    "native": "럭키 서울",
    "network": "tvN",
@@ -5832,17 +5910,17 @@
    "type": "Drama",
    "premiere": ""
   },
-  "811394": {
-   "native": "우주떡집",
-   "network": "tvN",
-   "type": "TV Program",
-   "premiere": "Jul 31, 2026 - Oct 16, 2026"
-  },
   "811382": {
    "native": "恋愛ルビの正しいふりかた シーズン2",
    "network": "Tokyo MX",
    "type": "Drama",
    "premiere": ""
+  },
+  "811398": {
+   "native": "숨바꼭질 시즌2",
+   "network": "Mnet",
+   "type": "TV Program",
+   "premiere": "Jul 31, 2026 - ?"
   },
   "811416": {
    "native": "もうパパ！",
@@ -5862,17 +5940,17 @@
    "type": "TV Program",
    "premiere": "Dec 26, 2025 - ?"
   },
-  "811464": {
-   "native": "なぎさの進化論",
-   "network": "NHK",
-   "type": "Drama",
-   "premiere": ""
-  },
   "811462": {
    "native": "会社員",
    "network": "NHK",
    "type": "Drama",
    "premiere": "Oct 13, 2026 - ?"
+  },
+  "811464": {
+   "native": "なぎさの進化論",
+   "network": "NHK",
+   "type": "Drama",
+   "premiere": ""
   },
   "811474": {
    "native": "말자쇼",
@@ -6022,7 +6100,7 @@
    "native": "修学旅行で仲良くないグループに入りました2",
    "network": "ABC",
    "type": "Drama",
-   "premiere": ""
+   "premiere": "Oct 18, 2026 - ?"
   },
   "812116": {
    "native": "赤灯えれじい",
@@ -6113,6 +6191,12 @@
    "network": "TV Asahi",
    "type": "Drama",
    "premiere": ""
+  },
+  "812218": {
+   "native": "백도어 파트2",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Sep 28, 2026 - ?"
   },
   "812222": {
    "native": "서라벌 나이프",
@@ -6270,6 +6354,12 @@
    "type": "Drama",
    "premiere": ""
   },
+  "812766": {
+   "native": "てんてん ずっと独身でいるつもり？",
+   "network": "",
+   "type": "Movie",
+   "premiere": ""
+  },
   "812768": {
    "native": "監禁犯は、私の最愛の人でした",
    "network": "",
@@ -6342,17 +6432,17 @@
    "type": "Drama",
    "premiere": "Sep 30, 2026 - Oct 29, 2026"
   },
-  "813038": {
-   "native": "50일의 썸",
-   "network": "jTBC",
-   "type": "Drama",
-   "premiere": ""
-  },
   "813006": {
    "native": "이븐아워",
    "network": "Mnet",
    "type": "TV Program",
    "premiere": "Sep 18, 2026 - ?"
+  },
+  "813038": {
+   "native": "50일의 썸",
+   "network": "jTBC",
+   "type": "Drama",
+   "premiere": ""
   },
   "813190": {
    "native": "サクサクヒムヒム ☆推しの降る夜☆",

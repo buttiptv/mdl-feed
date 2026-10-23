@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-10-23T07:29:55Z",
+ "fetched_utc": "2026-10-23T18:20:15Z",
  "episodes": [
   {
    "id": 809724,
@@ -102,6 +102,18 @@
    "tz": "Asia/Tokyo",
    "title": "Tengu's Kitchen Season 3",
    "label": "Episode 4"
+  },
+  {
+   "id": 811376,
+   "slug": "tsukiatte-agete-mo-ii-ka-na",
+   "date": "2026-10-22",
+   "time": [
+    10,
+    30
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "How Do We Relationship?",
+   "label": "Episode 7"
   },
   {
    "id": 812116,
@@ -241,6 +253,18 @@
     0
    ],
    "tz": "Asia/Tokyo",
+   "title": "Borders: Keishicho Tokushu Jiken Taisaku Han",
+   "label": "Episode 2"
+  },
+  {
+   "id": 811594,
+   "slug": "lost-10",
+   "date": "2026-10-23",
+   "time": [
+    9,
+    0
+   ],
+   "tz": "Asia/Tokyo",
    "title": "Lost 10",
    "label": "Episode 2"
   },
@@ -279,18 +303,6 @@
    "tz": "Asia/Tokyo",
    "title": "Mame to Mugi",
    "label": "Episode 4"
-  },
-  {
-   "id": 812796,
-   "slug": "ultraman-teo-special-recap-ep",
-   "date": "2026-10-23",
-   "time": [
-    20,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Ultraman Teo Special Recap EP",
-   "label": "Episode 2"
   },
   {
    "id": 813838,
@@ -710,7 +722,7 @@
    ],
    "tz": "Asia/Tokyo",
    "title": "Love Village Season 3",
-   "label": "Episode 19 - 18"
+   "label": "Episode 20 - 18"
   },
   {
    "id": 813222,
@@ -1160,6 +1172,18 @@
    "label": "Episode 7"
   },
   {
+   "id": 813442,
+   "slug": "upcono-season-2",
+   "date": "2026-10-22",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "UPCono Season 2",
+   "label": "Episode 1"
+  },
+  {
    "id": 809180,
    "slug": "gajok-gwangye-jeungmyeongseo",
    "date": "2026-10-22",
@@ -1325,7 +1349,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Sound of Sugar Cubes",
-   "label": "Episode 1 - 2"
+   "label": "Episode 2 - 1"
   },
   {
    "id": 812568,
@@ -1333,6 +1357,18 @@
    "date": "2026-10-23",
    "time": [
     4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Office Workers Season 3",
+   "label": "Episode 9"
+  },
+  {
+   "id": 811398,
+   "slug": "sumbakkokjil-sijeun-2",
+   "date": "2026-10-23",
+   "time": [
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1514,18 +1550,6 @@
    "time": [
     5,
     5
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Immortal Songs: Singing the Legend",
-   "label": "Episode 777"
-  },
-  {
-   "id": 39619,
-   "slug": "how-do-you-play",
-   "date": "2026-10-24",
-   "time": [
-    5,
-    30
    ],
    "tz": "Asia/Seoul",
    "title": "Hangout with Yoo",
@@ -3460,7 +3484,7 @@
     "overview": "The school’s cool, prince-like heroine has never questioned her role—until a fellow “Prince” enters her life and sees her as more than a hero, awakening feelings she’s never faced before.",
     "poster": "/mbp5x8c8wq1r397rICNh1xN6qNE.jpg",
     "backdrop": "/9YgJxu1S8fsK2s9na4PUo7ptKVS.jpg",
-    "runtime": 0,
+    "runtime": 119,
     "genres": [
      "Romance",
      "Drama"
@@ -5089,6 +5113,12 @@
   }
  ],
  "shows": {
+  "25568": {
+   "native": "아는형님",
+   "network": "jTBC",
+   "type": "TV Program",
+   "premiere": "Dec 5, 2015 - ?"
+  },
   "25565": {
    "native": "런닝맨",
    "network": "SBS",
@@ -5100,12 +5130,6 @@
    "network": "KBS1",
    "type": "TV Program",
    "premiere": "Jun 4, 2011 - ?"
-  },
-  "25568": {
-   "native": "아는형님",
-   "network": "jTBC",
-   "type": "TV Program",
-   "premiere": "Dec 5, 2015 - ?"
   },
   "25634": {
    "native": "미운 우리 새끼",
@@ -5166,12 +5190,6 @@
    "network": "TVING",
    "type": "Drama",
    "premiere": ""
-  },
-  "39619": {
-   "native": "놀면 뭐하니?",
-   "network": "MBC",
-   "type": "TV Program",
-   "premiere": "Jul 27, 2019 - ?"
   },
   "45671": {
    "native": "전국노래자랑",
@@ -5305,17 +5323,17 @@
    "type": "TV Program",
    "premiere": "Apr 13, 2021 - ?"
   },
-  "750637": {
-   "native": "매화, 달",
-   "network": "KBS2",
-   "type": "Drama",
-   "premiere": ""
-  },
   "750527": {
    "native": "톡파원 25시",
    "network": "jTBC",
    "type": "TV Program",
    "premiere": "Feb 2, 2022 - ?"
+  },
+  "750637": {
+   "native": "매화, 달",
+   "network": "KBS2",
+   "type": "Drama",
+   "premiere": ""
   },
   "752413": {
    "native": "수성국 밀회록",
@@ -5527,15 +5545,15 @@
    "type": "Drama",
    "premiere": ""
   },
-  "788704": {
-   "native": "철창살",
-   "network": "ENA",
-   "type": "Drama",
-   "premiere": ""
-  },
   "788706": {
    "native": "엠버스",
    "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "788704": {
+   "native": "철창살",
+   "network": "ENA",
    "type": "Drama",
    "premiere": ""
   },
@@ -5647,15 +5665,15 @@
    "type": "Drama",
    "premiere": ""
   },
-  "796508": {
-   "native": "내가 죄인이오",
-   "network": "Disney+",
-   "type": "Drama",
-   "premiere": ""
-  },
   "796274": {
    "native": "라이어",
    "network": "MBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "796508": {
+   "native": "내가 죄인이오",
+   "network": "Disney+",
    "type": "Drama",
    "premiere": ""
   },
@@ -6001,15 +6019,15 @@
    "type": "TV Program",
    "premiere": "Apr 5, 2025 - ?"
   },
-  "807656": {
-   "native": "마인드 닥터",
-   "network": "MBC",
-   "type": "Drama",
-   "premiere": ""
-  },
   "807676": {
    "native": "파괴지황",
    "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807656": {
+   "native": "마인드 닥터",
+   "network": "MBC",
    "type": "Drama",
    "premiere": ""
   },
@@ -6025,15 +6043,15 @@
    "type": "TV Program",
    "premiere": "Mar 19, 2026 - ?"
   },
-  "807978": {
-   "native": "러브 바이러스",
-   "network": "TVING",
-   "type": "Drama",
-   "premiere": ""
-  },
   "807896": {
    "native": "궁에는 개꽃이 산다",
    "network": "MBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807978": {
+   "native": "러브 바이러스",
+   "network": "TVING",
    "type": "Drama",
    "premiere": ""
   },
@@ -6091,17 +6109,17 @@
    "type": "Drama",
    "premiere": "Oct 8, 2026 - ?"
   },
-  "809164": {
-   "native": "おかえり、初恋。",
-   "network": "MBS TVK",
-   "type": "Drama",
-   "premiere": "Oct 9, 2026 - ?"
-  },
   "809156": {
    "native": "この味もまたいつか恋しくなる",
    "network": "NHK BSP",
    "type": "Drama",
    "premiere": ""
+  },
+  "809164": {
+   "native": "おかえり、初恋。",
+   "network": "MBS TVK",
+   "type": "Drama",
+   "premiere": "Oct 9, 2026 - ?"
   },
   "809166": {
    "native": "kiDnap GAME",
@@ -6127,17 +6145,17 @@
    "type": "TV Program",
    "premiere": ""
   },
-  "809696": {
-   "native": "낙원",
-   "network": "",
-   "type": "Drama",
-   "premiere": ""
-  },
   "809636": {
    "native": "불꽃야구 시즌2",
    "network": "",
    "type": "TV Program",
    "premiere": "May 4, 2026 - ?"
+  },
+  "809696": {
+   "native": "낙원",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
   },
   "809708": {
    "native": "얼라이크",
@@ -6301,11 +6319,23 @@
    "type": "Drama",
    "premiere": ""
   },
+  "811376": {
+   "native": "付き合ってあげてもいいかな",
+   "network": "MBS",
+   "type": "Drama",
+   "premiere": "Sep 10, 2026 - Oct 29, 2026"
+  },
   "811382": {
    "native": "恋愛ルビの正しいふりかた シーズン2",
    "network": "Tokyo MX",
    "type": "Drama",
    "premiere": ""
+  },
+  "811398": {
+   "native": "숨바꼭질 시즌2",
+   "network": "Mnet",
+   "type": "TV Program",
+   "premiere": "Jul 31, 2026 - ?"
   },
   "811416": {
    "native": "もうパパ！",
@@ -6361,17 +6391,17 @@
    "type": "Drama",
    "premiere": "Sep 28, 2026 - ?"
   },
-  "811590": {
-   "native": "解不開的我們",
-   "network": "",
-   "type": "Drama",
-   "premiere": "Oct 8, 2026 - Nov 5, 2026"
-  },
   "811518": {
    "native": "이혼조사관 홍말금",
    "network": "ENA",
    "type": "Drama",
    "premiere": ""
+  },
+  "811590": {
+   "native": "비틀린 넥타이",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Oct 8, 2026 - Nov 5, 2026"
   },
   "811594": {
    "native": "LOST10",
@@ -6505,17 +6535,17 @@
    "type": "Drama",
    "premiere": "Oct 13, 2026 - ?"
   },
-  "812142": {
-   "native": "仮面教師～妻を亡くしたその日から",
-   "network": "Chukyo TV NTV",
-   "type": "Drama",
-   "premiere": "Oct 8, 2026 - ?"
-  },
   "812132": {
    "native": "ぼくの地球を守って",
    "network": "Amazon Prime",
    "type": "Drama",
    "premiere": ""
+  },
+  "812142": {
+   "native": "仮面教師～妻を亡くしたその日から",
+   "network": "Chukyo TV NTV",
+   "type": "Drama",
+   "premiere": "Oct 8, 2026 - ?"
   },
   "812144": {
    "native": "まめとむぎ",
@@ -6763,29 +6793,23 @@
    "type": "Drama",
    "premiere": "Oct 23, 2026 - ?"
   },
-  "812796": {
-   "native": "ウルトラマンテオ 特別総集編",
-   "network": "TV Tokyo",
-   "type": "Drama",
-   "premiere": "Aug 22, 2026 - ?"
-  },
   "812810": {
    "native": "あいの里 シーズン3",
    "network": "Netflix",
    "type": "TV Program",
    "premiere": "Oct 6, 2026 - Nov 3, 2026"
   },
-  "812828": {
-   "native": "신입사원 길들이기",
-   "network": "",
-   "type": "Drama",
-   "premiere": "Oct 4, 2026 - ?"
-  },
   "812820": {
    "native": "アナログナース〜デジタルってなんなんだよ!?〜",
    "network": "TV Asahi",
    "type": "Drama",
    "premiere": "Oct 22, 2026 - ?"
+  },
+  "812828": {
+   "native": "신입사원 길들이기",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Oct 4, 2026 - ?"
   },
   "812910": {
    "native": "嘘をついた私たち",
@@ -6954,6 +6978,12 @@
    "network": "Mnet",
    "type": "TV Program",
    "premiere": "Oct 7, 2026 - ?"
+  },
+  "813442": {
+   "native": "UP코노 시즌2",
+   "network": "SBS",
+   "type": "TV Program",
+   "premiere": "Oct 22, 2026 - ?"
   },
   "813510": {
    "native": "골 때리는 그녀들: 제3회 GIFA컵",

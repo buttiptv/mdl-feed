@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-10-24T07:17:56Z",
+ "fetched_utc": "2026-10-24T17:27:37Z",
  "episodes": [
   {
    "id": 813228,
@@ -83,10 +83,34 @@
    "label": "Episode 2"
   },
   {
+   "id": 814002,
+   "slug": "falling-for-the-boss-i-hate",
+   "date": "2026-10-23",
+   "time": [
+    21,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Falling for the Boss I Hate",
+   "label": "Episode 4 - 25"
+  },
+  {
    "id": 813838,
    "slug": "floating-rest",
    "date": "2026-10-24",
    "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Bachi-Bachi Star",
+   "label": "Episode 51"
+  },
+  {
+   "id": 802402,
+   "slug": "oretachi-no-hakone-ekiden",
+   "date": "2026-10-24",
+   "time": [
+    7,
+    0
+   ],
    "tz": "Asia/Tokyo",
    "title": "Hakone Ekiden: Our Story",
    "label": "Episode 3"
@@ -182,18 +206,6 @@
    "time": [
     20,
     0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Kamen Rider MY-TH",
-   "label": "Episode 8"
-  },
-  {
-   "id": 810846,
-   "slug": "kakusei-hunter-omegahorn",
-   "date": "2026-10-24",
-   "time": [
-    20,
-    30
    ],
    "tz": "Asia/Tokyo",
    "title": "Kakusei Hunter Omegahorn",
@@ -524,7 +536,7 @@
    ],
    "tz": "Asia/Tokyo",
    "title": "VS. Bullet Train",
-   "label": "Episode 69"
+   "label": "Episode 69 - 68"
   },
   {
    "id": 812924,
@@ -1223,6 +1235,18 @@
    "label": "Episode 6"
   },
   {
+   "id": 810732,
+   "slug": "jun-hyun-moo-s-plan-season-4",
+   "date": "2026-10-23",
+   "time": [
+    7,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Jun Hyun Moo's Plan Season 4",
+   "label": "Episode 17"
+  },
+  {
    "id": 813238,
    "slug": "matgyeoman-jusipsyot",
    "date": "2026-10-23",
@@ -1313,6 +1337,18 @@
    "time": [
     4,
     5
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Immortal Songs: Singing the Legend",
+   "label": "Episode 777"
+  },
+  {
+   "id": 39619,
+   "slug": "how-do-you-play",
+   "date": "2026-10-24",
+   "time": [
+    4,
+    30
    ],
    "tz": "Asia/Seoul",
    "title": "Hangout with Yoo",
@@ -1473,18 +1509,6 @@
    "tz": "Asia/Seoul",
    "title": "Omniscient Interfering View",
    "label": "Episode 421"
-  },
-  {
-   "id": 45671,
-   "slug": "korea-sings",
-   "date": "2026-10-24",
-   "time": [
-    22,
-    10
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Korea Sings",
-   "label": "Episode 2189"
   },
   {
    "id": 35517,
@@ -2168,7 +2192,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Geumgyul Season 2: Mixed Foursome",
-   "label": "Episode 16 - 21"
+   "label": "Episode 10 - 15"
   },
   {
    "id": 789036,
@@ -3189,6 +3213,16 @@
    "time": null,
    "tz": "Asia/Seoul",
    "title": "UPCono Season 2",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 814002,
+   "slug": "falling-for-the-boss-i-hate",
+   "date": "2026-10-24",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Falling for the Boss I Hate",
    "label": "Premiere",
    "predicted": true
   }
@@ -4872,6 +4906,29 @@
    "movie": true
   },
   {
+   "id": 813996,
+   "slug": "10-things-i-want-to-do-before-i-turn-40-the-movie",
+   "date": "2027-01-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "10 Things I Want to Do before I Turn 40: The Movie",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1774278,
+    "title": "10 Things I Want to Do Before I Turn 40 THE MOVIE",
+    "overview": "",
+    "poster": "/5AXJPqBetQgYhD2vz4rgTxqP4O1.jpg",
+    "backdrop": "/q3LAeghHEWKCqNetdxDKtOo82n7.jpg",
+    "runtime": 0,
+    "genres": [
+     "Drama",
+     "Romance"
+    ],
+    "release_date": "2027-01-22"
+   }
+  },
+  {
    "id": 810920,
    "slug": "kaiji-jinsei-revenge-game",
    "date": "2027-01-01",
@@ -5210,11 +5267,11 @@
    "type": "Drama",
    "premiere": ""
   },
-  "45671": {
-   "native": "전국노래자랑",
-   "network": "KBS1",
+  "39619": {
+   "native": "놀면 뭐하니?",
+   "network": "MBC",
    "type": "TV Program",
-   "premiere": "Nov 9, 1980 - ?"
+   "premiere": "Jul 27, 2019 - ?"
   },
   "45693": {
    "native": "아임 라이브",
@@ -5654,12 +5711,6 @@
    "type": "TV Program",
    "premiere": "Apr 3, 2025 - ?"
   },
-  "794782": {
-   "native": "괸당",
-   "network": "Netflix",
-   "type": "Drama",
-   "premiere": ""
-  },
   "794930": {
    "native": "남남 시즌2",
    "network": "ENA Genie TV",
@@ -5669,6 +5720,12 @@
   "794932": {
    "native": "백XX",
    "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "794782": {
+   "native": "괸당",
+   "network": "Netflix",
    "type": "Drama",
    "premiere": ""
   },
@@ -5796,7 +5853,7 @@
    "native": "俺のこと、なんか言ってた？",
    "network": "Netflix",
    "type": "Drama",
-   "premiere": "Oct 22, 2026 - ?"
+   "premiere": "Oct 22, 2026"
   },
   "801366": {
    "native": "timelesz ファミリア",
@@ -5876,17 +5933,17 @@
    "type": "Drama",
    "premiere": ""
   },
-  "803410": {
-   "native": "사랑이 온다",
-   "network": "KBS2",
-   "type": "Drama",
-   "premiere": "Jul 25, 2026 - ?"
-  },
   "803490": {
    "native": "은퇴요원+관리팀",
    "network": "tvN",
    "type": "Drama",
    "premiere": ""
+  },
+  "803410": {
+   "native": "사랑이 온다",
+   "network": "KBS2",
+   "type": "Drama",
+   "premiere": "Jul 25, 2026 - ?"
   },
   "803492": {
    "native": "각잡힌 사이",
@@ -6272,17 +6329,17 @@
    "type": "TV Program",
    "premiere": "Oct 5, 2026 - ?"
   },
+  "810732": {
+   "native": "전현무계획 시즌4",
+   "network": "MBN",
+   "type": "TV Program",
+   "premiere": "Jul 3, 2026 - ?"
+  },
   "810734": {
    "native": "욕망의 덫",
    "network": "KBS2",
    "type": "Drama",
    "premiere": "Aug 10, 2026 - ?"
-  },
-  "810846": {
-   "native": "角醒ハンターオメガホーン",
-   "network": "TV Asahi",
-   "type": "Drama",
-   "premiere": "Jul 26, 2026 - ?"
   },
   "810886": {
    "native": "青の花 器の森",
@@ -6320,12 +6377,6 @@
    "type": "TV Program",
    "premiere": "Jul 6, 2026 - ?"
   },
-  "811382": {
-   "native": "恋愛ルビの正しいふりかた シーズン2",
-   "network": "Tokyo MX",
-   "type": "Drama",
-   "premiere": ""
-  },
   "811374": {
    "native": "조련의 여왕",
    "network": "ENA",
@@ -6337,6 +6388,12 @@
    "network": "MBS",
    "type": "Drama",
    "premiere": "Sep 10, 2026 - Oct 29, 2026"
+  },
+  "811382": {
+   "native": "恋愛ルビの正しいふりかた シーズン2",
+   "network": "Tokyo MX",
+   "type": "Drama",
+   "premiere": ""
   },
   "811398": {
    "native": "숨바꼭질 시즌2",
@@ -7177,6 +7234,30 @@
    "network": "",
    "type": "Drama",
    "premiere": ""
+  },
+  "813992": {
+   "native": "連続ドラマW ゴールデンカムイ ―樺太追跡編―",
+   "network": "WOWOW",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "813994": {
+   "native": "ナイト・テイルズ・クラブ",
+   "network": "Disney+",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814000": {
+   "native": "Mr.MYSTERY?",
+   "network": "TBS",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814002": {
+   "native": "大嫌いな上司に沼ってしまった",
+   "network": "iQiyi",
+   "type": "TV Program",
+   "premiere": "Oct 24, 2026"
   }
  }
 }

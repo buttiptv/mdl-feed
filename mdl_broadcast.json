@@ -1,164 +1,32 @@
 {
- "fetched_utc": "2026-10-26T19:57:34Z",
+ "fetched_utc": "2026-10-27T07:50:02Z",
  "episodes": [
-  {
-   "id": 808594,
-   "slug": "sukiyaki-ue-wo-muite-arukou",
-   "date": "2026-10-25",
-   "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "Sukiyaki",
-   "label": "Movie"
-  },
-  {
-   "id": 801366,
-   "slug": "timelesz-familia",
-   "date": "2026-10-25",
-   "time": [
-    1,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Timelesz Familia",
-   "label": "Episode 48"
-  },
-  {
-   "id": 766049,
-   "slug": "toyotomi-kyodai",
-   "date": "2026-10-25",
-   "time": [
-    7,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Brothers in Arms",
-   "label": "Episode 41"
-  },
-  {
-   "id": 797332,
-   "slug": "vivant",
-   "date": "2026-10-25",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Vivant",
-   "label": "Episode 12"
-  },
-  {
-   "id": 789916,
-   "slug": "golden-sixtones",
-   "date": "2026-10-25",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Golden SixTONES",
-   "label": "Episode 69"
-  },
-  {
-   "id": 810554,
-   "slug": "mr-iyaku-joho-tantosha",
-   "date": "2026-10-25",
-   "time": [
-    10,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "MR: Iyaku Joho Tantosha",
-   "label": "Episode 4"
-  },
-  {
-   "id": 79663,
-   "slug": "jounetsu-tairiku",
-   "date": "2026-10-25",
-   "time": [
-    10,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Jounetsu Tairiku",
-   "label": "Episode 1425"
-  },
-  {
-   "id": 811416,
-   "slug": "mo-papa",
-   "date": "2026-10-25",
-   "time": [
-    10,
-    15
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Cut, Dad!: Are We the \"Best\" Family?",
-   "label": "Episode 4"
-  },
-  {
-   "id": 812050,
-   "slug": "hide-seek-0-byo-mae-no-kanojo",
-   "date": "2026-10-25",
-   "time": [
-    10,
-    30
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Hide and Seek",
-   "label": "Episode 4"
-  },
-  {
-   "id": 812308,
-   "slug": "squall",
-   "date": "2026-10-25",
-   "time": [
-    12,
-    10
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Squall",
-   "label": "Episode 2"
-  },
-  {
-   "id": 810930,
-   "slug": "super-dragon-quest",
-   "date": "2026-10-25",
-   "time": [
-    12,
-    50
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Super Dragon Quest",
-   "label": "Episode 16"
-  },
-  {
-   "id": 793250,
-   "slug": "blossom",
-   "date": "2026-10-25",
-   "time": [
-    19,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blossom",
-   "label": "Episode 21"
-  },
-  {
-   "id": 809822,
-   "slug": "ao-to-midori",
-   "date": "2026-10-25",
-   "time": [
-    22,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Ao to Midori",
-   "label": "Episode 4"
-  },
   {
    "id": 810082,
    "slug": "bye-bye-love-tantei-wa-bar-ni-iru",
    "date": "2026-10-26",
    "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Bye Bye Love: Detective Is in the Bar",
+   "label": "Movie"
+  },
+  {
+   "id": 810174,
+   "slug": "otoko-tomodachi",
+   "date": "2026-10-26",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Two Cigarettes, Three Nights",
+   "label": "Movie"
+  },
+  {
+   "id": 722529,
+   "slug": "cdtv-live-live",
+   "date": "2026-10-26",
+   "time": [
+    8,
+    0
+   ],
    "tz": "Asia/Tokyo",
    "title": "CDTV Live! Live!",
    "label": "Episode 199"
@@ -221,7 +89,7 @@
    ],
    "tz": "Asia/Tokyo",
    "title": "Love Village Season 3",
-   "label": "Episode 20 - 18"
+   "label": "Episode 19 - 18"
   },
   {
    "id": 813222,
@@ -308,52 +176,22 @@
    "label": "Episode 67"
   },
   {
+   "id": 793250,
+   "slug": "blossom",
+   "date": "2026-10-26",
+   "time": [
+    19,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Blossom",
+   "label": "Episode 22"
+  },
+  {
    "id": 811832,
    "slug": "your-story",
    "date": "2026-10-27",
    "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "Your Story",
-   "label": "Movie"
-  },
-  {
-   "id": 813396,
-   "slug": "hitsuji-no-kawa-wo-kita-kemono",
-   "date": "2026-10-27",
-   "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "Monster in Sheep's Clothing",
-   "label": "Movie"
-  },
-  {
-   "id": 813548,
-   "slug": "ienai-futari",
-   "date": "2026-10-27",
-   "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "Between Us",
-   "label": "Movie"
-  },
-  {
-   "id": 749947,
-   "slug": "human-gourmentary-omoumai-mise",
-   "date": "2026-10-27",
-   "time": [
-    6,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Human Gourmentary Omoumai Mise",
-   "label": "Episode 233"
-  },
-  {
-   "id": 809166,
-   "slug": "kidnap-game",
-   "date": "2026-10-27",
-   "time": [
-    8,
-    0
-   ],
    "tz": "Asia/Tokyo",
    "title": "Kidnap Game",
    "label": "Episode 4"
@@ -1118,208 +956,160 @@
    "label": "Episode 3"
   },
   {
-   "id": 35517,
-   "slug": "boss-in-the-mirror",
-   "date": "2026-10-25",
+   "id": 812034,
+   "slug": "kakusei-hunter-omegahorn-huntertachi-no-mokuhiroku-with-gavan",
+   "date": "2026-10-31",
    "time": [
-    3,
-    45
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Boss in the Mirror",
-   "label": "Episode 380"
-  },
-  {
-   "id": 25565,
-   "slug": "running-man",
-   "date": "2026-10-25",
-   "time": [
-    5,
-    10
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Running Man",
-   "label": "Episode 824"
-  },
-  {
-   "id": 51647,
-   "slug": "2-days-1-night-season-4",
-   "date": "2026-10-25",
-   "time": [
-    5,
-    15
-   ],
-   "tz": "Asia/Seoul",
-   "title": "2 Days & 1 Night Season 4",
-   "label": "Episode 347"
-  },
-  {
-   "id": 812828,
-   "slug": "sinipsawon-gildeurigi",
-   "date": "2026-10-25",
-   "time": [
-    5,
-    20
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Training the Intern",
-   "label": "Episode 4"
-  },
-  {
-   "id": 812394,
-   "slug": "sixth-sense-b-side",
-   "date": "2026-10-25",
-   "time": [
-    7,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Sixth Sense: B-Side",
-   "label": "Episode 6"
-  },
-  {
-   "id": 803410,
-   "slug": "sarangi-onda",
-   "date": "2026-10-25",
-   "time": [
-    8,
+    21,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Love on the Menu",
-   "label": "Episode 25"
+   "tz": "Asia/Tokyo",
+   "title": "Kakusei Hunter Omegahorn: Huntertachi no Mokuhiroku with Gavan",
+   "label": "Episode 15"
   },
   {
-   "id": 780006,
-   "slug": "please-take-care-of-my-refrigerator-season-2",
-   "date": "2026-10-25",
+   "id": 812148,
+   "slug": "kamen-rider-my-th-twelve-zodiacs-ten-colors",
+   "date": "2026-10-31",
    "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Please Take Care of My Refrigerator Season 2",
-   "label": "Episode 94"
-  },
-  {
-   "id": 25634,
-   "slug": "mom-s-diary-my-ugly-duckling",
-   "date": "2026-10-25",
-   "time": [
-    8,
-    5
-   ],
-   "tz": "Asia/Seoul",
-   "title": "My Little Old Boy",
-   "label": "Episode 516"
-  },
-  {
-   "id": 778656,
-   "slug": "100-days-of-lies",
-   "date": "2026-10-25",
-   "time": [
-    8,
-    10
-   ],
-   "tz": "Asia/Seoul",
-   "title": "100 Days of Deception",
-   "label": "Episode 6"
-  },
-  {
-   "id": 804316,
-   "slug": "neo-malgo-dareun-yeonae",
-   "date": "2026-10-25",
-   "time": [
-    8,
-    20
-   ],
-   "tz": "Asia/Seoul",
-   "title": "A Love Other than Yours",
-   "label": "Episode 12"
-  },
-  {
-   "id": 813236,
-   "slug": "ni-don-nae-san",
-   "date": "2026-10-25",
-   "time": [
-    8,
+    21,
     30
    ],
-   "tz": "Asia/Seoul",
-   "title": "Ni Don Nae San",
+   "tz": "Asia/Tokyo",
+   "title": "Kamen Rider MY-TH: The Chaotic Zodiac",
+   "label": "Episode 9"
+  },
+  {
+   "id": 801366,
+   "slug": "timelesz-familia",
+   "date": "2026-11-01",
+   "time": [
+    1,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Timelesz Familia",
+   "label": "Episode 49"
+  },
+  {
+   "id": 766049,
+   "slug": "toyotomi-kyodai",
+   "date": "2026-11-01",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Brothers in Arms",
+   "label": "Episode 42"
+  },
+  {
+   "id": 797332,
+   "slug": "vivant",
+   "date": "2026-11-01",
+   "time": [
+    7,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Vivant",
+   "label": "Episode 13"
+  },
+  {
+   "id": 789916,
+   "slug": "golden-sixtones",
+   "date": "2026-11-01",
+   "time": [
+    7,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Golden SixTONES",
+   "label": "Episode 70"
+  },
+  {
+   "id": 810554,
+   "slug": "mr-iyaku-joho-tantosha",
+   "date": "2026-11-01",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "MR: Iyaku Joho Tantosha",
    "label": "Episode 5"
   },
   {
-   "id": 809728,
-   "slug": "the-wonder-coach-season-2",
-   "date": "2026-10-25",
+   "id": 811416,
+   "slug": "mo-papa",
+   "date": "2026-11-01",
+   "time": [
+    8,
+    15
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Cut, Dad!: Are We the \"Best\" Family?",
+   "label": "Episode 5"
+  },
+  {
+   "id": 812050,
+   "slug": "hide-seek-0-byo-mae-no-kanojo",
+   "date": "2026-11-01",
+   "time": [
+    8,
+    30
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Hide and Seek",
+   "label": "Episode 5"
+  },
+  {
+   "id": 79663,
+   "slug": "jounetsu-tairiku",
+   "date": "2026-11-01",
    "time": [
     9,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Jounetsu Tairiku",
+   "label": "Episode 1426"
+  },
+  {
+   "id": 812308,
+   "slug": "squall",
+   "date": "2026-11-01",
+   "time": [
+    11,
     10
    ],
-   "tz": "Asia/Seoul",
-   "title": "The Wonder Coach Season 2",
+   "tz": "Asia/Tokyo",
+   "title": "Squall",
    "label": "Episode 3"
   },
   {
-   "id": 798626,
-   "slug": "the-final-table",
-   "date": "2026-10-25",
+   "id": 810930,
+   "slug": "super-dragon-quest",
+   "date": "2026-11-01",
    "time": [
-    9,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Final Table",
-   "label": "Episode 2"
-  },
-  {
-   "id": 787494,
-   "slug": "dive-to-you",
-   "date": "2026-10-25",
-   "time": [
-    9,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Dive into You",
-   "label": "Episode 10"
-  },
-  {
-   "id": 759473,
-   "slug": "gag-concert-season-2",
-   "date": "2026-10-25",
-   "time": [
-    9,
-    40
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Gag Concert Season 2",
-   "label": "Episode 145"
-  },
-  {
-   "id": 813282,
-   "slug": "this-is-hyun-moo-road",
-   "date": "2026-10-25",
-   "time": [
-    10,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "This Is Hyun Moo Road",
-   "label": "Episode 6"
-  },
-  {
-   "id": 711569,
-   "slug": "out-of-the-blue",
-   "date": "2026-10-25",
-   "time": [
-    10,
+    11,
     50
    ],
-   "tz": "Asia/Seoul",
-   "title": "Oh! My Guard",
-   "label": "Episode 2"
+   "tz": "Asia/Tokyo",
+   "title": "Super Dragon Quest",
+   "label": "Episode 17"
+  },
+  {
+   "id": 793250,
+   "slug": "blossom",
+   "date": "2026-11-01",
+   "time": [
+    18,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Blossom",
+   "label": "Episode 26"
   },
   {
    "id": 811324,
@@ -1787,7 +1577,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Geumgyul Season 2: Mixed Foursome",
-   "label": "Episode 1 - 22"
+   "label": "Episode 12 - 17"
   },
   {
    "id": 789036,
@@ -1991,7 +1781,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Dead-End Job",
-   "label": "Episode 6 - 5"
+   "label": "Episode 1 - 6"
   },
   {
    "id": 812568,
@@ -2388,6 +2178,222 @@
    "tz": "Asia/Seoul",
    "title": "Oh! My Guard",
    "label": "Episode 3"
+  },
+  {
+   "id": 45671,
+   "slug": "korea-sings",
+   "date": "2026-10-31",
+   "time": [
+    23,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Korea Sings",
+   "label": "Episode 2190"
+  },
+  {
+   "id": 35517,
+   "slug": "boss-in-the-mirror",
+   "date": "2026-11-01",
+   "time": [
+    2,
+    45
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Boss in the Mirror",
+   "label": "Episode 381"
+  },
+  {
+   "id": 812828,
+   "slug": "sinipsawon-gildeurigi",
+   "date": "2026-11-01",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Training the Intern",
+   "label": "Episode 5"
+  },
+  {
+   "id": 25565,
+   "slug": "running-man",
+   "date": "2026-11-01",
+   "time": [
+    4,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Running Man",
+   "label": "Episode 825"
+  },
+  {
+   "id": 51647,
+   "slug": "2-days-1-night-season-4",
+   "date": "2026-11-01",
+   "time": [
+    4,
+    15
+   ],
+   "tz": "Asia/Seoul",
+   "title": "2 Days & 1 Night Season 4",
+   "label": "Episode 348"
+  },
+  {
+   "id": 812394,
+   "slug": "sixth-sense-b-side",
+   "date": "2026-11-01",
+   "time": [
+    5,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Sixth Sense: B-Side",
+   "label": "Episode 7"
+  },
+  {
+   "id": 803410,
+   "slug": "sarangi-onda",
+   "date": "2026-11-01",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Love on the Menu",
+   "label": "Episode 27"
+  },
+  {
+   "id": 813236,
+   "slug": "ni-don-nae-san",
+   "date": "2026-11-01",
+   "time": [
+    6,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Ni Don Nae San",
+   "label": "Episode 6"
+  },
+  {
+   "id": 780006,
+   "slug": "please-take-care-of-my-refrigerator-season-2",
+   "date": "2026-11-01",
+   "time": [
+    7,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Please Take Care of My Refrigerator Season 2",
+   "label": "Episode 95"
+  },
+  {
+   "id": 25634,
+   "slug": "mom-s-diary-my-ugly-duckling",
+   "date": "2026-11-01",
+   "time": [
+    7,
+    5
+   ],
+   "tz": "Asia/Seoul",
+   "title": "My Little Old Boy",
+   "label": "Episode 517"
+  },
+  {
+   "id": 809728,
+   "slug": "the-wonder-coach-season-2",
+   "date": "2026-11-01",
+   "time": [
+    7,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "The Wonder Coach Season 2",
+   "label": "Episode 4"
+  },
+  {
+   "id": 804316,
+   "slug": "neo-malgo-dareun-yeonae",
+   "date": "2026-11-01",
+   "time": [
+    7,
+    20
+   ],
+   "tz": "Asia/Seoul",
+   "title": "A Love Other than Yours",
+   "label": "Episode 14"
+  },
+  {
+   "id": 778656,
+   "slug": "100-days-of-lies",
+   "date": "2026-11-01",
+   "time": [
+    8,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "100 Days of Deception",
+   "label": "Episode 8"
+  },
+  {
+   "id": 798626,
+   "slug": "the-final-table",
+   "date": "2026-11-01",
+   "time": [
+    8,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Final Table",
+   "label": "Episode 4"
+  },
+  {
+   "id": 813282,
+   "slug": "this-is-hyun-moo-road",
+   "date": "2026-11-01",
+   "time": [
+    8,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "This Is Hyun Moo Road",
+   "label": "Episode 7"
+  },
+  {
+   "id": 759473,
+   "slug": "gag-concert-season-2",
+   "date": "2026-11-01",
+   "time": [
+    8,
+    40
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Gag Concert Season 2",
+   "label": "Episode 146"
+  },
+  {
+   "id": 787494,
+   "slug": "dive-to-you",
+   "date": "2026-11-01",
+   "time": [
+    9,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Dive into You",
+   "label": "Episode 12"
+  },
+  {
+   "id": 711569,
+   "slug": "out-of-the-blue",
+   "date": "2026-11-01",
+   "time": [
+    9,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Oh! My Guard",
+   "label": "Episode 4"
   },
   {
    "id": 813362,
@@ -4375,21 +4381,21 @@
   {
    "id": 810082,
    "slug": "bye-bye-love-tantei-wa-bar-ni-iru",
-   "date": "2026-10-01",
+   "date": "2026-10-27",
    "time": null,
    "tz": "Asia/Tokyo",
    "title": "Bye Bye Love: Detective Is in the Bar",
-   "label": "Expected Movie Release",
+   "label": "Movie Release",
    "movie": true
   },
   {
    "id": 810174,
    "slug": "otoko-tomodachi",
-   "date": "2026-10-01",
+   "date": "2026-10-27",
    "time": null,
    "tz": "Asia/Tokyo",
    "title": "Two Cigarettes, Three Nights",
-   "label": "Expected Movie Release",
+   "label": "Movie Release",
    "movie": true,
    "tmdb": {
     "id": 1738772,
@@ -5331,6 +5337,12 @@
    "type": "TV Program",
    "premiere": "Jul 27, 2019 - ?"
   },
+  "45671": {
+   "native": "전국노래자랑",
+   "network": "KBS1",
+   "type": "TV Program",
+   "premiere": "Nov 9, 1980 - ?"
+  },
   "45693": {
    "native": "아임 라이브",
    "network": "",
@@ -5397,6 +5409,12 @@
    "type": "TV Program",
    "premiere": "Oct 21, 2021 - ?"
   },
+  "722529": {
+   "native": "CDTV ライブ! ライブ!",
+   "network": "TBS",
+   "type": "TV Program",
+   "premiere": "Mar 30, 2020 - ?"
+  },
   "722677": {
    "native": "리무진 서비스",
    "network": "KBS2",
@@ -5450,12 +5468,6 @@
    "network": "ENA",
    "type": "Drama",
    "premiere": ""
-  },
-  "749947": {
-   "native": "ヒューマングルメンタリー オモウマい店",
-   "network": "NTV",
-   "type": "TV Program",
-   "premiere": "Apr 13, 2021 - ?"
   },
   "750527": {
    "native": "톡파원 25시",
@@ -6189,12 +6201,6 @@
    "type": "Drama",
    "premiere": ""
   },
-  "808594": {
-   "native": "SUKIYAKI 上を向いて歩こう",
-   "network": "",
-   "type": "Movie",
-   "premiere": ""
-  },
   "808710": {
    "native": "Aぇ! groupのQ＆Aぇ!",
    "network": "Fuji TV",
@@ -6343,6 +6349,12 @@
    "native": "지옥에서 온 판사 시즌2",
    "network": "SBS",
    "type": "Drama",
+   "premiere": ""
+  },
+  "810174": {
+   "native": "男ともだち",
+   "network": "",
+   "type": "Movie",
    "premiere": ""
   },
   "810324": {
@@ -6567,6 +6579,12 @@
    "type": "TV Program",
    "premiere": "Jan 8, 2026 - ?"
   },
+  "812034": {
+   "native": "角醒ハンターオメガホーンハンターたちの黙秘録 with ギャバン",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Jul 26, 2026 - ?"
+  },
   "812038": {
    "native": "熊は嘘をつかない",
    "network": "NHK",
@@ -6650,6 +6668,12 @@
    "network": "TV Tokyo",
    "type": "Drama",
    "premiere": "Oct 3, 2026 - ?"
+  },
+  "812148": {
+   "native": "仮面ライダーマイス 十二支十色",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Sep 12, 2026 - ?"
   },
   "812154": {
    "native": "南田南弁護士は天才肌",
@@ -6824,6 +6848,12 @@
    "network": "",
    "type": "Drama",
    "premiere": "Oct 22, 2026"
+  },
+  "812536": {
+   "native": "메디컬 환생",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
   },
   "812538": {
    "native": "금귤이1 : 나쁜 X들의 필드",
@@ -7035,12 +7065,6 @@
    "type": "Drama",
    "premiere": ""
   },
-  "813396": {
-   "native": "羊の皮を着たケモノ",
-   "network": "",
-   "type": "Movie",
-   "premiere": ""
-  },
   "813410": {
    "native": "댐!뷸런스",
    "network": "Mnet",
@@ -7094,12 +7118,6 @@
    "network": "Tokyo MX",
    "type": "Drama",
    "premiere": "Oct 2, 2026 - ?"
-  },
-  "813548": {
-   "native": "いえないふたり",
-   "network": "",
-   "type": "Movie",
-   "premiere": ""
   },
   "813596": {
    "native": "십오야 골든벨",

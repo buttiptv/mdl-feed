@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-10-29T08:27:40Z",
+ "fetched_utc": "2026-10-29T19:39:11Z",
  "episodes": [
   {
    "id": 812676,
@@ -171,6 +171,18 @@
    "slug": "ryuji",
    "date": "2026-10-29",
    "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Happy Gardening Life",
+   "label": "Episode 83"
+  },
+  {
+   "id": 809140,
+   "slug": "the-journey-to-killing-you-season-2",
+   "date": "2026-10-29",
+   "time": [
+    6,
+    0
+   ],
    "tz": "Asia/Tokyo",
    "title": "The Journey to Killing You Season 2",
    "label": "Episode 5"
@@ -400,18 +412,6 @@
     0
    ],
    "tz": "Asia/Tokyo",
-   "title": "Blossom",
-   "label": "Episode 25"
-  },
-  {
-   "id": 813542,
-   "slug": "shinya-zangyo-nikushoku-kohai-no-katakoi-kenshu",
-   "date": "2026-10-29",
-   "time": [
-    23,
-    45
-   ],
-   "tz": "Asia/Tokyo",
    "title": "Shinya Zangyo: Nikushoku Kohai no Katakoi Kenshu",
    "label": "Episode 5"
   },
@@ -426,6 +426,18 @@
    "tz": "Asia/Tokyo",
    "title": "Borders: Keishicho Tokushu Jiken Taisaku Han",
    "label": "Episode 3"
+  },
+  {
+   "id": 792568,
+   "slug": "timeleszman",
+   "date": "2026-10-30",
+   "time": [
+    7,
+    55
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Timeleszman",
+   "label": "Episode 71"
   },
   {
    "id": 811594,
@@ -887,7 +899,7 @@
    ],
    "tz": "Asia/Tokyo",
    "title": "Love Village Season 3",
-   "label": "Episode 21 - 23"
+   "label": "Episode 23 - 22"
   },
   {
    "id": 813222,
@@ -1235,7 +1247,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Geumgyul Season 2: Mixed Foursome",
-   "label": "Episode 6 - 27"
+   "label": "Episode 13 - 18"
   },
   {
    "id": 789036,
@@ -1255,6 +1267,18 @@
    "date": "2026-10-29",
    "time": [
     4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Changing Majors Season 9",
+   "label": "Episode 8"
+  },
+  {
+   "id": 770747,
+   "slug": "sana-s-fridge-interview",
+   "date": "2026-10-29",
+   "time": [
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1420,18 +1444,6 @@
   {
    "id": 784486,
    "slug": "honey-jar-part-time-project",
-   "date": "2026-10-30",
-   "time": [
-    3,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Dead-End Job",
-   "label": "Episode 4 - 3"
-  },
-  {
-   "id": 812568,
-   "slug": "office-workers-season-3",
    "date": "2026-10-30",
    "time": [
     3,
@@ -2304,6 +2316,18 @@
    "tz": "Asia/Seoul",
    "title": "Mission: Mompossible",
    "label": "Episode 27"
+  },
+  {
+   "id": 810918,
+   "slug": "whenever-possible-season-5",
+   "date": "2026-11-03",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Whenever Possible Season 5",
+   "label": "Episode 12"
   },
   {
    "id": 813796,
@@ -4724,7 +4748,7 @@
    "date": "2026-11-01",
    "time": null,
    "tz": "Asia/Tokyo",
-   "title": "Naimononedari no Kimi ni Hikari no Hanataba wo",
+   "title": "A Bouquet of Light for You",
    "label": "Expected Movie Release",
    "movie": true
   },
@@ -5098,7 +5122,7 @@
    "tmdb": {
     "id": 1772119,
     "title": "A List for Tomorrow",
-    "overview": "",
+    "overview": "After spending 40 years in a psychiatric hospital he shouldn't have been in, 59-year-old Taro finds himself thrust into modern Tokyo. With the help of a young welfare officer, he begins pursuing a list of long-forgotten dreams, from swimming in the ocean to appearing in a period drama. But when a journalist investigates his mysterious lost decades, Taro must confront his past while discovering how to live again.",
     "poster": "/cGQwl5bC14DLhmVZRg631r73LXR.jpg",
     "backdrop": "/q9BpUrpTLyEr5VEivPGuxO7EP6f.jpg",
     "runtime": 0,
@@ -5357,12 +5381,6 @@
    "type": "TV Program",
    "premiere": "Mar 22, 2013 - ?"
   },
-  "25919": {
-   "native": "라디오스타",
-   "network": "MBC",
-   "type": "TV Program",
-   "premiere": "May 30, 2007 - ?"
-  },
   "27396": {
    "native": "동상이몽 2 - 너는 내 운명",
    "network": "SBS",
@@ -5374,6 +5392,12 @@
    "network": "MBC",
    "type": "TV Program",
    "premiere": "Mar 10, 2018 - ?"
+  },
+  "25919": {
+   "native": "라디오스타",
+   "network": "MBC",
+   "type": "TV Program",
+   "premiere": "May 30, 2007 - ?"
   },
   "28942": {
    "native": "놀라운 토요일",
@@ -5405,17 +5429,17 @@
    "type": "Drama",
    "premiere": ""
   },
-  "45671": {
-   "native": "전국노래자랑",
-   "network": "KBS1",
-   "type": "TV Program",
-   "premiere": "Nov 9, 1980 - ?"
-  },
   "39619": {
    "native": "놀면 뭐하니?",
    "network": "MBC",
    "type": "TV Program",
    "premiere": "Jul 27, 2019 - ?"
+  },
+  "45671": {
+   "native": "전국노래자랑",
+   "network": "KBS1",
+   "type": "TV Program",
+   "premiere": "Nov 9, 1980 - ?"
   },
   "49125": {
    "native": "신상출시 편스토랑",
@@ -5614,6 +5638,12 @@
    "network": "Disney+",
    "type": "Drama",
    "premiere": ""
+  },
+  "770747": {
+   "native": "사나의 냉터뷰",
+   "network": "",
+   "type": "TV Program",
+   "premiere": "Mar 28, 2024 - ?"
   },
   "771861": {
    "native": "천천히 강렬하게",
@@ -5818,6 +5848,12 @@
    "network": "Netflix",
    "type": "Drama",
    "premiere": ""
+  },
+  "792568": {
+   "native": "タイムレスマン",
+   "network": "Fuji TV",
+   "type": "TV Program",
+   "premiere": "Apr 20, 2025 - ?"
   },
   "792640": {
    "native": "혹하는 로맨스",
@@ -6149,17 +6185,17 @@
    "type": "TV Program",
    "premiere": "Mar 19, 2026 - ?"
   },
-  "806058": {
-   "native": "라인의 법칙",
-   "network": "MBC",
-   "type": "Drama",
-   "premiere": ""
-  },
   "806390": {
    "native": "ニカゲーム",
    "network": "TV Asahi",
    "type": "TV Program",
    "premiere": "Oct 2, 2025 - ?"
+  },
+  "806058": {
+   "native": "라인의 법칙",
+   "network": "MBC",
+   "type": "Drama",
+   "premiere": ""
   },
   "806840": {
    "native": "国民クイズ",
@@ -6407,21 +6443,21 @@
    "type": "TV Program",
    "premiere": ""
   },
-  "809850": {
-   "native": "학교 다녀왔습니다",
-   "network": "KBS2",
-   "type": "Drama",
-   "premiere": ""
-  },
   "809822": {
    "native": "青と碧",
    "network": "BS Asahi",
    "type": "Drama",
    "premiere": "Oct 5, 2026 - ?"
   },
+  "809850": {
+   "native": "학교 다녀왔습니다",
+   "network": "KBS2",
+   "type": "Drama",
+   "premiere": ""
+  },
   "810036": {
    "native": "ツイステッド・シスターズ",
-   "network": "NHK NHK BSP",
+   "network": "NHK BSP",
    "type": "Drama",
    "premiere": ""
   },
@@ -6478,6 +6514,12 @@
    "network": "NHK G",
    "type": "Drama",
    "premiere": "Oct 26, 2026 - ?"
+  },
+  "810918": {
+   "native": "틈만 나면, 시즌5",
+   "network": "SBS",
+   "type": "TV Program",
+   "premiere": "Aug 11, 2026 - ?"
   },
   "810930": {
    "native": "スパドラ★クエスト",
@@ -6725,17 +6767,17 @@
    "type": "Drama",
    "premiere": ""
   },
-  "812134": {
-   "native": "劇場版「虎に翼」",
-   "network": "",
-   "type": "Movie",
-   "premiere": ""
-  },
   "812142": {
    "native": "仮面教師～妻を亡くしたその日から",
    "network": "Chukyo TV NTV",
    "type": "Drama",
    "premiere": "Oct 8, 2026 - ?"
+  },
+  "812134": {
+   "native": "劇場版「虎に翼」",
+   "network": "",
+   "type": "Movie",
+   "premiere": ""
   },
   "812144": {
    "native": "まめとむぎ",
@@ -6940,12 +6982,6 @@
    "network": "",
    "type": "Drama",
    "premiere": "Oct 15, 2026"
-  },
-  "812568": {
-   "native": "직장인들 시즌3",
-   "network": "COUPANG TV",
-   "type": "TV Program",
-   "premiere": "Aug 29, 2026 - ?"
   },
   "812570": {
    "native": "더 리슨: 우리가 머문 계절",

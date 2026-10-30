@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-10-30T08:37:55Z",
+ "fetched_utc": "2026-10-30T19:22:19Z",
  "episodes": [
   {
    "id": 809172,
@@ -53,7 +53,7 @@
    ],
    "tz": "Asia/Tokyo",
    "title": "Love Transit 35+",
-   "label": "Episode 5 - 4"
+   "label": "Episode 4 - 6"
   },
   {
    "id": 812820,
@@ -292,6 +292,18 @@
     0
    ],
    "tz": "Asia/Tokyo",
+   "title": "Borders: Keishicho Tokushu Jiken Taisaku Han",
+   "label": "Episode 3"
+  },
+  {
+   "id": 792568,
+   "slug": "timeleszman",
+   "date": "2026-10-30",
+   "time": [
+    5,
+    55
+   ],
+   "tz": "Asia/Tokyo",
    "title": "Timeleszman",
    "label": "Episode 71"
   },
@@ -358,18 +370,6 @@
   {
    "id": 808926,
    "slug": "ultraman-teo",
-   "date": "2026-10-30",
-   "time": [
-    17,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Ultraman Teo",
-   "label": "Episode 16"
-  },
-  {
-   "id": 812796,
-   "slug": "ultraman-teo-special-recap-ep",
    "date": "2026-10-30",
    "time": [
     17,
@@ -498,30 +498,6 @@
    "tz": "Asia/Tokyo",
    "title": "School Trip: Joined a Group I’m Not Close To Season 2",
    "label": "Episode 3"
-  },
-  {
-   "id": 812034,
-   "slug": "kakusei-hunter-omegahorn-huntertachi-no-mokuhiroku-with-gavan",
-   "date": "2026-10-31",
-   "time": [
-    18,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Kakusei Hunter Omegahorn: Huntertachi no Mokuhiroku with Gavan",
-   "label": "Episode 15"
-  },
-  {
-   "id": 812148,
-   "slug": "kamen-rider-my-th-twelve-zodiacs-ten-colors",
-   "date": "2026-10-31",
-   "time": [
-    18,
-    30
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Kamen Rider MY-TH: The Chaotic Zodiac",
-   "label": "Episode 9"
   },
   {
    "id": 801366,
@@ -1115,7 +1091,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Geumgyul Season 2: Mixed Foursome",
-   "label": "Episode 4 - 25"
+   "label": "Episode 9 - 30"
   },
   {
    "id": 789036,
@@ -1188,6 +1164,18 @@
    "tz": "Asia/Seoul",
    "title": "Rule 101",
    "label": "Episode 10"
+  },
+  {
+   "id": 814210,
+   "slug": "bare-korean-history-season-3",
+   "date": "2026-10-29",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Bare Korean History Season 3",
+   "label": "Episode 4"
   },
   {
    "id": 805988,
@@ -1307,7 +1295,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Dead-End Job",
-   "label": "Episode 2 - 7"
+   "label": "Episode 6 - 5"
   },
   {
    "id": 812568,
@@ -1318,8 +1306,32 @@
     0
    ],
    "tz": "Asia/Seoul",
+   "title": "Office Workers Season 3",
+   "label": "Episode 10"
+  },
+  {
+   "id": 811398,
+   "slug": "sumbakkokjil-sijeun-2",
+   "date": "2026-10-30",
+   "time": [
+    2,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Sumbakkokjil Season 2",
+   "label": "Episode 7"
+  },
+  {
+   "id": 813410,
+   "slug": "damn-bulance",
+   "date": "2026-10-30",
+   "time": [
+    3,
+    0
+   ],
+   "tz": "Asia/Seoul",
    "title": "Damn!Bulance",
-   "label": "Episode 5"
+   "label": "Episode 3"
   },
   {
    "id": 809180,
@@ -1454,6 +1466,18 @@
    "label": "Episode 1"
   },
   {
+   "id": 812218,
+   "slug": "backdoor-part-2",
+   "date": "2026-10-30",
+   "time": [
+    5,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Backdoor Part 2",
+   "label": "Episode 5"
+  },
+  {
    "id": 811440,
    "slug": "geumtaneun-geumyoil",
    "date": "2026-10-30",
@@ -1464,18 +1488,6 @@
    "tz": "Asia/Seoul",
    "title": "Geumtaneun Geumyoil",
    "label": "Episode 43"
-  },
-  {
-   "id": 812218,
-   "slug": "backdoor-part-2",
-   "date": "2026-10-30",
-   "time": [
-    6,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Backdoor Part 2",
-   "label": "Episode 5"
   },
   {
    "id": 25744,
@@ -1508,18 +1520,6 @@
    "time": [
     2,
     5
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Immortal Songs: Singing the Legend",
-   "label": "Episode 778"
-  },
-  {
-   "id": 39619,
-   "slug": "how-do-you-play",
-   "date": "2026-10-31",
-   "time": [
-    2,
-    30
    ],
    "tz": "Asia/Seoul",
    "title": "Hangout with Yoo",
@@ -2078,18 +2078,6 @@
    "label": "Episode 5"
   },
   {
-   "id": 722677,
-   "slug": "lee-mu-jin-service",
-   "date": "2026-11-03",
-   "time": [
-    2,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Lee Mu Jin Service",
-   "label": "Episode 240"
-  },
-  {
    "id": 757079,
    "slug": "salon-drip-season-2",
    "date": "2026-11-03",
@@ -2291,7 +2279,19 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Remarried Empress",
-   "label": "Episode 1 - 4"
+   "label": "Episode 4 - 3"
+  },
+  {
+   "id": 722677,
+   "slug": "lee-mu-jin-service",
+   "date": "2026-11-04",
+   "time": [
+    2,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Lee Mu Jin Service",
+   "label": "Episode 240"
   },
   {
    "id": 809180,
@@ -3256,6 +3256,16 @@
    "predicted": true
   },
   {
+   "id": 814202,
+   "slug": "my-vampire-doctor",
+   "date": "2026-10-07",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "My Vampire Doctor",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
    "id": 813510,
    "slug": "shooting-stars-3rd-gifa-cup",
    "date": "2026-10-07",
@@ -3272,6 +3282,16 @@
    "time": null,
    "tz": "Asia/Seoul",
    "title": "The Listen: The Season We Stayed",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 814210,
+   "slug": "bare-korean-history-season-3",
+   "date": "2026-10-08",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Bare Korean History Season 3",
    "label": "Premiere",
    "predicted": true
   },
@@ -3332,6 +3352,16 @@
    "time": null,
    "tz": "Asia/Seoul",
    "title": "Welcome to Soulite from A2O Soul A2O Lite",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 814200,
+   "slug": "addicted-to-touching-him",
+   "date": "2026-10-14",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Addicted to Touching Him",
    "label": "Premiere",
    "predicted": true
   },
@@ -3534,16 +3564,17 @@
    "label": "Movie Release",
    "movie": true,
    "tmdb": {
-    "id": 1362419,
+    "id": 1706689,
     "title": "First Voice",
-    "overview": "A feature horror film.",
-    "poster": null,
-    "backdrop": null,
+    "overview": "In 1989, when workplace sexual harassment was rarely recognized as a legal issue in Japan, lawyer Michiko Asahi takes on an unprecedented case after office worker Megumi Uehara seeks to sue her company and supervisor over harassment that cost her her job. Despite a rookie lawyer's warning that the case has virtually no chance of success, Asahi believes their fight could change the future. Facing a legal system and society firmly rooted in conventional attitudes, the women risk their careers and reputations to challenge the status quo and make their voices heard.",
+    "poster": "/s0BNmv4jtWp2XClygvzGqPQ0TQp.jpg",
+    "backdrop": "/a864R5XeUQSNqKUKrxoKTpGyT6Y.jpg",
     "runtime": 0,
     "genres": [
-     "Horror"
+     "Drama",
+     "History"
     ],
-    "release_date": "2024-09-02"
+    "release_date": "2026-10-02"
    }
   },
   {
@@ -4190,18 +4221,18 @@
    "label": "Movie Release",
    "movie": true,
    "tmdb": {
-    "id": 5551,
-    "title": "Space Cowboys",
-    "overview": "Frank Corvin, ‘Hawk’ Hawkins, Jerry O'Neill and ‘Tank’ Sullivan were hotdog members of Project Daedalus, the US Air Force's test program for space travel, but their hopes were dashed in 1958 with the formation of NASA and the use of trained chimps. They blackmail their way into orbit when Russia's mysterious ‘Ikon’ communications satellite's orbit begins to degrade and threatens to crash to Earth.",
-    "poster": "/hPzt1bbA1sUDQOl6Vujmyz2hjLN.jpg",
-    "backdrop": "/sUye6BrOjlpoAKRMjcP0YwiUvHW.jpg",
-    "runtime": 130,
+    "id": 62,
+    "title": "2001: A Space Odyssey",
+    "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+    "poster": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+    "backdrop": "/w5IDXtifKntw0ajv2co7jFlTQDM.jpg",
+    "runtime": 149,
     "genres": [
-     "Action",
-     "Adventure",
-     "Thriller"
+     "Science Fiction",
+     "Mystery",
+     "Adventure"
     ],
-    "release_date": "2000-08-04"
+    "release_date": "1968-04-02"
    }
   },
   {
@@ -5501,12 +5532,6 @@
    "type": "Drama",
    "premiere": ""
   },
-  "39619": {
-   "native": "놀면 뭐하니?",
-   "network": "MBC",
-   "type": "TV Program",
-   "premiere": "Jul 27, 2019 - ?"
-  },
   "45671": {
    "native": "전국노래자랑",
    "network": "KBS1",
@@ -5543,15 +5568,21 @@
    "type": "TV Program",
    "premiere": "Apr 5, 1998 - ?"
   },
-  "680725": {
-   "native": "스피킹 데드",
-   "network": "jTBC",
-   "type": "Drama",
-   "premiere": ""
+  "695689": {
+   "native": "乃木坂お試し中",
+   "network": "TBS",
+   "type": "TV Program",
+   "premiere": "Feb 27, 2021 - ?"
   },
   "705621": {
    "native": "상남자",
    "network": "Disney+",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "680725": {
+   "native": "스피킹 데드",
+   "network": "jTBC",
    "type": "Drama",
    "premiere": ""
   },
@@ -5560,12 +5591,6 @@
    "network": "tvN",
    "type": "Drama",
    "premiere": ""
-  },
-  "695689": {
-   "native": "乃木坂お試し中",
-   "network": "TBS",
-   "type": "TV Program",
-   "premiere": "Feb 27, 2021 - ?"
   },
   "711569": {
    "native": "밑도 끝도 없이, 너다",
@@ -5927,6 +5952,12 @@
    "type": "Drama",
    "premiere": ""
   },
+  "792568": {
+   "native": "タイムレスマン",
+   "network": "Fuji TV",
+   "type": "TV Program",
+   "premiere": "Apr 20, 2025 - ?"
+  },
   "792640": {
    "native": "혹하는 로맨스",
    "network": "ENA Genie TV",
@@ -6287,15 +6318,15 @@
    "type": "Drama",
    "premiere": ""
   },
-  "807330": {
-   "native": "대시",
-   "network": "SBS",
-   "type": "Drama",
-   "premiere": ""
-  },
   "807270": {
    "native": "코드",
    "network": "Disney+",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "807330": {
+   "native": "대시",
+   "network": "SBS",
    "type": "Drama",
    "premiere": ""
   },
@@ -6647,6 +6678,12 @@
    "type": "Drama",
    "premiere": "Oct 29, 2026 - ?"
   },
+  "811398": {
+   "native": "숨바꼭질 시즌2",
+   "network": "Mnet",
+   "type": "TV Program",
+   "premiere": "Jul 31, 2026 - ?"
+  },
   "811416": {
    "native": "もうパパ！",
    "network": "ABC TV Asahi",
@@ -6767,12 +6804,6 @@
    "type": "TV Program",
    "premiere": "Jan 8, 2026 - ?"
   },
-  "812034": {
-   "native": "角醒ハンターオメガホーンハンターたちの黙秘録 with ギャバン",
-   "network": "",
-   "type": "Drama",
-   "premiere": "Jul 26, 2026 - ?"
-  },
   "812038": {
    "native": "熊は嘘をつかない",
    "network": "NHK",
@@ -6862,12 +6893,6 @@
    "network": "TV Tokyo",
    "type": "Drama",
    "premiere": "Oct 3, 2026 - ?"
-  },
-  "812148": {
-   "native": "仮面ライダーマイス 十二支十色",
-   "network": "",
-   "type": "Drama",
-   "premiere": "Sep 12, 2026 - ?"
   },
   "812154": {
    "native": "南田南弁護士は天才肌",
@@ -7096,12 +7121,6 @@
    "network": "YTV",
    "type": "Drama",
    "premiere": "Oct 23, 2026 - ?"
-  },
-  "812796": {
-   "native": "ウルトラマンテオ 特別総集編",
-   "network": "TV Tokyo",
-   "type": "Drama",
-   "premiere": "Aug 22, 2026 - ?"
   },
   "812810": {
    "native": "あいの里 シーズン3",
@@ -7549,7 +7568,7 @@
   },
   "814184": {
    "native": "조선슬화핌",
-   "network": "",
+   "network": "Vigloo",
    "type": "Drama",
    "premiere": "Oct 7, 2026"
   },
@@ -7558,6 +7577,24 @@
    "network": "",
    "type": "Drama",
    "premiere": "Oct 1, 2026"
+  },
+  "814200": {
+   "native": "그에게 닿고 싶어",
+   "network": "",
+   "type": "TV Program",
+   "premiere": "Oct 14, 2026"
+  },
+  "814202": {
+   "native": "주치의가 뱀파이어라니?!",
+   "network": "iQiyi",
+   "type": "TV Program",
+   "premiere": "Oct 7, 2026"
+  },
+  "814210": {
+   "native": "벌거벗은 한국사 시즌3",
+   "network": "tvN",
+   "type": "TV Program",
+   "premiere": "Oct 8, 2026 - ?"
   }
  }
 }

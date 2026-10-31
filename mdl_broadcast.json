@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-10-31T08:26:10Z",
+ "fetched_utc": "2026-10-31T18:34:04Z",
  "episodes": [
   {
    "id": 812774,
@@ -130,6 +130,18 @@
     0
    ],
    "tz": "Asia/Tokyo",
+   "title": "Hakone Ekiden: Our Story",
+   "label": "Episode 4"
+  },
+  {
+   "id": 812054,
+   "slug": "my-sweet-home",
+   "date": "2026-10-31",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Tokyo",
    "title": "My Sweet Home",
    "label": "Episode 1"
   },
@@ -194,6 +206,18 @@
    "label": "Episode 78"
   },
   {
+   "id": 813850,
+   "slug": "hadakanbotachi-another-story",
+   "date": "2026-10-31",
+   "time": [
+    9,
+    30
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Hadakanbotachi: Another Story",
+   "label": "Episode 2"
+  },
+  {
    "id": 812368,
    "slug": "saisei-no-uzume",
    "date": "2026-10-31",
@@ -232,18 +256,6 @@
    "date": "2026-11-01",
    "time": [
     1,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Timelesz Familia",
-   "label": "Episode 48"
-  },
-  {
-   "id": 766049,
-   "slug": "toyotomi-kyodai",
-   "date": "2026-11-01",
-   "time": [
-    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -449,7 +461,7 @@
    ],
    "tz": "Asia/Tokyo",
    "title": "Love Village Season 3",
-   "label": "Episode 22 - 21"
+   "label": "Episode 23 - 22"
   },
   {
    "id": 813222,
@@ -1309,6 +1321,18 @@
     5
    ],
    "tz": "Asia/Seoul",
+   "title": "Immortal Songs: Singing the Legend",
+   "label": "Episode 778"
+  },
+  {
+   "id": 39619,
+   "slug": "how-do-you-play",
+   "date": "2026-10-31",
+   "time": [
+    4,
+    30
+   ],
+   "tz": "Asia/Seoul",
    "title": "Hangout with Yoo",
    "label": "Episode 350"
   },
@@ -1479,18 +1503,6 @@
    "tz": "Asia/Seoul",
    "title": "Oh! My Guard",
    "label": "Episode 3"
-  },
-  {
-   "id": 45671,
-   "slug": "korea-sings",
-   "date": "2026-10-31",
-   "time": [
-    22,
-    10
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Korea Sings",
-   "label": "Episode 2190"
   },
   {
    "id": 35517,
@@ -2066,7 +2078,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Remarried Empress",
-   "label": "Episode 4 - 3"
+   "label": "Episode 1 - 4"
   },
   {
    "id": 722677,
@@ -2246,7 +2258,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Medical Rebirth",
-   "label": "Episode 14 - 35"
+   "label": "Episode 12 - 49"
   },
   {
    "id": 789036,
@@ -2258,7 +2270,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Make Me Tingle",
-   "label": "Episode 10 - 9"
+   "label": "Episode 9 - 10"
   },
   {
    "id": 812406,
@@ -2414,7 +2426,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Sound of Sugar Cubes",
-   "label": "Episode 5 - 6"
+   "label": "Episode 6 - 5"
   },
   {
    "id": 814186,
@@ -3157,16 +3169,6 @@
    "predicted": true
   },
   {
-   "id": 812054,
-   "slug": "my-sweet-home",
-   "date": "2026-10-31",
-   "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "My Sweet Home",
-   "label": "Premiere",
-   "predicted": true
-  },
-  {
    "id": 813410,
    "slug": "damn-bulance",
    "date": "2026-10-02",
@@ -3593,7 +3595,8 @@
     "runtime": 0,
     "genres": [
      "Drama",
-     "History"
+     "History",
+     "Crime"
     ],
     "release_date": "2026-10-02"
    }
@@ -4547,13 +4550,16 @@
    "movie": true,
    "tmdb": {
     "id": 1809369,
-    "title": "Floating，Rest",
+    "title": "Floating, Rest",
     "overview": "In a secluded forest, the emotions of three men intertwine.",
     "poster": null,
-    "backdrop": null,
+    "backdrop": "/nfZxy9In5IrVOHWtdmKCdAgd29F.jpg",
     "runtime": 59,
-    "genres": [],
-    "release_date": "2026-10-27"
+    "genres": [
+     "Drama",
+     "Thriller"
+    ],
+    "release_date": "2026-10-26"
    }
   },
   {
@@ -4714,7 +4720,9 @@
     "poster": "/qjuzeBRrqHAyGJIJLyJBGuCy5oY.jpg",
     "backdrop": "/aqRnv8agNOLSLOwJ3ngfAPI6gFK.jpg",
     "runtime": 0,
-    "genres": [],
+    "genres": [
+     "Drama"
+    ],
     "release_date": "2026-10-30"
    }
   },
@@ -5553,11 +5561,11 @@
    "type": "Drama",
    "premiere": ""
   },
-  "45671": {
-   "native": "전국노래자랑",
-   "network": "KBS1",
+  "39619": {
+   "native": "놀면 뭐하니?",
+   "network": "MBC",
    "type": "TV Program",
-   "premiere": "Nov 9, 1980 - ?"
+   "premiere": "Jul 27, 2019 - ?"
   },
   "45693": {
    "native": "아임 라이브",
@@ -5697,15 +5705,15 @@
    "type": "TV Program",
    "premiere": "Feb 2, 2022 - ?"
   },
-  "750637": {
-   "native": "매화, 달",
-   "network": "KBS2",
-   "type": "Drama",
-   "premiere": ""
-  },
   "752413": {
    "native": "수성국 밀회록",
    "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "750637": {
+   "native": "매화, 달",
+   "network": "KBS2",
    "type": "Drama",
    "premiere": ""
   },
@@ -5744,12 +5752,6 @@
    "network": "",
    "type": "Drama",
    "premiere": ""
-  },
-  "766049": {
-   "native": "豊臣兄弟！",
-   "network": "NHK",
-   "type": "Drama",
-   "premiere": "Jan 4, 2026 - ?"
   },
   "767017": {
    "native": "신의 구슬",
@@ -5937,15 +5939,15 @@
    "type": "Drama",
    "premiere": "Oct 15, 2026 - Nov 5, 2026"
   },
-  "789878": {
-   "native": "굿파트너 시즌2",
-   "network": "SBS",
-   "type": "Drama",
-   "premiere": ""
-  },
   "789518": {
    "native": "인간X구미호",
    "network": "jTBC",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "789878": {
+   "native": "굿파트너 시즌2",
+   "network": "SBS",
    "type": "Drama",
    "premiere": ""
   },
@@ -6401,7 +6403,7 @@
   },
   "807676": {
    "native": "파괴지황",
-   "network": "",
+   "network": "Netflix",
    "type": "Drama",
    "premiere": ""
   },
@@ -6435,17 +6437,17 @@
    "type": "TV Program",
    "premiere": ""
   },
-  "808122": {
-   "native": "고분고분한 킬러",
-   "network": "TVING",
-   "type": "Drama",
-   "premiere": ""
-  },
   "808296": {
    "native": "보검 매직컬 시즌2",
    "network": "tvN",
    "type": "TV Program",
    "premiere": "Nov, 2026 - ?"
+  },
+  "808122": {
+   "native": "고분고분한 킬러",
+   "network": "TVING",
+   "type": "Drama",
+   "premiere": ""
   },
   "808312": {
    "native": "그린라이트",
@@ -7423,19 +7425,19 @@
    "native": "はだかんぼうたち Another Story",
    "network": "Telasa",
    "type": "Drama",
-   "premiere": "Oct 17, 2026 - ?"
-  },
-  "813868": {
-   "native": "WELCOME TO SOULITE From A2O SOUL A2O LITE",
-   "network": "Mnet",
-   "type": "TV Program",
-   "premiere": "Oct 12, 2026"
+   "premiere": "Oct 17, 2026 - Oct 31, 2026"
   },
   "813876": {
    "native": "혀끝까지, 더블샷",
    "network": "",
    "type": "Drama",
    "premiere": "Oct 16, 2026"
+  },
+  "813868": {
+   "native": "WELCOME TO SOULITE From A2O SOUL A2O LITE",
+   "network": "Mnet",
+   "type": "TV Program",
+   "premiere": "Oct 12, 2026"
   },
   "813878": {
    "native": "죽어도 아이돌 시즌2",

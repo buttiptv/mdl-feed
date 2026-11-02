@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-11-02T09:28:38Z",
+ "fetched_utc": "2026-11-02T22:49:08Z",
  "episodes": [
   {
    "id": 812134,
@@ -160,6 +160,18 @@
    "date": "2026-11-02",
    "time": null,
    "tz": "Asia/Tokyo",
+   "title": "CDTV Live! Live!",
+   "label": "Episode 200"
+  },
+  {
+   "id": 812314,
+   "slug": "emergency-room-24-hours-season-6",
+   "date": "2026-11-02",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Tokyo",
    "title": "Emergency Room 24 Hours Season 6",
    "label": "Episode 4"
   },
@@ -282,18 +294,6 @@
    "tz": "Asia/Tokyo",
    "title": "Nogizaka Star Tanjo! Six",
    "label": "Episode 68"
-  },
-  {
-   "id": 793250,
-   "slug": "blossom",
-   "date": "2026-11-02",
-   "time": [
-    17,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blossom",
-   "label": "Episode 27"
   },
   {
    "id": 749947,
@@ -647,7 +647,7 @@
    ],
    "tz": "Asia/Tokyo",
    "title": "Love Transit 35+",
-   "label": "Episode 8 - 7"
+   "label": "Episode 7 - 8"
   },
   {
    "id": 812820,
@@ -766,7 +766,7 @@
     30
    ],
    "tz": "Asia/Tokyo",
-   "title": "Eigyo desu kara",
+   "title": "It's Just Business",
    "label": "Episode 1"
   },
   {
@@ -1327,6 +1327,18 @@
     5
    ],
    "tz": "Asia/Seoul",
+   "title": "Family Register",
+   "label": "Episode 72"
+  },
+  {
+   "id": 810734,
+   "slug": "yokmangui-deot",
+   "date": "2026-11-02",
+   "time": [
+    4,
+    50
+   ],
+   "tz": "Asia/Seoul",
    "title": "A Trap Called Desire",
    "label": "Episode 49"
   },
@@ -1477,18 +1489,6 @@
   {
    "id": 813310,
    "slug": "logout-house",
-   "date": "2026-11-03",
-   "time": [
-    3,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Logout House",
-   "label": "Episode 7"
-  },
-  {
-   "id": 811482,
-   "slug": "sekeondeu-peulleiteu",
    "date": "2026-11-03",
    "time": [
     3,
@@ -1664,7 +1664,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Remarried Empress",
-   "label": "Episode 1 - 4"
+   "label": "Episode 3 - 2"
   },
   {
    "id": 722677,
@@ -1844,7 +1844,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Medical Rebirth",
-   "label": "Episode 19 - 8"
+   "label": "Episode 11 - 48"
   },
   {
    "id": 789036,
@@ -1988,7 +1988,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Story of the Day When You Bite Your Tail Season 3",
-   "label": "Episode 247"
+   "label": "Episode 246"
   },
   {
    "id": 805960,
@@ -2012,7 +2012,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Sound of Sugar Cubes",
-   "label": "Episode 5 - 6"
+   "label": "Episode 6 - 5"
   },
   {
    "id": 811398,
@@ -3550,11 +3550,11 @@
    "movie": true,
    "tmdb": {
     "id": 1801644,
-    "title": "ほんとにあった怖い話 秋の特別編2026",
+    "title": "Honto ni Atta Kowai Hanashi: Aki no Tokubetsu-hen 2026",
     "overview": "",
     "poster": "/ohfjCXoDA1JkHg984ioY7yzwDWh.jpg",
     "backdrop": "/aD4VBijSRJNf8N8GxDlYX1HAErR.jpg",
-    "runtime": 0,
+    "runtime": 104,
     "genres": [
      "TV Movie",
      "Horror"
@@ -3774,7 +3774,7 @@
     "id": 1410955,
     "title": "In the Clear Moonlit Dusk",
     "overview": "The school’s cool, prince-like heroine has never questioned her role—until a fellow “Prince” enters her life and sees her as more than a hero, awakening feelings she’s never faced before.",
-    "poster": "/mbp5x8c8wq1r397rICNh1xN6qNE.jpg",
+    "poster": "/5nh3J6dpb3bAM5xklUxqrsASyio.jpg",
     "backdrop": "/9YgJxu1S8fsK2s9na4PUo7ptKVS.jpg",
     "runtime": 119,
     "genres": [
@@ -5133,16 +5133,6 @@
    "movie": true
   },
   {
-   "id": 808212,
-   "slug": "koe-yo-hirogare",
-   "date": "2027-01-01",
-   "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "Koe yo Hirogare",
-   "label": "Expected Movie Release",
-   "movie": true
-  },
-  {
    "id": 811838,
    "slug": "sins-of-kujo",
    "date": "2027-01-01",
@@ -5293,6 +5283,16 @@
     ],
     "release_date": "1989-03-17"
    }
+  },
+  {
+   "id": 808212,
+   "slug": "koe-yo-hirogare",
+   "date": "2027-02-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Koe yo Hirogare",
+   "label": "Expected Movie Release",
+   "movie": true
   },
   {
    "id": 812770,
@@ -5480,17 +5480,17 @@
   }
  ],
  "shows": {
-  "25568": {
-   "native": "아는형님",
-   "network": "jTBC",
-   "type": "TV Program",
-   "premiere": "Dec 5, 2015 - ?"
-  },
   "25565": {
    "native": "런닝맨",
    "network": "SBS",
    "type": "TV Program",
    "premiere": "Jul 11, 2010 - ?"
+  },
+  "25568": {
+   "native": "아는형님",
+   "network": "jTBC",
+   "type": "TV Program",
+   "premiere": "Dec 5, 2015 - ?"
   },
   "25576": {
    "native": "불후의 명곡: 전설을 노래하다",
@@ -5558,17 +5558,17 @@
    "type": "Drama",
    "premiere": ""
   },
-  "39619": {
-   "native": "놀면 뭐하니?",
-   "network": "MBC",
-   "type": "TV Program",
-   "premiere": "Jul 27, 2019 - ?"
-  },
   "45693": {
    "native": "아임 라이브",
    "network": "",
    "type": "TV Program",
    "premiere": "Mar 31, 2017 - ?"
+  },
+  "39619": {
+   "native": "놀면 뭐하니?",
+   "network": "MBC",
+   "type": "TV Program",
+   "premiere": "Jul 27, 2019 - ?"
   },
   "49125": {
    "native": "신상출시 편스토랑",
@@ -6002,17 +6002,17 @@
    "type": "Drama",
    "premiere": ""
   },
-  "794782": {
-   "native": "괸당",
-   "network": "Netflix",
-   "type": "Drama",
-   "premiere": ""
-  },
   "794508": {
    "native": "옥탑방의 문제아들 시즌2",
    "network": "KBS2",
    "type": "TV Program",
    "premiere": "Apr 3, 2025 - ?"
+  },
+  "794782": {
+   "native": "괸당",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
   },
   "794930": {
    "native": "남남 시즌2",
@@ -6470,17 +6470,17 @@
    "type": "TV Program",
    "premiere": "Oct 13, 2025 - ?"
   },
-  "808926": {
-   "native": "ウルトラマンテオ",
-   "network": "",
-   "type": "Drama",
-   "premiere": "Jul 4, 2026 - ?"
-  },
   "808742": {
    "native": "UFP",
    "network": "",
    "type": "Drama",
    "premiere": ""
+  },
+  "808926": {
+   "native": "ウルトラマンテオ",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Jul 4, 2026 - ?"
   },
   "809010": {
    "native": "天狗の台所 Season3",
@@ -6517,6 +6517,12 @@
    "network": "MBC",
    "type": "Drama",
    "premiere": "Jul 6, 2026 - ?"
+  },
+  "809600": {
+   "native": "연애남매 시즌2",
+   "network": "Wavve",
+   "type": "TV Program",
+   "premiere": "Nov, 2026 - ?"
   },
   "809606": {
    "native": "波うららかに、めおと日和 続編",
@@ -7298,17 +7304,17 @@
    "type": "Drama",
    "premiere": "Oct 29, 2026"
   },
-  "813410": {
-   "native": "댐!뷸런스",
-   "network": "Mnet",
-   "type": "TV Program",
-   "premiere": "Oct 2, 2026 - ?"
-  },
   "813406": {
    "native": "飯島直子の今夜一杯いっちゃう？",
    "network": "BS Fuji",
    "type": "TV Program",
    "premiere": "Apr 4, 2024 - ?"
+  },
+  "813410": {
+   "native": "댐!뷸런스",
+   "network": "Mnet",
+   "type": "TV Program",
+   "premiere": "Oct 2, 2026 - ?"
   },
   "813412": {
    "native": "전설의 사내",
@@ -7436,23 +7442,17 @@
    "type": "Drama",
    "premiere": "Oct 17, 2026 - Oct 31, 2026"
   },
-  "813868": {
-   "native": "WELCOME TO SOULITE From A2O SOUL A2O LITE",
-   "network": "Mnet",
-   "type": "TV Program",
-   "premiere": "Oct 12, 2026"
-  },
-  "813876": {
-   "native": "혀끝까지, 더블샷",
-   "network": "",
-   "type": "Drama",
-   "premiere": "Oct 16, 2026"
-  },
   "813878": {
    "native": "죽어도 아이돌 시즌2",
    "network": "",
    "type": "TV Program",
    "premiere": "Nov, 2026 - ?"
+  },
+  "813868": {
+   "native": "WELCOME TO SOULITE From A2O SOUL A2O LITE",
+   "network": "Mnet",
+   "type": "TV Program",
+   "premiere": "Oct 12, 2026"
   },
   "813906": {
    "native": "사운드:트랙",
@@ -7460,20 +7460,26 @@
    "type": "Drama",
    "premiere": ""
   },
+  "813876": {
+   "native": "혀끝까지, 더블샷",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Oct 16, 2026"
+  },
   "813908": {
    "native": "사운드:트랙 - 봄 내음보다 너를",
    "network": "KBS2",
    "type": "Drama",
    "premiere": ""
   },
-  "813910": {
-   "native": "사운드:트랙 - 연극이 끝난 후",
+  "813912": {
+   "native": "사운드:트랙 - 나의 외로움이 널 부를 때",
    "network": "KBS2",
    "type": "Drama",
    "premiere": ""
   },
-  "813912": {
-   "native": "사운드:트랙 - 나의 외로움이 널 부를 때",
+  "813910": {
+   "native": "사운드:트랙 - 연극이 끝난 후",
    "network": "KBS2",
    "type": "Drama",
    "premiere": ""
@@ -7616,17 +7622,17 @@
    "type": "Drama",
    "premiere": "Oct 1, 2026"
   },
-  "814200": {
-   "native": "그에게 닿고 싶어",
-   "network": "",
-   "type": "TV Program",
-   "premiere": "Oct 14, 2026"
-  },
   "814202": {
    "native": "주치의가 뱀파이어라니?!",
    "network": "iQiyi",
    "type": "TV Program",
    "premiere": "Oct 7, 2026"
+  },
+  "814200": {
+   "native": "그에게 닿고 싶어",
+   "network": "",
+   "type": "TV Program",
+   "premiere": "Oct 14, 2026"
   },
   "814210": {
    "native": "벌거벗은 한국사 시즌3",

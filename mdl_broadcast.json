@@ -1,171 +1,6 @@
 {
- "fetched_utc": "2026-11-03T20:32:36Z",
+ "fetched_utc": "2026-11-04T09:09:20Z",
  "episodes": [
-  {
-   "id": 797170,
-   "slug": "chodaisaku-kaiju-eiga",
-   "date": "2026-11-02",
-   "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "Godzilla Minus Zero",
-   "label": "Movie"
-  },
-  {
-   "id": 722529,
-   "slug": "cdtv-live-live",
-   "date": "2026-11-02",
-   "time": [
-    5,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "CDTV Live! Live!",
-   "label": "Episode 200"
-  },
-  {
-   "id": 812314,
-   "slug": "emergency-room-24-hours-season-6",
-   "date": "2026-11-02",
-   "time": [
-    5,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Emergency Room 24 Hours Season 6",
-   "label": "Episode 4"
-  },
-  {
-   "id": 810886,
-   "slug": "ao-no-hana-utsuwa-no-mori",
-   "date": "2026-11-02",
-   "time": [
-    6,
-    45
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "The Blue Flowers and the Ceramic Forest",
-   "label": "Episode 5"
-  },
-  {
-   "id": 812154,
-   "slug": "minamida-minami-bengoshi-wa-tensaihada",
-   "date": "2026-11-02",
-   "time": [
-    7,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Extraordinary Attorney Minami",
-   "label": "Episode 3"
-  },
-  {
-   "id": 812364,
-   "slug": "tsuma-wo-intai-shimasu",
-   "date": "2026-11-02",
-   "time": [
-    7,
-    5
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Tsuma wo Intai Shimasu",
-   "label": "Episode 5"
-  },
-  {
-   "id": 812810,
-   "slug": "love-village-season-3",
-   "date": "2026-11-02",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Love Village Season 3",
-   "label": "Episode 21 - 23"
-  },
-  {
-   "id": 813222,
-   "slug": "can-you-tell-m-lk",
-   "date": "2026-11-02",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Can You Tell M!LK?",
-   "label": "Episode 5"
-  },
-  {
-   "id": 812446,
-   "slug": "izayoi-zenbo",
-   "date": "2026-11-02",
-   "time": [
-    8,
-    25
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "The 16th Night Kitchen",
-   "label": "Episode 4"
-  },
-  {
-   "id": 811810,
-   "slug": "can-you-kiss-me-first",
-   "date": "2026-11-02",
-   "time": [
-    8,
-    45
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "You Should Be the One to Kiss Me",
-   "label": "Episode 3"
-  },
-  {
-   "id": 797068,
-   "slug": "vs-bullet-train",
-   "date": "2026-11-02",
-   "time": [
-    9,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "VS. Bullet Train",
-   "label": "Episode 68"
-  },
-  {
-   "id": 812924,
-   "slug": "not-equal-me-nanashi-no-cinderella",
-   "date": "2026-11-02",
-   "time": [
-    9,
-    15
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Not Equal ME Nanashi no Cinderella",
-   "label": "Episode 5"
-  },
-  {
-   "id": 802770,
-   "slug": "nogizaka-star-tanjo-six",
-   "date": "2026-11-02",
-   "time": [
-    10,
-    30
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Nogizaka Star Tanjo! Six",
-   "label": "Episode 68"
-  },
-  {
-   "id": 793250,
-   "slug": "blossom",
-   "date": "2026-11-02",
-   "time": [
-    16,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blossom",
-   "label": "Episode 27"
-  },
   {
    "id": 749947,
    "slug": "human-gourmentary-omoumai-mise",
@@ -251,34 +86,22 @@
    "label": "Episode 3"
   },
   {
+   "id": 793250,
+   "slug": "blossom",
+   "date": "2026-11-03",
+   "time": [
+    16,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Blossom",
+   "label": "Episode 28"
+  },
+  {
    "id": 806838,
    "slug": "one-year-to-live-buy-a-man",
    "date": "2026-11-04",
    "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "One Year to Live, Buy a Man",
-   "label": "Movie"
-  },
-  {
-   "id": 812156,
-   "slug": "dekiai-kareshi-no-tsukurikata-se-kara-honmei-ni-naru-onnanoko-no-hanashi",
-   "date": "2026-11-04",
-   "time": [
-    5,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Dekiai Kareshi no Tsukurikata: Se kara Honmei ni Naru Onna no Ko no Hanashi",
-   "label": "Episode 6"
-  },
-  {
-   "id": 812198,
-   "slug": "aibo-season-25",
-   "date": "2026-11-04",
-   "time": [
-    5,
-    0
-   ],
    "tz": "Asia/Tokyo",
    "title": "Aibo Season 25",
    "label": "Episode 3"
@@ -1130,172 +953,148 @@
    "label": "Episode 31"
   },
   {
-   "id": 811324,
-   "slug": "twin-mirror-show",
-   "date": "2026-11-02",
+   "id": 809822,
+   "slug": "ao-to-midori",
+   "date": "2026-11-08",
    "time": [
-    1,
+    19,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Twin Mirror Show",
-   "label": "Episode 14"
+   "tz": "Asia/Tokyo",
+   "title": "Ao to Midori",
+   "label": "Episode 6"
   },
   {
-   "id": 809180,
-   "slug": "gajok-gwangye-jeungmyeongseo",
-   "date": "2026-11-02",
-   "time": [
-    3,
-    5
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Family Register",
-   "label": "Episode 72"
-  },
-  {
-   "id": 810734,
-   "slug": "yokmangui-deot",
-   "date": "2026-11-02",
-   "time": [
-    3,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "A Trap Called Desire",
-   "label": "Episode 49"
-  },
-  {
-   "id": 782350,
-   "slug": "hidden-eye",
-   "date": "2026-11-02",
-   "time": [
-    4,
-    10
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Hidden Eye",
-   "label": "Episode 108"
-  },
-  {
-   "id": 811490,
-   "slug": "eommaga-michyeosseoyo",
-   "date": "2026-11-02",
-   "time": [
-    4,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Mission: Mompossible",
-   "label": "Episode 26"
-  },
-  {
-   "id": 809636,
-   "slug": "burn-to-win-season-2",
-   "date": "2026-11-02",
+   "id": 812314,
+   "slug": "emergency-room-24-hours-season-6",
+   "date": "2026-11-09",
    "time": [
     5,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Burn to Win Season 2",
-   "label": "Episode 27"
-  },
-  {
-   "id": 811474,
-   "slug": "malja-show",
-   "date": "2026-11-02",
-   "time": [
-    5,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Malja Show",
-   "label": "Episode 42"
-  },
-  {
-   "id": 802482,
-   "slug": "why-you-don-t-know-it-s-a-girl",
-   "date": "2026-11-02",
-   "time": [
-    5,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Love in Disguise",
+   "tz": "Asia/Tokyo",
+   "title": "Emergency Room 24 Hours Season 6",
    "label": "Episode 5"
   },
   {
-   "id": 809762,
-   "slug": "love-war",
-   "date": "2026-11-02",
-   "time": [
-    5,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Love War",
-   "label": "Episode 19"
-  },
-  {
-   "id": 810726,
-   "slug": "the-ballad-of-us-season-2",
-   "date": "2026-11-02",
+   "id": 810886,
+   "slug": "ao-no-hana-utsuwa-no-mori",
+   "date": "2026-11-09",
    "time": [
     6,
-    0
+    45
    ],
-   "tz": "Asia/Seoul",
-   "title": "The Ballad of Us Season 2",
-   "label": "Episode 5"
-  },
-  {
-   "id": 810548,
-   "slug": "midnight-horror-story-season-6",
-   "date": "2026-11-02",
-   "time": [
-    6,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Midnight Horror Story Season 6",
-   "label": "Episode 18"
-  },
-  {
-   "id": 732363,
-   "slug": "summer-vacation",
-   "date": "2026-11-02",
-   "time": [
-    6,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Summer Vacation",
-   "label": "Episode 3"
-  },
-  {
-   "id": 802430,
-   "slug": "love-doctor",
-   "date": "2026-11-02",
-   "time": [
-    7,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Between Steps",
+   "tz": "Asia/Tokyo",
+   "title": "The Blue Flowers and the Ceramic Forest",
    "label": "Episode 9"
   },
   {
-   "id": 814178,
-   "slug": "trot-kitchen-the-running-dinner-show",
-   "date": "2026-11-02",
+   "id": 812154,
+   "slug": "minamida-minami-bengoshi-wa-tensaihada",
+   "date": "2026-11-09",
    "time": [
     7,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Trot Kitchen: The Running Dinner Show",
+   "tz": "Asia/Tokyo",
+   "title": "Extraordinary Attorney Minami",
+   "label": "Episode 4"
+  },
+  {
+   "id": 812364,
+   "slug": "tsuma-wo-intai-shimasu",
+   "date": "2026-11-09",
+   "time": [
+    7,
+    5
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Tsuma wo Intai Shimasu",
+   "label": "Episode 6"
+  },
+  {
+   "id": 813222,
+   "slug": "can-you-tell-m-lk",
+   "date": "2026-11-09",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Can You Tell M!LK?",
+   "label": "Episode 6"
+  },
+  {
+   "id": 812446,
+   "slug": "izayoi-zenbo",
+   "date": "2026-11-09",
+   "time": [
+    8,
+    25
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "The 16th Night Kitchen",
    "label": "Episode 5"
+  },
+  {
+   "id": 811810,
+   "slug": "can-you-kiss-me-first",
+   "date": "2026-11-09",
+   "time": [
+    8,
+    45
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "You Should Be the One to Kiss Me",
+   "label": "Episode 4"
+  },
+  {
+   "id": 797068,
+   "slug": "vs-bullet-train",
+   "date": "2026-11-09",
+   "time": [
+    9,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "VS. Bullet Train",
+   "label": "Episode 69"
+  },
+  {
+   "id": 812924,
+   "slug": "not-equal-me-nanashi-no-cinderella",
+   "date": "2026-11-09",
+   "time": [
+    9,
+    15
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Not Equal ME Nanashi no Cinderella",
+   "label": "Episode 6"
+  },
+  {
+   "id": 802770,
+   "slug": "nogizaka-star-tanjo-six",
+   "date": "2026-11-09",
+   "time": [
+    10,
+    30
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Nogizaka Star Tanjo! Six",
+   "label": "Episode 69"
+  },
+  {
+   "id": 793250,
+   "slug": "blossom",
+   "date": "2026-11-09",
+   "time": [
+    16,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Blossom",
+   "label": "Episode 32"
   },
   {
    "id": 778572,
@@ -1490,36 +1289,24 @@
    "label": "Episode 10"
   },
   {
+   "id": 45693,
+   "slug": "i-m-live",
+   "date": "2026-11-03",
+   "time": [
+    21,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "I'm Live",
+   "label": "Episode 443"
+  },
+  {
    "id": 722677,
    "slug": "lee-mu-jin-service",
    "date": "2026-11-04",
    "time": [
     2,
     0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Lee Mu Jin Service",
-   "label": "Episode 240"
-  },
-  {
-   "id": 809180,
-   "slug": "gajok-gwangye-jeungmyeongseo",
-   "date": "2026-11-04",
-   "time": [
-    3,
-    5
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Family Register",
-   "label": "Episode 74"
-  },
-  {
-   "id": 810734,
-   "slug": "yokmangui-deot",
-   "date": "2026-11-04",
-   "time": [
-    3,
-    50
    ],
    "tz": "Asia/Seoul",
    "title": "A Trap Called Desire",
@@ -1667,7 +1454,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Medical Rebirth",
-   "label": "Episode 14 - 35"
+   "label": "Episode 9 - 46"
   },
   {
    "id": 789036,
@@ -2363,6 +2150,162 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Oh! My Guard",
+   "label": "Episode 6"
+  },
+  {
+   "id": 811324,
+   "slug": "twin-mirror-show",
+   "date": "2026-11-09",
+   "time": [
+    1,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Twin Mirror Show",
+   "label": "Episode 15"
+  },
+  {
+   "id": 788924,
+   "slug": "one-of-a-kind-romance",
+   "date": "2026-11-09",
+   "time": [
+    2,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "One-Of-A-Kind Romance",
+   "label": "Episode 1 - 2"
+  },
+  {
+   "id": 809180,
+   "slug": "gajok-gwangye-jeungmyeongseo",
+   "date": "2026-11-09",
+   "time": [
+    3,
+    5
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Family Register",
+   "label": "Episode 77"
+  },
+  {
+   "id": 782350,
+   "slug": "hidden-eye",
+   "date": "2026-11-09",
+   "time": [
+    4,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Hidden Eye",
+   "label": "Episode 109"
+  },
+  {
+   "id": 811490,
+   "slug": "eommaga-michyeosseoyo",
+   "date": "2026-11-09",
+   "time": [
+    4,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Mission: Mompossible",
+   "label": "Episode 31"
+  },
+  {
+   "id": 811474,
+   "slug": "malja-show",
+   "date": "2026-11-09",
+   "time": [
+    5,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Malja Show",
+   "label": "Episode 43"
+  },
+  {
+   "id": 802482,
+   "slug": "why-you-don-t-know-it-s-a-girl",
+   "date": "2026-11-09",
+   "time": [
+    5,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Love in Disguise",
+   "label": "Episode 7"
+  },
+  {
+   "id": 809762,
+   "slug": "love-war",
+   "date": "2026-11-09",
+   "time": [
+    5,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Love War",
+   "label": "Episode 20"
+  },
+  {
+   "id": 810726,
+   "slug": "the-ballad-of-us-season-2",
+   "date": "2026-11-09",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "The Ballad of Us Season 2",
+   "label": "Episode 6"
+  },
+  {
+   "id": 810548,
+   "slug": "midnight-horror-story-season-6",
+   "date": "2026-11-09",
+   "time": [
+    6,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Midnight Horror Story Season 6",
+   "label": "Episode 19"
+  },
+  {
+   "id": 732363,
+   "slug": "summer-vacation",
+   "date": "2026-11-09",
+   "time": [
+    6,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Summer Vacation",
+   "label": "Episode 5"
+  },
+  {
+   "id": 802430,
+   "slug": "love-doctor",
+   "date": "2026-11-09",
+   "time": [
+    7,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Between Steps",
+   "label": "Episode 11"
+  },
+  {
+   "id": 814178,
+   "slug": "trot-kitchen-the-running-dinner-show",
+   "date": "2026-11-09",
+   "time": [
+    7,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Trot Kitchen: The Running Dinner Show",
    "label": "Episode 6"
   },
   {
@@ -4852,6 +4795,28 @@
    "movie": true
   },
   {
+   "id": 755117,
+   "slug": "it-s-okay-to-just-breathe-next-to-you",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Breathless Love",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1125315,
+    "title": "While You're Here",
+    "overview": "Yi-wan and Hwa-ran, a young couple with nothing but dreams and love, decide to leave their tiny dorm room to live together. However, they fall victim to a rental scam and struggle to find a home, moving from place to place. Eventually, they end up in a moldy basement apartment. Can they hold onto their dreams and escape?",
+    "poster": "/e1mlRZnKls1Hs1a5Ih1P3bsnIbq.jpg",
+    "backdrop": "/nliPJFpb4k0LN86MWd9cTyiEOn4.jpg",
+    "runtime": 93,
+    "genres": [
+     "Romance"
+    ],
+    "release_date": "2025-07-08"
+   }
+  },
+  {
    "id": 762913,
    "slug": "snowfall",
    "date": "2026-11-01",
@@ -5483,17 +5448,17 @@
   }
  ],
  "shows": {
-  "25565": {
-   "native": "런닝맨",
-   "network": "SBS",
-   "type": "TV Program",
-   "premiere": "Jul 11, 2010 - ?"
-  },
   "25568": {
    "native": "아는형님",
    "network": "jTBC",
    "type": "TV Program",
    "premiere": "Dec 5, 2015 - ?"
+  },
+  "25565": {
+   "native": "런닝맨",
+   "network": "SBS",
+   "type": "TV Program",
+   "premiere": "Jul 11, 2010 - ?"
   },
   "25576": {
    "native": "불후의 명곡: 전설을 노래하다",
@@ -5573,6 +5538,12 @@
    "type": "TV Program",
    "premiere": "Nov 9, 1980 - ?"
   },
+  "45693": {
+   "native": "아임 라이브",
+   "network": "",
+   "type": "TV Program",
+   "premiere": "Mar 31, 2017 - ?"
+  },
   "49125": {
    "native": "신상출시 편스토랑",
    "network": "KBS2",
@@ -5626,12 +5597,6 @@
    "network": "SBS",
    "type": "TV Program",
    "premiere": "Oct 21, 2021 - ?"
-  },
-  "722529": {
-   "native": "CDTV ライブ! ライブ!",
-   "network": "TBS",
-   "type": "TV Program",
-   "premiere": "Mar 30, 2020 - ?"
   },
   "722677": {
    "native": "리무진 서비스",
@@ -5993,12 +5958,6 @@
    "type": "Drama",
    "premiere": ""
   },
-  "793250": {
-   "native": "ブラッサム",
-   "network": "NHK",
-   "type": "Drama",
-   "premiere": "Sep 28, 2026 - ?"
-  },
   "794290": {
    "native": "골드 디거",
    "network": "jTBC",
@@ -6010,6 +5969,12 @@
    "network": "KBS2",
    "type": "TV Program",
    "premiere": "Apr 3, 2025 - ?"
+  },
+  "793250": {
+   "native": "ブラッサム",
+   "network": "NHK",
+   "type": "Drama",
+   "premiere": "Sep 28, 2026 - ?"
   },
   "794782": {
    "native": "괸당",
@@ -6023,15 +5988,15 @@
    "type": "Drama",
    "premiere": ""
   },
-  "795258": {
-   "native": "코리언즈",
-   "network": "Disney+",
-   "type": "Drama",
-   "premiere": ""
-  },
   "794932": {
    "native": "백XX",
    "network": "",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "795258": {
+   "native": "코리언즈",
+   "network": "Disney+",
    "type": "Drama",
    "premiere": ""
   },
@@ -6077,12 +6042,6 @@
    "type": "TV Program",
    "premiere": "Apr 8, 2025 - ?"
   },
-  "797170": {
-   "native": "ゴジラ-0.0",
-   "network": "",
-   "type": "Movie",
-   "premiere": ""
-  },
   "797296": {
    "native": "프로모터",
    "network": "tvN",
@@ -6125,16 +6084,16 @@
    "type": "Drama",
    "premiere": ""
   },
-  "798824": {
-   "native": "冤罪のつくりかた",
-   "network": "",
-   "type": "Movie",
-   "premiere": ""
-  },
   "798826": {
    "native": "러브 클라우드",
    "network": "KBS2",
    "type": "Drama",
+   "premiere": ""
+  },
+  "798824": {
+   "native": "冤罪のつくりかた",
+   "network": "",
+   "type": "Movie",
    "premiere": ""
   },
   "798950": {
@@ -6538,12 +6497,6 @@
    "network": "Mnet",
    "type": "TV Program",
    "premiere": ""
-  },
-  "809636": {
-   "native": "불꽃야구 시즌2",
-   "network": "",
-   "type": "TV Program",
-   "premiere": "May 4, 2026 - ?"
   },
   "809696": {
    "native": "낙원",
@@ -6959,12 +6912,6 @@
    "type": "Drama",
    "premiere": "Oct 19, 2026 - ?"
   },
-  "812156": {
-   "native": "溺愛カレシの作り方 〜セから本命になる⼥の⼦の話〜",
-   "network": "TV Tokyo",
-   "type": "Drama",
-   "premiere": "Sep 30, 2026 - ?"
-  },
   "812162": {
    "native": "はだかんぼうたち",
    "network": "TV Asahi",
@@ -7067,17 +7014,17 @@
    "type": "Drama",
    "premiere": "Oct 5, 2026 - ?"
   },
-  "812368": {
-   "native": "再生のウズメ",
-   "network": "Fuji TV Tokai TV",
-   "type": "Drama",
-   "premiere": "Oct 3, 2026 - ?"
-  },
   "812366": {
    "native": "フジヤマBOY",
    "network": "Netflix",
    "type": "Drama",
    "premiere": ""
+  },
+  "812368": {
+   "native": "再生のウズメ",
+   "network": "Fuji TV Tokai TV",
+   "type": "Drama",
+   "premiere": "Oct 3, 2026 - ?"
   },
   "812370": {
    "native": "沈黙の艦隊 目覚めよ、ニューヨーク",
@@ -7181,17 +7128,17 @@
    "type": "Drama",
    "premiere": "Oct 23, 2026 - ?"
   },
-  "812820": {
-   "native": "アナログナース〜デジタルってなんなんだよ!?〜",
-   "network": "TV Asahi",
-   "type": "Drama",
-   "premiere": "Oct 22, 2026 - ?"
-  },
   "812810": {
    "native": "あいの里 シーズン3",
    "network": "Netflix",
    "type": "TV Program",
    "premiere": "Oct 6, 2026 - Nov 3, 2026"
+  },
+  "812820": {
+   "native": "アナログナース〜デジタルってなんなんだよ!?〜",
+   "network": "TV Asahi",
+   "type": "Drama",
+   "premiere": "Oct 22, 2026 - ?"
   },
   "812828": {
    "native": "신입사원 길들이기",
@@ -7325,17 +7272,17 @@
    "type": "TV Program",
    "premiere": "Oct 2, 2026 - ?"
   },
-  "813416": {
-   "native": "よろしくアミーゴ",
-   "network": "",
-   "type": "Drama",
-   "premiere": ""
-  },
   "813412": {
    "native": "전설의 사내",
    "network": "MBN",
    "type": "TV Program",
    "premiere": "Jul 15, 2026 - ?"
+  },
+  "813416": {
+   "native": "よろしくアミーゴ",
+   "network": "",
+   "type": "Drama",
+   "premiere": ""
   },
   "813434": {
    "native": "KickFlip COMEBACK STAGE : KICK OFF THE WALL Pt.1",

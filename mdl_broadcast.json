@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-11-05T09:28:47Z",
+ "fetched_utc": "2026-11-05T21:06:48Z",
  "episodes": [
   {
    "id": 806838,
@@ -190,6 +190,18 @@
   {
    "id": 807616,
    "slug": "kurotani-tomoka-oniwa-tsukurimasu",
+   "date": "2026-11-05",
+   "time": [
+    5,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Happy Gardening Life",
+   "label": "Episode 84"
+  },
+  {
+   "id": 814088,
+   "slug": "love-transit-35",
    "date": "2026-11-05",
    "time": [
     5,
@@ -422,18 +434,6 @@
    "time": [
     17,
     0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blossom",
-   "label": "Episode 30"
-  },
-  {
-   "id": 813542,
-   "slug": "shinya-zangyo-nikushoku-kohai-no-katakoi-kenshu",
-   "date": "2026-11-05",
-   "time": [
-    22,
-    45
    ],
    "tz": "Asia/Tokyo",
    "title": "Shinya Zangyo: Nikushoku Kohai no Katakoi Kenshu",
@@ -1238,7 +1238,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Medical Rebirth",
-   "label": "Episode 11 - 48"
+   "label": "Episode 1 - 38"
   },
   {
    "id": 789036,
@@ -1247,6 +1247,42 @@
    "time": [
     3,
     0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Make Me Tingle",
+   "label": "Episode 9 - 10"
+  },
+  {
+   "id": 812406,
+   "slug": "changing-majors-season-9",
+   "date": "2026-11-05",
+   "time": [
+    3,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Changing Majors Season 9",
+   "label": "Episode 8"
+  },
+  {
+   "id": 813442,
+   "slug": "upcono-season-2",
+   "date": "2026-11-05",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "UPCono Season 2",
+   "label": "Episode 3"
+  },
+  {
+   "id": 809180,
+   "slug": "gajok-gwangye-jeungmyeongseo",
+   "date": "2026-11-05",
+   "time": [
+    4,
+    5
    ],
    "tz": "Asia/Seoul",
    "title": "Family Register",
@@ -1370,7 +1406,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Sound of Sugar Cubes",
-   "label": "Episode 5 - 6"
+   "label": "Episode 6 - 5"
   },
   {
    "id": 811398,
@@ -1379,18 +1415,6 @@
    "time": [
     3,
     0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Sumbakkokjil Season 2",
-   "label": "Episode 8"
-  },
-  {
-   "id": 809180,
-   "slug": "gajok-gwangye-jeungmyeongseo",
-   "date": "2026-11-06",
-   "time": [
-    4,
-    10
    ],
    "tz": "Asia/Seoul",
    "title": "Family Register",
@@ -2066,7 +2090,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Devil's Plan: Dead Again",
-   "label": "Episode 1 - 4"
+   "label": "Episode 3 - 2"
   },
   {
    "id": 722677,
@@ -2775,6 +2799,16 @@
    "time": null,
    "tz": "Asia/Tokyo",
    "title": "Hadakanbotachi: Another Story",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 814438,
+   "slug": "oretachi-no-gakuren-gasshuku",
+   "date": "2026-10-17",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Oretachi no Gakuren Gasshuku",
    "label": "Premiere",
    "predicted": true
   },
@@ -3908,16 +3942,19 @@
    "label": "Movie Release",
    "movie": true,
    "tmdb": {
-    "id": 1625465,
+    "id": 57931,
     "title": "Baler",
-    "overview": "Quitting her job and being pregnant - that's the sum of what we know about Eunju. Seemingly without much desire or expectation, Eunju heads to the countryside at the suggestion of Changho, who proposes a month of seasonal farm work. She tidies up rice straw left over from threshing, tends to cattle, sits down to eat with rough-hewn men of the countryside, and exchanges brief, trivial, awkward conversations.",
-    "poster": "/ie6BfIIIgkauNG1Ucj8dldV2ifd.jpg",
-    "backdrop": "/csvzQqf8Mg9411ks7HdCFtTeK25.jpg",
-    "runtime": 95,
+    "overview": "In 1898, a band of Spanish soldiers heroically defended Baler against Filipino forces for 337 long and grueling days. The battle, now referred to as the Siege of Baler, is the setting of a forbidden love between a Mestizo soldier and a Filipina lass who lived at the end of the 19th century.",
+    "poster": "/5CjDuIQRlYcyzDeFsKIy9F8n9L8.jpg",
+    "backdrop": null,
+    "runtime": 110,
     "genres": [
-     "Drama"
+     "History",
+     "Drama",
+     "Romance",
+     "War"
     ],
-    "release_date": "2026-10-09"
+    "release_date": "2008-12-25"
    }
   },
   {
@@ -4665,8 +4702,8 @@
     "backdrop": "/6vGH7JZFLzFawpwCcnNweF8j3KD.jpg",
     "runtime": 0,
     "genres": [
-     "Drama",
-     "Romance"
+     "Romance",
+     "Drama"
     ],
     "release_date": "2026-11-05"
    }
@@ -4742,6 +4779,30 @@
    "title": "Tonari no Trans Shojo-chan",
    "label": "Expected Movie Release",
    "movie": true
+  },
+  {
+   "id": 814442,
+   "slug": "chiisana-koi-no-uta",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Chiisana Koi no Uta",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 596727,
+    "title": "Little Love Song",
+    "overview": "A popular high school band is scouted by a Tokyo-based record company. The band is involved in a car accident, however, shattering many hopes. The band receives a demo tape from a girl who lives on the navy base. They are reinvigorated.",
+    "poster": "/mgJuwaCadzdncY4V76VRLPzvew6.jpg",
+    "backdrop": "/zxN9lrQBQdubCtGZ8I4phfxCryv.jpg",
+    "runtime": 123,
+    "genres": [
+     "Romance",
+     "Drama",
+     "Music"
+    ],
+    "release_date": "2019-05-24"
+   }
   },
   {
    "id": 810392,
@@ -4894,8 +4955,8 @@
    "tmdb": {
     "id": 1718930,
     "title": "Wandance",
-    "overview": "Extremely introverted Kabo, held back by his stutter, meets confident Wanda and discovers freedom through dance. With Wanda and his dance crew by his side, he sets out to find a style—and a voice— that is entirely his own.",
-    "poster": "/1UcM2U1CnOP34l7G1Z5N3QuylTv.jpg",
+    "overview": "Extremely introverted Kabo, held back by his stutter, meets confident Wanda and discovers freedom through dance. With Wanda and his dance crew by his side, he sets out to find a style—and a voice—that is entirely his own.",
+    "poster": "/vJTfvarGK1eSF3WY8uJRMqTxNpt.jpg",
     "backdrop": "/bOisAh8qxHndd0r2IJBNUxlpldv.jpg",
     "runtime": 126,
     "genres": [
@@ -4980,6 +5041,28 @@
      "TV Movie"
     ],
     "release_date": "2023-01-08"
+   }
+  },
+  {
+   "id": 814450,
+   "slug": "earthlings-in-love",
+   "date": "2026-12-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Earthlings in Love",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 1785714,
+    "title": "Earthlings in Love",
+    "overview": "In 2000, high schooler Shinpei asks his crush, Mai, to star in his first film. In 2025, now a director, he lives with young-onset dementia.",
+    "poster": "/lC4YEgGjMy8PMS3z2zYI5JYIDRD.jpg",
+    "backdrop": null,
+    "runtime": 102,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2026-12-11"
    }
   },
   {
@@ -5089,6 +5172,16 @@
    "time": null,
    "tz": "Asia/Tokyo",
    "title": "The High Schooler Family",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 814470,
+   "slug": "tobira-wo-aketara",
+   "date": "2027-01-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Tobira wo Aketara",
    "label": "Expected Movie Release",
    "movie": true
   },
@@ -5311,6 +5404,38 @@
    "title": "Sleeping in the Red Earth",
    "label": "Expected Movie Release",
    "movie": true
+  },
+  {
+   "id": 814436,
+   "slug": "fukakoryoku-no-i-love-you",
+   "date": "2027-03-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Fukakoryoku no I Love You",
+   "label": "Expected Movie Release",
+   "movie": true
+  },
+  {
+   "id": 814434,
+   "slug": "prism",
+   "date": "2027-03-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Prism",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 943579,
+    "title": "PRISM",
+    "overview": "Six individuals from two unique dysfunctional families are each represented by a different color in this complexly interlinked drama about love, loss, and meaning.",
+    "poster": "/ij0mJQb7ShexF5wTLGo6Cm43CiR.jpg",
+    "backdrop": "/7xHwL0kz9M22pefdDalAO8wkpZ2.jpg",
+    "runtime": 30,
+    "genres": [
+     "Drama"
+    ],
+    "release_date": "2016-11-13"
+   }
   },
   {
    "id": 811414,
@@ -6963,6 +7088,12 @@
    "type": "TV Program",
    "premiere": "Sep 13, 2026 - ?"
   },
+  "812406": {
+   "native": "전과자 시즌9",
+   "network": "",
+   "type": "TV Program",
+   "premiere": "Sep 3, 2026 - ?"
+  },
   "812446": {
    "native": "十六夜膳房 -いざよいぜんぼう-",
    "network": "NTV",
@@ -7543,6 +7674,30 @@
    "native": "アンメット ある脳外科医の日記 シーズン2",
    "network": "Fuji TV",
    "type": "Drama",
+   "premiere": ""
+  },
+  "814438": {
+   "native": "俺たちの学連合宿",
+   "network": "TVer",
+   "type": "Drama",
+   "premiere": "Oct 17, 2026 - ?"
+  },
+  "814458": {
+   "native": "君がいちばんしたいこと",
+   "network": "FOD",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814462": {
+   "native": "ワンフォーオール・オールフォーマーダー",
+   "network": "MBS , TVK ,",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814464": {
+   "native": "はじめまして、iiONDOです",
+   "network": "TV Tokyo",
+   "type": "TV Program",
    "premiere": ""
   }
  }

@@ -1,117 +1,12 @@
 {
- "fetched_utc": "2026-11-07T18:46:43Z",
+ "fetched_utc": "2026-11-08T08:59:36Z",
  "episodes": [
-  {
-   "id": 793008,
-   "slug": "tonari-no-trans-shojo-chan",
-   "date": "2026-11-06",
-   "time": null,
-   "tz": "Asia/Tokyo",
-   "title": "Tonari no Trans Shojo-chan",
-   "label": "Movie"
-  },
-  {
-   "id": 812774,
-   "slug": "borders-keishicho-tokushu-jiken-taisaku-han",
-   "date": "2026-11-06",
-   "time": [
-    7,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Borders: Keishicho Tokushu Jiken Taisaku Han",
-   "label": "Episode 4"
-  },
-  {
-   "id": 792568,
-   "slug": "timeleszman",
-   "date": "2026-11-06",
-   "time": [
-    7,
-    55
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Timeleszman",
-   "label": "Episode 72"
-  },
-  {
-   "id": 811594,
-   "slug": "lost-10",
-   "date": "2026-11-06",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Lost 10",
-   "label": "Episode 4"
-  },
-  {
-   "id": 812762,
-   "slug": "dekiai-jitsu-wa-saikyo-hero",
-   "date": "2026-11-06",
-   "time": [
-    9,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Dekiai: Jitsu wa, Saikyo Hero",
-   "label": "Episode 2"
-  },
-  {
-   "id": 811816,
-   "slug": "sanada-juyushi-shadows-of-the-ten-ninja",
-   "date": "2026-11-06",
-   "time": [
-    9,
-    15
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Shadows of the Ten Ninja",
-   "label": "Episode 3"
-  },
-  {
-   "id": 812362,
-   "slug": "oishii-no-tsukuri-kata",
-   "date": "2026-11-06",
-   "time": [
-    10,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Oishii no Tsukuri Kata",
-   "label": "Episode 6"
-  },
-  {
-   "id": 812144,
-   "slug": "mame-to-mugi",
-   "date": "2026-11-06",
-   "time": [
-    10,
-    10
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Mame to Mugi",
-   "label": "Episode 6"
-  },
-  {
-   "id": 808926,
-   "slug": "ultraman-teo",
-   "date": "2026-11-06",
-   "time": [
-    19,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Ultraman Teo",
-   "label": "Episode 17"
-  },
   {
    "id": 812044,
    "slug": "bachi-bachi-star",
    "date": "2026-11-07",
    "time": [
-    3,
+    0,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -123,7 +18,7 @@
    "slug": "oretachi-no-hakone-ekiden",
    "date": "2026-11-07",
    "time": [
-    7,
+    4,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -135,7 +30,7 @@
    "slug": "oretachi-no-gakuren-gasshuku",
    "date": "2026-11-07",
    "time": [
-    7,
+    4,
     55
    ],
    "tz": "Asia/Tokyo",
@@ -147,7 +42,7 @@
    "slug": "my-sweet-home",
    "date": "2026-11-07",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -159,7 +54,7 @@
    "slug": "hadakanbo-tachi",
    "date": "2026-11-07",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -171,7 +66,7 @@
    "slug": "venue101",
    "date": "2026-11-07",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -183,7 +78,7 @@
    "slug": "sakusaku-himuhimu-oshi-no-furu-yoru",
    "date": "2026-11-07",
    "time": [
-    9,
+    6,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -195,7 +90,7 @@
    "slug": "saisei-no-uzume",
    "date": "2026-11-07",
    "time": [
-    9,
+    6,
     40
    ],
    "tz": "Asia/Tokyo",
@@ -207,7 +102,7 @@
    "slug": "school-trip-joined-a-group-i-m-not-close-to-season-2",
    "date": "2026-11-07",
    "time": [
-    11,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -219,8 +114,20 @@
    "slug": "kamen-rider-my-th",
    "date": "2026-11-07",
    "time": [
-    19,
+    16,
     0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Kamen Rider MY-TH",
+   "label": "Episode 9"
+  },
+  {
+   "id": 810846,
+   "slug": "kakusei-hunter-omegahorn",
+   "date": "2026-11-07",
+   "time": [
+    16,
+    30
    ],
    "tz": "Asia/Tokyo",
    "title": "Kakusei Hunter Omegahorn",
@@ -231,7 +138,7 @@
    "slug": "kamen-rider-my-th-twelve-zodiacs-ten-colors",
    "date": "2026-11-07",
    "time": [
-    19,
+    16,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -243,7 +150,7 @@
    "slug": "kakusei-hunter-omegahorn-huntertachi-no-mokuhiroku-with-gavan",
    "date": "2026-11-07",
    "time": [
-    20,
+    17,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -253,9 +160,9 @@
   {
    "id": 801366,
    "slug": "timelesz-familia",
-   "date": "2026-11-08",
+   "date": "2026-11-07",
    "time": [
-    0,
+    21,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -267,19 +174,7 @@
    "slug": "toyotomi-kyodai",
    "date": "2026-11-08",
    "time": [
-    6,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Brothers in Arms",
-   "label": "Episode 43"
-  },
-  {
-   "id": 797332,
-   "slug": "vivant",
-   "date": "2026-11-08",
-   "time": [
-    7,
+    3,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -291,7 +186,7 @@
    "slug": "golden-sixtones",
    "date": "2026-11-08",
    "time": [
-    7,
+    4,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -303,7 +198,7 @@
    "slug": "eugenia",
    "date": "2026-11-08",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -315,7 +210,7 @@
    "slug": "mo-papa",
    "date": "2026-11-08",
    "time": [
-    8,
+    5,
     15
    ],
    "tz": "Asia/Tokyo",
@@ -327,7 +222,7 @@
    "slug": "hide-seek-0-byo-mae-no-kanojo",
    "date": "2026-11-08",
    "time": [
-    8,
+    5,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -339,7 +234,7 @@
    "slug": "jounetsu-tairiku",
    "date": "2026-11-08",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -351,7 +246,7 @@
    "slug": "squall",
    "date": "2026-11-08",
    "time": [
-    11,
+    8,
     10
    ],
    "tz": "Asia/Tokyo",
@@ -363,7 +258,7 @@
    "slug": "super-dragon-quest",
    "date": "2026-11-08",
    "time": [
-    11,
+    8,
     50
    ],
    "tz": "Asia/Tokyo",
@@ -375,7 +270,7 @@
    "slug": "blossom",
    "date": "2026-11-08",
    "time": [
-    18,
+    15,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -387,7 +282,7 @@
    "slug": "ao-to-midori",
    "date": "2026-11-08",
    "time": [
-    21,
+    18,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -399,7 +294,7 @@
    "slug": "emergency-room-24-hours-season-6",
    "date": "2026-11-09",
    "time": [
-    7,
+    4,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -411,7 +306,7 @@
    "slug": "ao-no-hana-utsuwa-no-mori",
    "date": "2026-11-09",
    "time": [
-    8,
+    5,
     45
    ],
    "tz": "Asia/Tokyo",
@@ -423,7 +318,7 @@
    "slug": "minamida-minami-bengoshi-wa-tensaihada",
    "date": "2026-11-09",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -435,7 +330,7 @@
    "slug": "tsuma-wo-intai-shimasu",
    "date": "2026-11-09",
    "time": [
-    9,
+    6,
     5
    ],
    "tz": "Asia/Tokyo",
@@ -447,7 +342,7 @@
    "slug": "can-you-tell-m-lk",
    "date": "2026-11-09",
    "time": [
-    10,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -459,7 +354,7 @@
    "slug": "izayoi-zenbo",
    "date": "2026-11-09",
    "time": [
-    10,
+    7,
     25
    ],
    "tz": "Asia/Tokyo",
@@ -471,7 +366,7 @@
    "slug": "can-you-kiss-me-first",
    "date": "2026-11-09",
    "time": [
-    10,
+    7,
     45
    ],
    "tz": "Asia/Tokyo",
@@ -483,7 +378,7 @@
    "slug": "vs-bullet-train",
    "date": "2026-11-09",
    "time": [
-    11,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -495,7 +390,7 @@
    "slug": "not-equal-me-nanashi-no-cinderella",
    "date": "2026-11-09",
    "time": [
-    11,
+    8,
     15
    ],
    "tz": "Asia/Tokyo",
@@ -507,7 +402,7 @@
    "slug": "nogizaka-star-tanjo-six",
    "date": "2026-11-09",
    "time": [
-    12,
+    9,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -519,7 +414,7 @@
    "slug": "blossom",
    "date": "2026-11-09",
    "time": [
-    18,
+    15,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -531,7 +426,7 @@
    "slug": "human-gourmentary-omoumai-mise",
    "date": "2026-11-10",
    "time": [
-    5,
+    2,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -543,7 +438,7 @@
    "slug": "kidnap-game",
    "date": "2026-11-10",
    "time": [
-    7,
+    4,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -555,7 +450,7 @@
    "slug": "hakaneko-nikki-ano-hi-no-tsuki",
    "date": "2026-11-10",
    "time": [
-    7,
+    4,
     55
    ],
    "tz": "Asia/Tokyo",
@@ -567,7 +462,7 @@
    "slug": "iroha-no-koi-wa-jidai-wo-kakeru",
    "date": "2026-11-10",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -579,7 +474,7 @@
    "slug": "kaishain",
    "date": "2026-11-10",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -591,7 +486,7 @@
    "slug": "ao-no-hana-utsuwa-no-mori",
    "date": "2026-11-10",
    "time": [
-    8,
+    5,
     45
    ],
    "tz": "Asia/Tokyo",
@@ -603,7 +498,7 @@
    "slug": "ae-group-s-q-ae",
    "date": "2026-11-10",
    "time": [
-    10,
+    7,
     15
    ],
    "tz": "Asia/Tokyo",
@@ -615,7 +510,7 @@
    "slug": "midnight-diner-season-6",
    "date": "2026-11-10",
    "time": [
-    11,
+    8,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -627,7 +522,7 @@
    "slug": "blossom",
    "date": "2026-11-10",
    "time": [
-    18,
+    15,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -639,7 +534,7 @@
    "slug": "dekiai-kareshi-no-tsukurikata-se-kara-honmei-ni-naru-onnanoko-no-hanashi",
    "date": "2026-11-11",
    "time": [
-    7,
+    4,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -651,7 +546,7 @@
    "slug": "aibo-season-25",
    "date": "2026-11-11",
    "time": [
-    7,
+    4,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -663,7 +558,7 @@
    "slug": "nino-nanoni",
    "date": "2026-11-11",
    "time": [
-    7,
+    4,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -675,7 +570,7 @@
    "slug": "merry-berry-love",
    "date": "2026-11-11",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -687,7 +582,7 @@
    "slug": "ao-no-hana-utsuwa-no-mori",
    "date": "2026-11-11",
    "time": [
-    8,
+    5,
     45
    ],
    "tz": "Asia/Tokyo",
@@ -699,7 +594,7 @@
    "slug": "itajum",
    "date": "2026-11-11",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -711,7 +606,7 @@
    "slug": "politica-lupin",
    "date": "2026-11-11",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -723,7 +618,7 @@
    "slug": "komugi-to-butter-to-fukushu-to",
    "date": "2026-11-11",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -735,7 +630,7 @@
    "slug": "when-it-rains-it-pours-season-2-mellow-rain",
    "date": "2026-11-11",
    "time": [
-    11,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -747,7 +642,7 @@
    "slug": "watashi-ga-anata-to-iru-riyu-2-guam-wo-otozureta-8-nin-no-danjo-no-10-kakan",
    "date": "2026-11-11",
    "time": [
-    11,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -759,7 +654,7 @@
    "slug": "kamen-kyoshi-tsuma-wo-nakushita-sono-hi-kara",
    "date": "2026-11-11",
    "time": [
-    11,
+    8,
     25
    ],
    "tz": "Asia/Tokyo",
@@ -771,7 +666,7 @@
    "slug": "travis-japan-no-just-shin-nihon-isan-season-3",
    "date": "2026-11-11",
    "time": [
-    11,
+    8,
     40
    ],
    "tz": "Asia/Tokyo",
@@ -783,7 +678,7 @@
    "slug": "nika-game",
    "date": "2026-11-11",
    "time": [
-    12,
+    9,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -795,7 +690,7 @@
    "slug": "blossom",
    "date": "2026-11-11",
    "time": [
-    18,
+    15,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -803,11 +698,29 @@
    "label": "Episode 34"
   },
   {
+   "id": 810392,
+   "slug": "makehende",
+   "date": "2026-11-12",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Never Guilty",
+   "label": "Movie"
+  },
+  {
+   "id": 814442,
+   "slug": "chiisana-koi-no-uta",
+   "date": "2026-11-12",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Little Song of Love",
+   "label": "Movie"
+  },
+  {
    "id": 807616,
    "slug": "kurotani-tomoka-oniwa-tsukurimasu",
    "date": "2026-11-12",
    "time": [
-    6,
+    3,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -819,7 +732,7 @@
    "slug": "analog-nurse",
    "date": "2026-11-12",
    "time": [
-    7,
+    4,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -831,7 +744,7 @@
    "slug": "renai-rubi-no-tadashii-furikata-season-2",
    "date": "2026-11-12",
    "time": [
-    7,
+    4,
     25
    ],
    "tz": "Asia/Tokyo",
@@ -843,7 +756,7 @@
    "slug": "gochisou-fanfare",
    "date": "2026-11-12",
    "time": [
-    7,
+    4,
     55
    ],
    "tz": "Asia/Tokyo",
@@ -855,7 +768,7 @@
    "slug": "a-calm-sea-and-beautiful-days-with-you-season-2",
    "date": "2026-11-12",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -867,7 +780,7 @@
    "slug": "iijima-naoko-no-konya-ippai-itchau",
    "date": "2026-11-12",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -879,7 +792,7 @@
    "slug": "ao-no-hana-utsuwa-no-mori",
    "date": "2026-11-12",
    "time": [
-    8,
+    5,
     45
    ],
    "tz": "Asia/Tokyo",
@@ -891,7 +804,7 @@
    "slug": "tengu-s-kitchen-season-3",
    "date": "2026-11-12",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -903,7 +816,7 @@
    "slug": "rock-paper-landmine",
    "date": "2026-11-12",
    "time": [
-    10,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -915,7 +828,7 @@
    "slug": "doubt-15-nen-me-no-fukushu",
    "date": "2026-11-12",
    "time": [
-    10,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -927,7 +840,7 @@
    "slug": "uso-wo-tsuita-watashitachi",
    "date": "2026-11-12",
    "time": [
-    10,
+    7,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -939,7 +852,7 @@
    "slug": "life-trade",
    "date": "2026-11-12",
    "time": [
-    10,
+    7,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -951,7 +864,7 @@
    "slug": "eigyo-desu-kara",
    "date": "2026-11-12",
    "time": [
-    10,
+    7,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -963,7 +876,7 @@
    "slug": "i-never-thought-i-would-be-living-on-my-own",
    "date": "2026-11-12",
    "time": [
-    11,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -975,7 +888,7 @@
    "slug": "sekito-elegy",
    "date": "2026-11-12",
    "time": [
-    11,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -987,7 +900,7 @@
    "slug": "okaeri-hatsukoi",
    "date": "2026-11-12",
    "time": [
-    11,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -999,7 +912,7 @@
    "slug": "jyotei",
    "date": "2026-11-12",
    "time": [
-    11,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -1011,7 +924,7 @@
    "slug": "one-n-only-no-full-out-tv",
    "date": "2026-11-12",
    "time": [
-    11,
+    8,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -1023,7 +936,7 @@
    "slug": "kanojo-no-imoto-yuwaku-darake-no-sankaku-kankei",
    "date": "2026-11-12",
    "time": [
-    11,
+    8,
     30
    ],
    "tz": "Asia/Tokyo",
@@ -1035,7 +948,7 @@
    "slug": "ebidan-necchu-genjibu-house",
    "date": "2026-11-12",
    "time": [
-    12,
+    9,
     20
    ],
    "tz": "Asia/Tokyo",
@@ -1047,7 +960,7 @@
    "slug": "blossom",
    "date": "2026-11-12",
    "time": [
-    18,
+    15,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -1055,167 +968,107 @@
    "label": "Episode 35"
   },
   {
-   "id": 811398,
-   "slug": "sumbakkokjil-sijeun-2",
-   "date": "2026-11-06",
+   "id": 813542,
+   "slug": "shinya-zangyo-nikushoku-kohai-no-katakoi-kenshu",
+   "date": "2026-11-12",
+   "time": [
+    20,
+    45
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Shinya Zangyo: Nikushoku Kohai no Katakoi Kenshu",
+   "label": "Episode 7"
+  },
+  {
+   "id": 812774,
+   "slug": "borders-keishicho-tokushu-jiken-taisaku-han",
+   "date": "2026-11-13",
    "time": [
     4,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Sumbakkokjil Season 2",
-   "label": "Episode 8"
+   "tz": "Asia/Tokyo",
+   "title": "Borders: Keishicho Tokushu Jiken Taisaku Han",
+   "label": "Episode 5"
   },
   {
-   "id": 809180,
-   "slug": "gajok-gwangye-jeungmyeongseo",
-   "date": "2026-11-06",
+   "id": 792568,
+   "slug": "timeleszman",
+   "date": "2026-11-13",
+   "time": [
+    4,
+    55
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Timeleszman",
+   "label": "Episode 73"
+  },
+  {
+   "id": 811594,
+   "slug": "lost-10",
+   "date": "2026-11-13",
    "time": [
     5,
-    10
+    0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Family Register",
-   "label": "Episode 75"
+   "tz": "Asia/Tokyo",
+   "title": "Lost 10",
+   "label": "Episode 5"
   },
   {
-   "id": 780066,
-   "slug": "delicious-guys-season-3",
-   "date": "2026-11-06",
+   "id": 812762,
+   "slug": "dekiai-jitsu-wa-saikyo-hero",
+   "date": "2026-11-13",
    "time": [
     6,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Delicious Guys Season 3",
-   "label": "Episode 121"
+   "tz": "Asia/Tokyo",
+   "title": "Dekiai: Jitsu wa, Saikyo Hero",
+   "label": "Episode 3"
   },
   {
-   "id": 811490,
-   "slug": "eommaga-michyeosseoyo",
-   "date": "2026-11-06",
+   "id": 811816,
+   "slug": "sanada-juyushi-shadows-of-the-ten-ninja",
+   "date": "2026-11-13",
    "time": [
     6,
-    30
+    15
    ],
-   "tz": "Asia/Seoul",
-   "title": "Mission: Mompossible",
-   "label": "Episode 30"
+   "tz": "Asia/Tokyo",
+   "title": "Shadows of the Ten Ninja",
+   "label": "Episode 4"
   },
   {
-   "id": 807710,
-   "slug": "men-s-life-these-days-groom-s-class-season-2",
-   "date": "2026-11-06",
+   "id": 812362,
+   "slug": "oishii-no-tsukuri-kata",
+   "date": "2026-11-13",
    "time": [
     7,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Men's Life These Days: Groom's Class Season 2",
-   "label": "Episode 33"
+   "tz": "Asia/Tokyo",
+   "title": "Oishii no Tsukuri Kata",
+   "label": "Episode 7"
   },
   {
-   "id": 813006,
-   "slug": "evnne-hour",
-   "date": "2026-11-06",
+   "id": 812144,
+   "slug": "mame-to-mugi",
+   "date": "2026-11-13",
    "time": [
     7,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Evnne Hour",
-   "label": "Episode 8"
-  },
-  {
-   "id": 813600,
-   "slug": "jobless-lee-se-dol",
-   "date": "2026-11-06",
-   "time": [
-    7,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Jobless Lee Se Dol",
-   "label": "Episode 3"
-  },
-  {
-   "id": 787220,
-   "slug": "doctor-x-age-of-the-white-mafia",
-   "date": "2026-11-06",
-   "time": [
-    7,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Doctor X: Mafia in White",
-   "label": "Episode 9"
-  },
-  {
-   "id": 796274,
-   "slug": "liar",
-   "date": "2026-11-06",
-   "time": [
-    7,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "The Perfect Lie",
-   "label": "Episode 3"
-  },
-  {
-   "id": 811440,
-   "slug": "geumtaneun-geumyoil",
-   "date": "2026-11-06",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Geumtaneun Geumyoil",
-   "label": "Episode 44"
-  },
-  {
-   "id": 812218,
-   "slug": "backdoor-part-2",
-   "date": "2026-11-06",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Backdoor Part 2",
-   "label": "Episode 6"
-  },
-  {
-   "id": 25744,
-   "slug": "i-live-alone",
-   "date": "2026-11-06",
-   "time": [
-    9,
     10
    ],
-   "tz": "Asia/Seoul",
-   "title": "I Live Alone",
-   "label": "Episode 672"
-  },
-  {
-   "id": 812316,
-   "slug": "my-genie-secretary",
-   "date": "2026-11-06",
-   "time": [
-    9,
-    10
-   ],
-   "tz": "Asia/Seoul",
-   "title": "My Genie Secretary",
-   "label": "Episode 10"
+   "tz": "Asia/Tokyo",
+   "title": "Mame to Mugi",
+   "label": "Episode 7"
   },
   {
    "id": 722677,
    "slug": "lee-mu-jin-service",
    "date": "2026-11-07",
    "time": [
-    4,
+    1,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1227,7 +1080,7 @@
    "slug": "immortal-songs-singing-the-legend",
    "date": "2026-11-07",
    "time": [
-    4,
+    1,
     5
    ],
    "tz": "Asia/Seoul",
@@ -1239,7 +1092,7 @@
    "slug": "how-do-you-play",
    "date": "2026-11-07",
    "time": [
-    4,
+    1,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1251,7 +1104,7 @@
    "slug": "amazing-saturday",
    "date": "2026-11-07",
    "time": [
-    5,
+    2,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1263,7 +1116,7 @@
    "slug": "world-dice-tour-season-4",
    "date": "2026-11-07",
    "time": [
-    5,
+    2,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1275,7 +1128,7 @@
    "slug": "sarangi-onda",
    "date": "2026-11-07",
    "time": [
-    6,
+    3,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1287,7 +1140,7 @@
    "slug": "out-of-the-water",
    "date": "2026-11-07",
    "time": [
-    6,
+    3,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1299,7 +1152,7 @@
    "slug": "knowing-bros",
    "date": "2026-11-07",
    "time": [
-    6,
+    3,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1311,7 +1164,7 @@
    "slug": "100-days-of-lies",
    "date": "2026-11-07",
    "time": [
-    7,
+    4,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1323,7 +1176,7 @@
    "slug": "doctor-x-age-of-the-white-mafia",
    "date": "2026-11-07",
    "time": [
-    7,
+    4,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1335,7 +1188,7 @@
    "slug": "liar",
    "date": "2026-11-07",
    "time": [
-    7,
+    4,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1347,7 +1200,7 @@
    "slug": "mr-house-husband-season-2",
    "date": "2026-11-07",
    "time": [
-    8,
+    5,
     35
    ],
    "tz": "Asia/Seoul",
@@ -1359,7 +1212,7 @@
    "slug": "the-final-table",
    "date": "2026-11-07",
    "time": [
-    8,
+    5,
     40
    ],
    "tz": "Asia/Seoul",
@@ -1371,7 +1224,7 @@
    "slug": "omniscient-interfering-view",
    "date": "2026-11-07",
    "time": [
-    9,
+    6,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1383,7 +1236,7 @@
    "slug": "out-of-the-blue",
    "date": "2026-11-07",
    "time": [
-    9,
+    6,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1391,36 +1244,24 @@
    "label": "Episode 5"
   },
   {
-   "id": 35517,
-   "slug": "boss-in-the-mirror",
-   "date": "2026-11-08",
+   "id": 45671,
+   "slug": "korea-sings",
+   "date": "2026-11-07",
    "time": [
-    2,
-    45
+    19,
+    10
    ],
    "tz": "Asia/Seoul",
-   "title": "Boss in the Mirror",
-   "label": "Episode 382"
+   "title": "Korea Sings",
+   "label": "Episode 2191"
   },
   {
    "id": 812828,
    "slug": "sinipsawon-gildeurigi",
    "date": "2026-11-08",
    "time": [
-    4,
+    1,
     0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Training the Intern",
-   "label": "Episode 6"
-  },
-  {
-   "id": 25565,
-   "slug": "running-man",
-   "date": "2026-11-08",
-   "time": [
-    4,
-    10
    ],
    "tz": "Asia/Seoul",
    "title": "Running Man",
@@ -1431,7 +1272,7 @@
    "slug": "2-days-1-night-season-4",
    "date": "2026-11-08",
    "time": [
-    4,
+    1,
     15
    ],
    "tz": "Asia/Seoul",
@@ -1443,7 +1284,7 @@
    "slug": "sixth-sense-b-side",
    "date": "2026-11-08",
    "time": [
-    5,
+    2,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1455,7 +1296,7 @@
    "slug": "sarangi-onda",
    "date": "2026-11-08",
    "time": [
-    6,
+    3,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1467,7 +1308,7 @@
    "slug": "ni-don-nae-san",
    "date": "2026-11-08",
    "time": [
-    6,
+    3,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1479,7 +1320,7 @@
    "slug": "please-take-care-of-my-refrigerator-season-2",
    "date": "2026-11-08",
    "time": [
-    7,
+    4,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1491,7 +1332,7 @@
    "slug": "mom-s-diary-my-ugly-duckling",
    "date": "2026-11-08",
    "time": [
-    7,
+    4,
     5
    ],
    "tz": "Asia/Seoul",
@@ -1503,7 +1344,7 @@
    "slug": "100-days-of-lies",
    "date": "2026-11-08",
    "time": [
-    7,
+    4,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1515,7 +1356,7 @@
    "slug": "the-wonder-coach-season-2",
    "date": "2026-11-08",
    "time": [
-    7,
+    4,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1527,7 +1368,7 @@
    "slug": "the-final-table",
    "date": "2026-11-08",
    "time": [
-    8,
+    5,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1539,7 +1380,7 @@
    "slug": "this-is-hyun-moo-road",
    "date": "2026-11-08",
    "time": [
-    8,
+    5,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1551,7 +1392,7 @@
    "slug": "gag-concert-season-2",
    "date": "2026-11-08",
    "time": [
-    8,
+    5,
     40
    ],
    "tz": "Asia/Seoul",
@@ -1563,7 +1404,7 @@
    "slug": "out-of-the-blue",
    "date": "2026-11-08",
    "time": [
-    9,
+    6,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1575,7 +1416,7 @@
    "slug": "twin-mirror-show",
    "date": "2026-11-09",
    "time": [
-    3,
+    0,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1587,7 +1428,7 @@
    "slug": "one-of-a-kind-romance",
    "date": "2026-11-09",
    "time": [
-    4,
+    1,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1599,7 +1440,7 @@
    "slug": "gajok-gwangye-jeungmyeongseo",
    "date": "2026-11-09",
    "time": [
-    5,
+    2,
     5
    ],
    "tz": "Asia/Seoul",
@@ -1611,7 +1452,7 @@
    "slug": "yokmangui-deot",
    "date": "2026-11-09",
    "time": [
-    5,
+    2,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1623,7 +1464,7 @@
    "slug": "hidden-eye",
    "date": "2026-11-09",
    "time": [
-    6,
+    3,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1635,7 +1476,7 @@
    "slug": "eommaga-michyeosseoyo",
    "date": "2026-11-09",
    "time": [
-    6,
+    3,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1647,7 +1488,7 @@
    "slug": "malja-show",
    "date": "2026-11-09",
    "time": [
-    7,
+    4,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1659,7 +1500,7 @@
    "slug": "why-you-don-t-know-it-s-a-girl",
    "date": "2026-11-09",
    "time": [
-    7,
+    4,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1671,7 +1512,7 @@
    "slug": "love-war",
    "date": "2026-11-09",
    "time": [
-    7,
+    4,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1683,7 +1524,7 @@
    "slug": "the-ballad-of-us-season-2",
    "date": "2026-11-09",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1695,7 +1536,7 @@
    "slug": "midnight-horror-story-season-6",
    "date": "2026-11-09",
    "time": [
-    8,
+    5,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1707,7 +1548,7 @@
    "slug": "summer-vacation",
    "date": "2026-11-09",
    "time": [
-    8,
+    5,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1719,7 +1560,7 @@
    "slug": "love-doctor",
    "date": "2026-11-09",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1731,7 +1572,7 @@
    "slug": "trot-kitchen-the-running-dinner-show",
    "date": "2026-11-09",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1743,7 +1584,7 @@
    "slug": "devil-s-plan-season-3",
    "date": "2026-11-10",
    "time": [
-    3,
+    0,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1755,7 +1596,7 @@
    "slug": "lee-mu-jin-service",
    "date": "2026-11-10",
    "time": [
-    4,
+    1,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1767,7 +1608,7 @@
    "slug": "salon-drip-season-2",
    "date": "2026-11-10",
    "time": [
-    4,
+    1,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1779,7 +1620,7 @@
    "slug": "logout-house",
    "date": "2026-11-10",
    "time": [
-    4,
+    1,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1791,7 +1632,7 @@
    "slug": "sekeondeu-peulleiteu",
    "date": "2026-11-10",
    "time": [
-    4,
+    1,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1803,7 +1644,7 @@
    "slug": "gajok-gwangye-jeungmyeongseo",
    "date": "2026-11-10",
    "time": [
-    5,
+    2,
     5
    ],
    "tz": "Asia/Seoul",
@@ -1815,7 +1656,7 @@
    "slug": "yokmangui-deot",
    "date": "2026-11-10",
    "time": [
-    5,
+    2,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1827,7 +1668,7 @@
    "slug": "eommaga-michyeosseoyo",
    "date": "2026-11-10",
    "time": [
-    6,
+    3,
     30
    ],
    "tz": "Asia/Seoul",
@@ -1839,7 +1680,7 @@
    "slug": "whenever-possible-season-5",
    "date": "2026-11-10",
    "time": [
-    7,
+    4,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1851,7 +1692,7 @@
    "slug": "real-man-s-trip-in-taiwan",
    "date": "2026-11-10",
    "time": [
-    7,
+    4,
     40
    ],
    "tz": "Asia/Seoul",
@@ -1863,7 +1704,7 @@
    "slug": "why-you-don-t-know-it-s-a-girl",
    "date": "2026-11-10",
    "time": [
-    7,
+    4,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1875,7 +1716,7 @@
    "slug": "han-moon-cheol-s-dashcam-review",
    "date": "2026-11-10",
    "time": [
-    7,
+    4,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1887,7 +1728,7 @@
    "slug": "divorcees-n-rookies-season-2",
    "date": "2026-11-10",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1899,7 +1740,7 @@
    "slug": "same-bed-different-dreams-2-you-are-my-destiny",
    "date": "2026-11-10",
    "time": [
-    8,
+    5,
     10
    ],
    "tz": "Asia/Seoul",
@@ -1911,7 +1752,7 @@
    "slug": "summer-vacation",
    "date": "2026-11-10",
    "time": [
-    8,
+    5,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1923,7 +1764,7 @@
    "slug": "love-doctor",
    "date": "2026-11-10",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1935,7 +1776,7 @@
    "slug": "i-m-live",
    "date": "2026-11-10",
    "time": [
-    23,
+    20,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1945,21 +1786,21 @@
   {
    "id": 809798,
    "slug": "style-wars",
-   "date": "2026-11-11",
+   "date": "2026-11-10",
    "time": [
-    2,
+    23,
     0
    ],
    "tz": "Asia/Seoul",
    "title": "Style Wars",
-   "label": "Episode 2 - 1"
+   "label": "Episode 1 - 2"
   },
   {
    "id": 778572,
    "slug": "the-remarried-empress",
    "date": "2026-11-11",
    "time": [
-    3,
+    0,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1971,7 +1812,7 @@
    "slug": "gajok-gwangye-jeungmyeongseo",
    "date": "2026-11-11",
    "time": [
-    5,
+    2,
     5
    ],
    "tz": "Asia/Seoul",
@@ -1983,7 +1824,7 @@
    "slug": "yokmangui-deot",
    "date": "2026-11-11",
    "time": [
-    5,
+    2,
     50
    ],
    "tz": "Asia/Seoul",
@@ -1995,7 +1836,7 @@
    "slug": "when-our-kids-fall-in-love-season-3",
    "date": "2026-11-11",
    "time": [
-    6,
+    3,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2007,7 +1848,7 @@
    "slug": "eommaga-michyeosseoyo",
    "date": "2026-11-11",
    "time": [
-    6,
+    3,
     30
    ],
    "tz": "Asia/Seoul",
@@ -2019,7 +1860,7 @@
    "slug": "yoo-quiz-on-the-block-season-4",
    "date": "2026-11-11",
    "time": [
-    6,
+    3,
     40
    ],
    "tz": "Asia/Seoul",
@@ -2031,7 +1872,7 @@
    "slug": "talk-pawon-25-o-clock",
    "date": "2026-11-11",
    "time": [
-    6,
+    3,
     50
    ],
    "tz": "Asia/Seoul",
@@ -2043,7 +1884,7 @@
    "slug": "shooting-stars-3rd-gifa-cup",
    "date": "2026-11-11",
    "time": [
-    7,
+    4,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2055,7 +1896,7 @@
    "slug": "kickflip-comeback-stage-kick-off-the-wall-pt-1",
    "date": "2026-11-11",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2067,7 +1908,7 @@
    "slug": "what-a-boss-wants",
    "date": "2026-11-11",
    "time": [
-    8,
+    5,
     20
    ],
    "tz": "Asia/Seoul",
@@ -2079,7 +1920,7 @@
    "slug": "radio-star",
    "date": "2026-11-11",
    "time": [
-    8,
+    5,
     30
    ],
    "tz": "Asia/Seoul",
@@ -2091,7 +1932,7 @@
    "slug": "jeonseorui-sanae",
    "date": "2026-11-11",
    "time": [
-    8,
+    5,
     40
    ],
    "tz": "Asia/Seoul",
@@ -2103,7 +1944,7 @@
    "slug": "asura-balbalta",
    "date": "2026-11-11",
    "time": [
-    8,
+    5,
     50
    ],
    "tz": "Asia/Seoul",
@@ -2115,7 +1956,7 @@
    "slug": "lovers-of-joseon-season-5",
    "date": "2026-11-11",
    "time": [
-    9,
+    6,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2127,7 +1968,7 @@
    "slug": "new-item-release-convenience-store-restaurant",
    "date": "2026-11-11",
    "time": [
-    10,
+    7,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2139,19 +1980,19 @@
    "slug": "nega-ssodajida-yeonae-geumji-guyeok",
    "date": "2026-11-12",
    "time": [
-    3,
+    0,
     0
    ],
    "tz": "Asia/Seoul",
    "title": "You Pour Down on Me: No Love Zone",
-   "label": "Episode 17 - 6"
+   "label": "Episode 13 - 50"
   },
   {
    "id": 812406,
    "slug": "changing-majors-season-9",
    "date": "2026-11-12",
    "time": [
-    4,
+    1,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2163,7 +2004,7 @@
    "slug": "sana-s-fridge-interview",
    "date": "2026-11-12",
    "time": [
-    5,
+    2,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2175,7 +2016,7 @@
    "slug": "upcono-season-2",
    "date": "2026-11-12",
    "time": [
-    5,
+    2,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2187,7 +2028,7 @@
    "slug": "gajok-gwangye-jeungmyeongseo",
    "date": "2026-11-12",
    "time": [
-    5,
+    2,
     10
    ],
    "tz": "Asia/Seoul",
@@ -2199,7 +2040,7 @@
    "slug": "yokmangui-deot",
    "date": "2026-11-12",
    "time": [
-    5,
+    2,
     50
    ],
    "tz": "Asia/Seoul",
@@ -2211,7 +2052,7 @@
    "slug": "bare-korean-history-season-3",
    "date": "2026-11-12",
    "time": [
-    6,
+    3,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2223,7 +2064,7 @@
    "slug": "welcome-first-time-in-korea-season-4",
    "date": "2026-11-12",
    "time": [
-    6,
+    3,
     30
    ],
    "tz": "Asia/Seoul",
@@ -2235,7 +2076,7 @@
    "slug": "eommaga-michyeosseoyo",
    "date": "2026-11-12",
    "time": [
-    6,
+    3,
     30
    ],
    "tz": "Asia/Seoul",
@@ -2247,7 +2088,7 @@
    "slug": "where-is-my-home",
    "date": "2026-11-12",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2259,7 +2100,7 @@
    "slug": "miss-trot-for-you",
    "date": "2026-11-12",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2271,7 +2112,7 @@
    "slug": "maestro-jang",
    "date": "2026-11-12",
    "time": [
-    8,
+    5,
     0
    ],
    "tz": "Asia/Seoul",
@@ -2283,7 +2124,7 @@
    "slug": "what-a-boss-wants",
    "date": "2026-11-12",
    "time": [
-    8,
+    5,
     20
    ],
    "tz": "Asia/Seoul",
@@ -2295,7 +2136,7 @@
    "slug": "story-of-the-day-when-you-bite-your-tail",
    "date": "2026-11-12",
    "time": [
-    8,
+    5,
     30
    ],
    "tz": "Asia/Seoul",
@@ -2307,7 +2148,7 @@
    "slug": "divorce-camp",
    "date": "2026-11-12",
    "time": [
-    8,
+    5,
     30
    ],
    "tz": "Asia/Seoul",
@@ -2319,7 +2160,7 @@
    "slug": "asura-balbalta",
    "date": "2026-11-12",
    "time": [
-    8,
+    5,
     50
    ],
    "tz": "Asia/Seoul",
@@ -2331,12 +2172,180 @@
    "slug": "the-sound-of-sugar-cubes",
    "date": "2026-11-12",
    "time": [
-    10,
+    7,
     0
    ],
    "tz": "Asia/Seoul",
    "title": "The Sound of Sugar Cubes",
-   "label": "Episode 8 - 7"
+   "label": "Episode 7 - 8"
+  },
+  {
+   "id": 813410,
+   "slug": "damn-bulance",
+   "date": "2026-11-13",
+   "time": [
+    2,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Damn!Bulance",
+   "label": "Episode 4"
+  },
+  {
+   "id": 809180,
+   "slug": "gajok-gwangye-jeungmyeongseo",
+   "date": "2026-11-13",
+   "time": [
+    2,
+    5
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Family Register",
+   "label": "Episode 80"
+  },
+  {
+   "id": 810734,
+   "slug": "yokmangui-deot",
+   "date": "2026-11-13",
+   "time": [
+    2,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "A Trap Called Desire",
+   "label": "Episode 57"
+  },
+  {
+   "id": 780066,
+   "slug": "delicious-guys-season-3",
+   "date": "2026-11-13",
+   "time": [
+    3,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Delicious Guys Season 3",
+   "label": "Episode 122"
+  },
+  {
+   "id": 811490,
+   "slug": "eommaga-michyeosseoyo",
+   "date": "2026-11-13",
+   "time": [
+    3,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Mission: Mompossible",
+   "label": "Episode 35"
+  },
+  {
+   "id": 807710,
+   "slug": "men-s-life-these-days-groom-s-class-season-2",
+   "date": "2026-11-13",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Men's Life These Days: Groom's Class Season 2",
+   "label": "Episode 34"
+  },
+  {
+   "id": 813006,
+   "slug": "evnne-hour",
+   "date": "2026-11-13",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Evnne Hour",
+   "label": "Episode 9"
+  },
+  {
+   "id": 813600,
+   "slug": "jobless-lee-se-dol",
+   "date": "2026-11-13",
+   "time": [
+    4,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Jobless Lee Se Dol",
+   "label": "Episode 4"
+  },
+  {
+   "id": 787220,
+   "slug": "doctor-x-age-of-the-white-mafia",
+   "date": "2026-11-13",
+   "time": [
+    4,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Doctor X: Mafia in White",
+   "label": "Episode 11"
+  },
+  {
+   "id": 796274,
+   "slug": "liar",
+   "date": "2026-11-13",
+   "time": [
+    4,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "The Perfect Lie",
+   "label": "Episode 5"
+  },
+  {
+   "id": 811440,
+   "slug": "geumtaneun-geumyoil",
+   "date": "2026-11-13",
+   "time": [
+    5,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Geumtaneun Geumyoil",
+   "label": "Episode 45"
+  },
+  {
+   "id": 812218,
+   "slug": "backdoor-part-2",
+   "date": "2026-11-13",
+   "time": [
+    5,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Backdoor Part 2",
+   "label": "Episode 7"
+  },
+  {
+   "id": 25744,
+   "slug": "i-live-alone",
+   "date": "2026-11-13",
+   "time": [
+    6,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "I Live Alone",
+   "label": "Episode 673"
+  },
+  {
+   "id": 812316,
+   "slug": "my-genie-secretary",
+   "date": "2026-11-13",
+   "time": [
+    6,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "My Genie Secretary",
+   "label": "Episode 11"
   },
   {
    "id": 814186,
@@ -5612,21 +5621,7 @@
    "tz": "Asia/Tokyo",
    "title": "Mashle: Magic and Muscles",
    "label": "Expected Movie Release",
-   "movie": true,
-   "tmdb": {
-    "id": 1819653,
-    "title": "Mashle: Magic and Muscles",
-    "overview": "upcoming live-action movie.",
-    "poster": null,
-    "backdrop": null,
-    "runtime": 0,
-    "genres": [
-     "Adventure",
-     "Fantasy",
-     "Comedy"
-    ],
-    "release_date": "2027-03-19"
-   }
+   "movie": true
   },
   {
    "id": 807806,
@@ -5699,12 +5694,6 @@
   }
  ],
  "shows": {
-  "25565": {
-   "native": "런닝맨",
-   "network": "SBS",
-   "type": "TV Program",
-   "premiere": "Jul 11, 2010 - ?"
-  },
   "25568": {
    "native": "아는형님",
    "network": "jTBC",
@@ -5765,12 +5754,6 @@
    "type": "TV Program",
    "premiere": "Mar 31, 2019 - ?"
   },
-  "35517": {
-   "native": "사장님 귀는 당나귀 귀",
-   "network": "KBS2",
-   "type": "TV Program",
-   "premiere": "Apr 28, 2019 - ?"
-  },
   "37021": {
    "native": "M: 리부트",
    "network": "TVING",
@@ -5782,6 +5765,12 @@
    "network": "MBC",
    "type": "TV Program",
    "premiere": "Jul 27, 2019 - ?"
+  },
+  "45671": {
+   "native": "전국노래자랑",
+   "network": "KBS1",
+   "type": "TV Program",
+   "premiere": "Nov 9, 1980 - ?"
   },
   "45693": {
    "native": "아임 라이브",
@@ -6191,12 +6180,6 @@
    "type": "Drama",
    "premiere": ""
   },
-  "793008": {
-   "native": "となりのとらんす少女ちゃん",
-   "network": "",
-   "type": "Movie",
-   "premiere": ""
-  },
   "793070": {
    "native": "보스의 노골적 취향",
    "network": "MBN",
@@ -6298,12 +6281,6 @@
    "network": "",
    "type": "Drama",
    "premiere": ""
-  },
-  "797332": {
-   "native": "VIVANT",
-   "network": "TBS",
-   "type": "Drama",
-   "premiere": "Jul 26, 2026 - Nov 8, 2026"
   },
   "797384": {
    "native": "ニノなのに",
@@ -6659,12 +6636,6 @@
    "type": "Drama",
    "premiere": ""
   },
-  "808926": {
-   "native": "ウルトラマンテオ",
-   "network": "",
-   "type": "Drama",
-   "premiere": "Jul 4, 2026 - ?"
-  },
   "809010": {
    "native": "天狗の台所 Season3",
    "network": "BS-TBS",
@@ -6797,6 +6768,12 @@
    "type": "Drama",
    "premiere": ""
   },
+  "810392": {
+   "native": "負けへんで",
+   "network": "",
+   "type": "Movie",
+   "premiere": ""
+  },
   "810454": {
    "native": "주한이국대사관",
    "network": "tvN",
@@ -6826,6 +6803,12 @@
    "network": "KBS2",
    "type": "Drama",
    "premiere": "Aug 10, 2026 - ?"
+  },
+  "810846": {
+   "native": "角醒ハンターオメガホーン",
+   "network": "TV Asahi",
+   "type": "Drama",
+   "premiere": "Jul 26, 2026 - ?"
   },
   "810886": {
    "native": "青の花 器の森",
@@ -6880,12 +6863,6 @@
    "network": "Tokyo MX",
    "type": "Drama",
    "premiere": "Oct 29, 2026 - ?"
-  },
-  "811398": {
-   "native": "숨바꼭질 시즌2",
-   "network": "Mnet",
-   "type": "TV Program",
-   "premiere": "Jul 31, 2026 - ?"
   },
   "811416": {
    "native": "もうパパ！",
@@ -7035,7 +7012,7 @@
    "native": "ユージニア",
    "network": "WOWOW",
    "type": "Drama",
-   "premiere": ""
+   "premiere": "Nov 8, 2026 - ?"
   },
   "812054": {
    "native": "マイ・スイート・ホーム",
@@ -7559,23 +7536,17 @@
    "type": "TV Program",
    "premiere": "Oct 6, 2026 - ?"
   },
-  "813818": {
-   "native": "ホタルの嫁入り",
-   "network": "Fuji TV",
-   "type": "Drama",
-   "premiere": ""
-  },
   "813814": {
    "native": "３万円のレンタル彼氏〜女のプライド維持費〜",
    "network": "Bump",
    "type": "Drama",
    "premiere": "Oct 7, 2026"
   },
-  "813826": {
-   "native": "ONE N' ONLYのフルアウトTV",
-   "network": "TBS",
-   "type": "TV Program",
-   "premiere": "Oct 9, 2026 - ?"
+  "813818": {
+   "native": "ホタルの嫁入り",
+   "network": "Fuji TV",
+   "type": "Drama",
+   "premiere": ""
   },
   "813820": {
    "native": "ザッツ M!LK",
@@ -7588,6 +7559,12 @@
    "network": "TV Asahi",
    "type": "TV Program",
    "premiere": "Oct 2, 2026 - ?"
+  },
+  "813826": {
+   "native": "ONE N' ONLYのフルアウトTV",
+   "network": "TBS",
+   "type": "TV Program",
+   "premiere": "Oct 9, 2026 - ?"
   },
   "813834": {
    "native": "深夜食堂6",
@@ -7829,6 +7806,12 @@
    "type": "Drama",
    "premiere": "Oct 17, 2026 - ?"
   },
+  "814442": {
+   "native": "小さな恋のうた",
+   "network": "",
+   "type": "Movie",
+   "premiere": ""
+  },
   "814458": {
    "native": "君がいちばんしたいこと",
    "network": "FOD",
@@ -7880,6 +7863,12 @@
   "814560": {
    "native": "あたしゃ川尻こだまだよ",
    "network": "NTV",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814570": {
+   "native": "警視庁麻薬取締課 MOGURA -黒トクリュウ潜入捜査-",
+   "network": "AbemaTV",
    "type": "Drama",
    "premiere": ""
   }

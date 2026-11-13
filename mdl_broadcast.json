@@ -1,179 +1,32 @@
 {
- "fetched_utc": "2026-11-12T21:30:15Z",
+ "fetched_utc": "2026-11-13T09:30:49Z",
  "episodes": [
-  {
-   "id": 812156,
-   "slug": "dekiai-kareshi-no-tsukurikata-se-kara-honmei-ni-naru-onnanoko-no-hanashi",
-   "date": "2026-11-11",
-   "time": [
-    7,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Dekiai Kareshi no Tsukurikata: Se kara Honmei ni Naru Onna no Ko no Hanashi",
-   "label": "Episode 7"
-  },
-  {
-   "id": 812198,
-   "slug": "aibo-season-25",
-   "date": "2026-11-11",
-   "time": [
-    7,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Aibo Season 25",
-   "label": "Episode 4"
-  },
-  {
-   "id": 797384,
-   "slug": "nino-nanoni",
-   "date": "2026-11-11",
-   "time": [
-    7,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Nino Nanoni",
-   "label": "Episode 47"
-  },
-  {
-   "id": 803562,
-   "slug": "merry-berry-love",
-   "date": "2026-11-11",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Merry Berry Love",
-   "label": "Episode 6"
-  },
-  {
-   "id": 810886,
-   "slug": "ao-no-hana-utsuwa-no-mori",
-   "date": "2026-11-11",
-   "time": [
-    8,
-    45
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blue Bloom",
-   "label": "Episode 11"
-  },
-  {
-   "id": 774383,
-   "slug": "itajum",
-   "date": "2026-11-11",
-   "time": [
-    9,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Itajum!",
-   "label": "Episode 123"
-  },
-  {
-   "id": 812118,
-   "slug": "politica-lupin",
-   "date": "2026-11-11",
-   "time": [
-    9,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "PoliticaLupin",
-   "label": "Episode 6"
-  },
-  {
-   "id": 812478,
-   "slug": "komugi-to-butter-to-fukushu-to",
-   "date": "2026-11-11",
-   "time": [
-    9,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "The Reborn Baker's Recipe for Revenge",
-   "label": "Episode 6"
-  },
-  {
-   "id": 812292,
-   "slug": "when-it-rains-it-pours-season-2-mellow-rain",
-   "date": "2026-11-11",
-   "time": [
-    11,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "When It Rains, It Pours Season 2: Mellow Rain",
-   "label": "Episode 2"
-  },
-  {
-   "id": 812458,
-   "slug": "watashi-ga-anata-to-iru-riyu-2-guam-wo-otozureta-8-nin-no-danjo-no-10-kakan",
-   "date": "2026-11-11",
-   "time": [
-    11,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Watashi ga Anata to Iru Riyu Season 2: Guam wo Otozureta 8 Nin no Danjo no 10 Kakan",
-   "label": "Episode 6"
-  },
-  {
-   "id": 812142,
-   "slug": "kamen-kyoshi-tsuma-wo-nakushita-sono-hi-kara",
-   "date": "2026-11-11",
-   "time": [
-    11,
-    25
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "The Teacher behind the Mask",
-   "label": "Episode 6"
-  },
-  {
-   "id": 812040,
-   "slug": "travis-japan-no-just-shin-nihon-isan-season-3",
-   "date": "2026-11-11",
-   "time": [
-    11,
-    40
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Travis Japan no Just! Shin Nihon Isan Season 3",
-   "label": "Episode 18"
-  },
-  {
-   "id": 806390,
-   "slug": "nika-game",
-   "date": "2026-11-11",
-   "time": [
-    12,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Nika Game",
-   "label": "Episode 55"
-  },
-  {
-   "id": 793250,
-   "slug": "blossom",
-   "date": "2026-11-11",
-   "time": [
-    18,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blossom",
-   "label": "Episode 34"
-  },
   {
    "id": 810392,
    "slug": "makehende",
    "date": "2026-11-12",
    "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Never Guilty",
+   "label": "Movie"
+  },
+  {
+   "id": 814442,
+   "slug": "chiisana-koi-no-uta",
+   "date": "2026-11-12",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Little Song of Love",
+   "label": "Movie"
+  },
+  {
+   "id": 807616,
+   "slug": "kurotani-tomoka-oniwa-tsukurimasu",
+   "date": "2026-11-12",
+   "time": [
+    6,
+    0
+   ],
    "tz": "Asia/Tokyo",
    "title": "Happy Gardening Life",
    "label": "Episode 85"
@@ -415,6 +268,18 @@
     0
    ],
    "tz": "Asia/Tokyo",
+   "title": "Blossom",
+   "label": "Episode 35"
+  },
+  {
+   "id": 813542,
+   "slug": "shinya-zangyo-nikushoku-kohai-no-katakoi-kenshu",
+   "date": "2026-11-12",
+   "time": [
+    23,
+    45
+   ],
+   "tz": "Asia/Tokyo",
    "title": "Shinya Zangyo: Nikushoku Kohai no Katakoi Kenshu",
    "label": "Episode 7"
   },
@@ -425,18 +290,6 @@
    "time": [
     7,
     0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Borders: Keishicho Tokushu Jiken Taisaku Han",
-   "label": "Episode 5"
-  },
-  {
-   "id": 792568,
-   "slug": "timeleszman",
-   "date": "2026-11-13",
-   "time": [
-    7,
-    55
    ],
    "tz": "Asia/Tokyo",
    "title": "Timeleszman",
@@ -1055,196 +908,172 @@
    "label": "Episode 38"
   },
   {
-   "id": 809798,
-   "slug": "style-wars",
-   "date": "2026-11-11",
-   "time": [
-    2,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Style Wars",
-   "label": "Episode 1 - 2"
-  },
-  {
-   "id": 778572,
-   "slug": "the-remarried-empress",
-   "date": "2026-11-11",
-   "time": [
-    3,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "The Remarried Empress",
-   "label": "Episode 5 - 6"
-  },
-  {
-   "id": 811482,
-   "slug": "sekeondeu-peulleiteu",
-   "date": "2026-11-11",
-   "time": [
-    4,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Second Plate",
-   "label": "Episode 6"
-  },
-  {
-   "id": 809180,
-   "slug": "gajok-gwangye-jeungmyeongseo",
-   "date": "2026-11-11",
-   "time": [
-    5,
-    5
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Family Register",
-   "label": "Episode 78"
-  },
-  {
-   "id": 810734,
-   "slug": "yokmangui-deot",
-   "date": "2026-11-11",
-   "time": [
-    5,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "A Trap Called Desire",
-   "label": "Episode 55"
-  },
-  {
-   "id": 813976,
-   "slug": "when-our-kids-fall-in-love-season-3",
-   "date": "2026-11-11",
-   "time": [
-    6,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "When Our Kids Fall in Love Season 3",
-   "label": "Episode 1"
-  },
-  {
-   "id": 811490,
-   "slug": "eommaga-michyeosseoyo",
-   "date": "2026-11-11",
-   "time": [
-    6,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Mission: Mompossible",
-   "label": "Episode 33"
-  },
-  {
-   "id": 739999,
-   "slug": "yoo-quiz-on-the-block-season-4",
-   "date": "2026-11-11",
-   "time": [
-    6,
-    40
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Yoo Quiz on the Block Season 4",
-   "label": "Episode 206"
-  },
-  {
-   "id": 750527,
-   "slug": "talk-pawon-25-o-clock",
-   "date": "2026-11-11",
-   "time": [
-    6,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Talk Pawon 25 O'Clock",
-   "label": "Episode 232"
-  },
-  {
-   "id": 813510,
-   "slug": "shooting-stars-3rd-gifa-cup",
-   "date": "2026-11-11",
+   "id": 812156,
+   "slug": "dekiai-kareshi-no-tsukurikata-se-kara-honmei-ni-naru-onnanoko-no-hanashi",
+   "date": "2026-11-18",
    "time": [
     7,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Shooting Stars: 3rd GIFA Cup",
-   "label": "Episode 6"
+   "tz": "Asia/Tokyo",
+   "title": "Dekiai Kareshi no Tsukurikata: Se kara Honmei ni Naru Onna no Ko no Hanashi",
+   "label": "Episode 8"
   },
   {
-   "id": 813434,
-   "slug": "kickflip-comeback-stage-kick-off-the-wall-pt-1",
-   "date": "2026-11-11",
+   "id": 812198,
+   "slug": "aibo-season-25",
+   "date": "2026-11-18",
+   "time": [
+    7,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Aibo Season 25",
+   "label": "Episode 5"
+  },
+  {
+   "id": 797384,
+   "slug": "nino-nanoni",
+   "date": "2026-11-18",
+   "time": [
+    7,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Nino Nanoni",
+   "label": "Episode 48"
+  },
+  {
+   "id": 803562,
+   "slug": "merry-berry-love",
+   "date": "2026-11-18",
    "time": [
     8,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "KickFlip Comeback Stage: Kick off the Wall Pt.1",
-   "label": "Episode 6"
+   "tz": "Asia/Tokyo",
+   "title": "Merry Berry Love",
+   "label": "Episode 7"
   },
   {
-   "id": 793070,
-   "slug": "what-a-boss-wants",
-   "date": "2026-11-11",
+   "id": 810886,
+   "slug": "ao-no-hana-utsuwa-no-mori",
+   "date": "2026-11-18",
    "time": [
     8,
-    20
+    45
    ],
-   "tz": "Asia/Seoul",
-   "title": "What a Boss Wants",
-   "label": "Episode 1"
+   "tz": "Asia/Tokyo",
+   "title": "Blue Bloom",
+   "label": "Episode 15"
   },
   {
-   "id": 25919,
-   "slug": "radio-star",
-   "date": "2026-11-11",
-   "time": [
-    8,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Radio Star",
-   "label": "Episode 989"
-  },
-  {
-   "id": 782626,
-   "slug": "asura-balbalta",
-   "date": "2026-11-11",
-   "time": [
-    8,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Happy Anding",
-   "label": "Episode 1"
-  },
-  {
-   "id": 814180,
-   "slug": "lovers-of-joseon-season-5",
-   "date": "2026-11-11",
+   "id": 774383,
+   "slug": "itajum",
+   "date": "2026-11-18",
    "time": [
     9,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Lovers of Joseon Season 5",
-   "label": "Episode 6"
+   "tz": "Asia/Tokyo",
+   "title": "Itajum!",
+   "label": "Episode 124"
   },
   {
-   "id": 49125,
-   "slug": "new-item-release-convenience-store-restaurant",
-   "date": "2026-11-11",
+   "id": 812118,
+   "slug": "politica-lupin",
+   "date": "2026-11-18",
    "time": [
-    10,
+    9,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Convenience Store Restaurant",
-   "label": "Episode 345"
+   "tz": "Asia/Tokyo",
+   "title": "PoliticaLupin",
+   "label": "Episode 7"
+  },
+  {
+   "id": 812478,
+   "slug": "komugi-to-butter-to-fukushu-to",
+   "date": "2026-11-18",
+   "time": [
+    9,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "The Reborn Baker's Recipe for Revenge",
+   "label": "Episode 7"
+  },
+  {
+   "id": 812292,
+   "slug": "when-it-rains-it-pours-season-2-mellow-rain",
+   "date": "2026-11-18",
+   "time": [
+    11,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "When It Rains, It Pours Season 2: Mellow Rain",
+   "label": "Episode 3"
+  },
+  {
+   "id": 812458,
+   "slug": "watashi-ga-anata-to-iru-riyu-2-guam-wo-otozureta-8-nin-no-danjo-no-10-kakan",
+   "date": "2026-11-18",
+   "time": [
+    11,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Watashi ga Anata to Iru Riyu Season 2: Guam wo Otozureta 8 Nin no Danjo no 10 Kakan",
+   "label": "Episode 7"
+  },
+  {
+   "id": 812142,
+   "slug": "kamen-kyoshi-tsuma-wo-nakushita-sono-hi-kara",
+   "date": "2026-11-18",
+   "time": [
+    11,
+    25
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "The Teacher behind the Mask",
+   "label": "Episode 7"
+  },
+  {
+   "id": 812040,
+   "slug": "travis-japan-no-just-shin-nihon-isan-season-3",
+   "date": "2026-11-18",
+   "time": [
+    11,
+    40
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Travis Japan no Just! Shin Nihon Isan Season 3",
+   "label": "Episode 19"
+  },
+  {
+   "id": 806390,
+   "slug": "nika-game",
+   "date": "2026-11-18",
+   "time": [
+    12,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Nika Game",
+   "label": "Episode 56"
+  },
+  {
+   "id": 793250,
+   "slug": "blossom",
+   "date": "2026-11-18",
+   "time": [
+    18,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Blossom",
+   "label": "Episode 39"
   },
   {
    "id": 814126,
@@ -1256,7 +1085,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "You Pour Down on Me: No Love Zone",
-   "label": "Episode 1 - 38"
+   "label": "Episode 8 - 45"
   },
   {
    "id": 812406,
@@ -2123,6 +1952,24 @@
    "label": "Episode 7"
   },
   {
+   "id": 755117,
+   "slug": "it-s-okay-to-just-breathe-next-to-you",
+   "date": "2026-11-17",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Breathless Love",
+   "label": "Movie"
+  },
+  {
+   "id": 762913,
+   "slug": "snowfall",
+   "date": "2026-11-17",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "White Blast",
+   "label": "Movie"
+  },
+  {
    "id": 800178,
    "slug": "devil-s-plan-season-3",
    "date": "2026-11-17",
@@ -2132,7 +1979,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Devil's Plan: Dead Again",
-   "label": "Episode 5 - 9"
+   "label": "Episode 8 - 7"
   },
   {
    "id": 722677,
@@ -2313,6 +2160,222 @@
    "tz": "Asia/Seoul",
    "title": "Summer Vacation",
    "label": "Episode 8"
+  },
+  {
+   "id": 45693,
+   "slug": "i-m-live",
+   "date": "2026-11-17",
+   "time": [
+    23,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "I'm Live",
+   "label": "Episode 445"
+  },
+  {
+   "id": 809798,
+   "slug": "style-wars",
+   "date": "2026-11-18",
+   "time": [
+    2,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Style Wars",
+   "label": "Episode 3 - 4"
+  },
+  {
+   "id": 778572,
+   "slug": "the-remarried-empress",
+   "date": "2026-11-18",
+   "time": [
+    3,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "The Remarried Empress",
+   "label": "Episode 7 - 8"
+  },
+  {
+   "id": 809180,
+   "slug": "gajok-gwangye-jeungmyeongseo",
+   "date": "2026-11-18",
+   "time": [
+    5,
+    5
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Family Register",
+   "label": "Episode 83"
+  },
+  {
+   "id": 810734,
+   "slug": "yokmangui-deot",
+   "date": "2026-11-18",
+   "time": [
+    5,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "A Trap Called Desire",
+   "label": "Episode 60"
+  },
+  {
+   "id": 813976,
+   "slug": "when-our-kids-fall-in-love-season-3",
+   "date": "2026-11-18",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "When Our Kids Fall in Love Season 3",
+   "label": "Episode 2"
+  },
+  {
+   "id": 811490,
+   "slug": "eommaga-michyeosseoyo",
+   "date": "2026-11-18",
+   "time": [
+    6,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Mission: Mompossible",
+   "label": "Episode 38"
+  },
+  {
+   "id": 739999,
+   "slug": "yoo-quiz-on-the-block-season-4",
+   "date": "2026-11-18",
+   "time": [
+    6,
+    40
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Yoo Quiz on the Block Season 4",
+   "label": "Episode 207"
+  },
+  {
+   "id": 750527,
+   "slug": "talk-pawon-25-o-clock",
+   "date": "2026-11-18",
+   "time": [
+    6,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Talk Pawon 25 O'Clock",
+   "label": "Episode 233"
+  },
+  {
+   "id": 813510,
+   "slug": "shooting-stars-3rd-gifa-cup",
+   "date": "2026-11-18",
+   "time": [
+    7,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Shooting Stars: 3rd GIFA Cup",
+   "label": "Episode 7"
+  },
+  {
+   "id": 813906,
+   "slug": "sound-track",
+   "date": "2026-11-18",
+   "time": [
+    7,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Sound Track",
+   "label": "Episode 1"
+  },
+  {
+   "id": 813908,
+   "slug": "saundeu-teuraek-bom-naeeumboda-neoreul",
+   "date": "2026-11-18",
+   "time": [
+    7,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Saundeu Teuraek: Bom Naeeumboda Neoreul",
+   "label": "Episode 1"
+  },
+  {
+   "id": 813434,
+   "slug": "kickflip-comeback-stage-kick-off-the-wall-pt-1",
+   "date": "2026-11-18",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "KickFlip Comeback Stage: Kick off the Wall Pt.1",
+   "label": "Episode 7"
+  },
+  {
+   "id": 793070,
+   "slug": "what-a-boss-wants",
+   "date": "2026-11-18",
+   "time": [
+    8,
+    20
+   ],
+   "tz": "Asia/Seoul",
+   "title": "What a Boss Wants",
+   "label": "Episode 3"
+  },
+  {
+   "id": 25919,
+   "slug": "radio-star",
+   "date": "2026-11-18",
+   "time": [
+    8,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Radio Star",
+   "label": "Episode 990"
+  },
+  {
+   "id": 782626,
+   "slug": "asura-balbalta",
+   "date": "2026-11-18",
+   "time": [
+    8,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Happy Anding",
+   "label": "Episode 3"
+  },
+  {
+   "id": 814180,
+   "slug": "lovers-of-joseon-season-5",
+   "date": "2026-11-18",
+   "time": [
+    9,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Lovers of Joseon Season 5",
+   "label": "Episode 7"
+  },
+  {
+   "id": 49125,
+   "slug": "new-item-release-convenience-store-restaurant",
+   "date": "2026-11-18",
+   "time": [
+    10,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Convenience Store Restaurant",
+   "label": "Episode 346"
   },
   {
    "id": 814186,
@@ -3215,6 +3278,36 @@
    "predicted": true
   },
   {
+   "id": 782626,
+   "slug": "asura-balbalta",
+   "date": "2026-11-11",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Happy Anding",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 793070,
+   "slug": "what-a-boss-wants",
+   "date": "2026-11-11",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "What a Boss Wants",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 812180,
+   "slug": "rock-paper-landmine",
+   "date": "2026-11-13",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Rock Paper Landmine",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
    "id": 813410,
    "slug": "damn-bulance",
    "date": "2026-10-02",
@@ -3551,6 +3644,26 @@
    "time": null,
    "tz": "Asia/Seoul",
    "title": "The Devil's Plan: Dead Again",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 809798,
+   "slug": "style-wars",
+   "date": "2026-11-11",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Style Wars",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 813976,
+   "slug": "when-our-kids-fall-in-love-season-3",
+   "date": "2026-11-11",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "When Our Kids Fall in Love Season 3",
    "label": "Premiere",
    "predicted": true
   }
@@ -4963,11 +5076,11 @@
   {
    "id": 814442,
    "slug": "chiisana-koi-no-uta",
-   "date": "2026-11-01",
+   "date": "2026-11-13",
    "time": null,
    "tz": "Asia/Tokyo",
    "title": "Little Song of Love",
-   "label": "Expected Movie Release",
+   "label": "Movie Release",
    "movie": true,
    "tmdb": {
     "id": 596727,
@@ -4987,11 +5100,11 @@
   {
    "id": 810392,
    "slug": "makehende",
-   "date": "2026-11-01",
+   "date": "2026-11-13",
    "time": null,
    "tz": "Asia/Tokyo",
    "title": "Never Guilty",
-   "label": "Expected Movie Release",
+   "label": "Movie Release",
    "movie": true
   },
   {
@@ -5168,7 +5281,7 @@
     "id": 1591961,
     "title": "My Crazy Feminist Girlfriend",
     "overview": "After seven years, his ex returns as an unapologetic feminist, clashing head-on without compromising \"love\" nor \"rights.\"",
-    "poster": "/skIMvDKu43EQ6NcV6KXCClPllG7.jpg",
+    "poster": "/wifnHZrBBmCdV3qlnFNQVoOV2su.jpg",
     "backdrop": "/7k3bwArupn0jdEpWETdJexxs21H.jpg",
     "runtime": 0,
     "genres": [
@@ -5814,6 +5927,12 @@
    "type": "TV Program",
    "premiere": "Nov 9, 1980 - ?"
   },
+  "45693": {
+   "native": "아임 라이브",
+   "network": "",
+   "type": "TV Program",
+   "premiere": "Mar 31, 2017 - ?"
+  },
   "49125": {
    "native": "신상출시 편스토랑",
    "network": "KBS2",
@@ -5946,6 +6065,12 @@
    "type": "Drama",
    "premiere": ""
   },
+  "755117": {
+   "native": "옆에서 숨만 쉬어도 좋아",
+   "network": "",
+   "type": "Movie",
+   "premiere": ""
+  },
   "756743": {
    "native": "위대한 방옥숙",
    "network": "tvN",
@@ -5968,6 +6093,12 @@
    "native": "하얀 스캔들",
    "network": "MBC",
    "type": "Drama",
+   "premiere": ""
+  },
+  "762913": {
+   "native": "폭설",
+   "network": "",
+   "type": "Movie",
    "premiere": ""
   },
   "764105": {
@@ -6215,12 +6346,6 @@
    "network": "TVING",
    "type": "Drama",
    "premiere": ""
-  },
-  "792568": {
-   "native": "タイムレスマン",
-   "network": "Fuji TV",
-   "type": "TV Program",
-   "premiere": "Apr 20, 2025 - ?"
   },
   "792640": {
    "native": "혹하는 로맨스",
@@ -6612,6 +6737,12 @@
    "type": "Drama",
    "premiere": ""
   },
+  "807616": {
+   "native": "黒谷友香、お庭つくります",
+   "network": "BS-TBS",
+   "type": "TV Program",
+   "premiere": "Apr 5, 2025 - ?"
+  },
   "807656": {
    "native": "마인드 닥터",
    "network": "MBC",
@@ -6996,15 +7127,15 @@
    "type": "Drama",
    "premiere": "Oct 16, 2026 - ?"
   },
-  "811724": {
-   "native": "寄生獣 ーTAMIYAー",
-   "network": "Netflix",
-   "type": "Drama",
-   "premiere": ""
-  },
   "811618": {
    "native": "하트비트",
    "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "811724": {
+   "native": "寄生獣 ーTAMIYAー",
+   "network": "Netflix",
    "type": "Drama",
    "premiere": ""
   },
@@ -7174,7 +7305,7 @@
    "native": "地雷グリコ",
    "network": "Amazon Prime",
    "type": "Drama",
-   "premiere": ""
+   "premiere": "Nov 13, 2026 - ?"
   },
   "812198": {
    "native": "相棒 season25",
@@ -7848,6 +7979,12 @@
    "type": "Drama",
    "premiere": "Oct 17, 2026 - ?"
   },
+  "814442": {
+   "native": "小さな恋のうた",
+   "network": "",
+   "type": "Movie",
+   "premiere": ""
+  },
   "814458": {
    "native": "君がいちばんしたいこと",
    "network": "FOD",
@@ -7942,6 +8079,18 @@
    "native": "흑백 가수: 보컬 계급 전쟁",
    "network": "Netflix",
    "type": "TV Program",
+   "premiere": ""
+  },
+  "814640": {
+   "native": "台風の目",
+   "network": "TBS",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814642": {
+   "native": "ハードボイルド・マタタビ・ビバップ",
+   "network": "WOWOW",
+   "type": "Drama",
    "premiere": ""
   }
  }

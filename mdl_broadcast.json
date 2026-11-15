@@ -1,18 +1,6 @@
 {
- "fetched_utc": "2026-11-15T09:21:17Z",
+ "fetched_utc": "2026-11-15T19:48:18Z",
  "episodes": [
-  {
-   "id": 812044,
-   "slug": "bachi-bachi-star",
-   "date": "2026-11-14",
-   "time": [
-    0,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Bachi-Bachi Star",
-   "label": "Episode 54"
-  },
   {
    "id": 809156,
    "slug": "kono-aji-mo-mata-itsuka-koishiku-naru",
@@ -202,6 +190,18 @@
     0
    ],
    "tz": "Asia/Tokyo",
+   "title": "Brothers in Arms",
+   "label": "Episode 44"
+  },
+  {
+   "id": 789916,
+   "slug": "golden-sixtones",
+   "date": "2026-11-15",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Tokyo",
    "title": "Golden SixTONES",
    "label": "Episode 72"
   },
@@ -283,18 +283,6 @@
    "date": "2026-11-15",
    "time": [
     15,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blossom",
-   "label": "Episode 36"
-  },
-  {
-   "id": 809822,
-   "slug": "ao-to-midori",
-   "date": "2026-11-15",
-   "time": [
-    18,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -1261,6 +1249,42 @@
     10
    ],
    "tz": "Asia/Seoul",
+   "title": "Running Man",
+   "label": "Episode 827"
+  },
+  {
+   "id": 51647,
+   "slug": "2-days-1-night-season-4",
+   "date": "2026-11-15",
+   "time": [
+    1,
+    15
+   ],
+   "tz": "Asia/Seoul",
+   "title": "2 Days & 1 Night Season 4",
+   "label": "Episode 350"
+  },
+  {
+   "id": 812394,
+   "slug": "sixth-sense-b-side",
+   "date": "2026-11-15",
+   "time": [
+    2,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Sixth Sense: B-Side",
+   "label": "Episode 9"
+  },
+  {
+   "id": 803410,
+   "slug": "sarangi-onda",
+   "date": "2026-11-15",
+   "time": [
+    3,
+    0
+   ],
+   "tz": "Asia/Seoul",
    "title": "Love on the Menu",
    "label": "Episode 31"
   },
@@ -1379,18 +1403,6 @@
    "time": [
     1,
     0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "One of a Kind Romance",
-   "label": "Episode 3 - 4"
-  },
-  {
-   "id": 809180,
-   "slug": "gajok-gwangye-jeungmyeongseo",
-   "date": "2026-11-16",
-   "time": [
-    2,
-    5
    ],
    "tz": "Asia/Seoul",
    "title": "Family Register",
@@ -1550,7 +1562,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Devil's Plan: Dead Again",
-   "label": "Episode 5 - 9"
+   "label": "Episode 9 - 8"
   },
   {
    "id": 755117,
@@ -1976,7 +1988,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "I Became the Killer's Prey",
-   "label": "Episode 11 - 48"
+   "label": "Episode 2 - 39"
   },
   {
    "id": 812406,
@@ -2216,7 +2228,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Blue Road",
-   "label": "Episode 8 - 2"
+   "label": "Episode 6 - 5"
   },
   {
    "id": 811398,
@@ -4649,7 +4661,7 @@
     "overview": "Fifteen years ago, an innocent fireworks accident caused by two boys, Ryunosuke and Takumi, destroyed an apartment building. One resident, Nomoto, lost his wife and child in the fire and suffered severe burns across his body. Fifteen years later, Ryunosuke tries to live a \"normal\" life while suppressing his guilt, whereas Takumi remains emotionally trapped in the past. When Nomoto suddenly reappears before them, the expected confrontation never comes. Instead, he shows an unsettling kindness—one that deeply disturbs Ryunosuke, yet offers a fragile sense of salvation to Takumi. As their paths cross once again in a reunion that should never have happened, the lives of these three individuals begin to shift in ways that will irrevocably alter their futures.",
     "poster": "/eHKLUM2VhJWJeGLFdrTChC5Jmjg.jpg",
     "backdrop": "/oAS0HlJNbozGhknJGKaLpDRfIII.jpg",
-    "runtime": 0,
+    "runtime": 115,
     "genres": [
      "Drama"
     ],
@@ -4927,18 +4939,17 @@
    "label": "Movie Release",
    "movie": true,
    "tmdb": {
-    "id": 92980,
+    "id": 1646897,
     "title": "Ryuji",
-    "overview": "Ryuji tries quitting the yakuza to actively support his wife and daughter; as he's used to easy money, it's a difficult transition.",
-    "poster": "/e3mj8uhvsDgbrbUlzbXmcsJt0xu.jpg",
-    "backdrop": "/pVLPZ601ORaktVsOvnXktHJqUBh.jpg",
-    "runtime": 92,
+    "overview": "The eternal legend etched into Japanese film history, rises again. (remake of the 1983 eponymous film).",
+    "poster": "/xPfcMiKjHvZfFGyjRVFa8PxKFc0.jpg",
+    "backdrop": "/uPDr58oEYOIdiDWSPhC9EcG8XsT.jpg",
+    "runtime": 91,
     "genres": [
      "Crime",
-     "Drama",
-     "Romance"
+     "Drama"
     ],
-    "release_date": "1983-10-29"
+    "release_date": "2026-10-30"
    }
   },
   {
@@ -5806,7 +5817,7 @@
    "tmdb": {
     "id": 1401586,
     "title": "Sonic the Hedgehog 4",
-    "overview": "When a new threat emerges from a fractured timeline, Team Sonic find themselves facing an adventure unlike anything they've encountered before. With the Chaos Emeralds scattered across different periods in time, Sonic—alongside new friends and old—must journey through the past, present, and future to recover them before a dangerous alternate timeline becomes reality.",
+    "overview": "The fourth installment in the Sonic the Hedgehog film franchise. Plot TBA.",
     "poster": "/t8uoHBODkFlSQJRL6qc4IclUBlH.jpg",
     "backdrop": "/4Sh2c33WHf1KxX8UYuYLIroaVEv.jpg",
     "runtime": 0,
@@ -5989,6 +6000,12 @@
    "type": "TV Program",
    "premiere": "Oct 25, 2019 - ?"
   },
+  "51647": {
+   "native": "1박 2일 시즌4",
+   "network": "KBS2",
+   "type": "TV Program",
+   "premiere": "Dec 8, 2019 - ?"
+  },
   "64803": {
    "native": "아홉수 우리들",
    "network": "MBC",
@@ -6037,17 +6054,17 @@
    "type": "TV Program",
    "premiere": "Feb 22, 2022 - ?"
   },
-  "731727": {
-   "native": "개인적인 택시",
-   "network": "",
-   "type": "Drama",
-   "premiere": "Oct 1, 2026"
-  },
   "732363": {
    "native": "여름방학",
    "network": "Lifetime Wavve",
    "type": "Drama",
    "premiere": "Oct 26, 2026 - Nov 24, 2026"
+  },
+  "731727": {
+   "native": "개인적인 택시",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Oct 1, 2026"
   },
   "734539": {
    "native": "기프트",
@@ -6366,6 +6383,12 @@
    "network": "SBS",
    "type": "Drama",
    "premiere": ""
+  },
+  "789916": {
+   "native": "ゴールデンストーンズ",
+   "network": "NTV",
+   "type": "TV Program",
+   "premiere": "Apr 6, 2025 - ?"
   },
   "790120": {
    "native": "나를 충전해줘",
@@ -7115,7 +7138,7 @@
    "native": "もうパパ！",
    "network": "ABC TV Asahi",
    "type": "Drama",
-   "premiere": "Oct 4, 2026 - ?"
+   "premiere": "Oct 4, 2026 - Nov 22, 2026"
   },
   "811418": {
    "native": "営業ですから",
@@ -7237,29 +7260,23 @@
    "type": "TV Program",
    "premiere": "Jul 16, 2026 - ?"
   },
-  "812044": {
-   "native": "バチバチSTAR",
-   "network": "TV Asahi",
-   "type": "TV Program",
-   "premiere": "Oct 18, 2025 - ?"
-  },
   "812050": {
    "native": "ハイド&シーク 0秒前の彼女",
    "network": "NTV",
    "type": "Drama",
    "premiere": "Oct 4, 2026 - ?"
   },
-  "812052": {
-   "native": "ユージニア",
-   "network": "WOWOW",
-   "type": "Drama",
-   "premiere": "Nov 8, 2026 - ?"
-  },
   "812054": {
    "native": "マイ・スイート・ホーム",
    "network": "WOWOW",
    "type": "Drama",
    "premiere": "Oct 31, 2026 - ?"
+  },
+  "812052": {
+   "native": "ユージニア",
+   "network": "WOWOW",
+   "type": "Drama",
+   "premiere": "Nov 8, 2026 - ?"
   },
   "812056": {
    "native": "私がひとりで生きてくなんて",
@@ -7452,6 +7469,12 @@
    "network": "Amazon Prime",
    "type": "Drama",
    "premiere": ""
+  },
+  "812394": {
+   "native": "식스센스: B사이드",
+   "network": "tvN",
+   "type": "TV Program",
+   "premiere": "Sep 13, 2026 - ?"
   },
   "812406": {
    "native": "전과자 시즌9",
@@ -8077,15 +8100,15 @@
    "type": "Drama",
    "premiere": "Oct 29, 2026 - ?"
   },
-  "814560": {
-   "native": "あたしゃ川尻こだまだよ",
-   "network": "NTV",
-   "type": "Drama",
-   "premiere": ""
-  },
   "814570": {
    "native": "警視庁麻薬取締課 MOGURA -黒トクリュウ潜入捜査-",
    "network": "AbemaTV",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814560": {
+   "native": "あたしゃ川尻こだまだよ",
+   "network": "NTV",
    "type": "Drama",
    "premiere": ""
   },

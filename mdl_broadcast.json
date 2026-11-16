@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-11-16T09:37:43Z",
+ "fetched_utc": "2026-11-16T23:25:16Z",
  "episodes": [
   {
    "id": 766049,
@@ -130,6 +130,18 @@
     0
    ],
    "tz": "Asia/Tokyo",
+   "title": "Emergency Room 24 Hours Season 6",
+   "label": "Episode 6"
+  },
+  {
+   "id": 810886,
+   "slug": "ao-no-hana-utsuwa-no-mori",
+   "date": "2026-11-16",
+   "time": [
+    6,
+    45
+   ],
+   "tz": "Asia/Tokyo",
    "title": "Blue Bloom",
    "label": "Episode 13"
   },
@@ -247,18 +259,6 @@
    "date": "2026-11-17",
    "time": [
     3,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Human Gourmentary Omoumai Mise",
-   "label": "Episode 236"
-  },
-  {
-   "id": 809166,
-   "slug": "kidnap-game",
-   "date": "2026-11-17",
-   "time": [
-    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -1186,8 +1186,44 @@
     0
    ],
    "tz": "Asia/Seoul",
+   "title": "One of a Kind Romance",
+   "label": "Episode 4 - 3"
+  },
+  {
+   "id": 809180,
+   "slug": "gajok-gwangye-jeungmyeongseo",
+   "date": "2026-11-16",
+   "time": [
+    3,
+    5
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Family Register",
+   "label": "Episode 81"
+  },
+  {
+   "id": 810734,
+   "slug": "yokmangui-deot",
+   "date": "2026-11-16",
+   "time": [
+    3,
+    50
+   ],
+   "tz": "Asia/Seoul",
    "title": "A Trap Called Desire",
    "label": "Episode 58"
+  },
+  {
+   "id": 804586,
+   "slug": "table-tales",
+   "date": "2026-11-16",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Table Tales",
+   "label": "Episode 67"
   },
   {
    "id": 782350,
@@ -1238,18 +1274,6 @@
    "label": "Episode 9"
   },
   {
-   "id": 809762,
-   "slug": "love-war",
-   "date": "2026-11-16",
-   "time": [
-    5,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Love War",
-   "label": "Episode 21"
-  },
-  {
    "id": 776133,
    "slug": "crash-season-2",
    "date": "2026-11-16",
@@ -1284,18 +1308,6 @@
    "tz": "Asia/Seoul",
    "title": "The Ballad of Us Season 2",
    "label": "Episode 7"
-  },
-  {
-   "id": 810548,
-   "slug": "midnight-horror-story-season-6",
-   "date": "2026-11-16",
-   "time": [
-    6,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Midnight Horror Story Season 6",
-   "label": "Episode 20"
   },
   {
    "id": 732363,
@@ -1345,18 +1357,6 @@
    "date": "2026-11-17",
    "time": [
     1,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "The Devil's Plan: Dead Again",
-   "label": "Episode 5 - 9"
-  },
-  {
-   "id": 722677,
-   "slug": "lee-mu-jin-service",
-   "date": "2026-11-17",
-   "time": [
-    2,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1553,7 +1553,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Style Wars",
-   "label": "Episode 3 - 4"
+   "label": "Episode 4 - 3"
   },
   {
    "id": 778572,
@@ -1757,7 +1757,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "I Became the Killer's Prey",
-   "label": "Episode 3 - 40"
+   "label": "Episode 14 - 35"
   },
   {
    "id": 812406,
@@ -2120,6 +2120,18 @@
    "label": "Episode 8"
   },
   {
+   "id": 811440,
+   "slug": "geumtaneun-geumyoil",
+   "date": "2026-11-20",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Geumtaneun Geumyoil",
+   "label": "Episode 46"
+  },
+  {
    "id": 25744,
    "slug": "i-live-alone",
    "date": "2026-11-20",
@@ -2141,7 +2153,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "My Genie Secretary",
-   "label": "Episode 12"
+   "label": "Episode 11"
   },
   {
    "id": 25576,
@@ -5178,6 +5190,26 @@
    }
   },
   {
+   "id": 772495,
+   "slug": "if-you-see-her-say-hello",
+   "date": "2026-11-01",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "If You See Her, Say Hello",
+   "label": "Expected Movie Release",
+   "movie": true,
+   "tmdb": {
+    "id": 813776,
+    "title": "If You See Her, Say Hello",
+    "overview": "A traveler visits the city of his childhood, in a former oil drilling area in northern China, which he then believed to be the \"center of the universe.\" Haunted by his memories, he gradually loses himself in a dreamlike space, passing from an ultra-modern city to a ghost town where he himself is no longer sure of what is real or imaginary. A hybrid film of rare beauty.",
+    "poster": "/omcg2a3yCZK0myRysTIbRQEAgqs.jpg",
+    "backdrop": null,
+    "runtime": 18,
+    "genres": [],
+    "release_date": "2021-04-17"
+   }
+  },
+  {
    "id": 812124,
    "slug": "koi-kizu",
    "date": "2026-11-01",
@@ -5989,12 +6021,6 @@
    "type": "TV Program",
    "premiere": "Oct 21, 2021 - ?"
   },
-  "722677": {
-   "native": "리무진 서비스",
-   "network": "KBS2",
-   "type": "TV Program",
-   "premiere": "Feb 22, 2022 - ?"
-  },
   "731727": {
    "native": "개인적인 택시",
    "network": "",
@@ -6649,6 +6675,12 @@
    "type": "Drama",
    "premiere": ""
   },
+  "804586": {
+   "native": "영자와 세리의 남겨서 뭐하게",
+   "network": "tvN",
+   "type": "TV Program",
+   "premiere": "May 28, 2025 - ?"
+  },
   "805266": {
    "native": "밤의 향",
    "network": "",
@@ -6767,7 +6799,7 @@
    "native": "각설탕 소리",
    "network": "Wavve",
    "type": "Drama",
-   "premiere": "Oct 23, 2026 - ?"
+   "premiere": "Oct 23, 2026 - Nov 20, 2026"
   },
   "807710": {
    "native": "신랑수업2",
@@ -6901,12 +6933,6 @@
    "type": "TV Program",
    "premiere": "Oct 11, 2026 - ?"
   },
-  "809762": {
-   "native": "연애전쟁",
-   "network": "jTBC",
-   "type": "TV Program",
-   "premiere": "Jun 23, 2026 - ?"
-  },
   "809768": {
    "native": "찐한 고백: 183Hz",
    "network": "ENA",
@@ -6984,12 +7010,6 @@
    "network": "tvN",
    "type": "Drama",
    "premiere": ""
-  },
-  "810548": {
-   "native": "심야괴담회 시즌6",
-   "network": "MBC",
-   "type": "TV Program",
-   "premiere": "Jun 22, 2026 - ?"
   },
   "810554": {
    "native": "MR -医薬情報担当者-",
@@ -7074,6 +7094,12 @@
    "network": "BS Fuji",
    "type": "Drama",
    "premiere": "Nov 6, 2026 - ?"
+  },
+  "811440": {
+   "native": "금타는 금요일",
+   "network": "TV Chosun",
+   "type": "TV Program",
+   "premiere": "Dec 26, 2025 - ?"
   },
   "811462": {
    "native": "会社員",

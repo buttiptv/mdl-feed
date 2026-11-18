@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-11-18T10:08:16Z",
+ "fetched_utc": "2026-11-18T21:56:57Z",
  "episodes": [
   {
    "id": 749947,
@@ -100,6 +100,18 @@
   {
    "id": 812156,
    "slug": "dekiai-kareshi-no-tsukurikata-se-kara-honmei-ni-naru-onnanoko-no-hanashi",
+   "date": "2026-11-18",
+   "time": [
+    7,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Dekiai Kareshi no Tsukurikata: Se kara Honmei ni Naru Onna no Ko no Hanashi",
+   "label": "Episode 8"
+  },
+  {
+   "id": 812198,
+   "slug": "aibo-season-25",
    "date": "2026-11-18",
    "time": [
     7,
@@ -240,18 +252,6 @@
    "tz": "Asia/Tokyo",
    "title": "Nika Game",
    "label": "Episode 56"
-  },
-  {
-   "id": 793250,
-   "slug": "blossom",
-   "date": "2026-11-18",
-   "time": [
-    18,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blossom",
-   "label": "Episode 39"
   },
   {
    "id": 809854,
@@ -1097,7 +1097,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Devil's Plan: Dead Again",
-   "label": "Episode 7 - 6"
+   "label": "Episode 8 - 7"
   },
   {
    "id": 722677,
@@ -1324,6 +1324,30 @@
     5
    ],
    "tz": "Asia/Seoul",
+   "title": "Family Register",
+   "label": "Episode 83"
+  },
+  {
+   "id": 810734,
+   "slug": "yokmangui-deot",
+   "date": "2026-11-18",
+   "time": [
+    5,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "A Trap Called Desire",
+   "label": "Episode 60"
+  },
+  {
+   "id": 813976,
+   "slug": "when-our-kids-fall-in-love-season-3",
+   "date": "2026-11-18",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
    "title": "When Our Kids Fall in Love Season 3",
    "label": "Episode 2"
   },
@@ -1477,18 +1501,6 @@
    "date": "2026-11-19",
    "time": [
     3,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "I Became the Killer's Prey",
-   "label": "Episode 6 - 43"
-  },
-  {
-   "id": 812406,
-   "slug": "changing-majors-season-9",
-   "date": "2026-11-19",
-   "time": [
-    4,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1733,7 +1745,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Blue Road",
-   "label": "Episode 6 - 5"
+   "label": "Episode 7 - 1"
   },
   {
    "id": 811398,
@@ -1842,18 +1854,6 @@
    "tz": "Asia/Seoul",
    "title": "The Perfect Lie",
    "label": "Episode 7"
-  },
-  {
-   "id": 812218,
-   "slug": "backdoor-part-2",
-   "date": "2026-11-20",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Backdoor Part 2",
-   "label": "Episode 8"
   },
   {
    "id": 811440,
@@ -2204,6 +2204,18 @@
    "label": "Episode 7"
   },
   {
+   "id": 812218,
+   "slug": "backdoor-part-2",
+   "date": "2026-11-22",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Backdoor Part 2",
+   "label": "Episode 8"
+  },
+  {
    "id": 798626,
    "slug": "the-final-table",
    "date": "2026-11-22",
@@ -2261,7 +2273,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Substitute",
-   "label": "Episode 1 - 2"
+   "label": "Episode 2 - 1"
   },
   {
    "id": 788924,
@@ -3256,6 +3268,16 @@
    "time": null,
    "tz": "Asia/Seoul",
    "title": "The Remarried Empress",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 814886,
+   "slug": "shonei-the-sun-will-rise-again",
+   "date": "2026-11-04",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Shonei: The Sun Will Rise Again",
    "label": "Premiere",
    "predicted": true
   },
@@ -5066,7 +5088,7 @@
    "tmdb": {
     "id": 1646897,
     "title": "Ryuji",
-    "overview": "The eternal legend etched into Japanese film history, rises again. (remake of the 1983 eponymous film).",
+    "overview": "In late-1980s Shinjuku, yakuza Ryuji leaves the underworld to build a quieter life with his partner and young son. When old ties draw him back toward his former world, he must decide what he is willing to risk to protect the people he loves. A remake of the acclaimed Japanese 1983 eponymous film.",
     "poster": "/xPfcMiKjHvZfFGyjRVFa8PxKFc0.jpg",
     "backdrop": "/uPDr58oEYOIdiDWSPhC9EcG8XsT.jpg",
     "runtime": 91,
@@ -6076,17 +6098,17 @@
   }
  ],
  "shows": {
-  "25568": {
-   "native": "아는형님",
-   "network": "jTBC",
-   "type": "TV Program",
-   "premiere": "Dec 5, 2015 - ?"
-  },
   "25565": {
    "native": "런닝맨",
    "network": "SBS",
    "type": "TV Program",
    "premiere": "Jul 11, 2010 - ?"
+  },
+  "25568": {
+   "native": "아는형님",
+   "network": "jTBC",
+   "type": "TV Program",
+   "premiere": "Dec 5, 2015 - ?"
   },
   "25576": {
    "native": "불후의 명곡: 전설을 노래하다",
@@ -6211,6 +6233,12 @@
   "705741": {
    "native": "고래별",
    "network": "tvN",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "710617": {
+   "native": "현혹",
+   "network": "Disney+",
    "type": "Drama",
    "premiere": ""
   },
@@ -6873,6 +6901,12 @@
    "network": "NTV",
    "type": "Drama",
    "premiere": "Oct 7, 2026 - ?"
+  },
+  "803774": {
+   "native": "가족계획 시즌2",
+   "network": "COUPANG TV",
+   "type": "Drama",
+   "premiere": ""
   },
   "804182": {
    "native": "러브 어페어",
@@ -7580,7 +7614,7 @@
    "native": "백도어 파트2",
    "network": "",
    "type": "Drama",
-   "premiere": "Sep 28, 2026 - ?"
+   "premiere": "Sep 28, 2026 - Nov 22, 2026"
   },
   "812222": {
    "native": "서라벌 나이프",
@@ -7665,12 +7699,6 @@
    "network": "tvN",
    "type": "TV Program",
    "premiere": "Sep 13, 2026 - ?"
-  },
-  "812406": {
-   "native": "전과자 시즌9",
-   "network": "",
-   "type": "TV Program",
-   "premiere": "Sep 3, 2026 - ?"
   },
   "812446": {
    "native": "十六夜膳房 -いざよいぜんぼう-",
@@ -8453,7 +8481,7 @@
    "premiere": ""
   },
   "814798": {
-   "native": "SIDE by SIDE サイド・バイ・サイド",
+   "native": "SIDE by SIDE",
    "network": "Fuji TV",
    "type": "Drama",
    "premiere": ""
@@ -8463,6 +8491,24 @@
    "network": "TBS",
    "type": "Drama",
    "premiere": ""
+  },
+  "814872": {
+   "native": "トンテキ食ってる場合じゃない！！",
+   "network": "Chukyo TV",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814882": {
+   "native": "SMELLOCK～スメロック 香察事件譚～",
+   "network": "TV Asahi",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814886": {
+   "native": "尚寧",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Nov 4, 2026 - ?"
   }
  }
 }

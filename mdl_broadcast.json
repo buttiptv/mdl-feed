@@ -1,138 +1,6 @@
 {
- "fetched_utc": "2026-11-17T22:20:43Z",
+ "fetched_utc": "2026-11-18T10:08:16Z",
  "episodes": [
-  {
-   "id": 812314,
-   "slug": "emergency-room-24-hours-season-6",
-   "date": "2026-11-16",
-   "time": [
-    7,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Emergency Room 24 Hours Season 6",
-   "label": "Episode 6"
-  },
-  {
-   "id": 810886,
-   "slug": "ao-no-hana-utsuwa-no-mori",
-   "date": "2026-11-16",
-   "time": [
-    8,
-    45
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blue Bloom",
-   "label": "Episode 13"
-  },
-  {
-   "id": 812154,
-   "slug": "minamida-minami-bengoshi-wa-tensaihada",
-   "date": "2026-11-16",
-   "time": [
-    9,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Extraordinary Attorney Minami",
-   "label": "Episode 5"
-  },
-  {
-   "id": 812364,
-   "slug": "tsuma-wo-intai-shimasu",
-   "date": "2026-11-16",
-   "time": [
-    9,
-    5
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Tsuma wo Intai Shimasu",
-   "label": "Episode 7"
-  },
-  {
-   "id": 813222,
-   "slug": "can-you-tell-m-lk",
-   "date": "2026-11-16",
-   "time": [
-    10,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Can You Tell M!LK?",
-   "label": "Episode 7"
-  },
-  {
-   "id": 812446,
-   "slug": "izayoi-zenbo",
-   "date": "2026-11-16",
-   "time": [
-    10,
-    25
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "The 16th Night Kitchen",
-   "label": "Episode 6"
-  },
-  {
-   "id": 811810,
-   "slug": "can-you-kiss-me-first",
-   "date": "2026-11-16",
-   "time": [
-    10,
-    45
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "You Should Be the One to Kiss Me",
-   "label": "Episode 5"
-  },
-  {
-   "id": 797068,
-   "slug": "vs-bullet-train",
-   "date": "2026-11-16",
-   "time": [
-    11,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "VS. Bullet Train",
-   "label": "Episode 70"
-  },
-  {
-   "id": 812924,
-   "slug": "not-equal-me-nanashi-no-cinderella",
-   "date": "2026-11-16",
-   "time": [
-    11,
-    15
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Not Equal ME Nanashi no Cinderella",
-   "label": "Episode 7"
-  },
-  {
-   "id": 802770,
-   "slug": "nogizaka-star-tanjo-six",
-   "date": "2026-11-16",
-   "time": [
-    12,
-    30
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Nogizaka Star Tanjo! Six",
-   "label": "Episode 70"
-  },
-  {
-   "id": 793250,
-   "slug": "blossom",
-   "date": "2026-11-16",
-   "time": [
-    18,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blossom",
-   "label": "Episode 37"
-  },
   {
    "id": 749947,
    "slug": "human-gourmentary-omoumai-mise",
@@ -218,20 +86,20 @@
    "label": "Episode 5"
   },
   {
-   "id": 812156,
-   "slug": "dekiai-kareshi-no-tsukurikata-se-kara-honmei-ni-naru-onnanoko-no-hanashi",
-   "date": "2026-11-18",
+   "id": 793250,
+   "slug": "blossom",
+   "date": "2026-11-17",
    "time": [
-    7,
+    18,
     0
    ],
    "tz": "Asia/Tokyo",
-   "title": "Dekiai Kareshi no Tsukurikata: Se kara Honmei ni Naru Onna no Ko no Hanashi",
-   "label": "Episode 8"
+   "title": "Blossom",
+   "label": "Episode 38"
   },
   {
-   "id": 812198,
-   "slug": "aibo-season-25",
+   "id": 812156,
+   "slug": "dekiai-kareshi-no-tsukurikata-se-kara-honmei-ni-naru-onnanoko-no-hanashi",
    "date": "2026-11-18",
    "time": [
     7,
@@ -1058,172 +926,148 @@
    "label": "Episode 41"
   },
   {
-   "id": 788924,
-   "slug": "one-of-a-kind-romance",
-   "date": "2026-11-16",
+   "id": 809822,
+   "slug": "ao-to-midori",
+   "date": "2026-11-22",
    "time": [
-    4,
+    21,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "One of a Kind Romance",
-   "label": "Episode 3 - 4"
+   "tz": "Asia/Tokyo",
+   "title": "Ao to Midori",
+   "label": "Episode 8"
   },
   {
-   "id": 809180,
-   "slug": "gajok-gwangye-jeungmyeongseo",
-   "date": "2026-11-16",
-   "time": [
-    5,
-    5
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Family Register",
-   "label": "Episode 81"
-  },
-  {
-   "id": 810734,
-   "slug": "yokmangui-deot",
-   "date": "2026-11-16",
-   "time": [
-    5,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "A Trap Called Desire",
-   "label": "Episode 58"
-  },
-  {
-   "id": 804586,
-   "slug": "table-tales",
-   "date": "2026-11-16",
-   "time": [
-    6,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Table Tales",
-   "label": "Episode 67"
-  },
-  {
-   "id": 782350,
-   "slug": "hidden-eye",
-   "date": "2026-11-16",
-   "time": [
-    6,
-    10
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Hidden Eye",
-   "label": "Episode 110"
-  },
-  {
-   "id": 811490,
-   "slug": "eommaga-michyeosseoyo",
-   "date": "2026-11-16",
-   "time": [
-    6,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Mission: Mompossible",
-   "label": "Episode 36"
-  },
-  {
-   "id": 814762,
-   "slug": "tomorrow-x-together-comeback-showcase-perfect-storm",
-   "date": "2026-11-16",
+   "id": 812314,
+   "slug": "emergency-room-24-hours-season-6",
+   "date": "2026-11-23",
    "time": [
     7,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Tomorrow x Together Comeback Showcase: Perfect Storm",
-   "label": "Episode 1"
-  },
-  {
-   "id": 811474,
-   "slug": "malja-show",
-   "date": "2026-11-16",
-   "time": [
-    7,
-    30
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Malja Show",
-   "label": "Episode 44"
-  },
-  {
-   "id": 802482,
-   "slug": "why-you-don-t-know-it-s-a-girl",
-   "date": "2026-11-16",
-   "time": [
-    7,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Love in Disguise",
-   "label": "Episode 9"
-  },
-  {
-   "id": 776133,
-   "slug": "crash-season-2",
-   "date": "2026-11-16",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Crash Season 2: Fury Road",
-   "label": "Episode 1"
-  },
-  {
-   "id": 762581,
-   "slug": "detectives-trade-secrets",
-   "date": "2026-11-16",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Detectives' Trade Secrets",
-   "label": "Episode 137"
-  },
-  {
-   "id": 810726,
-   "slug": "the-ballad-of-us-season-2",
-   "date": "2026-11-16",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "The Ballad of Us Season 2",
+   "tz": "Asia/Tokyo",
+   "title": "Emergency Room 24 Hours Season 6",
    "label": "Episode 7"
   },
   {
-   "id": 732363,
-   "slug": "summer-vacation",
-   "date": "2026-11-16",
+   "id": 810886,
+   "slug": "ao-no-hana-utsuwa-no-mori",
+   "date": "2026-11-23",
    "time": [
     8,
-    50
+    45
    ],
-   "tz": "Asia/Seoul",
-   "title": "Summer Vacation",
-   "label": "Episode 7"
+   "tz": "Asia/Tokyo",
+   "title": "Blue Bloom",
+   "label": "Episode 17"
   },
   {
-   "id": 814178,
-   "slug": "trot-kitchen-the-running-dinner-show",
-   "date": "2026-11-16",
+   "id": 812154,
+   "slug": "minamida-minami-bengoshi-wa-tensaihada",
+   "date": "2026-11-23",
    "time": [
     9,
     0
    ],
-   "tz": "Asia/Seoul",
-   "title": "Trot Kitchen: The Running Dinner Show",
+   "tz": "Asia/Tokyo",
+   "title": "Extraordinary Attorney Minami",
+   "label": "Episode 6"
+  },
+  {
+   "id": 812364,
+   "slug": "tsuma-wo-intai-shimasu",
+   "date": "2026-11-23",
+   "time": [
+    9,
+    5
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Tsuma wo Intai Shimasu",
+   "label": "Episode 8"
+  },
+  {
+   "id": 813222,
+   "slug": "can-you-tell-m-lk",
+   "date": "2026-11-23",
+   "time": [
+    10,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Can You Tell M!LK?",
+   "label": "Episode 8"
+  },
+  {
+   "id": 812446,
+   "slug": "izayoi-zenbo",
+   "date": "2026-11-23",
+   "time": [
+    10,
+    25
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "The 16th Night Kitchen",
    "label": "Episode 7"
+  },
+  {
+   "id": 811810,
+   "slug": "can-you-kiss-me-first",
+   "date": "2026-11-23",
+   "time": [
+    10,
+    45
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "You Should Be the One to Kiss Me",
+   "label": "Episode 6"
+  },
+  {
+   "id": 797068,
+   "slug": "vs-bullet-train",
+   "date": "2026-11-23",
+   "time": [
+    11,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "VS. Bullet Train",
+   "label": "Episode 71"
+  },
+  {
+   "id": 812924,
+   "slug": "not-equal-me-nanashi-no-cinderella",
+   "date": "2026-11-23",
+   "time": [
+    11,
+    15
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Not Equal ME Nanashi no Cinderella",
+   "label": "Episode 8"
+  },
+  {
+   "id": 802770,
+   "slug": "nogizaka-star-tanjo-six",
+   "date": "2026-11-23",
+   "time": [
+    12,
+    30
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Nogizaka Star Tanjo! Six",
+   "label": "Episode 71"
+  },
+  {
+   "id": 793250,
+   "slug": "blossom",
+   "date": "2026-11-23",
+   "time": [
+    18,
+    0
+   ],
+   "tz": "Asia/Tokyo",
+   "title": "Blossom",
+   "label": "Episode 42"
   },
   {
    "id": 755117,
@@ -1231,8 +1075,29 @@
    "date": "2026-11-17",
    "time": null,
    "tz": "Asia/Seoul",
+   "title": "Breathless Love",
+   "label": "Movie"
+  },
+  {
+   "id": 762913,
+   "slug": "snowfall",
+   "date": "2026-11-17",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "White Blast",
+   "label": "Movie"
+  },
+  {
+   "id": 800178,
+   "slug": "devil-s-plan-season-3",
+   "date": "2026-11-17",
+   "time": [
+    3,
+    0
+   ],
+   "tz": "Asia/Seoul",
    "title": "The Devil's Plan: Dead Again",
-   "label": "Episode 6 - 5"
+   "label": "Episode 7 - 6"
   },
   {
    "id": 722677,
@@ -1415,6 +1280,18 @@
    "label": "Episode 8"
   },
   {
+   "id": 45693,
+   "slug": "i-m-live",
+   "date": "2026-11-17",
+   "time": [
+    23,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "I'm Live",
+   "label": "Episode 445"
+  },
+  {
    "id": 809798,
    "slug": "style-wars",
    "date": "2026-11-18",
@@ -1424,7 +1301,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Style Wars",
-   "label": "Episode 4 - 3"
+   "label": "Episode 3 - 4"
   },
   {
    "id": 778572,
@@ -1445,30 +1322,6 @@
    "time": [
     5,
     5
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Family Register",
-   "label": "Episode 83"
-  },
-  {
-   "id": 810734,
-   "slug": "yokmangui-deot",
-   "date": "2026-11-18",
-   "time": [
-    5,
-    50
-   ],
-   "tz": "Asia/Seoul",
-   "title": "A Trap Called Desire",
-   "label": "Episode 60"
-  },
-  {
-   "id": 813976,
-   "slug": "when-our-kids-fall-in-love-season-3",
-   "date": "2026-11-18",
-   "time": [
-    6,
-    0
    ],
    "tz": "Asia/Seoul",
    "title": "When Our Kids Fall in Love Season 3",
@@ -1628,7 +1481,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "I Became the Killer's Prey",
-   "label": "Episode 15 - 36"
+   "label": "Episode 6 - 43"
   },
   {
    "id": 812406,
@@ -1880,7 +1733,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Blue Road",
-   "label": "Episode 8 - 2"
+   "label": "Episode 6 - 5"
   },
   {
    "id": 811398,
@@ -2397,6 +2250,174 @@
    "tz": "Asia/Seoul",
    "title": "Oh! My Guard",
    "label": "Episode 10"
+  },
+  {
+   "id": 796888,
+   "slug": "substitute-college-entrance-exam",
+   "date": "2026-11-23",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "The Substitute",
+   "label": "Episode 1 - 2"
+  },
+  {
+   "id": 788924,
+   "slug": "one-of-a-kind-romance",
+   "date": "2026-11-23",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "One of a Kind Romance",
+   "label": "Episode 5 - 6"
+  },
+  {
+   "id": 809180,
+   "slug": "gajok-gwangye-jeungmyeongseo",
+   "date": "2026-11-23",
+   "time": [
+    5,
+    5
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Family Register",
+   "label": "Episode 86"
+  },
+  {
+   "id": 810734,
+   "slug": "yokmangui-deot",
+   "date": "2026-11-23",
+   "time": [
+    5,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "A Trap Called Desire",
+   "label": "Episode 63"
+  },
+  {
+   "id": 804586,
+   "slug": "table-tales",
+   "date": "2026-11-23",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Table Tales",
+   "label": "Episode 68"
+  },
+  {
+   "id": 782350,
+   "slug": "hidden-eye",
+   "date": "2026-11-23",
+   "time": [
+    6,
+    10
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Hidden Eye",
+   "label": "Episode 111"
+  },
+  {
+   "id": 811490,
+   "slug": "eommaga-michyeosseoyo",
+   "date": "2026-11-23",
+   "time": [
+    6,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Mission: Mompossible",
+   "label": "Episode 41"
+  },
+  {
+   "id": 811474,
+   "slug": "malja-show",
+   "date": "2026-11-23",
+   "time": [
+    7,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Malja Show",
+   "label": "Episode 45"
+  },
+  {
+   "id": 802482,
+   "slug": "why-you-don-t-know-it-s-a-girl",
+   "date": "2026-11-23",
+   "time": [
+    7,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Love in Disguise",
+   "label": "Episode 11"
+  },
+  {
+   "id": 776133,
+   "slug": "crash-season-2",
+   "date": "2026-11-23",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Crash Season 2: Fury Road",
+   "label": "Episode 3"
+  },
+  {
+   "id": 762581,
+   "slug": "detectives-trade-secrets",
+   "date": "2026-11-23",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Detectives' Trade Secrets",
+   "label": "Episode 138"
+  },
+  {
+   "id": 810726,
+   "slug": "the-ballad-of-us-season-2",
+   "date": "2026-11-23",
+   "time": [
+    8,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "The Ballad of Us Season 2",
+   "label": "Episode 8"
+  },
+  {
+   "id": 732363,
+   "slug": "summer-vacation",
+   "date": "2026-11-23",
+   "time": [
+    8,
+    50
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Summer Vacation",
+   "label": "Episode 9"
+  },
+  {
+   "id": 814178,
+   "slug": "trot-kitchen-the-running-dinner-show",
+   "date": "2026-11-23",
+   "time": [
+    9,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Trot Kitchen: The Running Dinner Show",
+   "label": "Episode 8"
   },
   {
    "id": 814186,
@@ -3379,6 +3400,16 @@
    "predicted": true
   },
   {
+   "id": 776133,
+   "slug": "crash-season-2",
+   "date": "2026-11-16",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Crash Season 2: Fury Road",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
    "id": 814760,
    "slug": "in-your-corner",
    "date": "2026-11-16",
@@ -3765,6 +3796,16 @@
    "time": null,
    "tz": "Asia/Seoul",
    "title": "When Our Kids Fall in Love Season 3",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 814762,
+   "slug": "tomorrow-x-together-comeback-showcase-perfect-storm",
+   "date": "2026-11-16",
+   "time": null,
+   "tz": "Asia/Seoul",
+   "title": "Tomorrow x Together Comeback Showcase: Perfect Storm",
    "label": "Premiere",
    "predicted": true
   }
@@ -5154,7 +5195,7 @@
    "tmdb": {
     "id": 1807529,
     "title": "Tsuri Komachi",
-    "overview": "",
+    "overview": "Once a fishing prodigy, Marimo has lost her enthusiasm after her mother's death in a water accident. Meeting Tetra, a girl who has come from America inspired by her, rekindles her ambition. With friends and rivals beside her, Marimo begins working toward an Olympic fishing gold medal.",
     "poster": "/tvtdgpfZJGVaC6cOE0pP0n1fxkH.jpg",
     "backdrop": "/A7m6F7If0l8L26WBpnula3Rgid6.jpg",
     "runtime": 105,
@@ -5221,11 +5262,11 @@
   {
    "id": 755117,
    "slug": "it-s-okay-to-just-breathe-next-to-you",
-   "date": "2026-11-01",
+   "date": "2026-11-18",
    "time": null,
    "tz": "Asia/Seoul",
    "title": "Breathless Love",
-   "label": "Expected Movie Release",
+   "label": "Movie Release",
    "movie": true,
    "tmdb": {
     "id": 1125315,
@@ -5243,11 +5284,11 @@
   {
    "id": 762913,
    "slug": "snowfall",
-   "date": "2026-11-01",
+   "date": "2026-11-18",
    "time": null,
    "tz": "Asia/Seoul",
    "title": "White Blast",
-   "label": "Expected Movie Release",
+   "label": "Movie Release",
    "movie": true,
    "tmdb": {
     "id": 1705447,
@@ -6125,6 +6166,12 @@
    "type": "TV Program",
    "premiere": "Nov 9, 1980 - ?"
   },
+  "45693": {
+   "native": "아임 라이브",
+   "network": "",
+   "type": "TV Program",
+   "premiere": "Mar 31, 2017 - ?"
+  },
   "49125": {
    "native": "신상출시 편스토랑",
    "network": "KBS2",
@@ -6292,6 +6339,12 @@
    "network": "Channel A",
    "type": "TV Program",
    "premiere": "Jan 29, 2024 - ?"
+  },
+  "762913": {
+   "native": "폭설",
+   "network": "",
+   "type": "Movie",
+   "premiere": ""
   },
   "764105": {
    "native": "의녀 대장금",
@@ -7995,13 +8048,13 @@
    "native": "사운드:트랙",
    "network": "KBS2",
    "type": "Drama",
-   "premiere": ""
+   "premiere": "Nov 18, 2026 - Dec 16, 2026"
   },
   "813908": {
    "native": "사운드:트랙 - 봄 내음보다 너를",
    "network": "KBS2",
    "type": "Drama",
-   "premiere": ""
+   "premiere": "Nov 18, 2026"
   },
   "813910": {
    "native": "사운드:트랙 - 연극이 끝난 후",
@@ -8396,6 +8449,18 @@
   "814778": {
    "native": "僕と彼女の49日",
    "network": "TV Asahi",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814798": {
+   "native": "SIDE by SIDE サイド・バイ・サイド",
+   "network": "Fuji TV",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814802": {
+   "native": "焼肉の女 綾門寺赤奈",
+   "network": "TBS",
    "type": "Drama",
    "premiere": ""
   }

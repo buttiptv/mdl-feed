@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-11-20T10:01:02Z",
+ "fetched_utc": "2026-11-20T21:49:53Z",
  "episodes": [
   {
    "id": 809854,
@@ -286,6 +286,18 @@
    "date": "2026-11-20",
    "time": null,
    "tz": "Asia/Tokyo",
+   "title": "Borders: Keishicho Tokushu Jiken Taisaku Han",
+   "label": "Episode 6"
+  },
+  {
+   "id": 792568,
+   "slug": "timeleszman",
+   "date": "2026-11-20",
+   "time": [
+    7,
+    55
+   ],
+   "tz": "Asia/Tokyo",
    "title": "Timeleszman",
    "label": "Episode 74"
   },
@@ -348,18 +360,6 @@
    "tz": "Asia/Tokyo",
    "title": "Mame to Mugi",
    "label": "Episode 8"
-  },
-  {
-   "id": 808926,
-   "slug": "ultraman-teo",
-   "date": "2026-11-20",
-   "time": [
-    19,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Ultraman Teo",
-   "label": "Episode 19"
   },
   {
    "id": 812044,
@@ -1103,7 +1103,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "I Became the Killer's Prey",
-   "label": "Episode 4 - 41"
+   "label": "Episode 2 - 39"
   },
   {
    "id": 812406,
@@ -1358,24 +1358,24 @@
    "label": "Episode 5 - 4"
   },
   {
-   "id": 811398,
-   "slug": "sumbakkokjil-sijeun-2",
-   "date": "2026-11-20",
-   "time": [
-    4,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Sumbakkokjil Season 2",
-   "label": "Episode 9"
-  },
-  {
    "id": 809180,
    "slug": "gajok-gwangye-jeungmyeongseo",
    "date": "2026-11-20",
    "time": [
     5,
     5
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Family Register",
+   "label": "Episode 85"
+  },
+  {
+   "id": 810734,
+   "slug": "yokmangui-deot",
+   "date": "2026-11-20",
+   "time": [
+    5,
+    50
    ],
    "tz": "Asia/Seoul",
    "title": "A Trap Called Desire",
@@ -1496,18 +1496,6 @@
    "time": [
     4,
     5
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Immortal Songs: Singing the Legend",
-   "label": "Episode 781"
-  },
-  {
-   "id": 39619,
-   "slug": "how-do-you-play",
-   "date": "2026-11-21",
-   "time": [
-    4,
-    30
    ],
    "tz": "Asia/Seoul",
    "title": "Hangout with Yoo",
@@ -2048,7 +2036,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Devil's Plan: Dead Again",
-   "label": "Episode 12 - 11"
+   "label": "Episode 11 - 10"
   },
   {
    "id": 722677,
@@ -2264,7 +2252,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Remarried Empress",
-   "label": "Episode 9 - 10"
+   "label": "Episode 10 - 9"
   },
   {
    "id": 809180,
@@ -3347,6 +3335,16 @@
    "predicted": true
   },
   {
+   "id": 814954,
+   "slug": "kanami-to-mittsu-no-koi-no-aji",
+   "date": "2026-11-06",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Kanami to Mittsu no Koi no Aji",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
    "id": 812052,
    "slug": "eugenia",
    "date": "2026-11-08",
@@ -3473,6 +3471,16 @@
    "time": null,
    "tz": "Asia/Seoul",
    "title": "Sound Track",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 814956,
+   "slug": "zettai-koroshitai-oji-sama",
+   "date": "2026-11-20",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Zettai Koroshitai Oji-sama",
    "label": "Premiere",
    "predicted": true
   },
@@ -6201,12 +6209,6 @@
    "type": "Drama",
    "premiere": ""
   },
-  "39619": {
-   "native": "놀면 뭐하니?",
-   "network": "MBC",
-   "type": "TV Program",
-   "premiere": "Jul 27, 2019 - ?"
-  },
   "45671": {
    "native": "전국노래자랑",
    "network": "KBS1",
@@ -6632,6 +6634,12 @@
    "network": "TVING",
    "type": "Drama",
    "premiere": ""
+  },
+  "792568": {
+   "native": "タイムレスマン",
+   "network": "Fuji TV",
+   "type": "TV Program",
+   "premiere": "Apr 20, 2025 - ?"
   },
   "792640": {
    "native": "혹하는 로맨스",
@@ -7119,12 +7127,6 @@
    "type": "Drama",
    "premiere": ""
   },
-  "808926": {
-   "native": "ウルトラマンテオ",
-   "network": "",
-   "type": "Drama",
-   "premiere": "Jul 4, 2026 - ?"
-  },
   "809010": {
    "native": "天狗の台所 Season3",
    "network": "BS-TBS",
@@ -7197,17 +7199,17 @@
    "type": "TV Program",
    "premiere": "Oct 11, 2026 - ?"
   },
-  "809778": {
-   "native": "미스트롯 포유",
-   "network": "TV Chosun",
-   "type": "TV Program",
-   "premiere": "May 14, 2026 - ?"
-  },
   "809768": {
    "native": "찐한 고백: 183Hz",
    "network": "ENA",
    "type": "Drama",
    "premiere": ""
+  },
+  "809778": {
+   "native": "미스트롯 포유",
+   "network": "TV Chosun",
+   "type": "TV Program",
+   "premiere": "May 14, 2026 - ?"
   },
   "809786": {
    "native": "デンジャラス",
@@ -7346,12 +7348,6 @@
    "network": "Tokyo MX",
    "type": "Drama",
    "premiere": "Oct 29, 2026 - ?"
-  },
-  "811398": {
-   "native": "숨바꼭질 시즌2",
-   "network": "Mnet",
-   "type": "TV Program",
-   "premiere": "Jul 31, 2026 - Nov 13, 2026"
   },
   "811416": {
    "native": "もうパパ！",
@@ -8011,7 +8007,7 @@
    "native": "백수 이세돌",
    "network": "KBS2",
    "type": "TV Program",
-   "premiere": "Oct 23, 2026 - ?"
+   "premiere": "Oct 23, 2026 - Nov 20, 2026"
   },
   "813608": {
    "native": "물 밖에서",
@@ -8505,15 +8501,15 @@
    "type": "Drama",
    "premiere": ""
   },
-  "814802": {
-   "native": "焼肉の女 綾門寺赤奈",
-   "network": "TBS",
-   "type": "Drama",
-   "premiere": ""
-  },
   "814798": {
    "native": "SIDE by SIDE",
    "network": "Fuji TV",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814802": {
+   "native": "焼肉の女 綾門寺赤奈",
+   "network": "TBS",
    "type": "Drama",
    "premiere": ""
   },
@@ -8552,6 +8548,24 @@
    "network": "",
    "type": "Drama",
    "premiere": ""
+  },
+  "814950": {
+   "native": "この世は戦う価値がある",
+   "network": "Fuji TV",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "814954": {
+   "native": "カナミと三つの恋の味",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Nov 6, 2026"
+  },
+  "814956": {
+   "native": "絶対殺したい王子様",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Nov 20, 2026"
   }
  }
 }

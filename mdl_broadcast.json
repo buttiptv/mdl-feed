@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-11-23T10:45:07Z",
+ "fetched_utc": "2026-11-24T01:41:40Z",
  "episodes": [
   {
    "id": 801366,
@@ -142,6 +142,18 @@
     0
    ],
    "tz": "Asia/Tokyo",
+   "title": "Emergency Room 24 Hours Season 6",
+   "label": "Episode 7"
+  },
+  {
+   "id": 810886,
+   "slug": "ao-no-hana-utsuwa-no-mori",
+   "date": "2026-11-23",
+   "time": [
+    8,
+    45
+   ],
+   "tz": "Asia/Tokyo",
    "title": "Blue Bloom",
    "label": "Episode 17"
   },
@@ -260,18 +272,6 @@
    "time": [
     5,
     0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Human Gourmentary Omoumai Mise",
-   "label": "Episode 237"
-  },
-  {
-   "id": 814548,
-   "slug": "hinomaru-brothers-nichi-bei-boeki-wo-kiri-hiraita-kyodai",
-   "date": "2026-11-24",
-   "time": [
-    5,
-    25
    ],
    "tz": "Asia/Tokyo",
    "title": "Hinomaru Brothers: Nichi Bei Boeki wo Kiri Hiraita Kyodai",
@@ -1306,6 +1306,18 @@
     50
    ],
    "tz": "Asia/Seoul",
+   "title": "A Trap Called Desire",
+   "label": "Episode 63"
+  },
+  {
+   "id": 804586,
+   "slug": "table-tales",
+   "date": "2026-11-23",
+   "time": [
+    6,
+    0
+   ],
+   "tz": "Asia/Seoul",
    "title": "Table Tales",
    "label": "Episode 68"
   },
@@ -1432,18 +1444,6 @@
    "date": "2026-11-24",
    "time": [
     3,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "The Devil's Plan: Dead Again",
-   "label": "Episode 14 - 13"
-  },
-  {
-   "id": 722677,
-   "slug": "lee-mu-jin-service",
-   "date": "2026-11-24",
-   "time": [
-    4,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1640,7 +1640,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Style Wars",
-   "label": "Episode 5 - 6"
+   "label": "Episode 6 - 5"
   },
   {
    "id": 778572,
@@ -1652,7 +1652,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Remarried Empress",
-   "label": "Episode 10 - 9"
+   "label": "Episode 9 - 10"
   },
   {
    "id": 809180,
@@ -1832,7 +1832,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Tax Reaper: Psychic's Tax Collection",
-   "label": "Episode 11 - 48"
+   "label": "Episode 2 - 39"
   },
   {
    "id": 812406,
@@ -2000,19 +2000,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Where Is My Home",
-   "label": "Episode 375"
-  },
-  {
-   "id": 809778,
-   "slug": "miss-trot-for-you",
-   "date": "2026-11-26",
-   "time": [
-    8,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Miss Trot for You",
-   "label": "Episode 27"
+   "label": "Episode 374"
   },
   {
    "id": 813912,
@@ -2336,7 +2324,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Knowing Bros",
-   "label": "Episode 553 - 561"
+   "label": "Episode 561 - 553"
   },
   {
    "id": 778656,
@@ -3450,7 +3438,7 @@
    "date": "2026-11-16",
    "time": null,
    "tz": "Asia/Seoul",
-   "title": "Gyeyakgyeolhon, Sanyanggaega Doegetseumnida",
+   "title": "Gyeyak Gyeolhon, Sanyanggaega Doegetseumnida",
    "label": "Premiere",
    "predicted": true
   },
@@ -3551,6 +3539,16 @@
    "time": null,
    "tz": "Asia/Tokyo",
    "title": "Yoroshiku Amigo",
+   "label": "Premiere",
+   "predicted": true
+  },
+  {
+   "id": 814548,
+   "slug": "hinomaru-brothers-nichi-bei-boeki-wo-kiri-hiraita-kyodai",
+   "date": "2026-11-24",
+   "time": null,
+   "tz": "Asia/Tokyo",
+   "title": "Hinomaru Brothers: Nichi Bei Boeki wo Kiri Hiraita Kyodai",
    "label": "Premiere",
    "predicted": true
   },
@@ -4019,16 +4017,16 @@
    "label": "Movie Release",
    "movie": true,
    "tmdb": {
-    "id": 204463,
-    "title": "Mortal Battle",
-    "overview": "A trio of rogues, King Kim, Pong Mar Kow and Shintaro steal a shipment of smuggled cash, but before long they are fighting suspicion, mistrust and the violent Hong Kong Mafia!",
-    "poster": "/vzUX4eiJVsxXQcDtZ5YYmKpUPfd.jpg",
+    "id": 630865,
+    "title": "Those Who Kill 5 - Solitaire of death",
+    "overview": "A young woman's body is found by chance, seconds before she disappears forever in the flames of the incinerator. It seems that Thomas and Katrine are facing the investigation of the perfect murder.",
+    "poster": "/sSJeE50OHBLYcb4ZONYKi1UF8jQ.jpg",
     "backdrop": null,
-    "runtime": 84,
+    "runtime": 0,
     "genres": [
-     "Action"
+     "Crime"
     ],
-    "release_date": "1975-03-15"
+    "release_date": "2011-05-17"
    }
   },
   {
@@ -4074,16 +4072,18 @@
    "label": "Movie Release",
    "movie": true,
    "tmdb": {
-    "id": 1362419,
+    "id": 1706689,
     "title": "First Voice",
-    "overview": "A feature horror film.",
-    "poster": null,
-    "backdrop": null,
-    "runtime": 0,
+    "overview": "In 1989, when workplace sexual harassment was rarely recognized as a legal issue in Japan, lawyer Michiko Asahi takes on an unprecedented case after office worker Megumi Uehara seeks to sue her company and supervisor over harassment that cost her her job. Despite a rookie lawyer's warning that the case has virtually no chance of success, Asahi believes their fight could change the future. Facing a legal system and society firmly rooted in conventional attitudes, the women risk their careers and reputations to challenge the status quo and make their voices heard.",
+    "poster": "/s0BNmv4jtWp2XClygvzGqPQ0TQp.jpg",
+    "backdrop": "/a864R5XeUQSNqKUKrxoKTpGyT6Y.jpg",
+    "runtime": 105,
     "genres": [
-     "Horror"
+     "Drama",
+     "History",
+     "Crime"
     ],
-    "release_date": "2024-09-02"
+    "release_date": "2026-10-02"
    }
   },
   {
@@ -4192,17 +4192,17 @@
    "label": "Movie Release",
    "movie": true,
    "tmdb": {
-    "id": 502649,
+    "id": 1617774,
     "title": "Sapiens",
-    "overview": "The world through the eyes of a flower growing on the side of the road. The flower sees how the electric wires are humming, how cars are rushing by, planes are flying by. Accidents happen before his eyes, it rains and the sun shines — all this the flower observes from the side, without interacting with the outside world. But suddenly a car stops on the side of the road, a girl gets out of it. She holds a book with Japanese triplets in her hand and pays attention to the flower...",
-    "poster": "/rHBlITTaeUfrI0mBDn98n2DQc1P.jpg",
-    "backdrop": null,
-    "runtime": 13,
+    "overview": "Na Do-han, a man with Dissociative Identity Disorder, shares his body with four different identities. One dawn, he wakes up in a motel with blood-soaked hands and the word 'Run!' scrawled on a mirror. Soon linked to the disappearance of a wealthy corporate heir, Do-han becomes the prime suspect. Concurrently pursued by corporate lawyer Seo Hee-jae, he must interrogate his own identities, each concealing a secret.",
+    "poster": "/y2Hx0ufD4l9q2sA9SCQU4jramzi.jpg",
+    "backdrop": "/ev7gbxoBYzBcVwaYyKBBtOixG4g.jpg",
+    "runtime": 97,
     "genres": [
-     "Drama",
-     "Science Fiction"
+     "Thriller",
+     "Mystery"
     ],
-    "release_date": "2004-02-07"
+    "release_date": "2026-10-07"
    }
   },
   {
@@ -4495,16 +4495,19 @@
    "label": "Movie Release",
    "movie": true,
    "tmdb": {
-    "id": 1625465,
+    "id": 57931,
     "title": "Baler",
-    "overview": "Quitting her job and being pregnant - that's the sum of what we know about Eunju. Seemingly without much desire or expectation, Eunju heads to the countryside at the suggestion of Changho, who proposes a month of seasonal farm work. She tidies up rice straw left over from threshing, tends to cattle, sits down to eat with rough-hewn men of the countryside, and exchanges brief, trivial, awkward conversations.",
-    "poster": "/ie6BfIIIgkauNG1Ucj8dldV2ifd.jpg",
-    "backdrop": "/csvzQqf8Mg9411ks7HdCFtTeK25.jpg",
-    "runtime": 95,
+    "overview": "In 1898, a band of Spanish soldiers heroically defended Baler against Filipino forces for 337 long and grueling days. The battle, now referred to as the Siege of Baler, is the setting of a forbidden love between a Mestizo soldier and a Filipina lass who lived at the end of the 19th century.",
+    "poster": "/5CjDuIQRlYcyzDeFsKIy9F8n9L8.jpg",
+    "backdrop": null,
+    "runtime": 110,
     "genres": [
-     "Drama"
+     "History",
+     "Drama",
+     "Romance",
+     "War"
     ],
-    "release_date": "2026-10-09"
+    "release_date": "2008-12-25"
    }
   },
   {
@@ -4917,7 +4920,7 @@
     "id": 818397,
     "title": "Memory",
     "overview": "Alex, an assassin-for-hire, finds that he's become a target after he refuses to complete a job for a dangerous criminal organization. With the crime syndicate and FBI in hot pursuit, Alex has the skills to stay ahead, except for one thing: he is struggling with severe memory loss, affecting his every move. Alex must question his every action and whom he can ultimately trust.",
-    "poster": "/4Q1n3TwieoULnuaztu9aFjqHDTI.jpg",
+    "poster": "/zGPLpljwrlK2y7AWXVpGx0ceIyH.jpg",
     "backdrop": "/9zXPnbVpaDfTniLBuc5vgXGfzAP.jpg",
     "runtime": 114,
     "genres": [
@@ -5176,17 +5179,21 @@
    "label": "Movie Release",
    "movie": true,
    "tmdb": {
-    "id": 1739765,
-    "title": "Your Story",
-    "overview": "Chihiro, a university student who lives a lonely life, undergoes a treatment to erase his memories in order to forget his unhappy past. However, when he awakens, his memories have not disappeared. Instead, he is left with memories of his first love with Toka, a childhood friend he has never even met. She is supposed to exist only within fabricated memories. Yet before long, Chihiro finds himself unable to get her out of his mind. But one day, Toka appears in the real world.",
-    "poster": "/8H0YN4J0iuPyC4SjtU5fdooLciH.jpg",
-    "backdrop": "/nHeVnZC1f1gWgDJzisKn2mTNm1S.jpg",
-    "runtime": 120,
+    "id": 592867,
+    "title": "Dragon Quest: Your Story",
+    "overview": "Luca follows in his father's footsteps to rescue his mother from evil Ladja. Finding the heavenly hero who wields the Zenithian sword is his only hope.",
+    "poster": "/5R70ehKGh5V0ZYOdikxwSfoLGMt.jpg",
+    "backdrop": "/vKhp5yhdtPkKsBOYXMjb5Yi05e7.jpg",
+    "runtime": 102,
     "genres": [
-     "Drama",
-     "Romance"
+     "Animation",
+     "Adventure",
+     "Comedy",
+     "Fantasy",
+     "Action",
+     "Family"
     ],
-    "release_date": "2026-11-27"
+    "release_date": "2019-08-02"
    }
   },
   {
@@ -6083,19 +6090,16 @@
    "label": "Expected Movie Release",
    "movie": true,
    "tmdb": {
-    "id": 572312,
+    "id": 845737,
     "title": "Prism",
-    "overview": "Some have described love as a spell. Others have described it as a sickness. What they have in common is the idea that love, in its many forms, has the power to overwhelm the senses and control behavior. Prism is an anthology feature in 7 chapters exploring several genres – comedy, dark-comedy, drama, science-fiction, and suspense.",
-    "poster": "/48NQLJbEHrzzwJc2jnwkvQ028e6.jpg",
-    "backdrop": "/lxHyReNZJ3VFHNFfbfxMvEVv6mW.jpg",
-    "runtime": 90,
+    "overview": "For Prism, Belgian filmmaker An van. Dienderen invited Brussels-based Rosine Mbakam from Cameroon and Paris-based Eléonore Yameogo from Burkina Faso to work together on a film in which the differences in their skin color serves as a departure to explore their experiences with the biased limitations of the medium. Photographic media are technologically and ideologically biased, favoring Caucasian skin. Such white-centricity means that the photographic media assume, privilege and construct whiteness.",
+    "poster": "/qwvtRlbkdZyuOlOgw2U1S3VbBuD.jpg",
+    "backdrop": "/ksgIXnmrubFBnOhzyUq5QVO9QaE.jpg",
+    "runtime": 77,
     "genres": [
-     "Science Fiction",
-     "Drama",
-     "Romance",
-     "Comedy"
+     "Documentary"
     ],
-    "release_date": "2017-06-09"
+    "release_date": "2021-09-26"
    }
   },
   {
@@ -6163,16 +6167,16 @@
    "label": "Expected Movie Release",
    "movie": true,
    "tmdb": {
-    "id": 1710886,
-    "title": "Sugar Mommy",
-    "overview": "When a non-committal sugar mommy takes in her three sugar babies, jealousy erupts as one of them becomes determined to be her one and only.",
-    "poster": "/2FBvobFZGibenqKerk786qg9AHD.jpg",
-    "backdrop": "/RO1Jus7kHiuFuW2XTzmCVwj6Sr.jpg",
-    "runtime": 75,
+    "id": 1196656,
+    "title": "Sugar Baby",
+    "overview": "Two high school friends turned sugar babies, who sacrifice everything for each other. Until love gets in the way",
+    "poster": "/96MiE78ur3CQyDVNHTHT4RqBboI.jpg",
+    "backdrop": "/uGGpudSxvPitRE6z85Gv5AL3BQf.jpg",
+    "runtime": 114,
     "genres": [
-     "Drama"
+     "Romance"
     ],
-    "release_date": "2026-06-09"
+    "release_date": "2023-11-24"
    }
   },
   {
@@ -6221,6 +6225,12 @@
   }
  ],
  "shows": {
+  "25568": {
+   "native": "아는형님",
+   "network": "jTBC",
+   "type": "TV Program",
+   "premiere": "Dec 5, 2015 - ?"
+  },
   "25565": {
    "native": "런닝맨",
    "network": "SBS",
@@ -6232,12 +6242,6 @@
    "network": "KBS1",
    "type": "TV Program",
    "premiere": "Jun 4, 2011 - ?"
-  },
-  "25568": {
-   "native": "아는형님",
-   "network": "jTBC",
-   "type": "TV Program",
-   "premiere": "Dec 5, 2015 - ?"
   },
   "25634": {
    "native": "미운 우리 새끼",
@@ -6376,12 +6380,6 @@
    "network": "SBS",
    "type": "TV Program",
    "premiere": "Oct 21, 2021 - ?"
-  },
-  "722677": {
-   "native": "리무진 서비스",
-   "network": "KBS2",
-   "type": "TV Program",
-   "premiere": "Feb 22, 2022 - ?"
   },
   "731727": {
    "native": "개인적인 택시",
@@ -6761,17 +6759,17 @@
    "type": "Drama",
    "premiere": "Nov 11, 2026 - Dec 17, 2026"
   },
-  "794290": {
-   "native": "골드 디거",
-   "network": "jTBC",
-   "type": "Drama",
-   "premiere": ""
-  },
   "793250": {
    "native": "ブラッサム",
    "network": "NHK",
    "type": "Drama",
    "premiere": "Sep 28, 2026 - ?"
+  },
+  "794290": {
+   "native": "골드 디거",
+   "network": "jTBC",
+   "type": "Drama",
+   "premiere": ""
   },
   "794508": {
    "native": "옥탑방의 문제아들 시즌2",
@@ -7049,6 +7047,12 @@
    "type": "Drama",
    "premiere": ""
   },
+  "804586": {
+   "native": "영자와 세리의 남겨서 뭐하게",
+   "network": "tvN",
+   "type": "TV Program",
+   "premiere": "May 28, 2025 - ?"
+  },
   "805266": {
    "native": "밤의 향",
    "network": "",
@@ -7312,12 +7316,6 @@
    "network": "ENA",
    "type": "Drama",
    "premiere": ""
-  },
-  "809778": {
-   "native": "미스트롯 포유",
-   "network": "TV Chosun",
-   "type": "TV Program",
-   "premiere": "May 14, 2026 - ?"
   },
   "809786": {
    "native": "デンジャラス",
@@ -7823,6 +7821,12 @@
    "type": "Drama",
    "premiere": "Oct 22, 2026"
   },
+  "812538": {
+   "native": "금귤이1 : 나쁜 X들의 필드",
+   "network": "",
+   "type": "Drama",
+   "premiere": "Oct 15, 2026"
+  },
   "812534": {
    "native": "국세청 망나니",
    "network": "",
@@ -7834,12 +7838,6 @@
    "network": "",
    "type": "Drama",
    "premiere": "Nov 5, 2026"
-  },
-  "812538": {
-   "native": "금귤이1 : 나쁜 X들의 필드",
-   "network": "",
-   "type": "Drama",
-   "premiere": "Oct 15, 2026"
   },
   "812570": {
    "native": "더 리슨: 우리가 머문 계절",
@@ -8409,7 +8407,7 @@
    "native": "日の丸ブラザーズ～日米貿易を切り拓いた兄弟～",
    "network": "TV Aichi",
    "type": "Drama",
-   "premiere": ""
+   "premiere": "Nov 24, 2026"
   },
   "814552": {
    "native": "처음 뵙겠습니다",
@@ -8667,7 +8665,7 @@
    "native": "연모담",
    "network": "",
    "type": "TV Program",
-   "premiere": "Oct 21, 2026 - 2026"
+   "premiere": "Oct 21, 2026 - Nov 1, 2026"
   },
   "815000": {
    "native": "うたおや",
@@ -8676,10 +8674,10 @@
    "premiere": ""
   },
   "815012": {
-   "native": "계약결혼, 사냥개가 되겠습니다",
+   "native": "계약 결혼, 사냥개가 되겠습니다",
    "network": "",
    "type": "Drama",
-   "premiere": "Nov 16, 2026 - ?"
+   "premiere": "Nov 16, 2026"
   }
  }
 }

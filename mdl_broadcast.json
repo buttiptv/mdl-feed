@@ -1,5 +1,5 @@
 {
- "fetched_utc": "2026-11-25T11:16:40Z",
+ "fetched_utc": "2026-11-25T23:07:08Z",
  "episodes": [
   {
    "id": 749947,
@@ -142,6 +142,18 @@
     0
    ],
    "tz": "Asia/Tokyo",
+   "title": "Aibo Season 25",
+   "label": "Episode 6"
+  },
+  {
+   "id": 797384,
+   "slug": "nino-nanoni",
+   "date": "2026-11-25",
+   "time": [
+    5,
+    0
+   ],
+   "tz": "Asia/Tokyo",
    "title": "Nino Nanoni",
    "label": "Episode 41"
   },
@@ -278,18 +290,6 @@
    "label": "Episode 57"
   },
   {
-   "id": 793250,
-   "slug": "blossom",
-   "date": "2026-11-25",
-   "time": [
-    16,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Blossom",
-   "label": "Episode 44"
-  },
-  {
    "id": 772495,
    "slug": "if-you-see-her-say-hello",
    "date": "2026-11-26",
@@ -331,18 +331,6 @@
    "date": "2026-11-26",
    "time": [
     4,
-    0
-   ],
-   "tz": "Asia/Tokyo",
-   "title": "Happy Gardening Life",
-   "label": "Episode 87"
-  },
-  {
-   "id": 812820,
-   "slug": "analog-nurse",
-   "date": "2026-11-26",
-   "time": [
-    5,
     0
    ],
    "tz": "Asia/Tokyo",
@@ -1340,7 +1328,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Remarried Empress",
-   "label": "Episode 10 - 9"
+   "label": "Episode 9 - 10"
   },
   {
    "id": 809180,
@@ -1363,6 +1351,30 @@
     50
    ],
    "tz": "Asia/Seoul",
+   "title": "A Trap Called Desire",
+   "label": "Episode 65"
+  },
+  {
+   "id": 813976,
+   "slug": "when-our-kids-fall-in-love-season-3",
+   "date": "2026-11-25",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
+   "title": "When Our Kids Fall in Love Season 3",
+   "label": "Episode 3"
+  },
+  {
+   "id": 814144,
+   "slug": "reversed-lovers",
+   "date": "2026-11-25",
+   "time": [
+    4,
+    0
+   ],
+   "tz": "Asia/Seoul",
    "title": "Reversed Lovers",
    "label": "Episode 1"
   },
@@ -1373,6 +1385,18 @@
    "time": [
     4,
     30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Mission: Mompossible",
+   "label": "Episode 43"
+  },
+  {
+   "id": 739999,
+   "slug": "yoo-quiz-on-the-block-season-4",
+   "date": "2026-11-25",
+   "time": [
+    4,
+    40
    ],
    "tz": "Asia/Seoul",
    "title": "Yoo Quiz on the Block Season 4",
@@ -1480,18 +1504,6 @@
    "date": "2026-11-26",
    "time": [
     1,
-    0
-   ],
-   "tz": "Asia/Seoul",
-   "title": "Tax Reaper: Psychic's Tax Collection",
-   "label": "Episode 13 - 50"
-  },
-  {
-   "id": 812406,
-   "slug": "changing-majors-season-9",
-   "date": "2026-11-26",
-   "time": [
-    2,
     0
    ],
    "tz": "Asia/Seoul",
@@ -1976,7 +1988,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "Knowing Bros",
-   "label": "Episode 561 - 553"
+   "label": "Episode 553 - 561"
   },
   {
    "id": 778656,
@@ -2288,7 +2300,7 @@
    ],
    "tz": "Asia/Seoul",
    "title": "The Substitute",
-   "label": "Episode 4 - 3"
+   "label": "Episode 3 - 4"
   },
   {
    "id": 788924,
@@ -2409,6 +2421,18 @@
    "tz": "Asia/Seoul",
    "title": "The Ballad of Us Season 2",
    "label": "Episode 9"
+  },
+  {
+   "id": 730529,
+   "slug": "oh-eun-young-s-report-marriage-hell",
+   "date": "2026-11-30",
+   "time": [
+    6,
+    30
+   ],
+   "tz": "Asia/Seoul",
+   "title": "Oh Eun Young's Report: Marriage Hell",
+   "label": "Episode 193"
   },
   {
    "id": 814178,
@@ -3549,16 +3573,6 @@
    "time": null,
    "tz": "Asia/Seoul",
    "title": "The Substitute",
-   "label": "Premiere",
-   "predicted": true
-  },
-  {
-   "id": 814144,
-   "slug": "reversed-lovers",
-   "date": "2026-11-25",
-   "time": null,
-   "tz": "Asia/Seoul",
-   "title": "Reversed Lovers",
    "label": "Premiere",
    "predicted": true
   },
@@ -6298,17 +6312,17 @@
   }
  ],
  "shows": {
-  "25565": {
-   "native": "런닝맨",
-   "network": "SBS",
-   "type": "TV Program",
-   "premiere": "Jul 11, 2010 - ?"
-  },
   "25568": {
    "native": "아는형님",
    "network": "jTBC",
    "type": "TV Program",
    "premiere": "Dec 5, 2015 - ?"
+  },
+  "25565": {
+   "native": "런닝맨",
+   "network": "SBS",
+   "type": "TV Program",
+   "premiere": "Jul 11, 2010 - ?"
   },
   "25576": {
    "native": "불후의 명곡: 전설을 노래하다",
@@ -6466,6 +6480,12 @@
    "type": "TV Program",
    "premiere": "Feb 22, 2022 - ?"
   },
+  "730529": {
+   "native": "오은영 리포트 - 결혼지옥",
+   "network": "MBC",
+   "type": "TV Program",
+   "premiere": "May 16, 2022 - ?"
+  },
   "731727": {
    "native": "개인적인 택시",
    "network": "",
@@ -6489,6 +6509,12 @@
    "network": "tvN",
    "type": "Drama",
    "premiere": ""
+  },
+  "739999": {
+   "native": "유 퀴즈 온 더 블럭 : 시즌 4",
+   "network": "tvN",
+   "type": "TV Program",
+   "premiere": "Oct 5, 2022 - ?"
   },
   "741261": {
    "native": "한문철의 블랙박스 리뷰",
@@ -6544,17 +6570,17 @@
    "type": "Drama",
    "premiere": ""
   },
-  "759473": {
-   "native": "개그콘서트 시즌2",
-   "network": "KBS2",
-   "type": "TV Program",
-   "premiere": "Nov 12, 2023 - ?"
-  },
   "757079": {
    "native": "살롱드립 시즌2",
    "network": "",
    "type": "TV Program",
    "premiere": "Aug 8, 2023 - ?"
+  },
+  "759473": {
+   "native": "개그콘서트 시즌2",
+   "network": "KBS2",
+   "type": "TV Program",
+   "premiere": "Nov 12, 2023 - ?"
   },
   "761885": {
    "native": "하얀 스캔들",
@@ -6874,15 +6900,15 @@
    "type": "Drama",
    "premiere": ""
   },
-  "796052": {
-   "native": "너의 그라운드",
-   "network": "MBC",
-   "type": "Drama",
-   "premiere": ""
-  },
   "795258": {
    "native": "코리언즈",
    "network": "Disney+",
+   "type": "Drama",
+   "premiere": ""
+  },
+  "796052": {
+   "native": "너의 그라운드",
+   "network": "MBC",
    "type": "Drama",
    "premiere": ""
   },
@@ -6939,6 +6965,12 @@
    "network": "",
    "type": "Drama",
    "premiere": ""
+  },
+  "797384": {
+   "native": "ニノなのに",
+   "network": "TBS",
+   "type": "TV Program",
+   "premiere": "Apr 9, 2025 - ?"
   },
   "798626": {
    "native": "파이널 테이블",
@@ -7162,17 +7194,17 @@
    "type": "TV Program",
    "premiere": "Oct 2, 2025 - ?"
   },
-  "806840": {
-   "native": "国民クイズ",
-   "network": "Netflix",
-   "type": "Drama",
-   "premiere": ""
-  },
   "807136": {
    "native": "나인 투 식스",
    "network": "SBS",
    "type": "Drama",
    "premiere": "Nov 25, 2026 - Dec 31, 2026"
+  },
+  "806840": {
+   "native": "国民クイズ",
+   "network": "Netflix",
+   "type": "Drama",
+   "premiere": ""
   },
   "807156": {
    "native": "수목금",
@@ -7875,12 +7907,6 @@
    "network": "Amazon Prime",
    "type": "Drama",
    "premiere": ""
-  },
-  "812406": {
-   "native": "전과자 시즌9",
-   "network": "",
-   "type": "TV Program",
-   "premiere": "Sep 3, 2026 - ?"
   },
   "812446": {
    "native": "十六夜膳房 -いざよいぜんぼう-",
